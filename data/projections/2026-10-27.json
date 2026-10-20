@@ -1,0 +1,198 @@
+{
+  "etDate": "2026-10-27",
+  "games": [
+    {
+      "gameId": "20261027-BKN-BOS",
+      "generatedAt": "2026-10-20T15:16:30Z",
+      "ratingsAsOf": "2026-10-20T15:16:30Z",
+      "modelVersion": "v1.0",
+      "awayPts": 100.9,
+      "homePts": 115.0,
+      "margin": 14.03,
+      "spreadHome": -14.0,
+      "total": 215.9,
+      "pace": 96.5,
+      "homeWinProb": 0.8412,
+      "fairMlHome": -530,
+      "fairMlAway": 530,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": 9.01
+        },
+        {
+          "key": "defense",
+          "pts": 5.1
+        },
+        {
+          "key": "pace",
+          "pts": -0.8
+        },
+        {
+          "key": "home",
+          "pts": 1.75
+        },
+        {
+          "key": "rest_travel",
+          "pts": -1.03
+        },
+        {
+          "key": "injuries",
+          "pts": 0.0
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": [
+        "3in4_away",
+        "b2b_home"
+      ]
+    },
+    {
+      "gameId": "20261027-DET-NYK",
+      "generatedAt": "2026-10-20T15:16:30Z",
+      "ratingsAsOf": "2026-10-20T15:16:30Z",
+      "modelVersion": "v1.0",
+      "awayPts": 111.3,
+      "homePts": 112.2,
+      "margin": 0.89,
+      "spreadHome": -0.9,
+      "total": 223.5,
+      "pace": 100.1,
+      "homeWinProb": 0.5254,
+      "fairMlHome": -111,
+      "fairMlAway": 111,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": 2.22
+        },
+        {
+          "key": "defense",
+          "pts": -3.08
+        },
+        {
+          "key": "pace",
+          "pts": -0.02
+        },
+        {
+          "key": "home",
+          "pts": 1.75
+        },
+        {
+          "key": "rest_travel",
+          "pts": 0.01
+        },
+        {
+          "key": "injuries",
+          "pts": 0.0
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": []
+    },
+    {
+      "gameId": "20261027-SAC-SAS",
+      "generatedAt": "2026-10-20T15:16:30Z",
+      "ratingsAsOf": "2026-10-20T15:16:30Z",
+      "modelVersion": "v1.0",
+      "awayPts": 107.8,
+      "homePts": 123.9,
+      "margin": 16.12,
+      "spreadHome": -16.1,
+      "total": 231.7,
+      "pace": 102.3,
+      "homeWinProb": 0.8746,
+      "fairMlHome": -697,
+      "fairMlAway": 697,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": 6.38
+        },
+        {
+          "key": "defense",
+          "pts": 7.7
+        },
+        {
+          "key": "pace",
+          "pts": 0.05
+        },
+        {
+          "key": "home",
+          "pts": 1.75
+        },
+        {
+          "key": "rest_travel",
+          "pts": 0.24
+        },
+        {
+          "key": "injuries",
+          "pts": 0.0
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": [
+        "long_travel_away"
+      ]
+    },
+    {
+      "gameId": "20261027-POR-LAL",
+      "generatedAt": "2026-10-20T15:16:30Z",
+      "ratingsAsOf": "2026-10-20T15:16:30Z",
+      "modelVersion": "v1.0",
+      "awayPts": 113.8,
+      "homePts": 116.9,
+      "margin": 3.17,
+      "spreadHome": -3.2,
+      "total": 230.7,
+      "pace": 102.2,
+      "homeWinProb": 0.5894,
+      "fairMlHome": -144,
+      "fairMlAway": 144,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": 3.78
+        },
+        {
+          "key": "defense",
+          "pts": -2.12
+        },
+        {
+          "key": "pace",
+          "pts": 0.01
+        },
+        {
+          "key": "home",
+          "pts": 1.75
+        },
+        {
+          "key": "rest_travel",
+          "pts": -0.25
+        },
+        {
+          "key": "injuries",
+          "pts": 0.0
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": []
+    }
+  ]
+}

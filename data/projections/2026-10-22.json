@@ -1,0 +1,99 @@
+{
+  "etDate": "2026-10-22",
+  "games": [
+    {
+      "gameId": "20261022-CLE-PHI",
+      "generatedAt": "2026-10-20T15:16:30Z",
+      "ratingsAsOf": "2026-10-20T15:16:30Z",
+      "modelVersion": "v1.0",
+      "awayPts": 117.3,
+      "homePts": 115.8,
+      "margin": -1.51,
+      "spreadHome": 1.5,
+      "total": 233.1,
+      "pace": 102.6,
+      "homeWinProb": 0.4571,
+      "fairMlHome": 119,
+      "fairMlAway": -119,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": -3.09
+        },
+        {
+          "key": "defense",
+          "pts": 0.07
+        },
+        {
+          "key": "pace",
+          "pts": -0.01
+        },
+        {
+          "key": "home",
+          "pts": 1.75
+        },
+        {
+          "key": "rest_travel",
+          "pts": -0.24
+        },
+        {
+          "key": "injuries",
+          "pts": 0.0
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": []
+    },
+    {
+      "gameId": "20261022-DEN-OKC",
+      "generatedAt": "2026-10-20T15:16:30Z",
+      "ratingsAsOf": "2026-10-20T15:16:30Z",
+      "modelVersion": "v1.0",
+      "awayPts": 111.2,
+      "homePts": 119.5,
+      "margin": 8.29,
+      "spreadHome": -8.3,
+      "total": 230.6,
+      "pace": 100.7,
+      "homeWinProb": 0.7225,
+      "fairMlHome": -260,
+      "fairMlAway": 260,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": -2.08
+        },
+        {
+          "key": "defense",
+          "pts": 9.0
+        },
+        {
+          "key": "pace",
+          "pts": -0.11
+        },
+        {
+          "key": "home",
+          "pts": 1.75
+        },
+        {
+          "key": "rest_travel",
+          "pts": -0.27
+        },
+        {
+          "key": "injuries",
+          "pts": 0.0
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": []
+    }
+  ]
+}

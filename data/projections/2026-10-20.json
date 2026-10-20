@@ -1,0 +1,146 @@
+{
+  "etDate": "2026-10-20",
+  "games": [
+    {
+      "gameId": "20261020-BOS-DET",
+      "generatedAt": "2026-10-20T15:16:30Z",
+      "ratingsAsOf": "2026-10-20T15:16:30Z",
+      "modelVersion": "v1.0",
+      "awayPts": 109.2,
+      "homePts": 110.7,
+      "margin": 1.44,
+      "spreadHome": -1.4,
+      "total": 219.9,
+      "pace": 98.7,
+      "homeWinProb": 0.5408,
+      "fairMlHome": -118,
+      "fairMlAway": 118,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": -2.55
+        },
+        {
+          "key": "defense",
+          "pts": 2.28
+        },
+        {
+          "key": "pace",
+          "pts": -0.05
+        },
+        {
+          "key": "home",
+          "pts": 1.75
+        },
+        {
+          "key": "rest_travel",
+          "pts": 0.0
+        },
+        {
+          "key": "injuries",
+          "pts": 0.0
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": []
+    },
+    {
+      "gameId": "20261020-PHI-NYK",
+      "generatedAt": "2026-10-20T15:16:30Z",
+      "ratingsAsOf": "2026-10-20T15:16:30Z",
+      "modelVersion": "v1.0",
+      "awayPts": 109.8,
+      "homePts": 116.8,
+      "margin": 6.96,
+      "spreadHome": -7.0,
+      "total": 226.6,
+      "pace": 100.1,
+      "homeWinProb": 0.69,
+      "fairMlHome": -223,
+      "fairMlAway": 223,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": 3.82
+        },
+        {
+          "key": "defense",
+          "pts": 1.52
+        },
+        {
+          "key": "pace",
+          "pts": -0.13
+        },
+        {
+          "key": "home",
+          "pts": 1.75
+        },
+        {
+          "key": "rest_travel",
+          "pts": 0.0
+        },
+        {
+          "key": "injuries",
+          "pts": 0.0
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": []
+    },
+    {
+      "gameId": "20261020-OKC-SAS",
+      "generatedAt": "2026-10-20T15:16:30Z",
+      "ratingsAsOf": "2026-10-20T15:16:30Z",
+      "modelVersion": "v1.0",
+      "awayPts": 113.5,
+      "homePts": 113.0,
+      "margin": -0.58,
+      "spreadHome": 0.6,
+      "total": 226.5,
+      "pace": 102.2,
+      "homeWinProb": 0.4835,
+      "fairMlHome": 107,
+      "fairMlAway": -107,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": 0.61
+        },
+        {
+          "key": "defense",
+          "pts": -2.94
+        },
+        {
+          "key": "pace",
+          "pts": -0.0
+        },
+        {
+          "key": "home",
+          "pts": 1.75
+        },
+        {
+          "key": "rest_travel",
+          "pts": 0.0
+        },
+        {
+          "key": "injuries",
+          "pts": 0.0
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": []
+    }
+  ]
+}
