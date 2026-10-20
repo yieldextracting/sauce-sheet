@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+/*
+ * Sauce Sheet design tokens. One accent (sauce orange), dark by default, light supported.
+ * Contrast: text on bg >= 12:1, muted >= 4.5:1, accent >= 4.5:1 in both themes.
+ */
+:root,
+:root[data-theme="dark"] {
+  --bg: #0f0f0d;
+  --surface: #171714;
+  --surface-2: #1e1e1a;
+  --rule: #2c2b26;
+  --ink: #ece9e1;
+  --muted: #a19d92;
+  --faint: #88847b;
+  --accent: #e0663a;
+  --accent-ink: #0f0f0d;
+  --bar: #e0663a;
+  --bar-neg: #8a877e;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #f7f5ef;
+  --surface: #ffffff;
+  --surface-2: #efece4;
+  --rule: #dcd8cd;
+  --ink: #1a1a17;
+  --muted: #5e5b53;
+  --faint: #736f66;
+  --accent: #b5441c;
+  --accent-ink: #ffffff;
+  --bar: #b5441c;
+  --bar-neg: #8d897e;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-rule: var(--rule);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-newsreader);
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Visible keyboard focus everywhere */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.prose-card p {
+  margin: 0.6rem 0;
+  line-height: 1.65;
+}
+.prose-card h2,
+.prose-card h3 {
+  font-family: var(--font-newsreader), Georgia, serif;
+  font-weight: 600;
+  margin: 1.2rem 0 0.4rem;
+}
+.prose-card ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+.prose-card a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
