@@ -1,0 +1,36 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: npm ci
+      - run: pip install -r requirements.txt
+      - name: Python tests (grading, ET/DST, gate, locks, budget)
+        run: python -m pytest -q pipeline/tests
+      - name: TypeScript tests
+        run: npm test
+      - name: Write-once and card-lock check
+        run: |
+          BASE="${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}"
+          npx tsx scripts/check-immutable.ts "$BASE" HEAD
+      - run: npm run lint
+      - run: npm run typecheck
+      - name: Build (prebuild validates every data file with Zod)
+        run: npm run build

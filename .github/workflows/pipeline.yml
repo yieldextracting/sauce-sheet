@@ -1,0 +1,54 @@
+name: pipeline
+
+# Runs every 30 minutes (UTC). `python -m pipeline auto` decides what is due in US Eastern time,
+# so the Nov/Mar clock changes need no cron edits. Commits data to main, which redeploys Vercel.
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: pip install -r requirements.txt
+      - run: npm ci
+      - name: Run due stages
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python -m pipeline auto
+      - name: Validate data before committing
+        run: npm run validate
+      - name: Commit and push
+        run: |
+          git config user.name "sauce-sheet-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data reference
+          if git diff --cached --quiet; then echo "no data changes"; exit 0; fi
+          # belt and braces: never modify a write-once file
+          if git diff --cached --name-status -- data/lines/first-seen data/picks/model | grep -v '^A'; then
+            echo "::error::write-once file modified"; exit 1
+          fi
+          git commit -m "data: auto $(TZ=America/New_York date '+%a %b %-d %-I:%M %p ET')"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          echo "::error::push failed after 3 tries"; exit 1

@@ -1,0 +1,28 @@
+name: probe
+
+# Manual diagnostic: can a GitHub runner reach every data source? Run it from the Actions tab
+# when a pull starts failing.
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe endpoints
+        run: |
+          UA="SauceSheet/1.0 (+https://github.com/yieldextracting/sauce-sheet)"
+          probe() { printf "%-6s %s\n" "$(curl -s -o /dev/null -w '%{http_code}' -m 20 -A "$UA" "$1")" "$1"; }
+          D=$(TZ=America/New_York date +%Y%m%d)
+          probe "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=$D"
+          probe "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams"
+          probe "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/2/schedule?season=2027&seasontype=2"
+          probe "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401809243"
+          probe "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries"
+          probe "https://official.nba.com/nba-injury-report-2026-27-season/"
+          probe "https://api.the-odds-api.com/v4/sports"
+          probe "https://nominatim.openstreetmap.org/search?q=Denver,+CO&format=json&limit=1"
+          probe "https://api.open-meteo.com/v1/elevation?latitude=39.74&longitude=-104.98"
+          probe "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
+          PDF=$(curl -s -m 20 -A "$UA" https://official.nba.com/nba-injury-report-2026-27-season/ | grep -oE 'https://ak-static[^"]+Injury-Report_[^"]+\.pdf' | tail -1)
+          [ -n "$PDF" ] && probe "$PDF" || echo "no injury PDF link found"
