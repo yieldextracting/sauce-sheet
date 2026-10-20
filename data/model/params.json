@@ -1,0 +1,151 @@
+{
+  "modelVersion": "v1.0",
+  "fittedAt": "2026-10-20T15:16:05Z",
+  "fitSeason": "2023-24",
+  "priorSeasonForFit": "2022-23",
+  "k": 10.0,
+  "regression": 0.2,
+  "sigma": 14.0424,
+  "fitSeasonMeanError": -0.0097,
+  "betas": {
+    "home": 0.85985,
+    "altitude": 2.75789,
+    "b2b": -0.91659,
+    "rest": 0.05644,
+    "threeInFour": -0.46082,
+    "travel": -0.03087
+  },
+  "betasFrom": [
+    "2022-23",
+    "2023-24"
+  ],
+  "grid": [
+    {
+      "regression": 0.2,
+      "k": 2.0,
+      "marginRmse": 14.1285,
+      "n": 1231
+    },
+    {
+      "regression": 0.2,
+      "k": 5.0,
+      "marginRmse": 14.0586,
+      "n": 1231
+    },
+    {
+      "regression": 0.2,
+      "k": 10.0,
+      "marginRmse": 14.0424,
+      "n": 1231
+    },
+    {
+      "regression": 0.2,
+      "k": 15.0,
+      "marginRmse": 14.0572,
+      "n": 1231
+    },
+    {
+      "regression": 0.2,
+      "k": 20.0,
+      "marginRmse": 14.0815,
+      "n": 1231
+    },
+    {
+      "regression": 0.2,
+      "k": 30.0,
+      "marginRmse": 14.1371,
+      "n": 1231
+    },
+    {
+      "regression": 0.2,
+      "k": 45.0,
+      "marginRmse": 14.2168,
+      "n": 1231
+    },
+    {
+      "regression": 0.33,
+      "k": 2.0,
+      "marginRmse": 14.1291,
+      "n": 1231
+    },
+    {
+      "regression": 0.33,
+      "k": 5.0,
+      "marginRmse": 14.0599,
+      "n": 1231
+    },
+    {
+      "regression": 0.33,
+      "k": 10.0,
+      "marginRmse": 14.0444,
+      "n": 1231
+    },
+    {
+      "regression": 0.33,
+      "k": 15.0,
+      "marginRmse": 14.0599,
+      "n": 1231
+    },
+    {
+      "regression": 0.33,
+      "k": 20.0,
+      "marginRmse": 14.0847,
+      "n": 1231
+    },
+    {
+      "regression": 0.33,
+      "k": 30.0,
+      "marginRmse": 14.1411,
+      "n": 1231
+    },
+    {
+      "regression": 0.33,
+      "k": 45.0,
+      "marginRmse": 14.222,
+      "n": 1231
+    },
+    {
+      "regression": 0.5,
+      "k": 2.0,
+      "marginRmse": 14.1319,
+      "n": 1231
+    },
+    {
+      "regression": 0.5,
+      "k": 5.0,
+      "marginRmse": 14.0652,
+      "n": 1231
+    },
+    {
+      "regression": 0.5,
+      "k": 10.0,
+      "marginRmse": 14.0534,
+      "n": 1231
+    },
+    {
+      "regression": 0.5,
+      "k": 15.0,
+      "marginRmse": 14.072,
+      "n": 1231
+    },
+    {
+      "regression": 0.5,
+      "k": 20.0,
+      "marginRmse": 14.0996,
+      "n": 1231
+    },
+    {
+      "regression": 0.5,
+      "k": 30.0,
+      "marginRmse": 14.1609,
+      "n": 1231
+    },
+    {
+      "regression": 0.5,
+      "k": 45.0,
+      "marginRmse": 14.2476,
+      "n": 1231
+    }
+  ],
+  "note": "Chosen by walk-forward margin RMSE on the fit season only. Not tuned on later seasons."
+}
