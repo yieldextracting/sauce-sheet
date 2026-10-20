@@ -1,0 +1,14 @@
+{
+  "version": "v1.0",
+  "edgeTiers": [1.5, 3, 5],
+  "sampleBadgeGames": 15,
+  "projectionHorizonDays": 7,
+  "modelPickPrice": -110,
+  "altitudeThresholdM": 1000,
+  "fit": {
+    "fitSeason": "2023-24",
+    "priorSeasonForFit": "2022-23",
+    "kGrid": [2, 5, 10, 15, 20, 30, 45],
+    "regressionGrid": [0.2, 0.33, 0.5]
+  }
+}

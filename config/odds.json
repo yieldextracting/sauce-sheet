@@ -1,0 +1,17 @@
+{
+  "provider": "auto",
+  "sport": "basketball_nba",
+  "regions": ["us"],
+  "featuredMarkets": ["spreads", "totals", "h2h"],
+  "budget": {
+    "monthlyCap": 15000,
+    "reserve": 1500,
+    "dailyCap": 250
+  },
+  "snapshots": {
+    "morningEtHour": 10,
+    "afternoonEtHour": 14,
+    "preTipMinutesBeforeFirstTip": 120,
+    "closingWindowMinutes": 40
+  }
+}
