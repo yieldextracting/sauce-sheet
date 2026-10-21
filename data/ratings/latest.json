@@ -1,8 +1,8 @@
 {
   "season": "2026-27",
-  "asOf": "2026-10-20T22:39:30Z",
+  "asOf": "2026-10-20T23:55:54Z",
   "etDate": "2026-10-20",
-  "modelVersion": "v1.0",
+  "modelVersion": "v2.0",
   "gamesUsed": 1,
   "mu": 113.446,
   "muPace": 102.227,
@@ -27,7 +27,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5537,
+          "tov": 0.1355,
+          "orb": 0.2435,
+          "ftr": 0.1807
+        },
+        "def": {
+          "efg": 0.5455,
+          "tov": 0.1536,
+          "orb": 0.255,
+          "ftr": 0.2064
+        }
+      }
     },
     "BKN": {
       "off": -5.223,
@@ -39,7 +55,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5203,
+          "tov": 0.1574,
+          "orb": 0.2362,
+          "ftr": 0.2122
+        },
+        "def": {
+          "efg": 0.5714,
+          "tov": 0.1451,
+          "orb": 0.2597,
+          "ftr": 0.2251
+        }
+      }
     },
     "BOS": {
       "off": 3.644,
@@ -51,7 +83,37 @@
       "gp": 1,
       "priorWeight": 0.9091,
       "w": 0,
-      "l": 1
+      "l": 1,
+      "fourFactors": {
+        "gp": 1,
+        "off": {
+          "efg": 0.5511,
+          "tov": 0.1411,
+          "orb": 0.2553,
+          "ftr": 0.1818
+        },
+        "def": {
+          "efg": 0.5407,
+          "tov": 0.1649,
+          "orb": 0.3415,
+          "ftr": 0.3256
+        }
+      },
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5529,
+          "tov": 0.1256,
+          "orb": 0.2917,
+          "ftr": 0.1673
+        },
+        "def": {
+          "efg": 0.5228,
+          "tov": 0.1271,
+          "orb": 0.2427,
+          "ftr": 0.1895
+        }
+      }
     },
     "CHA": {
       "off": 2.364,
@@ -63,7 +125,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5525,
+          "tov": 0.1522,
+          "orb": 0.3052,
+          "ftr": 0.1997
+        },
+        "def": {
+          "efg": 0.5396,
+          "tov": 0.1277,
+          "orb": 0.2342,
+          "ftr": 0.1856
+        }
+      }
     },
     "CHI": {
       "off": -1.649,
@@ -75,7 +153,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5475,
+          "tov": 0.1445,
+          "orb": 0.2311,
+          "ftr": 0.1909
+        },
+        "def": {
+          "efg": 0.5532,
+          "tov": 0.1212,
+          "orb": 0.2454,
+          "ftr": 0.1898
+        }
+      }
     },
     "CLE": {
       "off": 2.576,
@@ -87,7 +181,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.561,
+          "tov": 0.1361,
+          "orb": 0.2687,
+          "ftr": 0.2059
+        },
+        "def": {
+          "efg": 0.5434,
+          "tov": 0.1458,
+          "orb": 0.256,
+          "ftr": 0.2091
+        }
+      }
     },
     "DAL": {
       "off": -3.459,
@@ -99,7 +209,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5269,
+          "tov": 0.1383,
+          "orb": 0.2321,
+          "ftr": 0.2165
+        },
+        "def": {
+          "efg": 0.5459,
+          "tov": 0.1272,
+          "orb": 0.2591,
+          "ftr": 0.183
+        }
+      }
     },
     "DEN": {
       "off": 4.496,
@@ -111,7 +237,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5768,
+          "tov": 0.1261,
+          "orb": 0.2362,
+          "ftr": 0.2375
+        },
+        "def": {
+          "efg": 0.543,
+          "tov": 0.1154,
+          "orb": 0.2474,
+          "ftr": 0.1956
+        }
+      }
     },
     "DET": {
       "off": 1.685,
@@ -123,7 +265,37 @@
       "gp": 1,
       "priorWeight": 0.9091,
       "w": 1,
-      "l": 0
+      "l": 0,
+      "fourFactors": {
+        "gp": 1,
+        "off": {
+          "efg": 0.5407,
+          "tov": 0.1649,
+          "orb": 0.3415,
+          "ftr": 0.3256
+        },
+        "def": {
+          "efg": 0.5511,
+          "tov": 0.1411,
+          "orb": 0.2553,
+          "ftr": 0.1818
+        }
+      },
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5465,
+          "tov": 0.1468,
+          "orb": 0.309,
+          "ftr": 0.2228
+        },
+        "def": {
+          "efg": 0.5175,
+          "tov": 0.1643,
+          "orb": 0.2576,
+          "ftr": 0.2513
+        }
+      }
     },
     "GSW": {
       "off": -0.521,
@@ -135,7 +307,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5495,
+          "tov": 0.153,
+          "orb": 0.2577,
+          "ftr": 0.192
+        },
+        "def": {
+          "efg": 0.553,
+          "tov": 0.1555,
+          "orb": 0.271,
+          "ftr": 0.1983
+        }
+      }
     },
     "HOU": {
       "off": 1.795,
@@ -147,7 +335,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5424,
+          "tov": 0.1532,
+          "orb": 0.3481,
+          "ftr": 0.1987
+        },
+        "def": {
+          "efg": 0.5303,
+          "tov": 0.1346,
+          "orb": 0.2549,
+          "ftr": 0.1894
+        }
+      }
     },
     "IND": {
       "off": -3.385,
@@ -159,7 +363,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5332,
+          "tov": 0.1397,
+          "orb": 0.2172,
+          "ftr": 0.1958
+        },
+        "def": {
+          "efg": 0.5558,
+          "tov": 0.1296,
+          "orb": 0.2591,
+          "ftr": 0.2183
+        }
+      }
     },
     "LAC": {
       "off": 1.453,
@@ -171,7 +391,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5588,
+          "tov": 0.1428,
+          "orb": 0.2367,
+          "ftr": 0.243
+        },
+        "def": {
+          "efg": 0.5447,
+          "tov": 0.1421,
+          "orb": 0.271,
+          "ftr": 0.1974
+        }
+      }
     },
     "LAL": {
       "off": 2.199,
@@ -183,7 +419,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5731,
+          "tov": 0.1441,
+          "orb": 0.2388,
+          "ftr": 0.2439
+        },
+        "def": {
+          "efg": 0.5553,
+          "tov": 0.1445,
+          "orb": 0.2566,
+          "ftr": 0.1906
+        }
+      }
     },
     "MEM": {
       "off": -2.199,
@@ -195,7 +447,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5331,
+          "tov": 0.1442,
+          "orb": 0.247,
+          "ftr": 0.1992
+        },
+        "def": {
+          "efg": 0.5619,
+          "tov": 0.1488,
+          "orb": 0.2915,
+          "ftr": 0.2031
+        }
+      }
     },
     "MIA": {
       "off": 0.888,
@@ -207,7 +475,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5418,
+          "tov": 0.1287,
+          "orb": 0.2536,
+          "ftr": 0.2123
+        },
+        "def": {
+          "efg": 0.5404,
+          "tov": 0.1414,
+          "orb": 0.2515,
+          "ftr": 0.1932
+        }
+      }
     },
     "MIL": {
       "off": -1.899,
@@ -219,7 +503,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5655,
+          "tov": 0.1518,
+          "orb": 0.2108,
+          "ftr": 0.1629
+        },
+        "def": {
+          "efg": 0.5578,
+          "tov": 0.1302,
+          "orb": 0.2585,
+          "ftr": 0.2155
+        }
+      }
     },
     "MIN": {
       "off": 0.638,
@@ -231,7 +531,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5591,
+          "tov": 0.1431,
+          "orb": 0.2569,
+          "ftr": 0.2146
+        },
+        "def": {
+          "efg": 0.5291,
+          "tov": 0.1444,
+          "orb": 0.2625,
+          "ftr": 0.2205
+        }
+      }
     },
     "NOP": {
       "off": -1.079,
@@ -243,7 +559,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5272,
+          "tov": 0.1367,
+          "orb": 0.2696,
+          "ftr": 0.2222
+        },
+        "def": {
+          "efg": 0.5547,
+          "tov": 0.1393,
+          "orb": 0.286,
+          "ftr": 0.1995
+        }
+      }
     },
     "NYK": {
       "off": 3.293,
@@ -255,7 +587,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 83,
+        "off": {
+          "efg": 0.557,
+          "tov": 0.1366,
+          "orb": 0.2959,
+          "ftr": 0.1873
+        },
+        "def": {
+          "efg": 0.5399,
+          "tov": 0.1432,
+          "orb": 0.2343,
+          "ftr": 0.2057
+        }
+      }
     },
     "OKC": {
       "off": 2.457,
@@ -267,7 +615,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5613,
+          "tov": 0.1229,
+          "orb": 0.223,
+          "ftr": 0.2131
+        },
+        "def": {
+          "efg": 0.5186,
+          "tov": 0.1626,
+          "orb": 0.2556,
+          "ftr": 0.1835
+        }
+      }
     },
     "ORL": {
       "off": -0.439,
@@ -279,7 +643,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5306,
+          "tov": 0.1367,
+          "orb": 0.25,
+          "ftr": 0.249
+        },
+        "def": {
+          "efg": 0.5448,
+          "tov": 0.1444,
+          "orb": 0.244,
+          "ftr": 0.2231
+        }
+      }
     },
     "PHI": {
       "off": -0.451,
@@ -291,7 +671,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5305,
+          "tov": 0.1322,
+          "orb": 0.2621,
+          "ftr": 0.2224
+        },
+        "def": {
+          "efg": 0.5414,
+          "tov": 0.1483,
+          "orb": 0.2751,
+          "ftr": 0.2123
+        }
+      }
     },
     "PHX": {
       "off": -0.416,
@@ -303,7 +699,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5369,
+          "tov": 0.1441,
+          "orb": 0.2893,
+          "ftr": 0.1757
+        },
+        "def": {
+          "efg": 0.5413,
+          "tov": 0.162,
+          "orb": 0.2813,
+          "ftr": 0.2171
+        }
+      }
     },
     "POR": {
       "off": -1.506,
@@ -315,7 +727,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5336,
+          "tov": 0.1655,
+          "orb": 0.313,
+          "ftr": 0.2142
+        },
+        "def": {
+          "efg": 0.5407,
+          "tov": 0.1506,
+          "orb": 0.2731,
+          "ftr": 0.2149
+        }
+      }
     },
     "SAC": {
       "off": -3.201,
@@ -327,7 +755,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5247,
+          "tov": 0.1407,
+          "orb": 0.2594,
+          "ftr": 0.1977
+        },
+        "def": {
+          "efg": 0.572,
+          "tov": 0.1364,
+          "orb": 0.2653,
+          "ftr": 0.2163
+        }
+      }
     },
     "SAS": {
       "off": 3.051,
@@ -339,7 +783,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 83,
+        "off": {
+          "efg": 0.558,
+          "tov": 0.1303,
+          "orb": 0.263,
+          "ftr": 0.2146
+        },
+        "def": {
+          "efg": 0.5222,
+          "tov": 0.1261,
+          "orb": 0.2299,
+          "ftr": 0.1793
+        }
+      }
     },
     "TOR": {
       "off": -0.02,
@@ -351,7 +811,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5463,
+          "tov": 0.1347,
+          "orb": 0.2547,
+          "ftr": 0.2039
+        },
+        "def": {
+          "efg": 0.5397,
+          "tov": 0.1582,
+          "orb": 0.2599,
+          "ftr": 0.2215
+        }
+      }
     },
     "UTA": {
       "off": -2.131,
@@ -363,7 +839,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5365,
+          "tov": 0.1467,
+          "orb": 0.2616,
+          "ftr": 0.218
+        },
+        "def": {
+          "efg": 0.5776,
+          "tov": 0.1382,
+          "orb": 0.2712,
+          "ftr": 0.2265
+        }
+      }
     },
     "WAS": {
       "off": -3.384,
@@ -375,7 +867,23 @@
       "gp": 0,
       "priorWeight": 1.0,
       "w": 0,
-      "l": 0
+      "l": 0,
+      "fourFactors": null,
+      "fourFactorsLastSeason": {
+        "gp": 82,
+        "off": {
+          "efg": 0.5349,
+          "tov": 0.15,
+          "orb": 0.2405,
+          "ftr": 0.1798
+        },
+        "def": {
+          "efg": 0.5626,
+          "tov": 0.132,
+          "orb": 0.2981,
+          "ftr": 0.2324
+        }
+      }
     }
   }
 }

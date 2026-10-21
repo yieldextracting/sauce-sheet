@@ -97,18 +97,18 @@
     },
     {
       "gameId": "20261020-OKC-SAS",
-      "generatedAt": "2026-10-20T22:39:30Z",
-      "ratingsAsOf": "2026-10-20T22:39:30Z",
-      "modelVersion": "v1.0",
+      "generatedAt": "2026-10-20T23:55:54Z",
+      "ratingsAsOf": "2026-10-20T23:55:54Z",
+      "modelVersion": "v2.0",
       "awayPts": 114.4,
-      "homePts": 113.8,
-      "margin": -0.58,
-      "spreadHome": 0.6,
-      "total": 228.2,
+      "homePts": 112.5,
+      "margin": -1.9,
+      "spreadHome": 1.9,
+      "total": 226.9,
       "pace": 102.4,
-      "homeWinProb": 0.4835,
-      "fairMlHome": 107,
-      "fairMlAway": -107,
+      "homeWinProb": 0.4461,
+      "fairMlHome": 124,
+      "fairMlAway": -124,
       "contributions": [
         {
           "key": "offense",
@@ -132,7 +132,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.0
+          "pts": -1.32
         }
       ],
       "sample": {
@@ -140,7 +140,86 @@
         "homeGP": 0,
         "priorWeight": 1.0
       },
-      "flags": []
+      "flags": [],
+      "spots": {
+        "away": {
+          "restDays": null,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 0.0,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": null,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 0.0,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-20T23:54:23Z",
+        "source": "espn",
+        "away": [
+          {
+            "player": "Thomas Sorber",
+            "team": "OKC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Surgery",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Nikola Topic",
+            "team": "OKC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back Surgery",
+            "matched": true,
+            "expMin": 16.1,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Otega Oweh",
+            "team": "OKC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Achilles Surgery",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ],
+        "home": [
+          {
+            "player": "Tobias Harris",
+            "team": "SAS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Calf Strain",
+            "matched": true,
+            "expMin": 27.8,
+            "value": 3.07,
+            "impactPts": 1.32
+          },
+          {
+            "player": "Jayden Quaintance",
+            "team": "SAS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Surgery",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ]
+      }
     }
   ]
 }

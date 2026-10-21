@@ -147,3 +147,6 @@
 {"at": "2026-10-20T22:39:30Z", "source": "espn", "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary", "ok": true, "status": 200, "error": null}
 {"at": "2026-10-20T22:39:30Z", "source": "espn", "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard", "ok": true, "status": 200, "error": null}
 {"at": "2026-10-20T22:39:30Z", "source": "espn", "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard", "ok": true, "status": 200, "error": null}
+{"at": "2026-10-20T23:54:24Z", "source": "nba-injury-index", "url": "https://official.nba.com/nba-injury-report-2026-27-season/", "ok": false, "status": null, "error": "HTTP 403"}
+{"at": "2026-10-20T23:54:24Z", "source": "espn-injuries", "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries", "ok": true, "status": 200, "error": null}
+{"at": "2026-10-20T23:54:23Z", "source": "injuries", "url": "espn", "ok": true, "status": null, "error": "nba_official: FetchError: nba-injury-index: https://official.nba.com/nba-injury-report-2026-27-season/ failed: HTTP 403", "rows": 83}

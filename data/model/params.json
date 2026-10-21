@@ -1,6 +1,6 @@
 {
-  "modelVersion": "v1.0",
-  "fittedAt": "2026-10-20T15:16:05Z",
+  "modelVersion": "v2.0",
+  "fittedAt": "2026-10-20T23:53:40Z",
   "fitSeason": "2023-24",
   "priorSeasonForFit": "2022-23",
   "k": 10.0,
@@ -147,5 +147,25 @@
       "n": 1231
     }
   ],
+  "availability": {
+    "replacementGameScore36": 10.1975,
+    "leagueGameScore36": 13.958,
+    "beta": 0.4293,
+    "betaSe": 0.1387,
+    "n": 1231,
+    "nWithAbsences": 742,
+    "rmseBefore": 14.0424,
+    "rmseAfter": 13.988,
+    "priorMinutes": 400.0,
+    "ewmaHalfLifeGames": 5.0,
+    "minExpectedMinutes": 8.0,
+    "pPlay": {
+      "out": 0.0,
+      "doubtful": 0.15,
+      "questionable": 0.5,
+      "probable": 0.9,
+      "available": 1.0
+    }
+  },
   "note": "Chosen by walk-forward margin RMSE on the fit season only. Not tuned on later seasons."
 }
