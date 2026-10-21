@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261025-LAL-UTA",
-      "generatedAt": "2026-10-21T23:00:24Z",
+      "generatedAt": "2026-10-21T23:10:27Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 118.2,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T23:00:24Z",
+        "reportPulledAt": "2026-10-21T23:10:27Z",
         "source": "espn",
         "away": [
           {
@@ -142,7 +142,7 @@
     },
     {
       "gameId": "20261025-IND-BKN",
-      "generatedAt": "2026-10-21T23:00:24Z",
+      "generatedAt": "2026-10-21T23:10:27Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 109.8,
@@ -205,7 +205,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T23:00:24Z",
+        "reportPulledAt": "2026-10-21T23:10:27Z",
         "source": "espn",
         "away": [
           {
@@ -259,7 +259,7 @@
     },
     {
       "gameId": "20261025-LAC-OKC",
-      "generatedAt": "2026-10-21T23:00:24Z",
+      "generatedAt": "2026-10-21T23:10:27Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 102.2,
@@ -322,7 +322,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T23:00:24Z",
+        "reportPulledAt": "2026-10-21T23:10:27Z",
         "source": "espn",
         "away": [
           {
@@ -409,7 +409,7 @@
     },
     {
       "gameId": "20261025-ORL-NYK",
-      "generatedAt": "2026-10-21T23:00:24Z",
+      "generatedAt": "2026-10-21T23:10:27Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 107.4,
@@ -472,7 +472,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T23:00:24Z",
+        "reportPulledAt": "2026-10-21T23:10:27Z",
         "source": "espn",
         "away": [
           {
@@ -525,7 +525,7 @@
     },
     {
       "gameId": "20261025-TOR-MIN",
-      "generatedAt": "2026-10-21T23:00:24Z",
+      "generatedAt": "2026-10-21T23:10:27Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 108.9,
@@ -588,7 +588,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T23:00:24Z",
+        "reportPulledAt": "2026-10-21T23:10:27Z",
         "source": "espn",
         "away": [
           {
@@ -631,7 +631,7 @@
     },
     {
       "gameId": "20261025-DET-PHI",
-      "generatedAt": "2026-10-21T23:00:24Z",
+      "generatedAt": "2026-10-21T23:10:27Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 115.3,
@@ -696,7 +696,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T23:00:24Z",
+        "reportPulledAt": "2026-10-21T23:10:27Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -738,18 +738,18 @@
     },
     {
       "gameId": "20261025-MEM-SAC",
-      "generatedAt": "2026-10-21T23:00:24Z",
+      "generatedAt": "2026-10-21T23:10:27Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
-      "awayPts": 116.8,
+      "awayPts": 115.9,
       "homePts": 113.3,
-      "margin": -3.43,
-      "spreadHome": 3.4,
-      "total": 230.1,
+      "margin": -2.52,
+      "spreadHome": 2.5,
+      "total": 229.2,
       "pace": 104.6,
-      "homeWinProb": 0.4035,
-      "fairMlHome": 148,
-      "fairMlAway": -148,
+      "homeWinProb": 0.4287,
+      "fairMlHome": 133,
+      "fairMlAway": -133,
       "contributions": [
         {
           "key": "offense",
@@ -773,7 +773,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.94
+          "pts": -1.03
         }
       ],
       "sample": {
@@ -799,9 +799,21 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T23:00:24Z",
+        "reportPulledAt": "2026-10-21T23:10:27Z",
         "source": "espn",
-        "away": [],
+        "away": [
+          {
+            "player": "Isaiah Stewart",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle",
+            "matched": true,
+            "expMin": 22.7,
+            "value": 2.11,
+            "impactPts": 0.91
+          }
+        ],
         "home": [
           {
             "player": "Maxime Raynaud",
