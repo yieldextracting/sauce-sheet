@@ -3,34 +3,34 @@
   "games": [
     {
       "gameId": "20261022-CLE-PHI",
-      "generatedAt": "2026-10-21T00:43:36Z",
-      "ratingsAsOf": "2026-10-20T23:55:54Z",
+      "generatedAt": "2026-10-21T02:04:02Z",
+      "ratingsAsOf": "2026-10-21T02:04:02Z",
       "modelVersion": "v2.0",
-      "awayPts": 117.9,
-      "homePts": 116.3,
-      "margin": -1.64,
-      "spreadHome": 1.6,
-      "total": 234.2,
-      "pace": 102.8,
-      "homeWinProb": 0.4536,
-      "fairMlHome": 120,
-      "fairMlAway": -120,
+      "awayPts": 114.9,
+      "homePts": 114.4,
+      "margin": -0.56,
+      "spreadHome": 0.6,
+      "total": 229.3,
+      "pace": 103.8,
+      "homeWinProb": 0.484,
+      "fairMlHome": 107,
+      "fairMlAway": -107,
       "contributions": [
         {
           "key": "offense",
-          "pts": -3.09
+          "pts": -3.88
         },
         {
           "key": "defense",
-          "pts": 0.07
+          "pts": 1.91
         },
         {
           "key": "pace",
-          "pts": -0.01
+          "pts": -0.0
         },
         {
           "key": "home",
-          "pts": 1.76
+          "pts": 1.77
         },
         {
           "key": "rest_travel",
@@ -43,8 +43,8 @@
       ],
       "sample": {
         "awayGP": 0,
-        "homeGP": 0,
-        "priorWeight": 1.0
+        "homeGP": 1,
+        "priorWeight": 0.9546
       },
       "flags": [],
       "spots": {
@@ -129,38 +129,38 @@
     },
     {
       "gameId": "20261022-DEN-OKC",
-      "generatedAt": "2026-10-21T00:43:36Z",
-      "ratingsAsOf": "2026-10-20T23:55:54Z",
+      "generatedAt": "2026-10-21T02:04:02Z",
+      "ratingsAsOf": "2026-10-21T02:04:02Z",
       "modelVersion": "v2.0",
-      "awayPts": 111.6,
-      "homePts": 120.3,
-      "margin": 8.65,
+      "awayPts": 110.0,
+      "homePts": 118.7,
+      "margin": 8.69,
       "spreadHome": -8.7,
-      "total": 231.9,
-      "pace": 100.9,
-      "homeWinProb": 0.7312,
-      "fairMlHome": -272,
-      "fairMlAway": 272,
+      "total": 228.6,
+      "pace": 101.4,
+      "homeWinProb": 0.7321,
+      "fairMlHome": -273,
+      "fairMlAway": 273,
       "contributions": [
         {
           "key": "offense",
-          "pts": -2.08
+          "pts": -2.1
         },
         {
           "key": "defense",
-          "pts": 9.01
+          "pts": 9.06
         },
         {
           "key": "pace",
-          "pts": -0.11
+          "pts": -0.12
         },
         {
           "key": "home",
-          "pts": 1.76
+          "pts": 1.77
         },
         {
           "key": "rest_travel",
-          "pts": -0.27
+          "pts": -0.28
         },
         {
           "key": "injuries",
