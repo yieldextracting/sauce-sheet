@@ -1,11 +1,9 @@
 {
-  "pulledAt": "2026-10-20T23:54:23Z",
+  "pulledAt": "2026-10-21T00:03:21Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
-  "errors": [
-    "nba_official: FetchError: nba-injury-index: https://official.nba.com/nba-injury-report-2026-27-season/ failed: HTTP 403"
-  ],
+  "errors": [],
   "items": [
     {
       "player": "Mouhamed Gueye",
@@ -712,17 +710,6 @@
       "source": "espn"
     },
     {
-      "player": "Chris Youngblood",
-      "key": "chrisyoungblood",
-      "team": "POR",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Ankle Soreness",
-      "espnId": "4706557",
-      "gameId": "20261021-PHX-POR",
-      "source": "espn"
-    },
-    {
       "player": "Branden Carlson",
       "key": "brandencarlson",
       "team": "POR",
@@ -730,6 +717,17 @@
       "pPlay": 0.0,
       "reason": "Concussion",
       "espnId": "4592435",
+      "gameId": "20261021-PHX-POR",
+      "source": "espn"
+    },
+    {
+      "player": "Chris Youngblood",
+      "key": "chrisyoungblood",
+      "team": "POR",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Ankle Soreness",
+      "espnId": "4706557",
       "gameId": "20261021-PHX-POR",
       "source": "espn"
     },
