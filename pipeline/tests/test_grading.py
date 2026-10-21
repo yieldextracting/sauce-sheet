@@ -1,6 +1,6 @@
 import pytest
 
-from pipeline.grading import (clv_points, game_state, moneyline_outcome, profit, prop_outcome,
+from pipeline.grading import (clv_points, clv_prob, implied_prob, game_state, moneyline_outcome, profit, prop_outcome,
                               spread_outcome, total_outcome, win_profit)
 
 
@@ -77,3 +77,11 @@ def test_clv():
     assert clv_points("spread", "away", 5, 3.5) == 1.5
     assert clv_points("total", "over", 220, 222) == 2
     assert clv_points("total", "under", 220, 222) == -2
+
+
+def test_moneyline_clv_in_probability():
+    assert round(implied_prob(-110), 4) == 0.5238
+    assert implied_prob(100) == 0.5
+    # took +120 (45.5%), close -130/+110 -> no-vig 54.3% for our side: +8.8 points of probability
+    assert round(clv_prob(120, -130, 110), 3) == 0.088
+    assert clv_prob(-200, 150, -170) < 0

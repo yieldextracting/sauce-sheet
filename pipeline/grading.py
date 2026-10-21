@@ -79,3 +79,13 @@ def clv_points(market: str, side: str, pick_line: float, closing_line: float) ->
     if market == "total":
         return closing_line - pick_line if side == "over" else pick_line - closing_line
     raise ValueError(market)
+
+
+def implied_prob(price: int) -> float:
+    return -price / (-price + 100.0) if price < 0 else 100.0 / (price + 100.0)
+
+
+def clv_prob(pick_price: int, close_side: int, close_other: int) -> float:
+    """Moneyline CLV in win probability: no-vig closing probability minus the pick's implied probability."""
+    a, b = implied_prob(close_side), implied_prob(close_other)
+    return a / (a + b) - implied_prob(pick_price)

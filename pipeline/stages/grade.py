@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from .. import cards, config, store
 from ..et import now_utc, to_utc_iso
-from ..grading import (clv_points, game_state, moneyline_outcome, profit, prop_outcome,
+from ..grading import (clv_points, clv_prob, game_state, moneyline_outcome, profit, prop_outcome,
                        spread_outcome, total_outcome)
 from ..io import read_json, write_json
 from ..paths import GRADES_DIR, MODEL_PICKS_DIR
@@ -51,6 +51,8 @@ def grade_model() -> list[dict]:
             "edge": abs(pick["edge"]) if pick["edge"] is not None else None,
             "closingLine": close_line,
             "clvPts": clv_points("spread", "", pick["line"], close_line) if close_line is not None else None,
+            "clvProb": None,
+            "closeMinutesBeforeTip": close.get("minutesBeforeTip") if close else None,
             "finalScore": f"{res['awayPts']}-{res['homePts']}" if res and res["status"] == "final" else None,
         })
     return out
@@ -82,7 +84,7 @@ def grade_card() -> list[dict]:
             if g["status"] in ("postponed", "cancelled"):
                 state = "void"
             close = _closing(pk.game)
-            close_line, clv = None, None
+            close_line, clv, clvp = None, None, None
             if state:
                 outcome = state
             elif pk.market == "spread":
@@ -102,14 +104,21 @@ def grade_card() -> list[dict]:
             elif close and pk.market == "total" and close["consensus"]["total"] is not None:
                 close_line = close["consensus"]["total"]
                 clv = clv_points("total", pk.side, pk.line, close_line)
+            elif close and pk.market == "moneyline":
+                ml = [(b["mlHome"], b["mlAway"]) for b in close["books"] if b["mlHome"] and b["mlAway"]]
+                if ml:
+                    home_side = pk.side == g["home"]
+                    ps = [clv_prob(pk.odds, h if home_side else a, a if home_side else h) for h, a in ml]
+                    clvp = round(sorted(ps)[len(ps) // 2], 4)
             out.append({
                 "source": "card", "gameId": pk.game, "etDate": card.date, "pickId": pk.id,
                 "market": pk.market, "side": pk.side, "player": pk.player, "stat": pk.stat,
                 "line": pk.line, "price": pk.odds, "units": pk.units, "confidence": pk.confidence,
                 "result": outcome, "profitU": round(profit(outcome, pk.odds, pk.units), 4),
-                "edge": None, "closingLine": close_line, "clvPts": clv,
+                "edge": None, "closingLine": close_line, "clvPts": clv, "clvProb": clvp,
                 "finalScore": f"{res['awayPts']}-{res['homePts']}" if res and res["status"] == "final" else None,
                 "amendment": amended.get(pk.id),
+                "closeMinutesBeforeTip": close.get("minutesBeforeTip") if close else None,
             })
     return out
 
