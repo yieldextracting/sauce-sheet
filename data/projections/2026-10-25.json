@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261025-LAL-UTA",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 120.1,
-      "homePts": 114.0,
-      "margin": -6.15,
-      "spreadHome": 6.2,
-      "total": 234.1,
+      "homePts": 115.4,
+      "margin": -4.78,
+      "spreadHome": 4.8,
+      "total": 235.5,
       "pace": 104.3,
-      "homeWinProb": 0.3307,
-      "fairMlHome": 202,
-      "fairMlAway": -202,
+      "homeWinProb": 0.3668,
+      "fairMlHome": 173,
+      "fairMlAway": -173,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.48
+          "pts": -2.11
         }
       ],
       "sample": {
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [
           {
@@ -105,17 +105,6 @@
             "impactPts": 1.68
           },
           {
-            "player": "Blake Hinson",
-            "team": "UTA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring Strain",
-            "matched": true,
-            "expMin": 20.4,
-            "value": 3.2,
-            "impactPts": 1.37
-          },
-          {
             "player": "Trey Alexander",
             "team": "UTA",
             "status": "out",
@@ -142,7 +131,7 @@
     },
     {
       "gameId": "20261025-IND-BKN",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 109.8,
@@ -205,7 +194,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [
           {
@@ -259,7 +248,7 @@
     },
     {
       "gameId": "20261025-LAC-OKC",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 102.2,
@@ -322,7 +311,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [
           {
@@ -372,28 +361,6 @@
         ],
         "home": [
           {
-            "player": "Thomas Sorber",
-            "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Surgery",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Nikola Topic",
-            "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Back Surgery",
-            "matched": true,
-            "expMin": 16.1,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
             "player": "Otega Oweh",
             "team": "OKC",
             "status": "out",
@@ -409,7 +376,7 @@
     },
     {
       "gameId": "20261025-ORL-NYK",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 107.4,
@@ -472,7 +439,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [
           {
@@ -525,7 +492,7 @@
     },
     {
       "gameId": "20261025-TOR-MIN",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 108.9,
@@ -588,7 +555,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [
           {
@@ -631,7 +598,7 @@
     },
     {
       "gameId": "20261025-DET-PHI",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 115.3,
@@ -696,21 +663,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Taurean Prince",
-            "team": "DET",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Personal",
-            "matched": true,
-            "expMin": 23.6,
-            "value": 0.0,
-            "impactPts": 0.0
-          }
-        ],
+        "away": [],
         "home": [
           {
             "player": "Dominick Barlow",
@@ -722,28 +677,6 @@
             "expMin": 23.7,
             "value": 0.84,
             "impactPts": 0.36
-          },
-          {
-            "player": "Dean Wade",
-            "team": "PHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 22.4,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Tacko Fall",
-            "team": "PHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hip",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
           },
           {
             "player": "Ariel Hukporti",
@@ -761,7 +694,7 @@
     },
     {
       "gameId": "20261025-MEM-SAC",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 116.8,
@@ -822,7 +755,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [],
         "home": [

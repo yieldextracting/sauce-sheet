@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T04:34:40Z",
+  "generatedAt": "2026-10-21T17:38:15Z",
   "grades": [
     {
       "source": "model",
@@ -266,6 +266,44 @@
       "clvProb": null,
       "closeMinutesBeforeTip": null,
       "finalScore": null
+    },
+    {
+      "source": "model",
+      "gameId": "20261022-CLE-PHI",
+      "etDate": "2026-10-22",
+      "pickId": "model",
+      "market": "spread",
+      "side": "CLE",
+      "line": 2.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 2.6,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
+    },
+    {
+      "source": "model",
+      "gameId": "20261022-DEN-OKC",
+      "etDate": "2026-10-22",
+      "pickId": "model",
+      "market": "spread",
+      "side": "OKC",
+      "line": -7.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 2.2,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
     }
   ],
   "summary": {
@@ -273,7 +311,7 @@
       "w": 2,
       "l": 1,
       "p": 0,
-      "pending": 11,
+      "pending": 13,
       "units": 0.818,
       "risked": 3.0,
       "roi": 0.2727,
@@ -285,7 +323,7 @@
       "w": 2,
       "l": 1,
       "p": 0,
-      "pending": 10,
+      "pending": 12,
       "units": 0.818,
       "risked": 3.0,
       "roi": 0.2727,

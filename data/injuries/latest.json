@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-10-21T00:43:36Z",
+  "pulledAt": "2026-10-21T17:38:15Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -178,7 +178,7 @@
       "pPlay": 0.5,
       "reason": "Elbow Soreness",
       "espnId": "4066757",
-      "gameId": null,
+      "gameId": "20261022-CLE-PHI",
       "source": "espn"
     },
     {
@@ -189,7 +189,7 @@
       "pPlay": 0.0,
       "reason": "Back",
       "espnId": "5106268",
-      "gameId": null,
+      "gameId": "20261022-CLE-PHI",
       "source": "espn"
     },
     {
@@ -200,7 +200,7 @@
       "pPlay": 0.5,
       "reason": "Knee",
       "espnId": "4997530",
-      "gameId": null,
+      "gameId": "20261022-CLE-PHI",
       "source": "espn"
     },
     {
@@ -266,7 +266,7 @@
       "pPlay": 0.5,
       "reason": "Hamstring",
       "espnId": "4592427",
-      "gameId": null,
+      "gameId": "20261022-DEN-OKC",
       "source": "espn"
     },
     {
@@ -277,15 +277,15 @@
       "pPlay": 0.0,
       "reason": "Knee Sprain",
       "espnId": "4432181",
-      "gameId": null,
+      "gameId": "20261022-DEN-OKC",
       "source": "espn"
     },
     {
       "player": "Taurean Prince",
       "key": "taureanprince",
       "team": "DET",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Personal",
       "espnId": "2990962",
       "gameId": null,
@@ -548,22 +548,22 @@
       "player": "Thomas Sorber",
       "key": "thomassorber",
       "team": "OKC",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Knee Surgery",
       "espnId": "5061603",
-      "gameId": "20261020-OKC-SAS",
+      "gameId": "20261022-DEN-OKC",
       "source": "espn"
     },
     {
       "player": "Nikola Topic",
       "key": "nikolatopic",
       "team": "OKC",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Back Surgery",
       "espnId": "5159925",
-      "gameId": "20261020-OKC-SAS",
+      "gameId": "20261022-DEN-OKC",
       "source": "espn"
     },
     {
@@ -574,7 +574,7 @@
       "pPlay": 0.0,
       "reason": "Achilles Surgery",
       "espnId": "5106270",
-      "gameId": "20261020-OKC-SAS",
+      "gameId": "20261022-DEN-OKC",
       "source": "espn"
     },
     {
@@ -622,25 +622,25 @@
       "source": "espn"
     },
     {
-      "player": "Dean Wade",
-      "key": "deanwade",
-      "team": "PHI",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Ankle Sprain",
-      "espnId": "3912848",
-      "gameId": null,
-      "source": "espn"
-    },
-    {
       "player": "Tacko Fall",
       "key": "tackofall",
       "team": "PHI",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Hip",
       "espnId": "3904625",
-      "gameId": null,
+      "gameId": "20261022-CLE-PHI",
+      "source": "espn"
+    },
+    {
+      "player": "Dean Wade",
+      "key": "deanwade",
+      "team": "PHI",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Ankle Sprain",
+      "espnId": "3912848",
+      "gameId": "20261022-CLE-PHI",
       "source": "espn"
     },
     {
@@ -651,7 +651,7 @@
       "pPlay": 0.0,
       "reason": "Back",
       "espnId": "4870562",
-      "gameId": null,
+      "gameId": "20261022-CLE-PHI",
       "source": "espn"
     },
     {
@@ -662,7 +662,7 @@
       "pPlay": 0.0,
       "reason": "Achilles Ruptured",
       "espnId": "4871141",
-      "gameId": null,
+      "gameId": "20261022-CLE-PHI",
       "source": "espn"
     },
     {
@@ -743,17 +743,6 @@
       "source": "espn"
     },
     {
-      "player": "Malik Monk",
-      "key": "malikmonk",
-      "team": "SAC",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Ankle Soreness",
-      "espnId": "4066262",
-      "gameId": "20261021-SAC-LAC",
-      "source": "espn"
-    },
-    {
       "player": "Ben Simmons",
       "key": "bensimmons",
       "team": "SAC",
@@ -761,6 +750,17 @@
       "pPlay": 0.0,
       "reason": "Achilles Ruptured",
       "espnId": "3907387",
+      "gameId": "20261021-SAC-LAC",
+      "source": "espn"
+    },
+    {
+      "player": "Malik Monk",
+      "key": "malikmonk",
+      "team": "SAC",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Ankle Soreness",
+      "espnId": "4066262",
       "gameId": "20261021-SAC-LAC",
       "source": "espn"
     },
@@ -790,11 +790,11 @@
       "player": "Tobias Harris",
       "key": "tobiasharris",
       "team": "SAS",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Calf Strain",
       "espnId": "6440",
-      "gameId": "20261020-OKC-SAS",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -805,7 +805,7 @@
       "pPlay": 0.0,
       "reason": "Knee Surgery",
       "espnId": "5101845",
-      "gameId": "20261020-OKC-SAS",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -817,17 +817,6 @@
       "reason": "Foot",
       "espnId": "4432586",
       "gameId": "20261021-CHI-TOR",
-      "source": "espn"
-    },
-    {
-      "player": "Blake Hinson",
-      "key": "blakehinson",
-      "team": "UTA",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Hamstring Strain",
-      "espnId": "4396963",
-      "gameId": "20261021-UTA-MEM",
       "source": "espn"
     },
     {

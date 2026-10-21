@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261024-MIA-CHA",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 114.0,
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -122,7 +122,7 @@
     },
     {
       "gameId": "20261024-BKN-CLE",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 105.6,
@@ -183,7 +183,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [
           {
@@ -215,7 +215,7 @@
     },
     {
       "gameId": "20261024-MIL-PHI",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 106.2,
@@ -279,7 +279,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -293,28 +293,6 @@
             "expMin": 23.7,
             "value": 0.84,
             "impactPts": 0.36
-          },
-          {
-            "player": "Dean Wade",
-            "team": "PHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 22.4,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Tacko Fall",
-            "team": "PHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hip",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
           },
           {
             "player": "Ariel Hukporti",
@@ -332,18 +310,18 @@
     },
     {
       "gameId": "20261024-SAS-DAL",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
-      "awayPts": 117.9,
+      "awayPts": 119.2,
       "homePts": 107.6,
-      "margin": -10.31,
-      "spreadHome": 10.3,
-      "total": 225.4,
+      "margin": -11.63,
+      "spreadHome": 11.6,
+      "total": 226.8,
       "pace": 105.7,
-      "homeWinProb": 0.2314,
-      "fairMlHome": 332,
-      "fairMlAway": -332,
+      "homeWinProb": 0.2037,
+      "fairMlHome": 391,
+      "fairMlAway": -391,
       "contributions": [
         {
           "key": "offense",
@@ -367,7 +345,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.97
+          "pts": -2.29
         }
       ],
       "sample": {
@@ -397,20 +375,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Tobias Harris",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Calf Strain",
-            "matched": true,
-            "expMin": 27.8,
-            "value": 3.07,
-            "impactPts": 1.32
-          },
           {
             "player": "Jayden Quaintance",
             "team": "SAS",
@@ -473,7 +440,7 @@
     },
     {
       "gameId": "20261024-WAS-CHI",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 114.6,
@@ -539,7 +506,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [
           {
@@ -593,7 +560,7 @@
     },
     {
       "gameId": "20261024-HOU-ATL",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 112.4,
@@ -659,7 +626,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -690,7 +657,7 @@
     },
     {
       "gameId": "20261024-NOP-DEN",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 110.1,
@@ -755,7 +722,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -775,7 +742,7 @@
     },
     {
       "gameId": "20261024-GSW-PHX",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 97.7,
@@ -840,7 +807,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [
           {

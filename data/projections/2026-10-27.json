@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261027-BKN-BOS",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 100.6,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [
           {
@@ -99,7 +99,7 @@
     },
     {
       "gameId": "20261027-DET-NYK",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 110.8,
@@ -134,7 +134,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.0
+          "pts": 0
         }
       ],
       "sample": {
@@ -160,38 +160,26 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Taurean Prince",
-            "team": "DET",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Personal",
-            "matched": true,
-            "expMin": 23.6,
-            "value": 0.0,
-            "impactPts": 0.0
-          }
-        ],
+        "away": [],
         "home": []
       }
     },
     {
       "gameId": "20261027-SAC-SAS",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 104.7,
-      "homePts": 120.8,
-      "margin": 16.05,
-      "spreadHome": -16.1,
-      "total": 225.5,
+      "homePts": 122.1,
+      "margin": 17.37,
+      "spreadHome": -17.4,
+      "total": 226.9,
       "pace": 103.7,
-      "homeWinProb": 0.8735,
-      "fairMlHome": -690,
-      "fairMlAway": 690,
+      "homeWinProb": 0.892,
+      "fairMlHome": -826,
+      "fairMlAway": 826,
       "contributions": [
         {
           "key": "offense",
@@ -215,7 +203,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.62
+          "pts": 1.94
         }
       ],
       "sample": {
@@ -243,7 +231,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [
           {
@@ -282,17 +270,6 @@
         ],
         "home": [
           {
-            "player": "Tobias Harris",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Calf Strain",
-            "matched": true,
-            "expMin": 27.8,
-            "value": 3.07,
-            "impactPts": 1.32
-          },
-          {
             "player": "Jayden Quaintance",
             "team": "SAS",
             "status": "out",
@@ -308,7 +285,7 @@
     },
     {
       "gameId": "20261027-POR-LAL",
-      "generatedAt": "2026-10-21T04:34:40Z",
+      "generatedAt": "2026-10-21T17:38:15Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 109.7,
@@ -369,7 +346,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "reportPulledAt": "2026-10-21T17:38:15Z",
         "source": "espn",
         "away": [
           {
