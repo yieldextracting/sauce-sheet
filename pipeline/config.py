@@ -31,6 +31,10 @@ class FitConfig(BaseModel):
     regressionGrid: list[float]
 
 
+class AvailabilityConfig(BaseModel):
+    pPlay: dict[str, float]
+
+
 class ModelConfig(BaseModel):
     version: str
     edgeTiers: list[float]
@@ -39,6 +43,7 @@ class ModelConfig(BaseModel):
     modelPickPrice: int
     altitudeThresholdM: float
     fit: FitConfig
+    availability: AvailabilityConfig
 
 
 class Budget(BaseModel):

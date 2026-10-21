@@ -20,7 +20,9 @@ def fair_american(p: float) -> int:
     return int(round(100.0 * (1.0 - p) / p))
 
 
-def project(game: dict, ratings: dict, rf: dict, sigma: float) -> dict:
+def project(game: dict, ratings: dict, rf: dict, sigma: float, injury_pts: dict[str, float] | None = None) -> dict:
+    """injury_pts: expected points each side loses to absences, e.g. {"home": 1.2, "away": 0.0}."""
+    inj = injury_pts or {"home": 0.0, "away": 0.0}
     t = ratings["teams"]
     h, a = t[game["home"]], t[game["away"]]
     beta = np.array([ratings["betas"][f] for f in FEATURES])
@@ -31,8 +33,8 @@ def project(game: dict, ratings: dict, rf: dict, sigma: float) -> dict:
     poss = mup + h["pace"] + a["pace"]
     eff_h = mu + h["off"] - a["def"] + float(xh @ beta)
     eff_a = mu + a["off"] - h["def"] + float(xa @ beta)
-    pts_h = poss * eff_h / 100.0
-    pts_a = poss * eff_a / 100.0
+    pts_h = poss * eff_h / 100.0 - inj["home"]
+    pts_a = poss * eff_a / 100.0 - inj["away"]
     margin = pts_h - pts_a
 
     # Linear breakdown of the margin (home minus away). Sums exactly to `margin`.
@@ -46,7 +48,7 @@ def project(game: dict, ratings: dict, rf: dict, sigma: float) -> dict:
         {"key": "pace", "pts": (poss - mup) / 100.0 * (eff_h - eff_a)},
         {"key": "home", "pts": base * home_part},
         {"key": "rest_travel", "pts": base * rest_part},
-        {"key": "injuries", "pts": 0.0},  # Phase 2 availability model
+        {"key": "injuries", "pts": inj["away"] - inj["home"]},
     ]
 
     p_home = norm_cdf(margin / sigma)

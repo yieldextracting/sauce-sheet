@@ -18,6 +18,7 @@ import numpy as np
 from .. import config, store
 from ..et import now_utc, to_utc_iso
 from ..io import write_json
+from ..model.availability import calibrate
 from ..model.ratings import FEATURES, fit, regress_to_priors
 from ..model.season import inputs, rmse, walk_forward
 from ..paths import DATA, MODEL_PARAMS
@@ -59,6 +60,11 @@ def run() -> None:
     sigma = rmse([x["predMargin"] - x["margin"] for x in rows])
     bias = float(np.mean([x["predMargin"] - x["margin"] for x in rows]))
 
+    prior_players = [p for ps in store.history_players(prior_season).values() for p in ps]
+    avail = calibrate(fit_records, store.history_players(fit_season), prior_players, rows)
+    avail["pPlay"] = mc.availability.pPlay
+    print("availability:", avail)
+
     params = {
         "modelVersion": mc.version,
         "fittedAt": to_utc_iso(now_utc()),
@@ -71,6 +77,7 @@ def run() -> None:
         "betas": {f: round(betas[f], 5) for f in FEATURES},
         "betasFrom": [prior_season, fit_season],
         "grid": grid,
+        "availability": avail,
         "note": "Chosen by walk-forward margin RMSE on the fit season only. Not tuned on later seasons.",
     }
     write_json(MODEL_PARAMS, params)

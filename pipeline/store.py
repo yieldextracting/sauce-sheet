@@ -50,6 +50,24 @@ def history_records(s: str) -> list[dict]:
     return d["records"]
 
 
+def history_players(s: str) -> dict[str, list[dict]]:
+    """Player box rows for a past season, grouped by game id."""
+    d = read_json(HISTORY_DIR / s / "players.json")
+    if d is None:
+        raise FileNotFoundError(f"no player history for {s}")
+    cols = d["columns"]
+    out: dict[str, list[dict]] = {}
+    for row in d["rows"]:
+        p = dict(zip(cols, row))
+        out.setdefault(p["gameId"], []).append(p)
+    return out
+
+
+def season_players(s: str | None = None) -> dict[str, list[dict]]:
+    """Player box rows for the live season, from results/, grouped by game id."""
+    return {gid: [{**p, "gameId": gid} for p in r.get("players", [])] for gid, r in results(s).items()}
+
+
 def projections_for(day: str) -> dict:
     return read_json(PROJECTIONS_DIR / f"{day}.json", {"games": []})
 
@@ -97,6 +115,7 @@ def write_closing_for_tipped(now_iso: str) -> int:
         p = closing_path(gid)
         if p.exists():
             continue
-        write_json(p, entry)
+        mins = (parse_utc(g["tipUtc"]) - parse_utc(entry["takenAt"])).total_seconds() / 60
+        write_json(p, {**entry, "minutesBeforeTip": round(mins)})
         n += 1
     return n

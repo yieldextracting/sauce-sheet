@@ -1,6 +1,10 @@
 {
-  "version": "v1.0",
-  "edgeTiers": [1.5, 3, 5],
+  "version": "v2.0",
+  "edgeTiers": [
+    1.5,
+    3,
+    5
+  ],
   "sampleBadgeGames": 15,
   "projectionHorizonDays": 7,
   "modelPickPrice": -110,
@@ -8,7 +12,29 @@
   "fit": {
     "fitSeason": "2023-24",
     "priorSeasonForFit": "2022-23",
-    "kGrid": [2, 5, 10, 15, 20, 30, 45],
-    "regressionGrid": [0.2, 0.33, 0.5]
+    "kGrid": [
+      2,
+      5,
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "regressionGrid": [
+      0.2,
+      0.33,
+      0.5
+    ]
+  },
+  "availability": {
+    "pPlay": {
+      "out": 0.0,
+      "doubtful": 0.15,
+      "questionable": 0.5,
+      "probable": 0.9,
+      "available": 1.0
+    },
+    "pPlayNote": "Assumed probabilities of playing by listed status. ESPN's Day-To-Day maps to questionable."
   }
 }
