@@ -65,13 +65,17 @@ amendments: []
 |---|---|---|
 | Schedule, results, box scores | GitHub Actions → ESPN | every 30 min (only fetches what's due) |
 | Odds snapshots | GitHub Actions → The Odds API (or ESPN fallback) | 10:00 ET, 14:00 ET, ~2h before first tip, and ~30 min before each tip (closing line) |
+| Injury report | GitHub Actions → ESPN (official NBA PDF when run from your laptop and it answers) | every run from 09:00 ET until the last tip; re-projects when it changes |
 | Lock first-seen lines + model picks | GitHub Actions | right after every odds pull |
 | Ratings, projections, grading | GitHub Actions | after new finals, and daily |
 | Backfill past seasons, fit hyperparameters | **your laptop** | once a season |
 
-`pipeline.yml` runs every 30 minutes in UTC. `python -m pipeline auto` works out what's due **in ET**, using
-"due and not done yet today" rules, so the November and March clock changes need no edits. Each run commits
-JSON to `main`, which triggers a Vercel deploy.
+`pipeline.yml` is scheduled every 30 minutes in UTC, but GitHub runs schedules far less reliably than that
+(on day one: twice in 8 hours). So once a run starts, it **loops every 10 minutes** while there is work in the
+next few hours (`python -m pipeline busy`), for up to ~5.5 hours. The next scheduled run picks up from there.
+`python -m pipeline auto` works out what's due **in ET**, using "due and not done yet today" rules, so the
+November and March clock changes need no edits. Each change is committed to `main`, which triggers a Vercel
+deploy.
 
 Run any stage by hand:
 
@@ -101,7 +105,10 @@ GitHub emails you when a scheduled workflow fails. Open **Actions → pipeline �
 | `data/... failed validation` | A source changed its format | The bad data was not committed. Fix the parser, add a fixture test, re-run. |
 | Vercel build failed | Same as above, or a bad card | `npm run validate` locally shows the exact file and field. |
 | Push rejected / conflict | You and the bot pushed at once | `git pull --rebase` and push again. Cards and data never touch the same files. |
-| Missed snapshot | GitHub delayed or dropped a cron run | Nothing to do. The next run catches up because jobs are "due and not done". |
+| Missed snapshot | GitHub delayed or dropped a cron run | Nothing to do. The next run catches up because jobs are "due and not done". If a game had no snapshot shortly before tip, its closing line is older, and the record marks that CLV with `*`. |
+| No pipeline run for hours on a game day | GitHub didn't start a scheduled run | Actions → pipeline → **Run workflow**. It loops through the evening on its own. |
+| `injuries: ... fallback after: nba_official ... 403` | The official report blocks that IP | Expected in Actions (it only tries ESPN there). Locally it falls back to ESPN automatically. |
+| `injury pull failed on every source` | ESPN injuries down too | Projections keep the last report for up to 30 hours, then drop the injury adjustment rather than use stale data. |
 
 Every pull is logged in `data/logs/pulls.jsonl`, and every Odds API call in `data/logs/odds-credits.jsonl`
 (remaining quota after each call).
@@ -118,8 +125,11 @@ Every pull is logged in `data/logs/pulls.jsonl`, and every Odds API call in `dat
   ESPN's scoreboard. Snapshots record which provider they came from.
 - **OpenStreetMap Nominatim + Open-Meteo** for venue coordinates and elevation (travel distance, altitude).
   These are cached in `reference/venues.json`.
-- Phase 2: the official NBA injury report PDFs (`official.nba.com/nba-injury-report-2026-27-season/`), with
-  ESPN injuries as fallback.
+- **Injuries:** ESPN's injury feed (works everywhere; statuses are only Out and Day-To-Day). The official NBA
+  injury report PDFs (`official.nba.com/nba-injury-report-2026-27-season/`) are parsed when reachable. They were
+  reachable from the laptop on Oct 20, 403 from GitHub Actions, and 403 from the laptop too by that evening, so
+  they are a bonus, not a dependency. Every pull is logged in `data/logs/pulls.jsonl`. A snapshot is saved to
+  `data/injuries/` only when the report changes.
 
 ## Odds API budget
 
@@ -140,6 +150,13 @@ daily cap 250.
   coefficients are averaged over 2022-23 and 2023-24 full-season fits (one season alone is too noisy for
   altitude). All of it is in `data/model/params.json` (`python -m pipeline fit`). 2024-25 and 2025-26 are never
   used to choose anything, so they stay clean for the backtest.
+- **Availability (v2):** a player's value is Hollinger Game Score per 36 minutes above replacement level (the
+  minutes-weighted rate of players under 12 mpg), times expected minutes (a decaying average over the team's
+  games, so a long absence fades out instead of being double-counted against team ratings). Points lost =
+  beta × value × (1 − P(play)). Beta is fit on 2023-24 by regressing the model's margin errors on who actually
+  sat: **0.43 ± 0.14**. It's real but modest: it cuts the 2023-24 margin RMSE only from 14.04 to 13.99. P(play):
+  out 0, doubtful 15%, questionable 50%, probable 90% (assumptions in `config/model.json`). ESPN's Day-To-Day
+  counts as questionable. A listing applies to the team's next game. "Out" also carries to later games.
 - Market consensus is the median line across books, rounded to the half point. Edge = model line minus
   market line. Edge tiers live in `config/model.json`.
 
@@ -149,7 +166,9 @@ daily cap 250.
   enforced in code and in CI) at -110. Win +0.909u, loss -1u, push 0.
 - Card picks are graded at the line and price you logged.
 - Void: postponed, cancelled or rescheduled-to-another-day games, and props for players who didn't play.
-- CLV is measured against the closing consensus (the last snapshot before tip).
+- CLV is measured against the closing consensus (the last snapshot before tip). Spreads and totals are measured in
+  points, moneylines in no-vig win probability. Each closing line records how many minutes before tip it was
+  taken.
 
 ## Setup (once)
 

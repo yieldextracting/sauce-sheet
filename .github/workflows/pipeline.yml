@@ -1,7 +1,10 @@
 name: pipeline
 
-# Runs every 30 minutes (UTC). `python -m pipeline auto` decides what is due in US Eastern time,
-# so the Nov/Mar clock changes need no cron edits. Commits data to main, which redeploys Vercel.
+# Triggered every 30 minutes (UTC), but GitHub often runs schedules hours apart. So once a run
+# starts on a game day it stays alive and repeats `pipeline auto` every 10 minutes until there is
+# no work left (all games final) or ~5.5 hours pass. `auto` decides what is due in US Eastern
+# time, so the Nov/Mar clock changes need no edits. Each change is committed to main, which
+# redeploys Vercel.
 on:
   schedule:
     - cron: "7,37 * * * *"
@@ -17,7 +20,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 345
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,25 +33,35 @@ jobs:
           cache: npm
       - run: pip install -r requirements.txt
       - run: npm ci
-      - name: Run due stages
+      - name: Run due stages, looping while there is work tonight
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-        run: python -m pipeline auto
-      - name: Validate data before committing
-        run: npm run validate
-      - name: Commit and push
+          # official.nba.com returns 403 to GitHub runners (verified 2026-10-20); use ESPN directly
+          INJURY_SOURCES: espn
         run: |
           git config user.name "sauce-sheet-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data reference
-          if git diff --cached --quiet; then echo "no data changes"; exit 0; fi
-          # belt and braces: never modify a write-once file
-          if git diff --cached --name-status -- data/lines/first-seen data/picks/model | grep -v '^A'; then
-            echo "::error::write-once file modified"; exit 1
-          fi
-          git commit -m "data: auto $(TZ=America/New_York date '+%a %b %-d %-I:%M %p ET')"
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push origin HEAD:main && exit 0
-            sleep 5
+          deadline=$(( $(date +%s) + 5*3600 + 20*60 ))
+          while true; do
+            git pull -q --rebase origin main
+            python -m pipeline auto
+            npm run -s validate
+            git add data reference
+            if ! git diff --cached --quiet; then
+              # belt and braces: never modify a write-once file
+              if git diff --cached --name-status -- data/lines/first-seen data/picks/model | grep -v '^A'; then
+                echo "::error::write-once file modified"; exit 1
+              fi
+              git commit -q -m "data: auto $(TZ=America/New_York date '+%a %b %-d %-I:%M %p ET')"
+              for i in 1 2 3; do
+                git pull -q --rebase origin main && git push -q origin HEAD:main && break
+                [ "$i" = 3 ] && { echo "::error::push failed after 3 tries"; exit 1; }
+                sleep 5
+              done
+            else
+              echo "no data changes"
+            fi
+            python -m pipeline busy || { echo "no work in the next few hours; exiting"; break; }
+            [ "$(date +%s)" -ge "$deadline" ] && { echo "time budget used; next scheduled run takes over"; break; }
+            sleep 600
           done
-          echo "::error::push failed after 3 tries"; exit 1

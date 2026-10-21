@@ -13,6 +13,8 @@ from .et import add_days, et_hour_minute, now_utc, parse_utc, to_utc_iso, today_
 from .io import read_json, write_json
 from .paths import STATE
 
+INJURY_START_ET_HOUR = 9  # pull the injury report every run from 09:00 ET until the last tip
+
 
 def load_state() -> dict:
     return read_json(STATE, {"days": {}, "lastUpdatedAt": None})
@@ -37,6 +39,8 @@ def due(now: datetime | None = None, state: dict | None = None, games: list[dict
     todays = [g for g in games if g["etDate"] == today and g["status"] not in ("postponed", "cancelled")]
     upcoming = [g for g in todays if parse_utc(g["tipUtc"]) > now]
     if upcoming:
+        if hour >= INJURY_START_ET_HOUR:
+            jobs.append("injuries")
         first_tip = min(parse_utc(g["tipUtc"]) for g in todays)
         if hour >= snap.morningEtHour and "odds_morning" not in day:
             jobs.append("odds_morning")
@@ -52,6 +56,27 @@ def due(now: datetime | None = None, state: dict | None = None, games: list[dict
     return jobs
 
 
+def busy(now: datetime | None = None, games: list[dict] | None = None, horizon_hours: float = 6.0) -> bool:
+    """Is there pipeline work in the next few hours? (A game tipping soon, or one not yet final.)
+
+    The Actions job keeps looping while this is true, so sparse GitHub cron triggers still give
+    continuous coverage on game nights.
+    """
+    now = now or now_utc()
+    games = games if games is not None else store.schedule()
+    today = today_et(now)
+    recent = {today, add_days(today, -1)}
+    for g in games:
+        if g["status"] in ("final", "postponed", "cancelled"):
+            continue
+        tip = parse_utc(g["tipUtc"])
+        if g["etDate"] in recent and tip <= now:
+            return True  # in progress or awaiting its final score
+        if timedelta(0) < tip - now <= timedelta(hours=horizon_hours):
+            return True
+    return False
+
+
 def closing_targets(now: datetime, games: list[dict], done: set[str]) -> list[str]:
     window = timedelta(minutes=config.odds().snapshots.closingWindowMinutes)
     return [g["id"] for g in games
@@ -61,8 +86,8 @@ def closing_targets(now: datetime, games: list[dict], done: set[str]) -> list[st
 
 def auto() -> None:
     """Run whatever is due. Called by GitHub Actions every 30 minutes."""
-    from .stages import (build_ratings, grade, lock, project_games, pull_odds, pull_results,
-                         pull_schedule)
+    from .stages import (build_ratings, grade, lock, project_games, pull_injuries, pull_odds,
+                         pull_results, pull_schedule)
 
     now = now_utc()
     today = today_et(now)
@@ -78,10 +103,18 @@ def auto() -> None:
 
     new_finals = pull_results.run()  # cheap: only calls ESPN for games that should be over
 
+    injuries_changed = False
+    if "injuries" in jobs:
+        try:
+            injuries_changed = pull_injuries.run()["changed"]
+        except SystemExit as e:  # an injury outage must not block odds, locks or grading
+            print(f"auto: {e}")
+
     if new_finals or "ratings" in jobs:
         build_ratings.run()
-        project_games.run()
         day["ratings"] = stamp
+    if new_finals or "ratings" in jobs or injuries_changed:
+        project_games.run()  # before any odds pull, so a lock uses the freshest projection
 
     odds_jobs = [j for j in jobs if j.startswith("odds_")]
     if odds_jobs:
@@ -98,6 +131,6 @@ def auto() -> None:
     # keep a week of state; only bump lastUpdatedAt when a job actually ran
     keep = {add_days(today, -i) for i in range(8)}
     state["days"] = {k: v for k, v in state["days"].items() if k in keep}
-    if jobs or new_finals:
+    if [j for j in jobs if j != "injuries"] or new_finals or injuries_changed:
         state["lastUpdatedAt"] = stamp
     write_json(STATE, state)
