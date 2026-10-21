@@ -6,7 +6,7 @@ import type { TTeam } from "@/lib/schemas";
 export function SectionHeader({ n, title, id }: { n: number; title: string; id?: string }) {
   return (
     <h2 id={id} className="flex items-baseline gap-3 border-t border-rule pt-6 mt-10 mb-4">
-      <span className="eyebrow text-accent num">{String(n).padStart(2, "0")} /</span>
+      <span className="eyebrow text-accent num whitespace-nowrap">{String(n).padStart(2, "0")} /</span>
       <span className="eyebrow text-ink">{title}</span>
     </h2>
   );

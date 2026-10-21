@@ -4,18 +4,20 @@ import { ThemeToggle } from "./ThemeToggle";
 
 const NAV = [
   { href: "/nba", label: "Board" },
+  { href: "/nba/gaps", label: "Gaps" },
+  { href: "/nba/rest", label: "Rest" },
   { href: "/nba/record", label: "Record" },
-  { href: "/nba/card", label: "My Card" },
+  { href: "/nba/card", label: "Card" },
 ];
 
 export function Header() {
   return (
     <header className="border-b border-rule">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
-        <Link href="/" className="font-serif text-base sm:text-lg font-semibold tracking-tight whitespace-nowrap">
+        <Link href="/" className="font-serif text-[0.95rem] sm:text-lg font-semibold tracking-tight whitespace-nowrap">
           {BRAND.name.toUpperCase()}
         </Link>
-        <nav aria-label="Main" className="flex items-center gap-3 sm:gap-6 text-sm whitespace-nowrap">
+        <nav aria-label="Main" className="flex items-center gap-2.5 sm:gap-5 text-[0.8rem] sm:text-sm whitespace-nowrap">
           {NAV.map((n) => (
             <Link key={n.href} href={n.href} className="text-muted hover:text-ink">
               {n.label}

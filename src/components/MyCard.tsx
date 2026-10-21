@@ -71,6 +71,13 @@ export function MyCard({ card, compact = false }: { card: CardFile; compact?: bo
       {card.body && !compact && (
         <div className="prose-card mt-3 border-t border-rule pt-3 text-[0.95rem]">
           <MDXRemote source={card.body} />
+          {card.amendments
+            .filter((a) => a.pickId === "takes")
+            .map((a) => (
+              <p key={a.at} className="text-xs mt-2 border-l-2 border-accent pl-2">
+                <span className="eyebrow">Takes amended</span> {a.note}
+              </p>
+            ))}
         </div>
       )}
     </section>

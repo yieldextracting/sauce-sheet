@@ -14,10 +14,13 @@ export type RecordRow = {
   line: number | null;
   closingLine: number | null;
   clvPts: number | null;
+  closeMinutesBeforeTip: number | null;
   finalScore: string | null;
   result: string;
   profitU: number;
 };
+
+export const STALE_CLOSE_MIN = 60;
 
 type Tier = { key: string; label: string; min: number };
 
@@ -88,7 +91,14 @@ export function RecordTable({ rows, tiers }: { rows: RecordRow[]; tiers: Tier[] 
                   <td className="py-2 pr-3 whitespace-nowrap font-medium">{r.pick}</td>
                   <td className="py-2 pr-3 text-right">{fmtPts(r.edge)}</td>
                   {showClv && <td className="py-2 pr-3 text-right">{fmtSpread(r.closingLine)}</td>}
-                  {showClv && <td className="py-2 pr-3 text-right">{fmtSigned(r.clvPts)}</td>}
+                  {showClv && (
+                    <td className="py-2 pr-3 text-right">
+                      {fmtSigned(r.clvPts)}
+                      {r.closeMinutesBeforeTip !== null && r.closeMinutesBeforeTip > STALE_CLOSE_MIN && (
+                        <span title={`Closing line taken ${r.closeMinutesBeforeTip} min before tip`}>*</span>
+                      )}
+                    </td>
+                  )}
                   <td className="py-2 pr-3 whitespace-nowrap">{r.finalScore ?? "—"}</td>
                   <td className="py-2 pr-3"><ResultTag result={r.result} /></td>
                   <td className="py-2 text-right">{r.result === "pending" ? "—" : fmtUnits(r.profitU)}</td>
@@ -96,6 +106,12 @@ export function RecordTable({ rows, tiers }: { rows: RecordRow[]; tiers: Tier[] 
               ))}
             </tbody>
           </table>
+          {showClv && shown.some((r) => (r.closeMinutesBeforeTip ?? 0) > STALE_CLOSE_MIN) && (
+            <p className="text-xs text-muted mt-2">
+              * Closing line taken more than {STALE_CLOSE_MIN} minutes before tip (the scheduled run nearest tip was late
+              or missed), so that CLV is measured against an early number.
+            </p>
+          )}
         </div>
       )}
     </div>

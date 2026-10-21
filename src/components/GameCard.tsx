@@ -26,6 +26,30 @@ function Row({ label, children }: { label: string; children: React.ReactNode }) 
   );
 }
 
+const FLAG_LABEL: Record<string, string> = {
+  b2b: "B2B",
+  "3in4": "3-in-4",
+  long_travel: "long trip",
+};
+
+function SpotLine({ g }: { g: BoardGame }) {
+  const p = g.projection;
+  if (!p) return null;
+  const bits: string[] = [];
+  for (const f of p.flags) {
+    if (f === "altitude") bits.push(`${g.game.away} at altitude`);
+    else {
+      const side = f.endsWith("_away") ? "away" : "home";
+      const key = f.replace(/_(away|home)$/, "");
+      bits.push(`${g.game[side]} ${FLAG_LABEL[key] ?? key}`);
+    }
+  }
+  const inj = p.contributions.find((c) => c.key === "injuries")?.pts ?? 0;
+  if (Math.abs(inj) >= 0.5) bits.push(`injuries ${Math.abs(inj).toFixed(1)} → ${inj > 0 ? g.game.home : g.game.away}`);
+  if (!bits.length) return null;
+  return <p className="text-xs text-muted -mt-1">{bits.join(" · ")}</p>;
+}
+
 export function GameCard({ g }: { g: BoardGame }) {
   const { game, away, home, projection: p, pick } = g;
   const final = g.result;
@@ -58,6 +82,8 @@ export function GameCard({ g }: { g: BoardGame }) {
           Projected {fmtPts(p.awayPts)}–{fmtPts(p.homePts)}
         </p>
       )}
+
+      <SpotLine g={g} />
 
       <dl>
         <Row label="Market line">{lineLabel(g.marketSpreadHome, game.away, game.home)}</Row>

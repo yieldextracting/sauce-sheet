@@ -22,7 +22,8 @@ export type BoardGame = {
   firstSeenSpreadHome: number | null;
   pick: TModelPick | null;
   pickTeam: string | null; // abbr of the locked pick side
-  gap: number | null; // |edge| in points: locked edge if locked, else current model vs current market
+  gap: number | null; // current |model - market| in points (what the gaps page and strip rank by)
+  lockedEdge: number | null; // |edge| at lock, which is what the record grades
   grade: TGrade | null;
   result: { awayPts: number; homePts: number } | null;
 };
@@ -46,9 +47,8 @@ export function boardGame(game: TGame): BoardGame {
   const res = data.result(game.id);
   const grade = (data.modelGrades()?.grades ?? []).find((g) => g.gameId === game.id) ?? null;
   const market = cur?.consensus.spreadHome ?? fs?.consensus.spreadHome ?? null;
-  let gap: number | null = null;
-  if (pick && pick.edge !== null) gap = Math.abs(pick.edge);
-  else if (projection && market !== null) gap = Math.abs(projection.spreadHome - market);
+  const gap = projection && market !== null ? Math.abs(projection.spreadHome - market) : null;
+  const lockedEdge = pick && pick.edge !== null ? Math.abs(pick.edge) : null;
   const rec = (abbr: string) => {
     const t = ratings?.teams[abbr];
     return t ? record(t.w, t.l) : "0-0";
@@ -68,6 +68,7 @@ export function boardGame(game: TGame): BoardGame {
     pick,
     pickTeam: pick && pick.side !== "none" ? game[pick.side] : null,
     gap: gap === null ? null : Math.round(gap * 10) / 10,
+    lockedEdge,
     grade,
     result: res && res.status === "final" && res.awayPts !== null && res.homePts !== null
       ? { awayPts: res.awayPts, homePts: res.homePts }

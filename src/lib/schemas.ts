@@ -76,7 +76,12 @@ export const LineSnapshot = z.object({
   provider: z.string(),
   games: z.array(GameLines),
 });
-export const CurrentLine = GameLines.extend({ takenAt: UtcIso, provider: z.string(), snapshot: z.string() });
+export const CurrentLine = GameLines.extend({
+  takenAt: UtcIso,
+  provider: z.string(),
+  snapshot: z.string(),
+  minutesBeforeTip: z.number().optional(), // closing files only
+});
 export const CurrentLines = z.record(GameId, CurrentLine);
 export const FirstSeen = GameLines.extend({ seenAt: UtcIso, provider: z.string(), snapshot: z.string() });
 
@@ -93,6 +98,46 @@ export const ModelPick = z.object({
   modelSpreadHome: z.number().nullable(),
   modelTotal: z.number().nullable(),
   reason: z.string().nullable(),
+});
+
+export const InjuryStatus = z.enum(["out", "doubtful", "questionable", "probable", "available"]);
+export const Spot = z.object({
+  restDays: z.number().int().nullable(),
+  b2b: z.boolean(),
+  threeInFour: z.boolean(),
+  travelKm: z.number(),
+  atAltitude: z.boolean(),
+});
+export const AvailabilityRow = z.object({
+  player: z.string(),
+  team: Abbr,
+  status: InjuryStatus,
+  pPlay: z.number().min(0).max(1),
+  reason: z.string().nullable().optional(),
+  matched: z.boolean(),
+  expMin: z.number(),
+  value: z.number(),
+  impactPts: z.number(),
+});
+export const InjuryPull = z.object({
+  pulledAt: UtcIso,
+  source: z.string().nullable(),
+  reportStamp: z.string().nullable(),
+  ok: z.boolean(),
+  errors: z.array(z.string()),
+  items: z.array(
+    z.object({
+      player: z.string(),
+      key: z.string(),
+      team: Abbr,
+      status: InjuryStatus,
+      pPlay: z.number(),
+      reason: z.string().nullable().optional(),
+      espnId: z.string().nullable().optional(),
+      gameId: GameId.nullable(),
+      source: z.string(),
+    }),
+  ),
 });
 
 export const ContributionKey = z.enum(["offense", "defense", "pace", "home", "rest_travel", "injuries"]);
@@ -113,6 +158,15 @@ export const Projection = z.object({
   contributions: z.array(z.object({ key: ContributionKey, pts: z.number() })).length(6), // sum to margin
   sample: z.object({ awayGP: z.number().int(), homeGP: z.number().int(), priorWeight: z.number() }),
   flags: z.array(z.string()),
+  spots: z.object({ away: Spot.nullable(), home: Spot.nullable() }).optional(),
+  availability: z
+    .object({
+      reportPulledAt: UtcIso.nullable(),
+      source: z.string().nullable(),
+      away: z.array(AvailabilityRow),
+      home: z.array(AvailabilityRow),
+    })
+    .optional(),
 });
 export const ProjectionDay = z.object({ etDate: EtDate, games: z.array(Projection) });
 
@@ -139,9 +193,13 @@ export const Result = z.object({
   players: z.array(PlayerBox),
 });
 
+const FF = z.object({ efg: z.number(), tov: z.number(), orb: z.number(), ftr: z.number() });
+export const FourFactors = z.object({ gp: z.number().int(), off: FF, def: FF });
 export const TeamRating = z.object({
   off: z.number(), def: z.number(), pace: z.number(), ortg: z.number(), drtg: z.number(), net: z.number(),
   gp: z.number().int(), priorWeight: z.number(), w: z.number().int(), l: z.number().int(),
+  fourFactors: FourFactors.nullable().optional(),
+  fourFactorsLastSeason: FourFactors.nullable().optional(),
 });
 export const Ratings = z.object({
   season: z.string(),
@@ -170,6 +228,20 @@ export const ModelParams = z.object({
   betasFrom: z.array(z.string()),
   grid: z.array(z.object({ regression: z.number(), k: z.number(), marginRmse: z.number(), n: z.number() })),
   note: z.string(),
+  availability: z
+    .object({
+      replacementGameScore36: z.number(),
+      leagueGameScore36: z.number(),
+      beta: z.number(),
+      betaSe: z.number(),
+      n: z.number().int(),
+      nWithAbsences: z.number().int(),
+      rmseBefore: z.number(),
+      rmseAfter: z.number().nullable(),
+      pPlay: z.record(z.string(), z.number()),
+    })
+    .passthrough()
+    .optional(),
 });
 
 export const Outcome = z.enum(["win", "loss", "push", "void", "pending"]);
@@ -191,6 +263,8 @@ export const Grade = z.object({
   edge: z.number().nullable(),
   closingLine: z.number().nullable(),
   clvPts: z.number().nullable(),
+  clvProb: z.number().nullable().optional(),
+  closeMinutesBeforeTip: z.number().nullable().optional(),
   finalScore: z.string().nullable(),
   amendment: z.string().nullable().optional(),
 });
@@ -254,3 +328,5 @@ export type TRatings = z.infer<typeof Ratings>;
 export type TCardPick = z.infer<typeof CardPick>;
 export type TCard = z.infer<typeof CardFrontmatter>;
 export type TResult = z.infer<typeof Result>;
+export type TAvailabilityRow = z.infer<typeof AvailabilityRow>;
+export type TSpot = z.infer<typeof Spot>;

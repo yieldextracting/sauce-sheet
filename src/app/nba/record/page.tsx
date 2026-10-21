@@ -24,6 +24,7 @@ export default function RecordPage() {
         line: g.line,
         closingLine: g.closingLine,
         clvPts: g.clvPts,
+        closeMinutesBeforeTip: g.closeMinutesBeforeTip ?? null,
         finalScore: g.finalScore,
         result: g.result,
         profitU: g.profitU,

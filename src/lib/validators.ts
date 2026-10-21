@@ -6,6 +6,7 @@ import {
   FirstSeen,
   LineSnapshot,
   Grades,
+  InjuryPull,
   ModelParams,
   ModelPick,
   PipelineState,
@@ -30,4 +31,5 @@ export const VALIDATORS: { pattern: RegExp; schema: z.ZodType }[] = [
   { pattern: /^model\/params\.json$/, schema: ModelParams },
   { pattern: /^grades\/[^/]+\.json$/, schema: Grades },
   { pattern: /^logs\/state\.json$/, schema: PipelineState },
+  { pattern: /^injuries\/(latest|\d{4}-\d{2}-\d{2}\/\d{8}T\d{4}Z)\.json$/, schema: InjuryPull },
 ];

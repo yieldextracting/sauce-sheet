@@ -11,6 +11,8 @@ import {
   CurrentLines,
   FirstSeen,
   Grades,
+  InjuryPull,
+  LineSnapshot,
   ModelParams,
   ModelPick,
   PipelineState,
@@ -142,4 +144,34 @@ export function cardGrades() {
 
 export function pipelineState() {
   return load("logs/state.json", PipelineState);
+}
+
+export function injuries() {
+  return load("injuries/latest.json", InjuryPull);
+}
+
+export type LinePoint = { takenAt: string; provider: string; spreadHome: number | null; total: number | null; nBooks: number };
+
+let lineIndex: Map<string, LinePoint[]> | null = null;
+
+/** Every snapshot that contained this game, oldest first. Built once per build from data/lines/snapshots. */
+export function lineHistory(id: string): LinePoint[] {
+  if (!lineIndex) {
+    lineIndex = new Map();
+    const root = path.join(DATA, "lines", "snapshots");
+    const days = fs.existsSync(root) ? fs.readdirSync(root).sort() : [];
+    for (const day of days) {
+      for (const f of listJson(`lines/snapshots/${day}`)) {
+        const snap = load(`lines/snapshots/${day}/${f}`, LineSnapshot);
+        if (!snap) continue;
+        for (const g of snap.games) {
+          const arr = lineIndex.get(g.gameId) ?? [];
+          arr.push({ takenAt: snap.takenAt, provider: snap.provider, spreadHome: g.consensus.spreadHome, total: g.consensus.total, nBooks: g.consensus.nBooks });
+          lineIndex.set(g.gameId, arr);
+        }
+      }
+    }
+    for (const arr of lineIndex.values()) arr.sort((a, b) => a.takenAt.localeCompare(b.takenAt));
+  }
+  return lineIndex.get(id) ?? [];
 }

@@ -46,3 +46,8 @@ export function winPct(w: number, l: number): number | null {
 function trim(n: number): string {
   return Number.isInteger(n) ? String(n) : n.toFixed(1);
 }
+
+/** 1234 -> "1,234" (no locale APIs; see the ESLint date rule). */
+export function fmtInt(n: number): string {
+  return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}

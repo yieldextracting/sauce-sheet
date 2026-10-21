@@ -87,7 +87,7 @@ export function BoardView({ day }: { day: string }) {
         Market line is the current consensus (median across books
         {games[0]?.marketProvider === "espn" ? "; until the odds feed is connected, a single book shown on ESPN" : ""}).
         The model pick is locked against the first line the pipeline ever saw and is graded only against that line.
-        Number in brackets: points between model and market at lock.
+        Number in brackets: points between model and market at lock. The strip above uses today&apos;s numbers.
         {biggest && ` Biggest gap today: ${lineLabel(biggest.projection?.spreadHome, biggest.game.away, biggest.game.home)} model vs ${lineLabel(biggest.marketSpreadHome, biggest.game.away, biggest.game.home)} market.`}
       </p>
     </div>

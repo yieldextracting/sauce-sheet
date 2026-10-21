@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MarginChart } from "@/components/charts/MarginChart";
+import { AvailabilityTable, LineMovement, RateGrid, RatingsTable } from "@/components/GameSections";
 import { SampleBadge } from "@/components/GameCard";
 import { Note, ResultTag, SectionHeader, TeamMark } from "@/components/ui";
 import { boardGame, lineLabel } from "@/lib/board";
+import { ffSeason } from "@/lib/teamstats";
 import * as data from "@/lib/data";
 import { fmtPct, fmtPrice, fmtPts, fmtSpread } from "@/lib/format";
 import { formatDayLong, formatTip, formatUpdated } from "@/lib/time";
@@ -34,6 +36,7 @@ export default async function GamePage({ params }: PageProps<"/nba/game/[id]">) 
   const { away, home, projection: p, pick } = bg;
   const fs = data.firstSeen(id);
   const close = data.closingLine(id);
+  const ratings = data.ratings();
 
   return (
     <article>
@@ -82,7 +85,12 @@ export default async function GamePage({ params }: PageProps<"/nba/game/[id]">) 
               </tr>
               {close && (
                 <tr>
-                  <th scope="row" className="text-left font-normal py-2 text-muted">Market, close</th>
+                  <th scope="row" className="text-left font-normal py-2 text-muted">
+                    Market, close
+                    {close.minutesBeforeTip !== undefined && (
+                      <span className="block text-xs">{close.minutesBeforeTip} min before tip</span>
+                    )}
+                  </th>
                   <td className="py-2">{lineLabel(close.consensus.spreadHome, game.away, game.home)}</td>
                   <td className="py-2">{fmtPts(close.consensus.total)}</td>
                 </tr>
@@ -98,13 +106,14 @@ export default async function GamePage({ params }: PageProps<"/nba/game/[id]">) 
                 <td className="py-2">{fmtPts(p.total)}</td>
               </tr>
               <tr className="font-semibold">
-                <th scope="row" className="text-left py-2">Gap</th>
+                <th scope="row" className="text-left py-2">Gap, current</th>
                 <td className="py-2 text-accent" colSpan={2}>
                   {bg.gap !== null ? `${fmtPts(bg.gap)} pts` : "—"}
                   {pick && pick.side !== "none" && bg.pickTeam && (
                     <span className="text-ink font-normal">
                       {" "}
-                      · locked pick {bg.pickTeam} {fmtSpread(pick.line)} at {fmtPrice(pick.price)}
+                      · locked pick {bg.pickTeam} {fmtSpread(pick.line)} at {fmtPrice(pick.price)}, edge at lock{" "}
+                      {fmtPts(bg.lockedEdge)}
                     </span>
                   )}
                 </td>
@@ -164,7 +173,12 @@ export default async function GamePage({ params }: PageProps<"/nba/game/[id]">) 
       <SectionHeader n={3} title="Where the margin comes from" />
       {p ? (
         <>
-          <MarginChart contributions={p.contributions} away={game.away} home={game.home} pendingKeys={["injuries"]} />
+          <MarginChart
+            contributions={p.contributions}
+            away={game.away}
+            home={game.home}
+            pendingKeys={p.availability?.reportPulledAt ? [] : ["injuries"]}
+          />
           <div className="mt-3">
             <Note>
               Offense and defense are opponent-adjusted ratings per 100 possessions, shrunk toward last season early on
@@ -176,6 +190,62 @@ export default async function GamePage({ params }: PageProps<"/nba/game/[id]">) 
       ) : (
         <Note>Not projected yet.</Note>
       )}
+
+      <SectionHeader n={4} title="Availability" />
+      {p?.availability ? (
+        <AvailabilityTable
+          away={game.away}
+          home={game.home}
+          rows={p.availability}
+          source={p.availability.source}
+          pulledAt={p.availability.reportPulledAt}
+        />
+      ) : (
+        <Note>Projected before the availability model existed (model {p?.modelVersion ?? "n/a"}).</Note>
+      )}
+
+      <SectionHeader n={5} title="How they rate" />
+      {ratings ? (
+        <>
+          <RateGrid away={game.away} home={game.home} />
+          <div className="mt-3">
+            <Note>
+              Percentile vs the league: 100 = best (fastest, for pace). Small number underneath = the raw value. Adjusted ratings are this season, shrunk toward last season.
+              Four factors are raw, not opponent-adjusted
+              {(ffSeason(game.away) === "last" || ffSeason(game.home) === "last") &&
+                ", and use last season's numbers until a team has played 5 games"}
+              .
+            </Note>
+          </div>
+        </>
+      ) : (
+        <Note>No ratings yet.</Note>
+      )}
+
+      <SectionHeader n={6} title="Team ratings" />
+      {ratings ? (
+        <>
+          <RatingsTable away={game.away} home={game.home} ratings={ratings} />
+          <div className="mt-3">
+            <Note>
+              Points per 100 possessions, opponent-adjusted by ridge regression across the schedule. Positive net is
+              good. These are the ratings as of {formatUpdated(ratings.asOf).replace("UPDATED ", "")}, not frozen at tip.
+            </Note>
+          </div>
+        </>
+      ) : (
+        <Note>No ratings yet.</Note>
+      )}
+
+      <SectionHeader n={7} title="Line movement" />
+      <LineMovement
+        points={data.lineHistory(id)}
+        away={game.away}
+        home={game.home}
+        modelSpreadHome={p?.spreadHome ?? null}
+        tipUtc={game.tipUtc}
+        tipped={game.status !== "scheduled"}
+      />
     </article>
   );
 }
