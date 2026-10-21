@@ -3,26 +3,26 @@
   "games": [
     {
       "gameId": "20261022-CLE-PHI",
-      "generatedAt": "2026-10-21T04:04:29Z",
-      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "generatedAt": "2026-10-21T04:34:40Z",
+      "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
-      "awayPts": 114.9,
-      "homePts": 114.4,
-      "margin": -0.56,
+      "awayPts": 114.5,
+      "homePts": 113.9,
+      "margin": -0.57,
       "spreadHome": 0.6,
-      "total": 229.3,
-      "pace": 103.8,
-      "homeWinProb": 0.484,
+      "total": 228.4,
+      "pace": 104.1,
+      "homeWinProb": 0.4839,
       "fairMlHome": 107,
       "fairMlAway": -107,
       "contributions": [
         {
           "key": "offense",
-          "pts": -3.88
+          "pts": -3.82
         },
         {
           "key": "defense",
-          "pts": 1.91
+          "pts": 1.85
         },
         {
           "key": "pace",
@@ -129,30 +129,30 @@
     },
     {
       "gameId": "20261022-DEN-OKC",
-      "generatedAt": "2026-10-21T04:04:29Z",
-      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "generatedAt": "2026-10-21T04:34:40Z",
+      "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.0,
-      "homePts": 118.7,
-      "margin": 8.69,
-      "spreadHome": -8.7,
-      "total": 228.6,
-      "pace": 101.4,
-      "homeWinProb": 0.7321,
-      "fairMlHome": -273,
-      "fairMlAway": 273,
+      "awayPts": 108.9,
+      "homePts": 118.6,
+      "margin": 9.65,
+      "spreadHome": -9.7,
+      "total": 227.5,
+      "pace": 102.1,
+      "homeWinProb": 0.7541,
+      "fairMlHome": -307,
+      "fairMlAway": 307,
       "contributions": [
         {
           "key": "offense",
-          "pts": -2.1
+          "pts": -2.21
         },
         {
           "key": "defense",
-          "pts": 9.06
+          "pts": 10.11
         },
         {
           "key": "pace",
-          "pts": -0.12
+          "pts": -0.1
         },
         {
           "key": "home",
@@ -169,8 +169,8 @@
       ],
       "sample": {
         "awayGP": 0,
-        "homeGP": 0,
-        "priorWeight": 1.0
+        "homeGP": 1,
+        "priorWeight": 0.9546
       },
       "flags": [],
       "spots": {
