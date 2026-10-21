@@ -1,0 +1,1429 @@
+{
+  "etDate": "2026-10-28",
+  "games": [
+    {
+      "gameId": "20261028-CHA-DET",
+      "generatedAt": "2026-10-21T04:04:29Z",
+      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "modelVersion": "v2.0",
+      "awayPts": 106.4,
+      "homePts": 112.4,
+      "margin": 6.06,
+      "spreadHome": -6.1,
+      "total": 218.8,
+      "pace": 101.2,
+      "homeWinProb": 0.6669,
+      "fairMlHome": -200,
+      "fairMlAway": 200,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": -0.51
+        },
+        {
+          "key": "defense",
+          "pts": 3.34
+        },
+        {
+          "key": "pace",
+          "pts": -0.03
+        },
+        {
+          "key": "home",
+          "pts": 1.77
+        },
+        {
+          "key": "rest_travel",
+          "pts": -2.94
+        },
+        {
+          "key": "injuries",
+          "pts": 4.43
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 1,
+        "priorWeight": 0.9546
+      },
+      "flags": [
+        "b2b_home",
+        "3in4_home"
+      ],
+      "spots": {
+        "away": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 812.7,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 0,
+          "b2b": true,
+          "threeInFour": true,
+          "travelKm": 773.5,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "source": "espn",
+        "away": [
+          {
+            "player": "Kon Knueppel",
+            "team": "CHA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 31.5,
+            "value": 5.09,
+            "impactPts": 2.19
+          },
+          {
+            "player": "Coby White",
+            "team": "CHA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Calf Strain",
+            "matched": true,
+            "expMin": 25.0,
+            "value": 4.51,
+            "impactPts": 1.94
+          },
+          {
+            "player": "Grant Williams",
+            "team": "CHA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 19.8,
+            "value": 0.71,
+            "impactPts": 0.3
+          },
+          {
+            "player": "Kylan Boswell",
+            "team": "CHA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ],
+        "home": [
+          {
+            "player": "Taurean Prince",
+            "team": "DET",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Personal",
+            "matched": true,
+            "expMin": 23.6,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "gameId": "20261028-MIA-ATL",
+      "generatedAt": "2026-10-21T04:04:29Z",
+      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "modelVersion": "v2.0",
+      "awayPts": 118.5,
+      "homePts": 120.2,
+      "margin": 1.76,
+      "spreadHome": -1.8,
+      "total": 238.7,
+      "pace": 107.9,
+      "homeWinProb": 0.5499,
+      "fairMlHome": -122,
+      "fairMlAway": 122,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": -0.48
+        },
+        {
+          "key": "defense",
+          "pts": 0.51
+        },
+        {
+          "key": "pace",
+          "pts": 0.09
+        },
+        {
+          "key": "home",
+          "pts": 1.77
+        },
+        {
+          "key": "rest_travel",
+          "pts": -0.01
+        },
+        {
+          "key": "injuries",
+          "pts": -0.11
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": [],
+      "spots": {
+        "away": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 975.2,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 1128.2,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "source": "espn",
+        "away": [],
+        "home": [
+          {
+            "player": "Mouhamed Gueye",
+            "team": "ATL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot Fracture",
+            "matched": true,
+            "expMin": 15.3,
+            "value": 0.26,
+            "impactPts": 0.11
+          },
+          {
+            "player": "Henri Veesaar",
+            "team": "ATL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "gameId": "20261028-PHI-IND",
+      "generatedAt": "2026-10-21T04:04:29Z",
+      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "modelVersion": "v2.0",
+      "awayPts": 117.0,
+      "homePts": 108.8,
+      "margin": -8.19,
+      "spreadHome": 8.2,
+      "total": 225.9,
+      "pace": 104.7,
+      "homeWinProb": 0.2798,
+      "fairMlHome": 257,
+      "fairMlAway": -257,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": -2.25
+        },
+        {
+          "key": "defense",
+          "pts": -4.72
+        },
+        {
+          "key": "pace",
+          "pts": -0.12
+        },
+        {
+          "key": "home",
+          "pts": 1.77
+        },
+        {
+          "key": "rest_travel",
+          "pts": -1.03
+        },
+        {
+          "key": "injuries",
+          "pts": -1.85
+        }
+      ],
+      "sample": {
+        "awayGP": 1,
+        "homeGP": 0,
+        "priorWeight": 0.9546
+      },
+      "flags": [
+        "3in4_home"
+      ],
+      "spots": {
+        "away": {
+          "restDays": 2,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 938.1,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": true,
+          "travelKm": 391.8,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "source": "espn",
+        "away": [
+          {
+            "player": "Dominick Barlow",
+            "team": "PHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back",
+            "matched": true,
+            "expMin": 23.7,
+            "value": 0.84,
+            "impactPts": 0.36
+          },
+          {
+            "player": "Dean Wade",
+            "team": "PHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Sprain",
+            "matched": true,
+            "expMin": 22.4,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Tacko Fall",
+            "team": "PHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hip",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Ariel Hukporti",
+            "team": "PHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Achilles Ruptured",
+            "matched": true,
+            "expMin": 9.3,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ],
+        "home": [
+          {
+            "player": "T.J. McConnell",
+            "team": "IND",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 17.2,
+            "value": 4.53,
+            "impactPts": 1.95
+          },
+          {
+            "player": "Aaron Nesmith",
+            "team": "IND",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring Strain",
+            "matched": true,
+            "expMin": 29.6,
+            "value": 0.6,
+            "impactPts": 0.26
+          },
+          {
+            "player": "Johnny Furphy",
+            "team": "IND",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Surgery",
+            "matched": true,
+            "expMin": 18.3,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "gameId": "20261028-WAS-CLE",
+      "generatedAt": "2026-10-21T04:04:29Z",
+      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "modelVersion": "v2.0",
+      "awayPts": 110.4,
+      "homePts": 125.5,
+      "margin": 15.08,
+      "spreadHome": -15.1,
+      "total": 235.9,
+      "pace": 104.7,
+      "homeWinProb": 0.8586,
+      "fairMlHome": -607,
+      "fairMlAway": 607,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": 6.13
+        },
+        {
+          "key": "defense",
+          "pts": 5.87
+        },
+        {
+          "key": "pace",
+          "pts": 0.26
+        },
+        {
+          "key": "home",
+          "pts": 1.77
+        },
+        {
+          "key": "rest_travel",
+          "pts": 0.04
+        },
+        {
+          "key": "injuries",
+          "pts": 1.02
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": [],
+      "spots": {
+        "away": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 701.4,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 0.0,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "source": "espn",
+        "away": [
+          {
+            "player": "Tristan Vukcevic",
+            "team": "WAS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hip",
+            "matched": true,
+            "expMin": 13.7,
+            "value": 2.6,
+            "impactPts": 1.11
+          },
+          {
+            "player": "Jamir Watkins",
+            "team": "WAS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 21.5,
+            "value": 0.35,
+            "impactPts": 0.15
+          },
+          {
+            "player": "AJ Dybantsa",
+            "team": "WAS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Sprain",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ],
+        "home": [
+          {
+            "player": "Nae'Qwan Tomlin",
+            "team": "CLE",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back",
+            "matched": true,
+            "expMin": 15.7,
+            "value": 0.57,
+            "impactPts": 0.24
+          }
+        ]
+      }
+    },
+    {
+      "gameId": "20261028-ORL-TOR",
+      "generatedAt": "2026-10-21T04:04:29Z",
+      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "modelVersion": "v2.0",
+      "awayPts": 109.4,
+      "homePts": 111.1,
+      "margin": 1.72,
+      "spreadHome": -1.7,
+      "total": 220.5,
+      "pace": 102.4,
+      "homeWinProb": 0.5486,
+      "fairMlHome": -122,
+      "fairMlAway": 122,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": 0.43
+        },
+        {
+          "key": "defense",
+          "pts": 0.87
+        },
+        {
+          "key": "pace",
+          "pts": -0.01
+        },
+        {
+          "key": "home",
+          "pts": 1.77
+        },
+        {
+          "key": "rest_travel",
+          "pts": -0.04
+        },
+        {
+          "key": "injuries",
+          "pts": -1.31
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": [],
+      "spots": {
+        "away": {
+          "restDays": 2,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 550.5,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 2,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 1112.8,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "source": "espn",
+        "away": [
+          {
+            "player": "Anthony Black",
+            "team": "ORL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Sprain",
+            "matched": true,
+            "expMin": 29.9,
+            "value": 2.65,
+            "impactPts": 1.14
+          },
+          {
+            "player": "Jonathan Isaac",
+            "team": "ORL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 10.4,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Noah Penda",
+            "team": "ORL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 13.1,
+            "value": 0.01,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Izaiyah Nelson",
+            "team": "ORL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Surgery",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ],
+        "home": [
+          {
+            "player": "Brandon Ingram",
+            "team": "TOR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Achilles Surgery",
+            "matched": true,
+            "expMin": 33.8,
+            "value": 5.71,
+            "impactPts": 2.45
+          },
+          {
+            "player": "Nate Bittle",
+            "team": "TOR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "gameId": "20261028-DEN-NOP",
+      "generatedAt": "2026-10-21T04:04:29Z",
+      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "modelVersion": "v2.0",
+      "awayPts": 119.6,
+      "homePts": 116.7,
+      "margin": -2.89,
+      "spreadHome": 2.9,
+      "total": 236.3,
+      "pace": 102.6,
+      "homeWinProb": 0.4185,
+      "fairMlHome": 139,
+      "fairMlAway": -139,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": -5.73
+        },
+        {
+          "key": "defense",
+          "pts": 0.48
+        },
+        {
+          "key": "pace",
+          "pts": 0.01
+        },
+        {
+          "key": "home",
+          "pts": 1.77
+        },
+        {
+          "key": "rest_travel",
+          "pts": 0.23
+        },
+        {
+          "key": "injuries",
+          "pts": 0.35
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": [
+        "long_travel_away",
+        "long_travel_home"
+      ],
+      "spots": {
+        "away": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 1738.6,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 3,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 1738.6,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "source": "espn",
+        "away": [
+          {
+            "player": "Julian Strawther",
+            "team": "DEN",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Sprain",
+            "matched": true,
+            "expMin": 15.1,
+            "value": 0.81,
+            "impactPts": 0.35
+          }
+        ],
+        "home": []
+      }
+    },
+    {
+      "gameId": "20261028-GSW-MIN",
+      "generatedAt": "2026-10-21T04:04:29Z",
+      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "modelVersion": "v2.0",
+      "awayPts": 103.0,
+      "homePts": 115.0,
+      "margin": 12.02,
+      "spreadHome": -12.0,
+      "total": 217.9,
+      "pace": 103.4,
+      "homeWinProb": 0.8039,
+      "fairMlHome": -410,
+      "fairMlAway": 410,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": 1.19
+        },
+        {
+          "key": "defense",
+          "pts": 1.25
+        },
+        {
+          "key": "pace",
+          "pts": 0.02
+        },
+        {
+          "key": "home",
+          "pts": 1.77
+        },
+        {
+          "key": "rest_travel",
+          "pts": -0.94
+        },
+        {
+          "key": "injuries",
+          "pts": 8.73
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": [
+        "3in4_home"
+      ],
+      "spots": {
+        "away": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 1123.7,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": true,
+          "travelKm": 1012.8,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "source": "espn",
+        "away": [
+          {
+            "player": "Jimmy Butler III",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Surgery",
+            "matched": true,
+            "expMin": 31.2,
+            "value": 10.3,
+            "impactPts": 4.42
+          },
+          {
+            "player": "Kristaps Porzingis",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Undisclosed",
+            "matched": true,
+            "expMin": 24.1,
+            "value": 6.0,
+            "impactPts": 2.58
+          },
+          {
+            "player": "Brandin Podziemski",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back Soreness",
+            "matched": true,
+            "expMin": 28.5,
+            "value": 3.46,
+            "impactPts": 1.49
+          },
+          {
+            "player": "Moses Moody",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Surgery",
+            "matched": true,
+            "expMin": 25.7,
+            "value": 1.9,
+            "impactPts": 0.82
+          }
+        ],
+        "home": [
+          {
+            "player": "Donte DiVincenzo",
+            "team": "MIN",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Achilles Surgery",
+            "matched": true,
+            "expMin": 30.5,
+            "value": 1.35,
+            "impactPts": 0.58
+          }
+        ]
+      }
+    },
+    {
+      "gameId": "20261028-HOU-MIL",
+      "generatedAt": "2026-10-21T04:04:29Z",
+      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "modelVersion": "v2.0",
+      "awayPts": 113.4,
+      "homePts": 106.2,
+      "margin": -7.16,
+      "spreadHome": 7.2,
+      "total": 219.6,
+      "pace": 98.4,
+      "homeWinProb": 0.305,
+      "fairMlHome": 228,
+      "fairMlAway": -228,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": -3.79
+        },
+        {
+          "key": "defense",
+          "pts": -5.56
+        },
+        {
+          "key": "pace",
+          "pts": 0.32
+        },
+        {
+          "key": "home",
+          "pts": 1.77
+        },
+        {
+          "key": "rest_travel",
+          "pts": 0.1
+        },
+        {
+          "key": "injuries",
+          "pts": 0
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": [
+        "long_travel_away"
+      ],
+      "spots": {
+        "away": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 1618.8,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 0.0,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "source": "espn",
+        "away": [],
+        "home": []
+      }
+    },
+    {
+      "gameId": "20261028-NYK-CHI",
+      "generatedAt": "2026-10-21T04:04:29Z",
+      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "modelVersion": "v2.0",
+      "awayPts": 116.4,
+      "homePts": 111.2,
+      "margin": -5.22,
+      "spreadHome": 5.2,
+      "total": 227.7,
+      "pace": 103.4,
+      "homeWinProb": 0.3551,
+      "fairMlHome": 182,
+      "fairMlAway": -182,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": -3.24
+        },
+        {
+          "key": "defense",
+          "pts": -4.9
+        },
+        {
+          "key": "pace",
+          "pts": -0.02
+        },
+        {
+          "key": "home",
+          "pts": 1.77
+        },
+        {
+          "key": "rest_travel",
+          "pts": 2.93
+        },
+        {
+          "key": "injuries",
+          "pts": -1.76
+        }
+      ],
+      "sample": {
+        "awayGP": 1,
+        "homeGP": 0,
+        "priorWeight": 0.9546
+      },
+      "flags": [
+        "b2b_away",
+        "3in4_away"
+      ],
+      "spots": {
+        "away": {
+          "restDays": 0,
+          "b2b": true,
+          "threeInFour": true,
+          "travelKm": 1143.8,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 1365.3,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "source": "espn",
+        "away": [],
+        "home": [
+          {
+            "player": "Nic Claxton",
+            "team": "CHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 27.8,
+            "value": 4.11,
+            "impactPts": 1.76
+          }
+        ]
+      }
+    },
+    {
+      "gameId": "20261028-SAS-UTA",
+      "generatedAt": "2026-10-21T04:04:29Z",
+      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "modelVersion": "v2.0",
+      "awayPts": 121.4,
+      "homePts": 112.5,
+      "margin": -8.84,
+      "spreadHome": 8.8,
+      "total": 233.9,
+      "pace": 105.5,
+      "homeWinProb": 0.2645,
+      "fairMlHome": 278,
+      "fairMlAway": -278,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": -5.33
+        },
+        {
+          "key": "defense",
+          "pts": -9.78
+        },
+        {
+          "key": "pace",
+          "pts": -0.17
+        },
+        {
+          "key": "home",
+          "pts": 1.77
+        },
+        {
+          "key": "rest_travel",
+          "pts": 6.83
+        },
+        {
+          "key": "injuries",
+          "pts": -2.16
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": [
+        "b2b_away",
+        "long_travel_away",
+        "3in4_home",
+        "altitude"
+      ],
+      "spots": {
+        "away": {
+          "restDays": 0,
+          "b2b": true,
+          "threeInFour": false,
+          "travelKm": 1749.0,
+          "atAltitude": true
+        },
+        "home": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": true,
+          "travelKm": 0.0,
+          "atAltitude": true
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "source": "espn",
+        "away": [
+          {
+            "player": "Tobias Harris",
+            "team": "SAS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Calf Strain",
+            "matched": true,
+            "expMin": 27.8,
+            "value": 3.07,
+            "impactPts": 1.32
+          },
+          {
+            "player": "Jayden Quaintance",
+            "team": "SAS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Surgery",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ],
+        "home": [
+          {
+            "player": "Jusuf Nurkic",
+            "team": "UTA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot",
+            "matched": true,
+            "expMin": 26.4,
+            "value": 3.92,
+            "impactPts": 1.68
+          },
+          {
+            "player": "Blake Hinson",
+            "team": "UTA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring Strain",
+            "matched": true,
+            "expMin": 20.4,
+            "value": 3.2,
+            "impactPts": 1.37
+          },
+          {
+            "player": "Trey Alexander",
+            "team": "UTA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 12.3,
+            "value": 0.63,
+            "impactPts": 0.27
+          },
+          {
+            "player": "Tony Bradley",
+            "team": "UTA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Quadriceps",
+            "matched": true,
+            "expMin": 11.3,
+            "value": 0.38,
+            "impactPts": 0.16
+          }
+        ]
+      }
+    },
+    {
+      "gameId": "20261028-OKC-DAL",
+      "generatedAt": "2026-10-21T04:04:29Z",
+      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "modelVersion": "v2.0",
+      "awayPts": 117.9,
+      "homePts": 105.0,
+      "margin": -12.92,
+      "spreadHome": 12.9,
+      "total": 222.9,
+      "pace": 104.3,
+      "homeWinProb": 0.1787,
+      "fairMlHome": 459,
+      "fairMlAway": -459,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": -6.08
+        },
+        {
+          "key": "defense",
+          "pts": -7.02
+        },
+        {
+          "key": "pace",
+          "pts": -0.15
+        },
+        {
+          "key": "home",
+          "pts": 1.77
+        },
+        {
+          "key": "rest_travel",
+          "pts": 0.85
+        },
+        {
+          "key": "injuries",
+          "pts": -2.29
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": [
+        "3in4_away",
+        "long_travel_home"
+      ],
+      "spots": {
+        "away": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": true,
+          "travelKm": 307.1,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 1,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 1785.8,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "source": "espn",
+        "away": [
+          {
+            "player": "Thomas Sorber",
+            "team": "OKC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Surgery",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Nikola Topic",
+            "team": "OKC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back Surgery",
+            "matched": true,
+            "expMin": 16.1,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Otega Oweh",
+            "team": "OKC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Achilles Surgery",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ],
+        "home": [
+          {
+            "player": "Santi Aldama",
+            "team": "DAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 27.8,
+            "value": 4.25,
+            "impactPts": 1.83
+          },
+          {
+            "player": "Dereck Lively II",
+            "team": "DAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot Surgery",
+            "matched": true,
+            "expMin": 16.4,
+            "value": 1.07,
+            "impactPts": 0.46
+          },
+          {
+            "player": "Caleb Martin",
+            "team": "DAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Thumb Sprain",
+            "matched": true,
+            "expMin": 14.8,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Tarik Biberovic",
+            "team": "DAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Heel",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "gameId": "20261028-LAL-LAC",
+      "generatedAt": "2026-10-21T04:04:29Z",
+      "ratingsAsOf": "2026-10-21T04:04:29Z",
+      "modelVersion": "v2.0",
+      "awayPts": 110.6,
+      "homePts": 112.4,
+      "margin": 1.81,
+      "spreadHome": -1.8,
+      "total": 223.0,
+      "pace": 99.0,
+      "homeWinProb": 0.5512,
+      "fairMlHome": -123,
+      "fairMlAway": 123,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": -0.77
+        },
+        {
+          "key": "defense",
+          "pts": 0.09
+        },
+        {
+          "key": "pace",
+          "pts": -0.15
+        },
+        {
+          "key": "home",
+          "pts": 1.77
+        },
+        {
+          "key": "rest_travel",
+          "pts": 2.94
+        },
+        {
+          "key": "injuries",
+          "pts": -2.08
+        }
+      ],
+      "sample": {
+        "awayGP": 0,
+        "homeGP": 0,
+        "priorWeight": 1.0
+      },
+      "flags": [
+        "b2b_away",
+        "3in4_away",
+        "long_travel_home"
+      ],
+      "spots": {
+        "away": {
+          "restDays": 0,
+          "b2b": true,
+          "threeInFour": true,
+          "travelKm": 14.9,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 2,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 1908.4,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-21T00:43:36Z",
+        "source": "espn",
+        "away": [
+          {
+            "player": "Cameron Carr",
+            "team": "LAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Oblique Strain",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Adou Thiero",
+            "team": "LAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 6.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ],
+        "home": [
+          {
+            "player": "Jordan Miller",
+            "team": "LAC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Shoulder Surgery",
+            "matched": true,
+            "expMin": 22.0,
+            "value": 2.47,
+            "impactPts": 1.06
+          },
+          {
+            "player": "Max Strus",
+            "team": "LAC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot",
+            "matched": true,
+            "expMin": 24.0,
+            "value": 1.38,
+            "impactPts": 0.59
+          },
+          {
+            "player": "Yanic Konan Niederhauser",
+            "team": "LAC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot Surgery",
+            "matched": true,
+            "expMin": 10.6,
+            "value": 1.0,
+            "impactPts": 0.43
+          },
+          {
+            "player": "Bradley Beal",
+            "team": "LAC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Inflammation",
+            "matched": true,
+            "expMin": 20.2,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ]
+      }
+    }
+  ]
+}
