@@ -17,6 +17,7 @@ import sys
 STAGES = [
     "pull_schedule",
     "pull_results",
+    "pull_injuries",
     "build_ratings",
     "project_games",
     "pull_odds",
@@ -40,6 +41,7 @@ def main(argv: list[str] | None = None) -> None:
     r.add_argument("--stage", required=True, help="stage name, comma list, or 'all'")
     sub.add_parser("auto")
     sub.add_parser("gate")
+    sub.add_parser("busy", help="exit 0 if there is pipeline work in the next few hours, else 1")
     b = sub.add_parser("backfill")
     b.add_argument("--seasons", nargs="+", type=int, required=True, help="ESPN season years, e.g. 2026 = 2025-26")
     sub.add_parser("fit")
@@ -55,6 +57,11 @@ def main(argv: list[str] | None = None) -> None:
     elif args.cmd == "gate":
         from .gate import due
         print(" ".join(due()) or "(nothing due)")
+    elif args.cmd == "busy":
+        from .gate import busy
+        b = busy()
+        print("busy" if b else "idle")
+        sys.exit(0 if b else 1)
     elif args.cmd == "backfill":
         from .stages.backfill import run as backfill
         backfill(args.seasons)
