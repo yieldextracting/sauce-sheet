@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261027-BKN-BOS",
-      "generatedAt": "2026-10-21T18:38:35Z",
+      "generatedAt": "2026-10-21T19:58:59Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 100.6,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T18:38:35Z",
+        "reportPulledAt": "2026-10-21T19:58:59Z",
         "source": "espn",
         "away": [
           {
@@ -99,7 +99,7 @@
     },
     {
       "gameId": "20261027-DET-NYK",
-      "generatedAt": "2026-10-21T18:38:35Z",
+      "generatedAt": "2026-10-21T19:58:59Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 110.8,
@@ -160,7 +160,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T18:38:35Z",
+        "reportPulledAt": "2026-10-21T19:58:59Z",
         "source": "espn",
         "away": [],
         "home": []
@@ -168,7 +168,7 @@
     },
     {
       "gameId": "20261027-SAC-SAS",
-      "generatedAt": "2026-10-21T18:38:35Z",
+      "generatedAt": "2026-10-21T19:58:59Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 104.7,
@@ -231,7 +231,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T18:38:35Z",
+        "reportPulledAt": "2026-10-21T19:58:59Z",
         "source": "espn",
         "away": [
           {
@@ -285,18 +285,18 @@
     },
     {
       "gameId": "20261027-POR-LAL",
-      "generatedAt": "2026-10-21T18:38:35Z",
+      "generatedAt": "2026-10-21T19:58:59Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 109.7,
-      "homePts": 115.6,
-      "margin": 5.87,
-      "spreadHome": -5.9,
-      "total": 225.4,
+      "homePts": 113.7,
+      "margin": 3.94,
+      "spreadHome": -3.9,
+      "total": 223.4,
       "pace": 103.2,
-      "homeWinProb": 0.6621,
-      "fairMlHome": -196,
-      "fairMlAway": 196,
+      "homeWinProb": 0.6106,
+      "fairMlHome": -157,
+      "fairMlAway": 157,
       "contributions": [
         {
           "key": "offense",
@@ -320,7 +320,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.67
+          "pts": 0.74
         }
       ],
       "sample": {
@@ -346,7 +346,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T18:38:35Z",
+        "reportPulledAt": "2026-10-21T19:58:59Z",
         "source": "espn",
         "away": [
           {
@@ -384,6 +384,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Collin Sexton",
+            "team": "LAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Calf",
+            "matched": true,
+            "expMin": 23.7,
+            "value": 4.5,
+            "impactPts": 1.93
+          },
           {
             "player": "Cameron Carr",
             "team": "LAL",
