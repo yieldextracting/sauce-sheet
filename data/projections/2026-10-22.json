@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261022-CLE-PHI",
-      "generatedAt": "2026-10-22T22:22:36Z",
+      "generatedAt": "2026-10-22T22:32:40Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 113.4,
+      "awayPts": 114.9,
       "homePts": 114.4,
-      "margin": 1.0,
-      "spreadHome": -1.0,
-      "total": 227.7,
+      "margin": -0.57,
+      "spreadHome": 0.6,
+      "total": 229.3,
       "pace": 104.8,
-      "homeWinProb": 0.5285,
-      "fairMlHome": -112,
-      "fairMlAway": 112,
+      "homeWinProb": 0.4839,
+      "fairMlHome": 107,
+      "fairMlAway": -107,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.45
+          "pts": -0.12
         }
       ],
       "sample": {
@@ -64,20 +64,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T22:22:36Z",
+        "reportPulledAt": "2026-10-22T22:32:40Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Jarrett Allen",
-            "team": "CLE",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 27.2,
-            "value": 7.3,
-            "impactPts": 1.57
-          },
           {
             "player": "Nae'Qwan Tomlin",
             "team": "CLE",
@@ -151,7 +140,7 @@
     },
     {
       "gameId": "20261022-DEN-OKC",
-      "generatedAt": "2026-10-22T22:22:36Z",
+      "generatedAt": "2026-10-22T22:32:40Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 109.3,
@@ -212,7 +201,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T22:22:36Z",
+        "reportPulledAt": "2026-10-22T22:32:40Z",
         "source": "espn",
         "away": [
           {
