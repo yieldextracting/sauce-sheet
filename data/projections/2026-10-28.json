@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261028-CHA-DET",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.1,
+      "awayPts": 110.5,
       "homePts": 112.4,
-      "margin": 6.33,
-      "spreadHome": -6.3,
-      "total": 218.5,
+      "margin": 1.9,
+      "spreadHome": -1.9,
+      "total": 222.9,
       "pace": 102.5,
-      "homeWinProb": 0.6738,
-      "fairMlHome": -207,
-      "fairMlAway": 207,
+      "homeWinProb": 0.5537,
+      "fairMlHome": -124,
+      "fairMlAway": 124,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.43
+          "pts": 0.0
         }
       ],
       "sample": {
@@ -67,42 +67,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Kon Knueppel",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring",
-            "matched": true,
-            "expMin": 31.5,
-            "value": 5.09,
-            "impactPts": 2.19
-          },
-          {
-            "player": "Coby White",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Calf Strain",
-            "matched": true,
-            "expMin": 25.0,
-            "value": 4.51,
-            "impactPts": 1.94
-          },
-          {
-            "player": "Grant Williams",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring",
-            "matched": true,
-            "expMin": 19.8,
-            "value": 0.71,
-            "impactPts": 0.3
-          },
           {
             "player": "Kylan Boswell",
             "team": "CHA",
@@ -120,7 +87,7 @@
     },
     {
       "gameId": "20261028-MIA-ATL",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 118.1,
@@ -181,7 +148,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -212,18 +179,18 @@
     },
     {
       "gameId": "20261028-PHI-IND",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 117.1,
-      "homePts": 109.5,
-      "margin": -7.62,
-      "spreadHome": 7.6,
-      "total": 226.6,
+      "homePts": 111.7,
+      "margin": -5.41,
+      "spreadHome": 5.4,
+      "total": 228.8,
       "pace": 105.6,
-      "homeWinProb": 0.2936,
-      "fairMlHome": 241,
-      "fairMlAway": -241,
+      "homeWinProb": 0.3499,
+      "fairMlHome": 186,
+      "fairMlAway": -186,
       "contributions": [
         {
           "key": "offense",
@@ -247,7 +214,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.85
+          "pts": 0.36
         }
       ],
       "sample": {
@@ -275,7 +242,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [
           {
@@ -314,28 +281,6 @@
         ],
         "home": [
           {
-            "player": "T.J. McConnell",
-            "team": "IND",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring",
-            "matched": true,
-            "expMin": 17.2,
-            "value": 4.53,
-            "impactPts": 1.95
-          },
-          {
-            "player": "Aaron Nesmith",
-            "team": "IND",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring Strain",
-            "matched": true,
-            "expMin": 29.6,
-            "value": 0.6,
-            "impactPts": 0.26
-          },
-          {
             "player": "Johnny Furphy",
             "team": "IND",
             "status": "out",
@@ -351,7 +296,7 @@
     },
     {
       "gameId": "20261028-WAS-CLE",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 111.5,
@@ -412,7 +357,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [
           {
@@ -436,17 +381,6 @@
             "expMin": 21.5,
             "value": 0.35,
             "impactPts": 0.15
-          },
-          {
-            "player": "AJ Dybantsa",
-            "team": "WAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
           }
         ],
         "home": [
@@ -477,18 +411,18 @@
     },
     {
       "gameId": "20261028-ORL-TOR",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.7,
+      "awayPts": 109.8,
       "homePts": 113.7,
-      "margin": 5.04,
-      "spreadHome": -5.0,
-      "total": 222.4,
+      "margin": 3.9,
+      "spreadHome": -3.9,
+      "total": 223.5,
       "pace": 104.6,
-      "homeWinProb": 0.6403,
-      "fairMlHome": -178,
-      "fairMlAway": 178,
+      "homeWinProb": 0.6095,
+      "fairMlHome": -156,
+      "fairMlAway": 156,
       "contributions": [
         {
           "key": "offense",
@@ -512,7 +446,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.31
+          "pts": -2.45
         }
       ],
       "sample": {
@@ -538,31 +472,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Anthony Black",
-            "team": "ORL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 29.9,
-            "value": 2.65,
-            "impactPts": 1.14
-          },
-          {
-            "player": "Jonathan Isaac",
-            "team": "ORL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 10.4,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
           {
             "player": "Noah Penda",
             "team": "ORL",
@@ -614,7 +526,7 @@
     },
     {
       "gameId": "20261028-DEN-NOP",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 120.4,
@@ -678,7 +590,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [
           {
@@ -698,18 +610,18 @@
     },
     {
       "gameId": "20261028-GSW-MIN",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 100.4,
+      "awayPts": 103.1,
       "homePts": 117.1,
-      "margin": 16.7,
-      "spreadHome": -16.7,
-      "total": 217.4,
+      "margin": 13.92,
+      "spreadHome": -13.9,
+      "total": 220.2,
       "pace": 104.5,
-      "homeWinProb": 0.8828,
-      "fairMlHome": -753,
-      "fairMlAway": 753,
+      "homeWinProb": 0.8392,
+      "fairMlHome": -522,
+      "fairMlAway": 522,
       "contributions": [
         {
           "key": "offense",
@@ -733,7 +645,7 @@
         },
         {
           "key": "injuries",
-          "pts": 9.68
+          "pts": 6.9
         }
       ],
       "sample": {
@@ -761,7 +673,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [
           {
@@ -785,28 +697,6 @@
             "expMin": 20.9,
             "value": 5.23,
             "impactPts": 2.24
-          },
-          {
-            "player": "Brandin Podziemski",
-            "team": "GSW",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Back Soreness",
-            "matched": true,
-            "expMin": 28.5,
-            "value": 3.46,
-            "impactPts": 1.49
-          },
-          {
-            "player": "Charles Bassey",
-            "team": "GSW",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 11.8,
-            "value": 3.0,
-            "impactPts": 1.29
           },
           {
             "player": "Moses Moody",
@@ -837,18 +727,18 @@
     },
     {
       "gameId": "20261028-HOU-MIL",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 114.9,
+      "awayPts": 115.4,
       "homePts": 106.4,
-      "margin": -8.43,
-      "spreadHome": 8.4,
-      "total": 221.3,
+      "margin": -9.02,
+      "spreadHome": 9.0,
+      "total": 221.9,
       "pace": 99.4,
-      "homeWinProb": 0.2742,
-      "fairMlHome": 265,
-      "fairMlAway": -265,
+      "homeWinProb": 0.2604,
+      "fairMlHome": 284,
+      "fairMlAway": -284,
       "contributions": [
         {
           "key": "offense",
@@ -872,7 +762,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.59
+          "pts": 0
         }
       ],
       "sample": {
@@ -900,27 +790,15 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Steven Adams",
-            "team": "HOU",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Calf Soreness",
-            "matched": true,
-            "expMin": 19.9,
-            "value": 1.38,
-            "impactPts": 0.59
-          }
-        ],
+        "away": [],
         "home": []
       }
     },
     {
       "gameId": "20261028-NYK-CHI",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 117.7,
@@ -984,7 +862,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -998,46 +876,24 @@
             "expMin": 27.8,
             "value": 4.11,
             "impactPts": 1.76
-          },
-          {
-            "player": "Dailyn Swain",
-            "team": "CHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Jordan Hawkins",
-            "team": "CHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 13.5,
-            "value": 0.0,
-            "impactPts": 0.0
           }
         ]
       }
     },
     {
       "gameId": "20261028-SAS-UTA",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 122.0,
-      "homePts": 112.9,
-      "margin": -9.11,
-      "spreadHome": 9.1,
-      "total": 235.0,
+      "homePts": 113.4,
+      "margin": -8.68,
+      "spreadHome": 8.7,
+      "total": 235.4,
       "pace": 106.6,
-      "homeWinProb": 0.2582,
-      "fairMlHome": 287,
-      "fairMlAway": -287,
+      "homeWinProb": 0.2682,
+      "fairMlHome": 273,
+      "fairMlAway": -273,
       "contributions": [
         {
           "key": "offense",
@@ -1061,7 +917,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.11
+          "pts": -1.68
         }
       ],
       "sample": {
@@ -1092,7 +948,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [
           {
@@ -1118,46 +974,24 @@
             "expMin": 26.4,
             "value": 3.92,
             "impactPts": 1.68
-          },
-          {
-            "player": "Trey Alexander",
-            "team": "UTA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 12.3,
-            "value": 0.63,
-            "impactPts": 0.27
-          },
-          {
-            "player": "Tony Bradley",
-            "team": "UTA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Quadriceps",
-            "matched": true,
-            "expMin": 11.3,
-            "value": 0.38,
-            "impactPts": 0.16
           }
         ]
       }
     },
     {
       "gameId": "20261028-OKC-DAL",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 119.2,
-      "homePts": 104.4,
-      "margin": -14.76,
-      "spreadHome": 14.8,
-      "total": 223.6,
+      "homePts": 106.8,
+      "margin": -12.38,
+      "spreadHome": 12.4,
+      "total": 226.0,
       "pace": 105.5,
-      "homeWinProb": 0.1466,
-      "fairMlHome": 582,
-      "fairMlAway": -582,
+      "homeWinProb": 0.189,
+      "fairMlHome": 429,
+      "fairMlAway": -429,
       "contributions": [
         {
           "key": "offense",
@@ -1181,7 +1015,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.38
+          "pts": 0.0
         }
       ],
       "sample": {
@@ -1210,7 +1044,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [
           {
@@ -1247,79 +1081,23 @@
             "impactPts": 0.0
           }
         ],
-        "home": [
-          {
-            "player": "Santi Aldama",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 27.8,
-            "value": 4.25,
-            "impactPts": 1.83
-          },
-          {
-            "player": "Dereck Lively II",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Foot Surgery",
-            "matched": true,
-            "expMin": 16.4,
-            "value": 1.07,
-            "impactPts": 0.46
-          },
-          {
-            "player": "Jett Howard",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Calf",
-            "matched": true,
-            "expMin": 12.7,
-            "value": 0.21,
-            "impactPts": 0.09
-          },
-          {
-            "player": "Caleb Martin",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Thumb Sprain",
-            "matched": true,
-            "expMin": 14.8,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Tarik Biberovic",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Heel",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          }
-        ]
+        "home": []
       }
     },
     {
       "gameId": "20261028-LAL-LAC",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.7,
+      "awayPts": 110.7,
       "homePts": 112.2,
-      "margin": 3.47,
-      "spreadHome": -3.5,
-      "total": 220.9,
+      "margin": 1.54,
+      "spreadHome": -1.5,
+      "total": 222.8,
       "pace": 100.2,
-      "homeWinProb": 0.5975,
-      "fairMlHome": -148,
-      "fairMlAway": 148,
+      "homeWinProb": 0.5436,
+      "fairMlHome": -119,
+      "fairMlAway": 119,
       "contributions": [
         {
           "key": "offense",
@@ -1343,7 +1121,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.15
+          "pts": -2.08
         }
       ],
       "sample": {
@@ -1373,43 +1151,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Collin Sexton",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Calf",
-            "matched": true,
-            "expMin": 23.7,
-            "value": 4.5,
-            "impactPts": 1.93
-          },
-          {
-            "player": "Adou Thiero",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 6.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Cameron Carr",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Oblique Strain",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          }
-        ],
+        "away": [],
         "home": [
           {
             "player": "Jordan Miller",

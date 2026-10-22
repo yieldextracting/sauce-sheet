@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261027-BKN-BOS",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 100.9,
@@ -67,21 +67,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Tyler Bilodeau",
-            "team": "BKN",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Shoulder",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          }
-        ],
+        "away": [],
         "home": [
           {
             "player": "Devin Carter",
@@ -99,7 +87,7 @@
     },
     {
       "gameId": "20261027-DET-NYK",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 111.2,
@@ -160,7 +148,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [],
         "home": []
@@ -168,18 +156,18 @@
     },
     {
       "gameId": "20261027-SAC-SAS",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 103.1,
+      "awayPts": 104.1,
       "homePts": 122.9,
-      "margin": 19.73,
-      "spreadHome": -19.7,
-      "total": 226.0,
+      "margin": 18.74,
+      "spreadHome": -18.7,
+      "total": 227.0,
       "pace": 104.6,
-      "homeWinProb": 0.92,
-      "fairMlHome": -1150,
-      "fairMlAway": 1150,
+      "homeWinProb": 0.909,
+      "fairMlHome": -999,
+      "fairMlAway": 999,
       "contributions": [
         {
           "key": "offense",
@@ -203,7 +191,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.93
+          "pts": 1.94
         }
       ],
       "sample": {
@@ -231,7 +219,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [
           {
@@ -244,17 +232,6 @@
             "expMin": 26.6,
             "value": 3.12,
             "impactPts": 1.34
-          },
-          {
-            "player": "Malik Monk",
-            "team": "SAC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Soreness",
-            "matched": true,
-            "expMin": 22.0,
-            "value": 2.31,
-            "impactPts": 0.99
           },
           {
             "player": "Dylan Cardwell",
@@ -296,18 +273,18 @@
     },
     {
       "gameId": "20261027-POR-LAL",
-      "generatedAt": "2026-10-22T05:02:45Z",
+      "generatedAt": "2026-10-22T15:40:28Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.7,
-      "homePts": 112.6,
-      "margin": 1.9,
-      "spreadHome": -1.9,
-      "total": 223.3,
+      "awayPts": 111.5,
+      "homePts": 114.5,
+      "margin": 3.08,
+      "spreadHome": -3.1,
+      "total": 226.0,
       "pace": 103.7,
-      "homeWinProb": 0.5537,
-      "fairMlHome": -124,
-      "fairMlAway": 124,
+      "homeWinProb": 0.5867,
+      "fairMlHome": -142,
+      "fairMlAway": 142,
       "contributions": [
         {
           "key": "offense",
@@ -331,7 +308,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.74
+          "pts": 1.92
         }
       ],
       "sample": {
@@ -357,7 +334,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T02:01:16Z",
+        "reportPulledAt": "2026-10-22T15:40:28Z",
         "source": "espn",
         "away": [
           {
@@ -370,65 +347,9 @@
             "expMin": 29.4,
             "value": 4.47,
             "impactPts": 1.92
-          },
-          {
-            "player": "Branden Carlson",
-            "team": "POR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Concussion",
-            "matched": true,
-            "expMin": 11.7,
-            "value": 1.74,
-            "impactPts": 0.75
-          },
-          {
-            "player": "Chris Youngblood",
-            "team": "POR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Soreness",
-            "matched": true,
-            "expMin": 5.8,
-            "value": 0.0,
-            "impactPts": 0.0
           }
         ],
-        "home": [
-          {
-            "player": "Collin Sexton",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Calf",
-            "matched": true,
-            "expMin": 23.7,
-            "value": 4.5,
-            "impactPts": 1.93
-          },
-          {
-            "player": "Adou Thiero",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 6.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Cameron Carr",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Oblique Strain",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          }
-        ]
+        "home": []
       }
     }
   ]
