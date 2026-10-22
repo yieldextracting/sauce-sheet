@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T00:30:50Z",
+  "generatedAt": "2026-10-22T01:51:13Z",
   "grades": [
     {
       "source": "model",
@@ -182,14 +182,14 @@
       "line": 4.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "loss",
+      "profitU": -1.0,
       "edge": 6.7,
       "closingLine": 4.5,
       "clvPts": 0.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 0,
-      "finalScore": null
+      "finalScore": "116-128"
     },
     {
       "source": "model",
@@ -309,51 +309,51 @@
   "summary": {
     "all": {
       "w": 2,
-      "l": 1,
+      "l": 2,
       "p": 0,
-      "pending": 13,
-      "units": 0.818,
-      "risked": 3.0,
-      "roi": 0.2727,
-      "clvPtsAvg": 1.0,
-      "beatClosePct": 0.3333,
-      "clvN": 3
+      "pending": 12,
+      "units": -0.182,
+      "risked": 4.0,
+      "roi": -0.0454,
+      "clvPtsAvg": 0.75,
+      "beatClosePct": 0.25,
+      "clvN": 4
     },
     "edge1.5": {
       "w": 2,
-      "l": 1,
+      "l": 2,
       "p": 0,
-      "pending": 12,
-      "units": 0.818,
-      "risked": 3.0,
-      "roi": 0.2727,
-      "clvPtsAvg": 1.0,
-      "beatClosePct": 0.3333,
-      "clvN": 3
+      "pending": 11,
+      "units": -0.182,
+      "risked": 4.0,
+      "roi": -0.0454,
+      "clvPtsAvg": 0.75,
+      "beatClosePct": 0.25,
+      "clvN": 4
     },
     "edge3": {
       "w": 0,
-      "l": 0,
+      "l": 1,
       "p": 0,
-      "pending": 6,
-      "units": 0,
-      "risked": 0,
-      "roi": null,
-      "clvPtsAvg": null,
-      "beatClosePct": null,
-      "clvN": 0
+      "pending": 5,
+      "units": -1.0,
+      "risked": 1.0,
+      "roi": -1.0,
+      "clvPtsAvg": 0.0,
+      "beatClosePct": 0.0,
+      "clvN": 1
     },
     "edge5": {
       "w": 0,
-      "l": 0,
+      "l": 1,
       "p": 0,
-      "pending": 4,
-      "units": 0,
-      "risked": 0,
-      "roi": null,
-      "clvPtsAvg": null,
-      "beatClosePct": null,
-      "clvN": 0
+      "pending": 3,
+      "units": -1.0,
+      "risked": 1.0,
+      "roi": -1.0,
+      "clvPtsAvg": 0.0,
+      "beatClosePct": 0.0,
+      "clvN": 1
     }
   }
 }
