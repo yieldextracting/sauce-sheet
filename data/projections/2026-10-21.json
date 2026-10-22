@@ -931,18 +931,18 @@
     },
     {
       "gameId": "20261021-GSW-LAL",
-      "generatedAt": "2026-10-22T01:00:58Z",
+      "generatedAt": "2026-10-22T01:11:01Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
-      "awayPts": 98.7,
+      "awayPts": 101.0,
       "homePts": 113.0,
-      "margin": 14.26,
-      "spreadHome": -14.3,
-      "total": 211.7,
+      "margin": 12.0,
+      "spreadHome": -12.0,
+      "total": 213.9,
       "pace": 101.7,
-      "homeWinProb": 0.845,
-      "fairMlHome": -545,
-      "fairMlAway": 545,
+      "homeWinProb": 0.8035,
+      "fairMlHome": -409,
+      "fairMlAway": 409,
       "contributions": [
         {
           "key": "offense",
@@ -966,7 +966,7 @@
         },
         {
           "key": "injuries",
-          "pts": 10.93
+          "pts": 8.67
         }
       ],
       "sample": {
@@ -992,7 +992,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T01:00:58Z",
+        "reportPulledAt": "2026-10-22T01:11:01Z",
         "source": "espn",
         "away": [
           {
@@ -1016,17 +1016,6 @@
             "expMin": 24.1,
             "value": 6.0,
             "impactPts": 2.58
-          },
-          {
-            "player": "Stephen Curry",
-            "team": "GSW",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 31.0,
-            "value": 10.55,
-            "impactPts": 2.26
           },
           {
             "player": "Brandin Podziemski",
@@ -1101,18 +1090,18 @@
     },
     {
       "gameId": "20261021-PHX-POR",
-      "generatedAt": "2026-10-22T01:00:58Z",
+      "generatedAt": "2026-10-22T01:11:01Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 107.9,
-      "homePts": 105.6,
-      "margin": -2.32,
-      "spreadHome": 2.3,
-      "total": 213.5,
+      "homePts": 107.6,
+      "margin": -0.33,
+      "spreadHome": 0.3,
+      "total": 215.5,
       "pace": 102.8,
-      "homeWinProb": 0.4343,
-      "fairMlHome": 130,
-      "fairMlAway": -130,
+      "homeWinProb": 0.4905,
+      "fairMlHome": 104,
+      "fairMlAway": -104,
       "contributions": [
         {
           "key": "offense",
@@ -1136,7 +1125,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.42
+          "pts": -0.43
         }
       ],
       "sample": {
@@ -1162,7 +1151,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T01:00:58Z",
+        "reportPulledAt": "2026-10-22T01:11:01Z",
         "source": "espn",
         "away": [
           {
@@ -1189,17 +1178,6 @@
           }
         ],
         "home": [
-          {
-            "player": "Deni Avdija",
-            "team": "POR",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Ankle Not Specified",
-            "matched": true,
-            "expMin": 33.4,
-            "value": 9.28,
-            "impactPts": 1.99
-          },
           {
             "player": "Shaedon Sharpe",
             "team": "POR",
@@ -1249,7 +1227,7 @@
     },
     {
       "gameId": "20261021-SAC-LAC",
-      "generatedAt": "2026-10-22T01:00:58Z",
+      "generatedAt": "2026-10-22T01:11:01Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 104.8,
@@ -1310,7 +1288,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T01:00:58Z",
+        "reportPulledAt": "2026-10-22T01:11:01Z",
         "source": "espn",
         "away": [
           {
