@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T04:52:42Z",
+  "generatedAt": "2026-10-22T05:02:46Z",
   "grades": [
     {
       "source": "model",
@@ -239,14 +239,14 @@
       "line": -4.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "win",
+      "profitU": 0.9091,
       "edge": 5.5,
       "closingLine": -4.5,
       "clvPts": 0.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 39,
-      "finalScore": null
+      "finalScore": "96-121"
     },
     {
       "source": "model",
@@ -308,10 +308,22 @@
   ],
   "summary": {
     "all": {
+      "w": 9,
+      "l": 5,
+      "p": 0,
+      "pending": 2,
+      "units": 3.182,
+      "risked": 14.0,
+      "roi": 0.2273,
+      "clvPtsAvg": 0.571,
+      "beatClosePct": 0.2857,
+      "clvN": 14
+    },
+    "edge1.5": {
       "w": 8,
       "l": 5,
       "p": 0,
-      "pending": 3,
+      "pending": 2,
       "units": 2.273,
       "risked": 13.0,
       "roi": 0.1748,
@@ -319,41 +331,29 @@
       "beatClosePct": 0.3077,
       "clvN": 13
     },
-    "edge1.5": {
-      "w": 7,
-      "l": 5,
-      "p": 0,
-      "pending": 3,
-      "units": 1.364,
-      "risked": 12.0,
-      "roi": 0.1136,
-      "clvPtsAvg": 0.667,
-      "beatClosePct": 0.3333,
-      "clvN": 12
-    },
     "edge3": {
-      "w": 3,
+      "w": 4,
       "l": 2,
       "p": 0,
-      "pending": 1,
-      "units": 0.727,
-      "risked": 5.0,
-      "roi": 0.1455,
-      "clvPtsAvg": 1.2,
-      "beatClosePct": 0.4,
-      "clvN": 5
+      "pending": 0,
+      "units": 1.636,
+      "risked": 6.0,
+      "roi": 0.2727,
+      "clvPtsAvg": 1.0,
+      "beatClosePct": 0.3333,
+      "clvN": 6
     },
     "edge5": {
-      "w": 2,
+      "w": 3,
       "l": 1,
       "p": 0,
-      "pending": 1,
-      "units": 0.818,
-      "risked": 3.0,
-      "roi": 0.2727,
-      "clvPtsAvg": 2.0,
-      "beatClosePct": 0.6667,
-      "clvN": 3
+      "pending": 0,
+      "units": 1.727,
+      "risked": 4.0,
+      "roi": 0.4318,
+      "clvPtsAvg": 1.5,
+      "beatClosePct": 0.5,
+      "clvN": 4
     }
   }
 }
