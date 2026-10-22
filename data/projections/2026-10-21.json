@@ -931,7 +931,7 @@
     },
     {
       "gameId": "20261021-GSW-LAL",
-      "generatedAt": "2026-10-22T01:11:01Z",
+      "generatedAt": "2026-10-22T01:31:07Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 101.0,
@@ -992,7 +992,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T01:11:01Z",
+        "reportPulledAt": "2026-10-22T01:31:07Z",
         "source": "espn",
         "away": [
           {
@@ -1090,18 +1090,18 @@
     },
     {
       "gameId": "20261021-PHX-POR",
-      "generatedAt": "2026-10-22T01:11:01Z",
+      "generatedAt": "2026-10-22T01:31:07Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 107.9,
-      "homePts": 107.6,
-      "margin": -0.33,
-      "spreadHome": 0.3,
-      "total": 215.5,
+      "homePts": 108.2,
+      "margin": 0.33,
+      "spreadHome": -0.3,
+      "total": 216.2,
       "pace": 102.8,
-      "homeWinProb": 0.4905,
-      "fairMlHome": 104,
-      "fairMlAway": -104,
+      "homeWinProb": 0.5093,
+      "fairMlHome": -104,
+      "fairMlAway": 104,
       "contributions": [
         {
           "key": "offense",
@@ -1125,7 +1125,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.43
+          "pts": 0.23
         }
       ],
       "sample": {
@@ -1151,7 +1151,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T01:11:01Z",
+        "reportPulledAt": "2026-10-22T01:31:07Z",
         "source": "espn",
         "away": [
           {
@@ -1201,17 +1201,6 @@
             "impactPts": 0.75
           },
           {
-            "player": "Micah Potter",
-            "team": "POR",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 19.3,
-            "value": 3.07,
-            "impactPts": 0.66
-          },
-          {
             "player": "Chris Youngblood",
             "team": "POR",
             "status": "out",
@@ -1227,7 +1216,7 @@
     },
     {
       "gameId": "20261021-SAC-LAC",
-      "generatedAt": "2026-10-22T01:11:01Z",
+      "generatedAt": "2026-10-22T01:31:07Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 104.8,
@@ -1288,7 +1277,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T01:11:01Z",
+        "reportPulledAt": "2026-10-22T01:31:07Z",
         "source": "espn",
         "away": [
           {
