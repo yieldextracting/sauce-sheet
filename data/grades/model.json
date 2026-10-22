@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T01:51:13Z",
+  "generatedAt": "2026-10-22T02:01:16Z",
   "grades": [
     {
       "source": "model",
@@ -68,14 +68,14 @@
       "line": 2.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "win",
+      "profitU": 0.9091,
       "edge": 1.9,
       "closingLine": 2.5,
       "clvPts": 0.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 0,
-      "finalScore": null
+      "finalScore": "132-125"
     },
     {
       "source": "model",
@@ -147,10 +147,10 @@
       "result": "pending",
       "profitU": 0.0,
       "edge": 2.2,
-      "closingLine": null,
-      "clvPts": null,
+      "closingLine": 6.5,
+      "clvPts": -1.0,
       "clvProb": null,
-      "closeMinutesBeforeTip": null,
+      "closeMinutesBeforeTip": 9,
       "finalScore": null
     },
     {
@@ -223,10 +223,10 @@
       "result": "pending",
       "profitU": 0.0,
       "edge": 3.4,
-      "closingLine": null,
-      "clvPts": null,
+      "closingLine": 3.5,
+      "clvPts": 0.0,
       "clvProb": null,
-      "closeMinutesBeforeTip": null,
+      "closeMinutesBeforeTip": 9,
       "finalScore": null
     },
     {
@@ -308,28 +308,28 @@
   ],
   "summary": {
     "all": {
-      "w": 2,
-      "l": 2,
-      "p": 0,
-      "pending": 12,
-      "units": -0.182,
-      "risked": 4.0,
-      "roi": -0.0454,
-      "clvPtsAvg": 0.75,
-      "beatClosePct": 0.25,
-      "clvN": 4
-    },
-    "edge1.5": {
-      "w": 2,
+      "w": 3,
       "l": 2,
       "p": 0,
       "pending": 11,
-      "units": -0.182,
-      "risked": 4.0,
-      "roi": -0.0454,
-      "clvPtsAvg": 0.75,
-      "beatClosePct": 0.25,
-      "clvN": 4
+      "units": 0.727,
+      "risked": 5.0,
+      "roi": 0.1455,
+      "clvPtsAvg": 0.6,
+      "beatClosePct": 0.2,
+      "clvN": 5
+    },
+    "edge1.5": {
+      "w": 3,
+      "l": 2,
+      "p": 0,
+      "pending": 10,
+      "units": 0.727,
+      "risked": 5.0,
+      "roi": 0.1455,
+      "clvPtsAvg": 0.6,
+      "beatClosePct": 0.2,
+      "clvN": 5
     },
     "edge3": {
       "w": 0,
