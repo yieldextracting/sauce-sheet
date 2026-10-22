@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261024-MIA-CHA",
-      "generatedAt": "2026-10-22T21:32:21Z",
+      "generatedAt": "2026-10-22T22:22:36Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 113.3,
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T21:32:20Z",
+        "reportPulledAt": "2026-10-22T22:22:36Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -122,7 +122,7 @@
     },
     {
       "gameId": "20261024-BKN-CLE",
-      "generatedAt": "2026-10-22T21:32:21Z",
+      "generatedAt": "2026-10-22T22:22:36Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 105.9,
@@ -183,7 +183,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T21:32:20Z",
+        "reportPulledAt": "2026-10-22T22:22:36Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -214,7 +214,7 @@
     },
     {
       "gameId": "20261024-MIL-PHI",
-      "generatedAt": "2026-10-22T21:32:21Z",
+      "generatedAt": "2026-10-22T22:22:36Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 106.6,
@@ -278,7 +278,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T21:32:20Z",
+        "reportPulledAt": "2026-10-22T22:22:36Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -320,18 +320,18 @@
     },
     {
       "gameId": "20261024-SAS-DAL",
-      "generatedAt": "2026-10-22T21:32:21Z",
+      "generatedAt": "2026-10-22T22:22:36Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 120.6,
+      "awayPts": 119.3,
       "homePts": 108.3,
-      "margin": -12.37,
-      "spreadHome": 12.4,
-      "total": 228.9,
+      "margin": -11.05,
+      "spreadHome": 11.1,
+      "total": 227.6,
       "pace": 106.2,
-      "homeWinProb": 0.1891,
-      "fairMlHome": 429,
-      "fairMlAway": -429,
+      "homeWinProb": 0.2156,
+      "fairMlHome": 364,
+      "fairMlAway": -364,
       "contributions": [
         {
           "key": "offense",
@@ -355,7 +355,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.29
+          "pts": -0.97
         }
       ],
       "sample": {
@@ -385,9 +385,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T21:32:20Z",
+        "reportPulledAt": "2026-10-22T22:22:36Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Tobias Harris",
+            "team": "SAS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Calf Strain",
+            "matched": true,
+            "expMin": 27.8,
+            "value": 3.07,
+            "impactPts": 1.32
+          },
           {
             "player": "Jayden Quaintance",
             "team": "SAS",
@@ -450,7 +461,7 @@
     },
     {
       "gameId": "20261024-WAS-CHI",
-      "generatedAt": "2026-10-22T21:32:21Z",
+      "generatedAt": "2026-10-22T22:22:36Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 117.5,
@@ -516,7 +527,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T21:32:20Z",
+        "reportPulledAt": "2026-10-22T22:22:36Z",
         "source": "espn",
         "away": [
           {
@@ -570,7 +581,7 @@
     },
     {
       "gameId": "20261024-HOU-ATL",
-      "generatedAt": "2026-10-22T21:32:21Z",
+      "generatedAt": "2026-10-22T22:22:36Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 114.6,
@@ -636,7 +647,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T21:32:20Z",
+        "reportPulledAt": "2026-10-22T22:22:36Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -667,7 +678,7 @@
     },
     {
       "gameId": "20261024-NOP-DEN",
-      "generatedAt": "2026-10-22T21:32:21Z",
+      "generatedAt": "2026-10-22T22:22:36Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 110.6,
@@ -732,7 +743,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T21:32:20Z",
+        "reportPulledAt": "2026-10-22T22:22:36Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -752,7 +763,7 @@
     },
     {
       "gameId": "20261024-GSW-PHX",
-      "generatedAt": "2026-10-22T21:32:21Z",
+      "generatedAt": "2026-10-22T22:22:36Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 100.4,
@@ -817,7 +828,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T21:32:20Z",
+        "reportPulledAt": "2026-10-22T22:22:36Z",
         "source": "espn",
         "away": [
           {

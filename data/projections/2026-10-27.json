@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261027-BKN-BOS",
-      "generatedAt": "2026-10-22T21:32:21Z",
+      "generatedAt": "2026-10-22T22:22:36Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 100.9,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T21:32:20Z",
+        "reportPulledAt": "2026-10-22T22:22:36Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -87,7 +87,7 @@
     },
     {
       "gameId": "20261027-DET-NYK",
-      "generatedAt": "2026-10-22T21:32:21Z",
+      "generatedAt": "2026-10-22T22:22:36Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 111.2,
@@ -148,7 +148,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T21:32:20Z",
+        "reportPulledAt": "2026-10-22T22:22:36Z",
         "source": "espn",
         "away": [],
         "home": []
@@ -156,18 +156,18 @@
     },
     {
       "gameId": "20261027-SAC-SAS",
-      "generatedAt": "2026-10-22T21:32:21Z",
+      "generatedAt": "2026-10-22T22:22:36Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 104.1,
-      "homePts": 122.9,
-      "margin": 18.74,
-      "spreadHome": -18.7,
-      "total": 227.0,
+      "homePts": 121.5,
+      "margin": 17.42,
+      "spreadHome": -17.4,
+      "total": 225.7,
       "pace": 104.6,
-      "homeWinProb": 0.909,
-      "fairMlHome": -999,
-      "fairMlAway": 999,
+      "homeWinProb": 0.8926,
+      "fairMlHome": -831,
+      "fairMlAway": 831,
       "contributions": [
         {
           "key": "offense",
@@ -191,7 +191,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.94
+          "pts": 0.62
         }
       ],
       "sample": {
@@ -219,7 +219,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T21:32:20Z",
+        "reportPulledAt": "2026-10-22T22:22:36Z",
         "source": "espn",
         "away": [
           {
@@ -258,6 +258,17 @@
         ],
         "home": [
           {
+            "player": "Tobias Harris",
+            "team": "SAS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Calf Strain",
+            "matched": true,
+            "expMin": 27.8,
+            "value": 3.07,
+            "impactPts": 1.32
+          },
+          {
             "player": "Jayden Quaintance",
             "team": "SAS",
             "status": "out",
@@ -273,7 +284,7 @@
     },
     {
       "gameId": "20261027-POR-LAL",
-      "generatedAt": "2026-10-22T21:32:21Z",
+      "generatedAt": "2026-10-22T22:22:36Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 111.5,
@@ -334,7 +345,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T21:32:20Z",
+        "reportPulledAt": "2026-10-22T22:22:36Z",
         "source": "espn",
         "away": [
           {
