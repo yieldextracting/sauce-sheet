@@ -794,18 +794,18 @@
     },
     {
       "gameId": "20261021-DAL-HOU",
-      "generatedAt": "2026-10-21T23:30:32Z",
+      "generatedAt": "2026-10-22T00:00:42Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 103.8,
-      "homePts": 116.0,
-      "margin": 12.23,
-      "spreadHome": -12.2,
-      "total": 219.8,
+      "homePts": 115.7,
+      "margin": 11.89,
+      "spreadHome": -11.9,
+      "total": 219.5,
       "pace": 102.3,
-      "homeWinProb": 0.8081,
-      "fairMlHome": -421,
-      "fairMlAway": 421,
+      "homeWinProb": 0.8014,
+      "fairMlHome": -403,
+      "fairMlAway": 403,
       "contributions": [
         {
           "key": "offense",
@@ -829,7 +829,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.04
+          "pts": 1.7
         }
       ],
       "sample": {
@@ -855,7 +855,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T23:30:32Z",
+        "reportPulledAt": "2026-10-22T00:00:42Z",
         "source": "espn",
         "away": [
           {
@@ -918,31 +918,20 @@
           {
             "player": "Steven Adams",
             "team": "HOU",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Calf Soreness",
             "matched": true,
             "expMin": 22.8,
             "value": 1.58,
-            "impactPts": 0.34
-          },
-          {
-            "player": "Julian Phillips",
-            "team": "HOU",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 8.9,
-            "value": 0.0,
-            "impactPts": 0.0
+            "impactPts": 0.68
           }
         ]
       }
     },
     {
       "gameId": "20261021-GSW-LAL",
-      "generatedAt": "2026-10-21T23:30:32Z",
+      "generatedAt": "2026-10-22T00:00:42Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 98.7,
@@ -1003,7 +992,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T23:30:32Z",
+        "reportPulledAt": "2026-10-22T00:00:42Z",
         "source": "espn",
         "away": [
           {
@@ -1112,7 +1101,7 @@
     },
     {
       "gameId": "20261021-PHX-POR",
-      "generatedAt": "2026-10-21T23:30:32Z",
+      "generatedAt": "2026-10-22T00:00:42Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 108.2,
@@ -1173,7 +1162,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T23:30:32Z",
+        "reportPulledAt": "2026-10-22T00:00:42Z",
         "source": "espn",
         "away": [
           {
@@ -1260,7 +1249,7 @@
     },
     {
       "gameId": "20261021-SAC-LAC",
-      "generatedAt": "2026-10-21T23:30:32Z",
+      "generatedAt": "2026-10-22T00:00:42Z",
       "ratingsAsOf": "2026-10-21T04:34:40Z",
       "modelVersion": "v2.0",
       "awayPts": 104.8,
@@ -1321,7 +1310,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-21T23:30:32Z",
+        "reportPulledAt": "2026-10-22T00:00:42Z",
         "source": "espn",
         "away": [
           {
