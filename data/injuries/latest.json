@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-10-23T01:13:29Z",
+  "pulledAt": "2026-10-23T17:52:06Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -46,7 +46,7 @@
       "pPlay": 0.5,
       "reason": "Shoulder",
       "espnId": "5105626",
-      "gameId": null,
+      "gameId": "20261024-BKN-CLE",
       "source": "espn"
     },
     {
@@ -91,61 +91,6 @@
       "reason": "Knee Surgery",
       "espnId": "4684269",
       "gameId": "20261023-ATL-CHA",
-      "source": "espn"
-    },
-    {
-      "player": "Dailyn Swain",
-      "key": "dailynswain",
-      "team": "CHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Illness Not Specified",
-      "espnId": "4848625",
-      "gameId": "20261023-CHI-MIL",
-      "source": "espn"
-    },
-    {
-      "player": "Jordan Hawkins",
-      "key": "jordanhawkins",
-      "team": "CHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Illness Not Specified",
-      "espnId": "4683750",
-      "gameId": "20261023-CHI-MIL",
-      "source": "espn"
-    },
-    {
-      "player": "Zach Collins",
-      "key": "zachcollins",
-      "team": "CHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Quadriceps",
-      "espnId": "4066650",
-      "gameId": "20261023-CHI-MIL",
-      "source": "espn"
-    },
-    {
-      "player": "Tobe Awaka",
-      "key": "tobeawaka",
-      "team": "CHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Knee Sprain",
-      "espnId": "5105555",
-      "gameId": "20261023-CHI-MIL",
-      "source": "espn"
-    },
-    {
-      "player": "Josh Giddey",
-      "key": "joshgiddey",
-      "team": "CHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Wrist",
-      "espnId": "4871145",
-      "gameId": "20261023-CHI-MIL",
       "source": "espn"
     },
     {
@@ -218,11 +163,22 @@
       "player": "Spencer Jones",
       "key": "spencerjones",
       "team": "DEN",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Hamstring Not Specified",
       "espnId": "4592427",
-      "gameId": "20261022-DEN-OKC",
+      "gameId": "20261024-NOP-DEN",
+      "source": "espn"
+    },
+    {
+      "player": "Cameron Johnson",
+      "key": "cameronjohnson",
+      "team": "DEN",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Ankle Sprain",
+      "espnId": "3138196",
+      "gameId": "20261024-NOP-DEN",
       "source": "espn"
     },
     {
@@ -233,18 +189,7 @@
       "pPlay": 0.0,
       "reason": "Knee Sprain",
       "espnId": "4432181",
-      "gameId": "20261022-DEN-OKC",
-      "source": "espn"
-    },
-    {
-      "player": "Taurean Prince",
-      "key": "taureanprince",
-      "team": "DET",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Personal",
-      "espnId": "2990962",
-      "gameId": "20261023-DET-MIA",
+      "gameId": "20261024-NOP-DEN",
       "source": "espn"
     },
     {
@@ -497,7 +442,7 @@
       "pPlay": 0.0,
       "reason": "Back Surgery",
       "espnId": "5159925",
-      "gameId": "20261022-DEN-OKC",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -508,7 +453,7 @@
       "pPlay": 0.0,
       "reason": "Knee Surgery",
       "espnId": "5061603",
-      "gameId": "20261022-DEN-OKC",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -519,7 +464,7 @@
       "pPlay": 0.0,
       "reason": "Achilles Surgery",
       "espnId": "5106270",
-      "gameId": "20261022-DEN-OKC",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -539,7 +484,7 @@
       "team": "ORL",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Knee",
+      "reason": "Knee Not Specified",
       "espnId": "4065654",
       "gameId": "20261023-MIN-ORL",
       "source": "espn"
@@ -550,7 +495,7 @@
       "team": "ORL",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Hamstring",
+      "reason": "Hamstring Strain",
       "espnId": "5214637",
       "gameId": "20261023-MIN-ORL",
       "source": "espn"
@@ -567,25 +512,36 @@
       "source": "espn"
     },
     {
-      "player": "Dean Wade",
-      "key": "deanwade",
+      "player": "Joel Embiid",
+      "key": "joelembiid",
       "team": "PHI",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Ankle Sprain",
-      "espnId": "3912848",
-      "gameId": null,
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Rest",
+      "espnId": "3059318",
+      "gameId": "20261024-MIL-PHI",
       "source": "espn"
     },
     {
       "player": "Tacko Fall",
       "key": "tackofall",
       "team": "PHI",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Quadriceps",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Quadriceps Strain",
       "espnId": "3904625",
-      "gameId": null,
+      "gameId": "20261024-MIL-PHI",
+      "source": "espn"
+    },
+    {
+      "player": "Dean Wade",
+      "key": "deanwade",
+      "team": "PHI",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Ankle Sprain",
+      "espnId": "3912848",
+      "gameId": "20261024-MIL-PHI",
       "source": "espn"
     },
     {
@@ -594,9 +550,9 @@
       "team": "PHI",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Back",
+      "reason": "Back Fracture",
       "espnId": "4870562",
-      "gameId": null,
+      "gameId": "20261024-MIL-PHI",
       "source": "espn"
     },
     {
@@ -605,9 +561,9 @@
       "team": "PHI",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Achilles Ruptured",
+      "reason": "Achilles Surgery",
       "espnId": "4871141",
-      "gameId": null,
+      "gameId": "20261024-MIL-PHI",
       "source": "espn"
     },
     {
@@ -618,7 +574,7 @@
       "pPlay": 0.5,
       "reason": "Knee Strain",
       "espnId": "3913174",
-      "gameId": null,
+      "gameId": "20261024-GSW-PHX",
       "source": "espn"
     },
     {
@@ -629,7 +585,7 @@
       "pPlay": 0.5,
       "reason": "Hip",
       "espnId": "4601023",
-      "gameId": null,
+      "gameId": "20261024-GSW-PHX",
       "source": "espn"
     },
     {
@@ -640,7 +596,7 @@
       "pPlay": 0.0,
       "reason": "Shoulder Surgery",
       "espnId": "4701232",
-      "gameId": null,
+      "gameId": "20261024-GSW-PHX",
       "source": "espn"
     },
     {
@@ -649,7 +605,7 @@
       "team": "POR",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Concussion",
+      "reason": "Concussion Concussion",
       "espnId": "4592435",
       "gameId": "20261023-POR-SAC",
       "source": "espn"
@@ -693,7 +649,7 @@
       "team": "SAC",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Achilles Ruptured",
+      "reason": "Achilles Surgery",
       "espnId": "3907387",
       "gameId": "20261023-POR-SAC",
       "source": "espn"
@@ -721,17 +677,6 @@
       "source": "espn"
     },
     {
-      "player": "De'Aaron Fox",
-      "key": "deaaronfox",
-      "team": "SAS",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Wrist Sprain",
-      "espnId": "4066259",
-      "gameId": "20261023-HOU-SAS",
-      "source": "espn"
-    },
-    {
       "player": "Keldon Johnson",
       "key": "keldonjohnson",
       "team": "SAS",
@@ -739,6 +684,17 @@
       "pPlay": 0.5,
       "reason": "Mouth Laceration",
       "espnId": "4395723",
+      "gameId": "20261023-HOU-SAS",
+      "source": "espn"
+    },
+    {
+      "player": "De'Aaron Fox",
+      "key": "deaaronfox",
+      "team": "SAS",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Wrist Sprain",
+      "espnId": "4066259",
       "gameId": "20261023-HOU-SAS",
       "source": "espn"
     },
@@ -770,7 +726,7 @@
       "team": "TOR",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Foot",
+      "reason": "Foot Fracture",
       "espnId": "4432586",
       "gameId": "20261023-TOR-WAS",
       "source": "espn"
@@ -781,7 +737,7 @@
       "team": "UTA",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Knee",
+      "reason": "Knee Bruise",
       "espnId": "4433268",
       "gameId": "20261023-NOP-UTA",
       "source": "espn"
@@ -792,7 +748,7 @@
       "team": "UTA",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Quadriceps",
+      "reason": "Quadriceps Strain",
       "espnId": "4065673",
       "gameId": "20261023-NOP-UTA",
       "source": "espn"
@@ -803,7 +759,7 @@
       "team": "UTA",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Foot",
+      "reason": "Foot Strain",
       "espnId": "3102530",
       "gameId": "20261023-NOP-UTA",
       "source": "espn"
@@ -814,7 +770,7 @@
       "team": "WAS",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Illness",
+      "reason": "Illness Not Specified",
       "espnId": "5105841",
       "gameId": "20261023-TOR-WAS",
       "source": "espn"
@@ -836,7 +792,7 @@
       "team": "WAS",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Hip",
+      "reason": "Hip Pinched Nerve",
       "espnId": "4997537",
       "gameId": "20261023-TOR-WAS",
       "source": "espn"
@@ -847,7 +803,7 @@
       "team": "WAS",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Knee",
+      "reason": "Knee Surgery",
       "espnId": "4606840",
       "gameId": "20261023-TOR-WAS",
       "source": "espn"
