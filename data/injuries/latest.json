@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-10-23T20:53:09Z",
+  "pulledAt": "2026-10-23T21:13:15Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -512,12 +512,23 @@
       "source": "espn"
     },
     {
+      "player": "LeBron James",
+      "key": "lebronjames",
+      "team": "PHI",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Back",
+      "espnId": "1966",
+      "gameId": "20261024-MIL-PHI",
+      "source": "espn"
+    },
+    {
       "player": "Joel Embiid",
       "key": "joelembiid",
       "team": "PHI",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Rest",
+      "reason": null,
       "espnId": "3059318",
       "gameId": "20261024-MIL-PHI",
       "source": "espn"
@@ -567,17 +578,6 @@
       "source": "espn"
     },
     {
-      "player": "Oso Ighodaro",
-      "key": "osoighodaro",
-      "team": "PHX",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Oblique Strain",
-      "espnId": "4601023",
-      "gameId": "20261024-GSW-PHX",
-      "source": "espn"
-    },
-    {
       "player": "Luke Kennard",
       "key": "lukekennard",
       "team": "PHX",
@@ -585,6 +585,17 @@
       "pPlay": 0.5,
       "reason": "Knee Strain",
       "espnId": "3913174",
+      "gameId": "20261024-GSW-PHX",
+      "source": "espn"
+    },
+    {
+      "player": "Oso Ighodaro",
+      "key": "osoighodaro",
+      "team": "PHX",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Oblique Strain",
+      "espnId": "4601023",
       "gameId": "20261024-GSW-PHX",
       "source": "espn"
     },
