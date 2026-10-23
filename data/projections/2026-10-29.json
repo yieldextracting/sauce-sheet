@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261029-CLE-ATL",
-      "generatedAt": "2026-10-22T23:22:55Z",
+      "generatedAt": "2026-10-23T00:03:07Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 117.7,
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T23:22:55Z",
+        "reportPulledAt": "2026-10-23T00:03:07Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -100,7 +100,7 @@
     },
     {
       "gameId": "20261029-SAC-NOP",
-      "generatedAt": "2026-10-22T23:22:55Z",
+      "generatedAt": "2026-10-23T00:03:07Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 112.0,
@@ -163,7 +163,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T23:22:55Z",
+        "reportPulledAt": "2026-10-23T00:03:07Z",
         "source": "espn",
         "away": [
           {
@@ -205,18 +205,18 @@
     },
     {
       "gameId": "20261029-MEM-POR",
-      "generatedAt": "2026-10-22T23:22:55Z",
+      "generatedAt": "2026-10-23T00:03:07Z",
       "ratingsAsOf": "2026-10-22T05:02:45Z",
       "modelVersion": "v2.0",
       "awayPts": 110.3,
-      "homePts": 117.0,
-      "margin": 6.73,
-      "spreadHome": -6.7,
-      "total": 227.4,
+      "homePts": 116.3,
+      "margin": 5.98,
+      "spreadHome": -6.0,
+      "total": 226.6,
       "pace": 106.2,
-      "homeWinProb": 0.6842,
-      "fairMlHome": -217,
-      "fairMlAway": 217,
+      "homeWinProb": 0.665,
+      "fairMlHome": -198,
+      "fairMlAway": 198,
       "contributions": [
         {
           "key": "offense",
@@ -240,7 +240,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.92
+          "pts": -2.67
         }
       ],
       "sample": {
@@ -266,7 +266,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-22T23:22:55Z",
+        "reportPulledAt": "2026-10-23T00:03:07Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -280,6 +280,28 @@
             "expMin": 29.4,
             "value": 4.47,
             "impactPts": 1.92
+          },
+          {
+            "player": "Branden Carlson",
+            "team": "POR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Concussion",
+            "matched": true,
+            "expMin": 11.7,
+            "value": 1.74,
+            "impactPts": 0.75
+          },
+          {
+            "player": "Chris Youngblood",
+            "team": "POR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Soreness",
+            "matched": true,
+            "expMin": 5.8,
+            "value": 0.0,
+            "impactPts": 0.0
           }
         ]
       }
