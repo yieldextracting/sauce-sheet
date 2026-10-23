@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261025-LAL-UTA",
-      "generatedAt": "2026-10-23T21:13:16Z",
+      "generatedAt": "2026-10-23T21:23:20Z",
       "ratingsAsOf": "2026-10-23T04:24:57Z",
       "modelVersion": "v2.0",
       "awayPts": 120.3,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-23T21:13:15Z",
+        "reportPulledAt": "2026-10-23T21:23:19Z",
         "source": "espn",
         "away": [
           {
@@ -131,7 +131,7 @@
     },
     {
       "gameId": "20261025-IND-BKN",
-      "generatedAt": "2026-10-23T21:13:16Z",
+      "generatedAt": "2026-10-23T21:23:20Z",
       "ratingsAsOf": "2026-10-23T04:24:57Z",
       "modelVersion": "v2.0",
       "awayPts": 109.9,
@@ -194,7 +194,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-23T21:13:15Z",
+        "reportPulledAt": "2026-10-23T21:23:19Z",
         "source": "espn",
         "away": [
           {
@@ -220,12 +220,24 @@
             "impactPts": 0.0
           }
         ],
-        "home": []
+        "home": [
+          {
+            "player": "Tyler Bilodeau",
+            "team": "BKN",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Shoulder",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ]
       }
     },
     {
       "gameId": "20261025-LAC-OKC",
-      "generatedAt": "2026-10-23T21:13:16Z",
+      "generatedAt": "2026-10-23T21:23:20Z",
       "ratingsAsOf": "2026-10-23T04:24:57Z",
       "modelVersion": "v2.0",
       "awayPts": 99.9,
@@ -288,7 +300,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-23T21:13:15Z",
+        "reportPulledAt": "2026-10-23T21:23:19Z",
         "source": "espn",
         "away": [
           {
@@ -375,7 +387,7 @@
     },
     {
       "gameId": "20261025-ORL-NYK",
-      "generatedAt": "2026-10-23T21:13:16Z",
+      "generatedAt": "2026-10-23T21:23:20Z",
       "ratingsAsOf": "2026-10-23T04:24:57Z",
       "modelVersion": "v2.0",
       "awayPts": 107.5,
@@ -438,7 +450,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-23T21:13:15Z",
+        "reportPulledAt": "2026-10-23T21:23:19Z",
         "source": "espn",
         "away": [
           {
@@ -491,7 +503,7 @@
     },
     {
       "gameId": "20261025-TOR-MIN",
-      "generatedAt": "2026-10-23T21:13:16Z",
+      "generatedAt": "2026-10-23T21:23:20Z",
       "ratingsAsOf": "2026-10-23T04:24:57Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
@@ -554,7 +566,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-23T21:13:15Z",
+        "reportPulledAt": "2026-10-23T21:23:19Z",
         "source": "espn",
         "away": [
           {
@@ -597,7 +609,7 @@
     },
     {
       "gameId": "20261025-DET-PHI",
-      "generatedAt": "2026-10-23T21:13:16Z",
+      "generatedAt": "2026-10-23T21:23:20Z",
       "ratingsAsOf": "2026-10-23T04:24:57Z",
       "modelVersion": "v2.0",
       "awayPts": 114.1,
@@ -662,7 +674,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-23T21:13:15Z",
+        "reportPulledAt": "2026-10-23T21:23:19Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -676,6 +688,17 @@
             "expMin": 23.7,
             "value": 0.84,
             "impactPts": 0.36
+          },
+          {
+            "player": "Tacko Fall",
+            "team": "PHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Quadriceps Strain",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
           },
           {
             "player": "Ariel Hukporti",
@@ -693,7 +716,7 @@
     },
     {
       "gameId": "20261025-MEM-SAC",
-      "generatedAt": "2026-10-23T21:13:16Z",
+      "generatedAt": "2026-10-23T21:23:20Z",
       "ratingsAsOf": "2026-10-23T04:24:57Z",
       "modelVersion": "v2.0",
       "awayPts": 116.4,
@@ -754,7 +777,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-23T21:13:15Z",
+        "reportPulledAt": "2026-10-23T21:23:19Z",
         "source": "espn",
         "away": [],
         "home": [
