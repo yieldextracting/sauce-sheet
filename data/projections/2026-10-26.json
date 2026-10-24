@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261026-MIN-CLE",
-      "generatedAt": "2026-10-24T23:18:54Z",
+      "generatedAt": "2026-10-24T23:28:57Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 113.0,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T23:18:54Z",
+        "reportPulledAt": "2026-10-24T23:28:57Z",
         "source": "espn",
         "away": [
           {
@@ -87,7 +87,7 @@
     },
     {
       "gameId": "20261026-WAS-CHA",
-      "generatedAt": "2026-10-24T23:18:54Z",
+      "generatedAt": "2026-10-24T23:28:57Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 107.4,
@@ -151,7 +151,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T23:18:54Z",
+        "reportPulledAt": "2026-10-24T23:28:57Z",
         "source": "espn",
         "away": [
           {
@@ -238,7 +238,7 @@
     },
     {
       "gameId": "20261026-CHI-BOS",
-      "generatedAt": "2026-10-24T23:18:54Z",
+      "generatedAt": "2026-10-24T23:28:57Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 104.8,
@@ -301,7 +301,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T23:18:54Z",
+        "reportPulledAt": "2026-10-24T23:28:57Z",
         "source": "espn",
         "away": [
           {
@@ -355,18 +355,18 @@
     },
     {
       "gameId": "20261026-DAL-MIA",
-      "generatedAt": "2026-10-24T23:18:54Z",
+      "generatedAt": "2026-10-24T23:28:57Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.2,
+      "awayPts": 110.3,
       "homePts": 120.6,
-      "margin": 10.39,
-      "spreadHome": -10.4,
-      "total": 230.7,
+      "margin": 10.3,
+      "spreadHome": -10.3,
+      "total": 230.8,
       "pace": 108.8,
-      "homeWinProb": 0.7702,
-      "fairMlHome": -335,
-      "fairMlAway": 335,
+      "homeWinProb": 0.7683,
+      "fairMlHome": -332,
+      "fairMlAway": 332,
       "contributions": [
         {
           "key": "offense",
@@ -390,7 +390,7 @@
         },
         {
           "key": "injuries",
-          "pts": 5.64
+          "pts": 5.55
         }
       ],
       "sample": {
@@ -420,7 +420,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T23:18:54Z",
+        "reportPulledAt": "2026-10-24T23:28:57Z",
         "source": "espn",
         "away": [
           {
@@ -455,17 +455,6 @@
             "expMin": 16.4,
             "value": 1.07,
             "impactPts": 0.46
-          },
-          {
-            "player": "Jett Howard",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Calf Soreness",
-            "matched": true,
-            "expMin": 12.7,
-            "value": 0.21,
-            "impactPts": 0.09
           },
           {
             "player": "Kyrie Irving",
@@ -506,7 +495,7 @@
     },
     {
       "gameId": "20261026-IND-MIL",
-      "generatedAt": "2026-10-24T23:18:54Z",
+      "generatedAt": "2026-10-24T23:28:57Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 110.8,
@@ -571,7 +560,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T23:18:54Z",
+        "reportPulledAt": "2026-10-24T23:28:57Z",
         "source": "espn",
         "away": [
           {
@@ -613,7 +602,7 @@
     },
     {
       "gameId": "20261026-PHX-OKC",
-      "generatedAt": "2026-10-24T23:18:54Z",
+      "generatedAt": "2026-10-24T23:28:57Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 96.8,
@@ -676,7 +665,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T23:18:54Z",
+        "reportPulledAt": "2026-10-24T23:28:57Z",
         "source": "espn",
         "away": [
           {
@@ -741,7 +730,7 @@
     },
     {
       "gameId": "20261026-ATL-HOU",
-      "generatedAt": "2026-10-24T23:18:54Z",
+      "generatedAt": "2026-10-24T23:28:57Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 112.1,
@@ -805,7 +794,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T23:18:54Z",
+        "reportPulledAt": "2026-10-24T23:28:57Z",
         "source": "espn",
         "away": [
           {
@@ -844,6 +833,17 @@
             "impactPts": 0.56
           },
           {
+            "player": "Marcus Smart",
+            "team": "HOU",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Forearm Strain",
+            "matched": true,
+            "expMin": 27.3,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
             "player": "Fred VanVleet",
             "team": "HOU",
             "status": "out",
@@ -859,18 +859,18 @@
     },
     {
       "gameId": "20261026-MEM-UTA",
-      "generatedAt": "2026-10-24T23:18:54Z",
+      "generatedAt": "2026-10-24T23:28:57Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 118.0,
-      "homePts": 116.8,
-      "margin": -1.15,
-      "spreadHome": 1.2,
-      "total": 234.8,
+      "homePts": 116.5,
+      "margin": -1.42,
+      "spreadHome": 1.4,
+      "total": 234.5,
       "pace": 106.8,
-      "homeWinProb": 0.4673,
-      "fairMlHome": 114,
-      "fairMlAway": -114,
+      "homeWinProb": 0.4597,
+      "fairMlHome": 118,
+      "fairMlAway": -118,
       "contributions": [
         {
           "key": "offense",
@@ -894,7 +894,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.68
+          "pts": -1.95
         }
       ],
       "sample": {
@@ -926,7 +926,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T23:18:54Z",
+        "reportPulledAt": "2026-10-24T23:28:57Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -940,13 +940,24 @@
             "expMin": 26.4,
             "value": 3.92,
             "impactPts": 1.68
+          },
+          {
+            "player": "Trey Alexander",
+            "team": "UTA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Bruise",
+            "matched": true,
+            "expMin": 12.3,
+            "value": 0.63,
+            "impactPts": 0.27
           }
         ]
       }
     },
     {
       "gameId": "20261026-GSW-DEN",
-      "generatedAt": "2026-10-24T23:18:54Z",
+      "generatedAt": "2026-10-24T23:28:57Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 92.6,
@@ -1010,7 +1021,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T23:18:54Z",
+        "reportPulledAt": "2026-10-24T23:28:57Z",
         "source": "espn",
         "away": [
           {
