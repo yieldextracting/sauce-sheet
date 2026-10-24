@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-10-24T17:26:32Z",
+  "pulledAt": "2026-10-24T17:36:35Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -61,13 +61,13 @@
       "source": "espn"
     },
     {
-      "player": "Kon Knueppel",
-      "key": "konknueppel",
+      "player": "Christian Anderson",
+      "key": "christiananderson",
       "team": "CHA",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Hamstring",
-      "espnId": "5061575",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Ankle Sprain",
+      "espnId": "5060701",
       "gameId": "20261024-MIA-CHA",
       "source": "espn"
     },
@@ -75,10 +75,21 @@
       "player": "Coby White",
       "key": "cobywhite",
       "team": "CHA",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Calf Strain",
       "espnId": "4395651",
+      "gameId": "20261024-MIA-CHA",
+      "source": "espn"
+    },
+    {
+      "player": "Kon Knueppel",
+      "key": "konknueppel",
+      "team": "CHA",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Hamstring",
+      "espnId": "5061575",
       "gameId": "20261024-MIA-CHA",
       "source": "espn"
     },
@@ -556,22 +567,11 @@
       "source": "espn"
     },
     {
-      "player": "Paolo Banchero",
-      "key": "paolobanchero",
-      "team": "ORL",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Ankle Sprain",
-      "espnId": "4432573",
-      "gameId": "20261025-ORL-NYK",
-      "source": "espn"
-    },
-    {
       "player": "Jonathan Isaac",
       "key": "jonathanisaac",
       "team": "ORL",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Knee Not Specified",
       "espnId": "4065654",
       "gameId": "20261025-ORL-NYK",
@@ -585,6 +585,17 @@
       "pPlay": 0.5,
       "reason": "Ankle Sprain",
       "espnId": "4712849",
+      "gameId": "20261025-ORL-NYK",
+      "source": "espn"
+    },
+    {
+      "player": "Paolo Banchero",
+      "key": "paolobanchero",
+      "team": "ORL",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Ankle Sprain",
+      "espnId": "4432573",
       "gameId": "20261025-ORL-NYK",
       "source": "espn"
     },
