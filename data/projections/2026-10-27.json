@@ -3,14 +3,14 @@
   "games": [
     {
       "gameId": "20261027-BKN-BOS",
-      "generatedAt": "2026-10-24T04:36:02Z",
-      "ratingsAsOf": "2026-10-24T04:36:02Z",
+      "generatedAt": "2026-10-24T04:46:40Z",
+      "ratingsAsOf": "2026-10-24T04:46:40Z",
       "modelVersion": "v2.0",
-      "awayPts": 99.3,
-      "homePts": 112.7,
-      "margin": 13.32,
+      "awayPts": 99.6,
+      "homePts": 112.9,
+      "margin": 13.33,
       "spreadHome": -13.3,
-      "total": 212.0,
+      "total": 212.5,
       "pace": 98.5,
       "homeWinProb": 0.8287,
       "fairMlHome": -484,
@@ -18,11 +18,11 @@
       "contributions": [
         {
           "key": "offense",
-          "pts": 10.15
+          "pts": 10.13
         },
         {
           "key": "defense",
-          "pts": 3.94
+          "pts": 3.96
         },
         {
           "key": "pace",
@@ -99,14 +99,14 @@
     },
     {
       "gameId": "20261027-DET-NYK",
-      "generatedAt": "2026-10-24T04:36:02Z",
-      "ratingsAsOf": "2026-10-24T04:36:02Z",
+      "generatedAt": "2026-10-24T04:46:40Z",
+      "ratingsAsOf": "2026-10-24T04:46:40Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.6,
-      "homePts": 109.0,
-      "margin": -1.6,
+      "awayPts": 110.8,
+      "homePts": 109.2,
+      "margin": -1.61,
       "spreadHome": 1.6,
-      "total": 219.5,
+      "total": 220.0,
       "pace": 102.1,
       "homeWinProb": 0.4545,
       "fairMlHome": 120,
@@ -168,30 +168,30 @@
     },
     {
       "gameId": "20261027-SAC-SAS",
-      "generatedAt": "2026-10-24T04:36:02Z",
-      "ratingsAsOf": "2026-10-24T04:36:02Z",
+      "generatedAt": "2026-10-24T04:46:40Z",
+      "ratingsAsOf": "2026-10-24T04:46:40Z",
       "modelVersion": "v2.0",
-      "awayPts": 103.3,
-      "homePts": 120.3,
-      "margin": 16.96,
-      "spreadHome": -17.0,
-      "total": 223.6,
-      "pace": 104.6,
-      "homeWinProb": 0.8865,
-      "fairMlHome": -781,
-      "fairMlAway": 781,
+      "awayPts": 104.6,
+      "homePts": 121.3,
+      "margin": 16.77,
+      "spreadHome": -16.8,
+      "total": 225.9,
+      "pace": 104.8,
+      "homeWinProb": 0.8838,
+      "fairMlHome": -761,
+      "fairMlAway": 761,
       "contributions": [
         {
           "key": "offense",
-          "pts": 6.72
+          "pts": 5.92
         },
         {
           "key": "defense",
-          "pts": 7.51
+          "pts": 8.09
         },
         {
           "key": "pace",
-          "pts": 0.08
+          "pts": 0.11
         },
         {
           "key": "home",
@@ -207,9 +207,9 @@
         }
       ],
       "sample": {
-        "awayGP": 1,
+        "awayGP": 2,
         "homeGP": 2,
-        "priorWeight": 0.8712
+        "priorWeight": 0.8333
       },
       "flags": [
         "long_travel_away"
@@ -296,30 +296,30 @@
     },
     {
       "gameId": "20261027-POR-LAL",
-      "generatedAt": "2026-10-24T04:36:02Z",
-      "ratingsAsOf": "2026-10-24T04:36:02Z",
+      "generatedAt": "2026-10-24T04:46:40Z",
+      "ratingsAsOf": "2026-10-24T04:46:40Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.1,
-      "homePts": 114.1,
-      "margin": 4.05,
-      "spreadHome": -4.1,
-      "total": 224.2,
-      "pace": 104.2,
-      "homeWinProb": 0.6135,
-      "fairMlHome": -159,
-      "fairMlAway": 159,
+      "awayPts": 111.1,
+      "homePts": 115.4,
+      "margin": 4.29,
+      "spreadHome": -4.3,
+      "total": 226.4,
+      "pace": 104.4,
+      "homeWinProb": 0.62,
+      "fairMlHome": -163,
+      "fairMlAway": 163,
       "contributions": [
         {
           "key": "offense",
-          "pts": 3.79
+          "pts": 3.22
         },
         {
           "key": "defense",
-          "pts": -3.77
+          "pts": -2.97
         },
         {
           "key": "pace",
-          "pts": 0.0
+          "pts": 0.01
         },
         {
           "key": "home",
@@ -335,9 +335,9 @@
         }
       ],
       "sample": {
-        "awayGP": 1,
+        "awayGP": 2,
         "homeGP": 2,
-        "priorWeight": 0.8712
+        "priorWeight": 0.8333
       },
       "flags": [],
       "spots": {
