@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261031-POR-UTA",
-      "generatedAt": "2026-10-24T13:19:17Z",
+      "generatedAt": "2026-10-24T16:56:23Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
-      "awayPts": 117.6,
-      "homePts": 112.7,
-      "margin": -4.86,
-      "spreadHome": 4.9,
-      "total": 230.3,
+      "awayPts": 118.3,
+      "homePts": 113.0,
+      "margin": -5.34,
+      "spreadHome": 5.3,
+      "total": 231.3,
       "pace": 106.9,
-      "homeWinProb": 0.3647,
-      "fairMlHome": 174,
-      "fairMlAway": -174,
+      "homeWinProb": 0.3519,
+      "fairMlHome": 184,
+      "fairMlAway": -184,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.72
+          "pts": 0.24
         }
       ],
       "sample": {
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T13:19:17Z",
+        "reportPulledAt": "2026-10-24T16:56:23Z",
         "source": "espn",
         "away": [
           {
@@ -79,28 +79,6 @@
             "expMin": 29.4,
             "value": 4.47,
             "impactPts": 1.92
-          },
-          {
-            "player": "Branden Carlson",
-            "team": "POR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Concussion Concussion",
-            "matched": true,
-            "expMin": 11.7,
-            "value": 1.74,
-            "impactPts": 0.75
-          },
-          {
-            "player": "Chris Youngblood",
-            "team": "POR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Soreness",
-            "matched": true,
-            "expMin": 5.8,
-            "value": 0.0,
-            "impactPts": 0.0
           }
         ],
         "home": [
@@ -114,24 +92,13 @@
             "expMin": 26.4,
             "value": 3.92,
             "impactPts": 1.68
-          },
-          {
-            "player": "Trey Alexander",
-            "team": "UTA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Bruise",
-            "matched": true,
-            "expMin": 12.3,
-            "value": 0.63,
-            "impactPts": 0.27
           }
         ]
       }
     },
     {
       "gameId": "20261031-PHI-CHA",
-      "generatedAt": "2026-10-24T13:19:17Z",
+      "generatedAt": "2026-10-24T16:56:23Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 109.3,
@@ -197,7 +164,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T13:19:17Z",
+        "reportPulledAt": "2026-10-24T16:56:23Z",
         "source": "espn",
         "away": [
           {
@@ -251,7 +218,7 @@
     },
     {
       "gameId": "20261031-ATL-NOP",
-      "generatedAt": "2026-10-24T13:19:17Z",
+      "generatedAt": "2026-10-24T16:56:23Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 121.4,
@@ -315,7 +282,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T13:19:17Z",
+        "reportPulledAt": "2026-10-24T16:56:23Z",
         "source": "espn",
         "away": [
           {
@@ -346,7 +313,7 @@
     },
     {
       "gameId": "20261031-CLE-MIL",
-      "generatedAt": "2026-10-24T13:19:17Z",
+      "generatedAt": "2026-10-24T16:56:23Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 117.9,
@@ -409,7 +376,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T13:19:17Z",
+        "reportPulledAt": "2026-10-24T16:56:23Z",
         "source": "espn",
         "away": [],
         "home": []
@@ -417,18 +384,18 @@
     },
     {
       "gameId": "20261031-MIN-SAS",
-      "generatedAt": "2026-10-24T13:19:17Z",
+      "generatedAt": "2026-10-24T16:56:23Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 110.6,
-      "homePts": 114.0,
-      "margin": 3.35,
-      "spreadHome": -3.4,
-      "total": 224.6,
+      "homePts": 115.3,
+      "margin": 4.67,
+      "spreadHome": -4.7,
+      "total": 225.9,
       "pace": 105.1,
-      "homeWinProb": 0.5944,
-      "fairMlHome": -147,
-      "fairMlAway": 147,
+      "homeWinProb": 0.6304,
+      "fairMlHome": -171,
+      "fairMlAway": 171,
       "contributions": [
         {
           "key": "offense",
@@ -452,7 +419,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.74
+          "pts": 0.58
         }
       ],
       "sample": {
@@ -483,7 +450,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T13:19:17Z",
+        "reportPulledAt": "2026-10-24T16:56:23Z",
         "source": "espn",
         "away": [
           {
@@ -500,17 +467,6 @@
         ],
         "home": [
           {
-            "player": "Tobias Harris",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Calf Strain",
-            "matched": true,
-            "expMin": 27.8,
-            "value": 3.07,
-            "impactPts": 1.32
-          },
-          {
             "player": "Jayden Quaintance",
             "team": "SAS",
             "status": "out",
@@ -526,18 +482,18 @@
     },
     {
       "gameId": "20261031-SAC-MEM",
-      "generatedAt": "2026-10-24T13:19:17Z",
+      "generatedAt": "2026-10-24T16:56:23Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 109.1,
-      "homePts": 117.4,
-      "margin": 8.3,
-      "spreadHome": -8.3,
-      "total": 226.6,
+      "homePts": 118.8,
+      "margin": 9.65,
+      "spreadHome": -9.7,
+      "total": 227.9,
       "pace": 105.1,
-      "homeWinProb": 0.7228,
-      "fairMlHome": -261,
-      "fairMlAway": 261,
+      "homeWinProb": 0.7541,
+      "fairMlHome": -307,
+      "fairMlAway": 307,
       "contributions": [
         {
           "key": "offense",
@@ -561,7 +517,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.59
+          "pts": 1.94
         }
       ],
       "sample": {
@@ -589,7 +545,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T13:19:17Z",
+        "reportPulledAt": "2026-10-24T16:56:23Z",
         "source": "espn",
         "away": [
           {
@@ -626,35 +582,23 @@
             "impactPts": 0.0
           }
         ],
-        "home": [
-          {
-            "player": "Cedric Coward",
-            "team": "MEM",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Wrist Sprain",
-            "matched": true,
-            "expMin": 26.1,
-            "value": 3.14,
-            "impactPts": 1.35
-          }
-        ]
+        "home": []
       }
     },
     {
       "gameId": "20261031-OKC-HOU",
-      "generatedAt": "2026-10-24T13:19:17Z",
+      "generatedAt": "2026-10-24T16:56:23Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 109.5,
-      "homePts": 102.8,
-      "margin": -6.7,
-      "spreadHome": 6.7,
-      "total": 212.3,
+      "homePts": 103.9,
+      "margin": -5.63,
+      "spreadHome": 5.6,
+      "total": 213.4,
       "pace": 100.6,
-      "homeWinProb": 0.3166,
-      "fairMlHome": 216,
-      "fairMlAway": -216,
+      "homeWinProb": 0.3442,
+      "fairMlHome": 191,
+      "fairMlAway": -191,
       "contributions": [
         {
           "key": "offense",
@@ -678,7 +622,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.07
+          "pts": 0.0
         }
       ],
       "sample": {
@@ -707,7 +651,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T13:19:17Z",
+        "reportPulledAt": "2026-10-24T16:56:23Z",
         "source": "espn",
         "away": [
           {
@@ -744,19 +688,7 @@
             "impactPts": 0.0
           }
         ],
-        "home": [
-          {
-            "player": "Reed Sheppard",
-            "team": "HOU",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Bruise",
-            "matched": true,
-            "expMin": 24.9,
-            "value": 2.49,
-            "impactPts": 1.07
-          }
-        ]
+        "home": []
       }
     }
   ]

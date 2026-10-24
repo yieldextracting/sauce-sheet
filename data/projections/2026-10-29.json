@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261029-CLE-ATL",
-      "generatedAt": "2026-10-24T13:19:17Z",
+      "generatedAt": "2026-10-24T16:56:23Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 113.3,
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T13:19:17Z",
+        "reportPulledAt": "2026-10-24T16:56:23Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -100,7 +100,7 @@
     },
     {
       "gameId": "20261029-SAC-NOP",
-      "generatedAt": "2026-10-24T13:19:17Z",
+      "generatedAt": "2026-10-24T16:56:23Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 111.9,
@@ -163,7 +163,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T13:19:17Z",
+        "reportPulledAt": "2026-10-24T16:56:23Z",
         "source": "espn",
         "away": [
           {
@@ -205,18 +205,18 @@
     },
     {
       "gameId": "20261029-MEM-POR",
-      "generatedAt": "2026-10-24T13:19:17Z",
+      "generatedAt": "2026-10-24T16:56:23Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.9,
-      "homePts": 115.4,
-      "margin": 6.56,
-      "spreadHome": -6.6,
-      "total": 224.3,
+      "awayPts": 110.2,
+      "homePts": 116.2,
+      "margin": 5.96,
+      "spreadHome": -6.0,
+      "total": 226.4,
       "pace": 106.1,
-      "homeWinProb": 0.6798,
-      "fairMlHome": -212,
-      "fairMlAway": 212,
+      "homeWinProb": 0.6644,
+      "fairMlHome": -198,
+      "fairMlAway": 198,
       "contributions": [
         {
           "key": "offense",
@@ -240,7 +240,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.32
+          "pts": -1.92
         }
       ],
       "sample": {
@@ -266,21 +266,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T13:19:17Z",
+        "reportPulledAt": "2026-10-24T16:56:23Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Cedric Coward",
-            "team": "MEM",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Wrist Sprain",
-            "matched": true,
-            "expMin": 26.1,
-            "value": 3.14,
-            "impactPts": 1.35
-          }
-        ],
+        "away": [],
         "home": [
           {
             "player": "Shaedon Sharpe",
@@ -292,28 +280,6 @@
             "expMin": 29.4,
             "value": 4.47,
             "impactPts": 1.92
-          },
-          {
-            "player": "Branden Carlson",
-            "team": "POR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Concussion Concussion",
-            "matched": true,
-            "expMin": 11.7,
-            "value": 1.74,
-            "impactPts": 0.75
-          },
-          {
-            "player": "Chris Youngblood",
-            "team": "POR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Soreness",
-            "matched": true,
-            "expMin": 5.8,
-            "value": 0.0,
-            "impactPts": 0.0
           }
         ]
       }
