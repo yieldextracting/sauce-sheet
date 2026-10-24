@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-10-24T16:56:23Z",
+  "pulledAt": "2026-10-24T17:16:29Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -53,10 +53,21 @@
       "player": "Grant Williams",
       "key": "grantwilliams",
       "team": "CHA",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Hamstring",
       "espnId": "4066218",
+      "gameId": "20261024-MIA-CHA",
+      "source": "espn"
+    },
+    {
+      "player": "Kon Knueppel",
+      "key": "konknueppel",
+      "team": "CHA",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Hamstring",
+      "espnId": "5061575",
       "gameId": "20261024-MIA-CHA",
       "source": "espn"
     },
@@ -68,17 +79,6 @@
       "pPlay": 0.5,
       "reason": "Calf Strain",
       "espnId": "4395651",
-      "gameId": "20261024-MIA-CHA",
-      "source": "espn"
-    },
-    {
-      "player": "Kon Knueppel",
-      "key": "konknueppel",
-      "team": "CHA",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Hamstring",
-      "espnId": "5061575",
       "gameId": "20261024-MIA-CHA",
       "source": "espn"
     },
@@ -490,6 +490,17 @@
       "source": "espn"
     },
     {
+      "player": "Pelle Larsson",
+      "key": "pellelarsson",
+      "team": "MIA",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Finger Sprain",
+      "espnId": "4601025",
+      "gameId": "20261024-MIA-CHA",
+      "source": "espn"
+    },
+    {
       "player": "Donte DiVincenzo",
       "key": "dontedivincenzo",
       "team": "MIN",
@@ -600,6 +611,17 @@
       "source": "espn"
     },
     {
+      "player": "LeBron James",
+      "key": "lebronjames",
+      "team": "PHI",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Back",
+      "espnId": "1966",
+      "gameId": "20261024-MIL-PHI",
+      "source": "espn"
+    },
+    {
       "player": "Tacko Fall",
       "key": "tackofall",
       "team": "PHI",
@@ -618,17 +640,6 @@
       "pPlay": 0.5,
       "reason": "Ankle Sprain",
       "espnId": "3912848",
-      "gameId": "20261024-MIL-PHI",
-      "source": "espn"
-    },
-    {
-      "player": "LeBron James",
-      "key": "lebronjames",
-      "team": "PHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Back",
-      "espnId": "1966",
       "gameId": "20261024-MIL-PHI",
       "source": "espn"
     },

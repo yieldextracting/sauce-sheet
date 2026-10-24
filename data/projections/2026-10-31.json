@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261031-POR-UTA",
-      "generatedAt": "2026-10-24T16:56:23Z",
+      "generatedAt": "2026-10-24T17:16:29Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 118.3,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T16:56:23Z",
+        "reportPulledAt": "2026-10-24T17:16:29Z",
         "source": "espn",
         "away": [
           {
@@ -98,18 +98,18 @@
     },
     {
       "gameId": "20261031-PHI-CHA",
-      "generatedAt": "2026-10-24T16:56:23Z",
+      "generatedAt": "2026-10-24T17:16:29Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
-      "awayPts": 109.3,
-      "homePts": 109.6,
-      "margin": 0.32,
-      "spreadHome": -0.3,
-      "total": 218.9,
+      "awayPts": 105.9,
+      "homePts": 107.1,
+      "margin": 1.25,
+      "spreadHome": -1.2,
+      "total": 213.0,
       "pace": 103.3,
-      "homeWinProb": 0.509,
-      "fairMlHome": -104,
-      "fairMlAway": 104,
+      "homeWinProb": 0.5354,
+      "fairMlHome": -115,
+      "fairMlAway": 115,
       "contributions": [
         {
           "key": "offense",
@@ -133,7 +133,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.36
+          "pts": 1.29
         }
       ],
       "sample": {
@@ -164,9 +164,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T16:56:23Z",
+        "reportPulledAt": "2026-10-24T17:16:29Z",
         "source": "espn",
         "away": [
+          {
+            "player": "LeBron James",
+            "team": "PHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back",
+            "matched": true,
+            "expMin": 33.2,
+            "value": 7.96,
+            "impactPts": 3.42
+          },
           {
             "player": "Dominick Barlow",
             "team": "PHI",
@@ -203,6 +214,28 @@
         ],
         "home": [
           {
+            "player": "Kon Knueppel",
+            "team": "CHA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 31.5,
+            "value": 5.09,
+            "impactPts": 2.19
+          },
+          {
+            "player": "Grant Williams",
+            "team": "CHA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 19.8,
+            "value": 0.71,
+            "impactPts": 0.3
+          },
+          {
             "player": "Kylan Boswell",
             "team": "CHA",
             "status": "out",
@@ -218,7 +251,7 @@
     },
     {
       "gameId": "20261031-ATL-NOP",
-      "generatedAt": "2026-10-24T16:56:23Z",
+      "generatedAt": "2026-10-24T17:16:29Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 121.4,
@@ -282,7 +315,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T16:56:23Z",
+        "reportPulledAt": "2026-10-24T17:16:29Z",
         "source": "espn",
         "away": [
           {
@@ -313,7 +346,7 @@
     },
     {
       "gameId": "20261031-CLE-MIL",
-      "generatedAt": "2026-10-24T16:56:23Z",
+      "generatedAt": "2026-10-24T17:16:29Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 117.9,
@@ -376,7 +409,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T16:56:23Z",
+        "reportPulledAt": "2026-10-24T17:16:29Z",
         "source": "espn",
         "away": [],
         "home": []
@@ -384,7 +417,7 @@
     },
     {
       "gameId": "20261031-MIN-SAS",
-      "generatedAt": "2026-10-24T16:56:23Z",
+      "generatedAt": "2026-10-24T17:16:29Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 110.6,
@@ -450,7 +483,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T16:56:23Z",
+        "reportPulledAt": "2026-10-24T17:16:29Z",
         "source": "espn",
         "away": [
           {
@@ -482,7 +515,7 @@
     },
     {
       "gameId": "20261031-SAC-MEM",
-      "generatedAt": "2026-10-24T16:56:23Z",
+      "generatedAt": "2026-10-24T17:16:29Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 109.1,
@@ -545,7 +578,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T16:56:23Z",
+        "reportPulledAt": "2026-10-24T17:16:29Z",
         "source": "espn",
         "away": [
           {
@@ -587,7 +620,7 @@
     },
     {
       "gameId": "20261031-OKC-HOU",
-      "generatedAt": "2026-10-24T16:56:23Z",
+      "generatedAt": "2026-10-24T17:16:29Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 109.5,
@@ -651,7 +684,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T16:56:23Z",
+        "reportPulledAt": "2026-10-24T17:16:29Z",
         "source": "espn",
         "away": [
           {
