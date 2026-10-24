@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261024-MIA-CHA",
-      "generatedAt": "2026-10-24T04:56:43Z",
+      "generatedAt": "2026-10-24T13:19:17Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 113.5,
-      "homePts": 111.6,
-      "margin": -1.91,
-      "spreadHome": 1.9,
-      "total": 225.0,
+      "homePts": 113.8,
+      "margin": 0.31,
+      "spreadHome": -0.3,
+      "total": 227.2,
       "pace": 105.5,
-      "homeWinProb": 0.4459,
-      "fairMlHome": 124,
-      "fairMlAway": -124,
+      "homeWinProb": 0.5088,
+      "fairMlHome": -104,
+      "fairMlAway": 104,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.43
+          "pts": -2.21
         }
       ],
       "sample": {
@@ -69,42 +69,42 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:55:24Z",
+        "reportPulledAt": "2026-10-24T13:19:17Z",
         "source": "espn",
         "away": [],
         "home": [
           {
             "player": "Kon Knueppel",
             "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Hamstring",
             "matched": true,
             "expMin": 31.5,
             "value": 5.09,
-            "impactPts": 2.19
+            "impactPts": 1.09
           },
           {
             "player": "Coby White",
             "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Calf Strain",
             "matched": true,
             "expMin": 25.0,
             "value": 4.51,
-            "impactPts": 1.94
+            "impactPts": 0.97
           },
           {
             "player": "Grant Williams",
             "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Hamstring",
             "matched": true,
             "expMin": 19.8,
             "value": 0.71,
-            "impactPts": 0.3
+            "impactPts": 0.15
           },
           {
             "player": "Kylan Boswell",
@@ -122,7 +122,7 @@
     },
     {
       "gameId": "20261024-BKN-CLE",
-      "generatedAt": "2026-10-24T04:56:43Z",
+      "generatedAt": "2026-10-24T13:19:17Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 104.8,
@@ -183,7 +183,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:55:24Z",
+        "reportPulledAt": "2026-10-24T13:19:17Z",
         "source": "espn",
         "away": [
           {
@@ -203,7 +203,7 @@
     },
     {
       "gameId": "20261024-MIL-PHI",
-      "generatedAt": "2026-10-24T04:56:43Z",
+      "generatedAt": "2026-10-24T13:19:17Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 105.7,
@@ -267,7 +267,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:55:24Z",
+        "reportPulledAt": "2026-10-24T13:19:17Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -331,18 +331,18 @@
     },
     {
       "gameId": "20261024-SAS-DAL",
-      "generatedAt": "2026-10-24T04:56:43Z",
+      "generatedAt": "2026-10-24T13:19:17Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 117.4,
-      "homePts": 106.5,
-      "margin": -10.87,
-      "spreadHome": 10.9,
-      "total": 223.8,
+      "homePts": 105.8,
+      "margin": -11.54,
+      "spreadHome": 11.5,
+      "total": 223.2,
       "pace": 106.1,
-      "homeWinProb": 0.2194,
-      "fairMlHome": 356,
-      "fairMlAway": -356,
+      "homeWinProb": 0.2056,
+      "fairMlHome": 386,
+      "fairMlAway": -386,
       "contributions": [
         {
           "key": "offense",
@@ -366,7 +366,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.69
+          "pts": -3.36
         }
       ],
       "sample": {
@@ -396,7 +396,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:55:24Z",
+        "reportPulledAt": "2026-10-24T13:19:17Z",
         "source": "espn",
         "away": [
           {
@@ -424,26 +424,26 @@
         ],
         "home": [
           {
-            "player": "Santi Aldama",
+            "player": "Cooper Flagg",
             "team": "DAL",
             "status": "out",
             "pPlay": 0.0,
-            "reason": "Knee Surgery",
-            "matched": true,
-            "expMin": 27.8,
-            "value": 4.25,
-            "impactPts": 1.83
-          },
-          {
-            "player": "Cooper Flagg",
-            "team": "DAL",
-            "status": "questionable",
-            "pPlay": 0.5,
             "reason": "Shoulder Soreness",
             "matched": true,
             "expMin": 31.4,
             "value": 7.59,
-            "impactPts": 1.63
+            "impactPts": 3.26
+          },
+          {
+            "player": "Santi Aldama",
+            "team": "DAL",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Knee Surgery",
+            "matched": true,
+            "expMin": 27.8,
+            "value": 4.25,
+            "impactPts": 0.91
           },
           {
             "player": "Dereck Lively II",
@@ -459,19 +459,19 @@
           {
             "player": "Jett Howard",
             "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Calf Soreness",
             "matched": true,
             "expMin": 12.7,
             "value": 0.21,
-            "impactPts": 0.09
+            "impactPts": 0.05
           },
           {
             "player": "Caleb Martin",
             "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Thumb Sprain",
             "matched": true,
             "expMin": 14.8,
@@ -481,8 +481,8 @@
           {
             "player": "Tarik Biberovic",
             "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Heel Inflammation",
             "matched": true,
             "expMin": 0.0,
@@ -494,7 +494,7 @@
     },
     {
       "gameId": "20261024-WAS-CHI",
-      "generatedAt": "2026-10-24T04:56:43Z",
+      "generatedAt": "2026-10-24T13:19:17Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 116.5,
@@ -560,7 +560,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:55:24Z",
+        "reportPulledAt": "2026-10-24T13:19:17Z",
         "source": "espn",
         "away": [
           {
@@ -588,8 +588,8 @@
           {
             "player": "AJ Dybantsa",
             "team": "WAS",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Ankle Sprain",
             "matched": true,
             "expMin": 0.0,
@@ -614,7 +614,7 @@
     },
     {
       "gameId": "20261024-HOU-ATL",
-      "generatedAt": "2026-10-24T04:56:43Z",
+      "generatedAt": "2026-10-24T13:19:17Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 110.4,
@@ -680,7 +680,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:55:24Z",
+        "reportPulledAt": "2026-10-24T13:19:17Z",
         "source": "espn",
         "away": [
           {
@@ -723,18 +723,18 @@
     },
     {
       "gameId": "20261024-NOP-DEN",
-      "generatedAt": "2026-10-24T04:56:43Z",
+      "generatedAt": "2026-10-24T13:19:17Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.6,
+      "awayPts": 107.2,
       "homePts": 122.7,
-      "margin": 15.08,
-      "spreadHome": -15.1,
-      "total": 230.3,
+      "margin": 15.51,
+      "spreadHome": -15.5,
+      "total": 229.9,
       "pace": 102.8,
-      "homeWinProb": 0.8586,
-      "fairMlHome": -607,
-      "fairMlAway": 607,
+      "homeWinProb": 0.8653,
+      "fairMlHome": -643,
+      "fairMlAway": 643,
       "contributions": [
         {
           "key": "offense",
@@ -758,7 +758,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.91
+          "pts": -0.48
         }
       ],
       "sample": {
@@ -788,9 +788,21 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:55:24Z",
+        "reportPulledAt": "2026-10-24T13:19:17Z",
         "source": "espn",
-        "away": [],
+        "away": [
+          {
+            "player": "Yves Missi",
+            "team": "NOP",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 19.4,
+            "value": 1.98,
+            "impactPts": 0.43
+          }
+        ],
         "home": [
           {
             "player": "Cameron Johnson",
@@ -841,7 +853,7 @@
     },
     {
       "gameId": "20261024-GSW-PHX",
-      "generatedAt": "2026-10-24T04:56:43Z",
+      "generatedAt": "2026-10-24T13:19:17Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 97.5,
@@ -906,7 +918,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:55:24Z",
+        "reportPulledAt": "2026-10-24T13:19:17Z",
         "source": "espn",
         "away": [
           {

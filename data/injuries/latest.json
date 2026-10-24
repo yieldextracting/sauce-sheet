@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-10-24T01:55:24Z",
+  "pulledAt": "2026-10-24T13:19:17Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -53,8 +53,8 @@
       "player": "Grant Williams",
       "key": "grantwilliams",
       "team": "CHA",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Hamstring",
       "espnId": "4066218",
       "gameId": "20261024-MIA-CHA",
@@ -64,8 +64,8 @@
       "player": "Coby White",
       "key": "cobywhite",
       "team": "CHA",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Calf Strain",
       "espnId": "4395651",
       "gameId": "20261024-MIA-CHA",
@@ -75,8 +75,8 @@
       "player": "Kon Knueppel",
       "key": "konknueppel",
       "team": "CHA",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Hamstring",
       "espnId": "5061575",
       "gameId": "20261024-MIA-CHA",
@@ -105,13 +105,13 @@
       "source": "espn"
     },
     {
-      "player": "Cooper Flagg",
-      "key": "cooperflagg",
+      "player": "Caleb Martin",
+      "key": "calebmartin",
       "team": "DAL",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Shoulder Soreness",
-      "espnId": "5041939",
+      "reason": "Thumb Sprain",
+      "espnId": "3138160",
       "gameId": "20261024-SAS-DAL",
       "source": "espn"
     },
@@ -119,32 +119,10 @@
       "player": "Jett Howard",
       "key": "jetthoward",
       "team": "DAL",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Calf Soreness",
       "espnId": "5105806",
-      "gameId": "20261024-SAS-DAL",
-      "source": "espn"
-    },
-    {
-      "player": "Caleb Martin",
-      "key": "calebmartin",
-      "team": "DAL",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Thumb Sprain",
-      "espnId": "3138160",
-      "gameId": "20261024-SAS-DAL",
-      "source": "espn"
-    },
-    {
-      "player": "Santi Aldama",
-      "key": "santialdama",
-      "team": "DAL",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Knee Surgery",
-      "espnId": "4593125",
       "gameId": "20261024-SAS-DAL",
       "source": "espn"
     },
@@ -152,10 +130,32 @@
       "player": "Tarik Biberovic",
       "key": "tarikbiberovic",
       "team": "DAL",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Heel Inflammation",
       "espnId": "5148538",
+      "gameId": "20261024-SAS-DAL",
+      "source": "espn"
+    },
+    {
+      "player": "Santi Aldama",
+      "key": "santialdama",
+      "team": "DAL",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Knee Surgery",
+      "espnId": "4593125",
+      "gameId": "20261024-SAS-DAL",
+      "source": "espn"
+    },
+    {
+      "player": "Cooper Flagg",
+      "key": "cooperflagg",
+      "team": "DAL",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Shoulder Soreness",
+      "espnId": "5041939",
       "gameId": "20261024-SAS-DAL",
       "source": "espn"
     },
@@ -222,7 +222,7 @@
       "pPlay": 0.5,
       "reason": "Undisclosed",
       "espnId": "4684742",
-      "gameId": null,
+      "gameId": "20261025-DET-PHI",
       "source": "espn"
     },
     {
@@ -233,7 +233,7 @@
       "pPlay": 0.5,
       "reason": "Thigh",
       "espnId": "4433621",
-      "gameId": null,
+      "gameId": "20261025-DET-PHI",
       "source": "espn"
     },
     {
@@ -244,7 +244,7 @@
       "pPlay": 0.0,
       "reason": "Knee",
       "espnId": "4397886",
-      "gameId": "20261023-MEM-GSW",
+      "gameId": "20261024-GSW-PHX",
       "source": "espn"
     },
     {
@@ -255,7 +255,7 @@
       "pPlay": 0.0,
       "reason": "Illness",
       "espnId": "3102531",
-      "gameId": "20261023-MEM-GSW",
+      "gameId": "20261024-GSW-PHX",
       "source": "espn"
     },
     {
@@ -266,7 +266,7 @@
       "pPlay": 0.0,
       "reason": "Knee Surgery",
       "espnId": "4432171",
-      "gameId": "20261023-MEM-GSW",
+      "gameId": "20261024-GSW-PHX",
       "source": "espn"
     },
     {
@@ -277,7 +277,7 @@
       "pPlay": 0.0,
       "reason": "Knee Surgery",
       "espnId": "6430",
-      "gameId": "20261023-MEM-GSW",
+      "gameId": "20261024-GSW-PHX",
       "source": "espn"
     },
     {
@@ -292,6 +292,17 @@
       "source": "espn"
     },
     {
+      "player": "T.J. McConnell",
+      "key": "tjmcconnell",
+      "team": "IND",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Hamstring",
+      "espnId": "2530530",
+      "gameId": "20261025-IND-BKN",
+      "source": "espn"
+    },
+    {
       "player": "Ben Sheppard",
       "key": "bensheppard",
       "team": "IND",
@@ -299,18 +310,7 @@
       "pPlay": 0.0,
       "reason": "Knee",
       "espnId": "4433076",
-      "gameId": null,
-      "source": "espn"
-    },
-    {
-      "player": "T.J. McConnell",
-      "key": "tjmcconnell",
-      "team": "IND",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Hamstring",
-      "espnId": "2530530",
-      "gameId": null,
+      "gameId": "20261025-IND-BKN",
       "source": "espn"
     },
     {
@@ -321,7 +321,7 @@
       "pPlay": 0.0,
       "reason": "Knee Surgery",
       "espnId": "5157066",
-      "gameId": null,
+      "gameId": "20261025-IND-BKN",
       "source": "espn"
     },
     {
@@ -332,7 +332,7 @@
       "pPlay": 0.0,
       "reason": "Knee Inflammation",
       "espnId": "6580",
-      "gameId": "20261023-LAC-LAL",
+      "gameId": "20261025-LAC-OKC",
       "source": "espn"
     },
     {
@@ -343,7 +343,7 @@
       "pPlay": 0.0,
       "reason": "Foot Plantar Fasciitis",
       "espnId": "4065778",
-      "gameId": "20261023-LAC-LAL",
+      "gameId": "20261025-LAC-OKC",
       "source": "espn"
     },
     {
@@ -354,7 +354,7 @@
       "pPlay": 0.0,
       "reason": "Foot Surgery",
       "espnId": "5108024",
-      "gameId": "20261023-LAC-LAL",
+      "gameId": "20261025-LAC-OKC",
       "source": "espn"
     },
     {
@@ -365,7 +365,7 @@
       "pPlay": 0.0,
       "reason": "Heel Surgery",
       "espnId": "3913176",
-      "gameId": null,
+      "gameId": "20261025-TOR-MIN",
       "source": "espn"
     },
     {
@@ -376,7 +376,7 @@
       "pPlay": 0.0,
       "reason": "Shoulder Surgery",
       "espnId": "4396818",
-      "gameId": "20261023-LAC-LAL",
+      "gameId": "20261025-LAC-OKC",
       "source": "espn"
     },
     {
@@ -387,7 +387,7 @@
       "pPlay": 0.0,
       "reason": "Ankle Sprain",
       "espnId": "4592691",
-      "gameId": "20261023-LAC-LAL",
+      "gameId": "20261025-LAL-UTA",
       "source": "espn"
     },
     {
@@ -398,7 +398,7 @@
       "pPlay": 0.0,
       "reason": "Knee Inflammation",
       "espnId": "5060631",
-      "gameId": "20261023-LAC-LAL",
+      "gameId": "20261025-LAL-UTA",
       "source": "espn"
     },
     {
@@ -409,7 +409,7 @@
       "pPlay": 0.0,
       "reason": "Oblique Strain",
       "espnId": "5113969",
-      "gameId": "20261023-LAC-LAL",
+      "gameId": "20261025-LAL-UTA",
       "source": "espn"
     },
     {
@@ -420,7 +420,7 @@
       "pPlay": 0.0,
       "reason": "Wrist Sprain",
       "espnId": "4903027",
-      "gameId": "20261023-MEM-GSW",
+      "gameId": "20261025-MEM-SAC",
       "source": "espn"
     },
     {
@@ -431,7 +431,18 @@
       "pPlay": 0.0,
       "reason": "Achilles Surgery",
       "espnId": "3934673",
-      "gameId": null,
+      "gameId": "20261025-TOR-MIN",
+      "source": "espn"
+    },
+    {
+      "player": "Yves Missi",
+      "key": "yvesmissi",
+      "team": "NOP",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Knee",
+      "espnId": "5061589",
+      "gameId": "20261024-NOP-DEN",
       "source": "espn"
     },
     {
@@ -442,7 +453,7 @@
       "pPlay": 0.0,
       "reason": "Achilles Surgery",
       "espnId": "5106270",
-      "gameId": null,
+      "gameId": "20261025-LAC-OKC",
       "source": "espn"
     },
     {
@@ -453,7 +464,7 @@
       "pPlay": 0.0,
       "reason": "Back Surgery",
       "espnId": "5159925",
-      "gameId": null,
+      "gameId": "20261025-LAC-OKC",
       "source": "espn"
     },
     {
@@ -464,7 +475,29 @@
       "pPlay": 0.0,
       "reason": "Knee Surgery",
       "espnId": "5061603",
-      "gameId": null,
+      "gameId": "20261025-LAC-OKC",
+      "source": "espn"
+    },
+    {
+      "player": "Jonathan Isaac",
+      "key": "jonathanisaac",
+      "team": "ORL",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Knee Not Specified",
+      "espnId": "4065654",
+      "gameId": "20261025-ORL-NYK",
+      "source": "espn"
+    },
+    {
+      "player": "Anthony Black",
+      "key": "anthonyblack",
+      "team": "ORL",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Ankle Sprain",
+      "espnId": "4712849",
+      "gameId": "20261025-ORL-NYK",
       "source": "espn"
     },
     {
@@ -475,29 +508,7 @@
       "pPlay": 0.5,
       "reason": "Ankle Soreness",
       "espnId": "4432573",
-      "gameId": null,
-      "source": "espn"
-    },
-    {
-      "player": "Anthony Black",
-      "key": "anthonyblack",
-      "team": "ORL",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Ankle Sprain",
-      "espnId": "4712849",
-      "gameId": null,
-      "source": "espn"
-    },
-    {
-      "player": "Jonathan Isaac",
-      "key": "jonathanisaac",
-      "team": "ORL",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Knee Not Specified",
-      "espnId": "4065654",
-      "gameId": null,
+      "gameId": "20261025-ORL-NYK",
       "source": "espn"
     },
     {
@@ -508,7 +519,7 @@
       "pPlay": 0.0,
       "reason": "Hamstring Strain",
       "espnId": "5214637",
-      "gameId": null,
+      "gameId": "20261025-ORL-NYK",
       "source": "espn"
     },
     {
@@ -519,7 +530,7 @@
       "pPlay": 0.0,
       "reason": "Ankle Surgery",
       "espnId": "5107251",
-      "gameId": null,
+      "gameId": "20261025-ORL-NYK",
       "source": "espn"
     },
     {
@@ -618,7 +629,7 @@
       "pPlay": 0.0,
       "reason": "Concussion Concussion",
       "espnId": "4592435",
-      "gameId": "20261023-POR-SAC",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -629,7 +640,7 @@
       "pPlay": 0.0,
       "reason": "Ankle Soreness",
       "espnId": "4706557",
-      "gameId": "20261023-POR-SAC",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -640,7 +651,7 @@
       "pPlay": 0.0,
       "reason": "Knee Surgery",
       "espnId": "4914336",
-      "gameId": "20261023-POR-SAC",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -651,7 +662,7 @@
       "pPlay": 0.0,
       "reason": "Achilles Surgery",
       "espnId": "3907387",
-      "gameId": "20261023-POR-SAC",
+      "gameId": "20261025-MEM-SAC",
       "source": "espn"
     },
     {
@@ -662,7 +673,7 @@
       "pPlay": 0.0,
       "reason": "Calf Strain",
       "espnId": "4433174",
-      "gameId": "20261023-POR-SAC",
+      "gameId": "20261025-MEM-SAC",
       "source": "espn"
     },
     {
@@ -673,7 +684,7 @@
       "pPlay": 0.0,
       "reason": "Knee Dislocated",
       "espnId": "4898371",
-      "gameId": "20261023-POR-SAC",
+      "gameId": "20261025-MEM-SAC",
       "source": "espn"
     },
     {
@@ -706,7 +717,7 @@
       "pPlay": 0.0,
       "reason": "Foot Fracture",
       "espnId": "4432586",
-      "gameId": null,
+      "gameId": "20261025-TOR-MIN",
       "source": "espn"
     },
     {
@@ -717,7 +728,7 @@
       "pPlay": 0.0,
       "reason": "Knee Bruise",
       "espnId": "4433268",
-      "gameId": null,
+      "gameId": "20261025-LAL-UTA",
       "source": "espn"
     },
     {
@@ -728,15 +739,15 @@
       "pPlay": 0.0,
       "reason": "Foot Strain",
       "espnId": "3102530",
-      "gameId": null,
+      "gameId": "20261025-LAL-UTA",
       "source": "espn"
     },
     {
       "player": "AJ Dybantsa",
       "key": "ajdybantsa",
       "team": "WAS",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Ankle Sprain",
       "espnId": "5142718",
       "gameId": "20261024-WAS-CHI",
