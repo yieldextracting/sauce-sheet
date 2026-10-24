@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261029-CLE-ATL",
-      "generatedAt": "2026-10-24T01:25:15Z",
+      "generatedAt": "2026-10-24T01:35:18Z",
       "ratingsAsOf": "2026-10-24T01:25:15Z",
       "modelVersion": "v2.0",
       "awayPts": 113.2,
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:25:14Z",
+        "reportPulledAt": "2026-10-24T01:35:18Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -100,7 +100,7 @@
     },
     {
       "gameId": "20261029-SAC-NOP",
-      "generatedAt": "2026-10-24T01:25:15Z",
+      "generatedAt": "2026-10-24T01:35:18Z",
       "ratingsAsOf": "2026-10-24T01:25:15Z",
       "modelVersion": "v2.0",
       "awayPts": 111.0,
@@ -163,7 +163,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:25:14Z",
+        "reportPulledAt": "2026-10-24T01:35:18Z",
         "source": "espn",
         "away": [
           {
@@ -205,18 +205,18 @@
     },
     {
       "gameId": "20261029-MEM-POR",
-      "generatedAt": "2026-10-24T01:25:15Z",
+      "generatedAt": "2026-10-24T01:35:18Z",
       "ratingsAsOf": "2026-10-24T01:25:15Z",
       "modelVersion": "v2.0",
-      "awayPts": 109.3,
+      "awayPts": 107.9,
       "homePts": 115.3,
-      "margin": 5.99,
-      "spreadHome": -6.0,
-      "total": 224.6,
+      "margin": 7.34,
+      "spreadHome": -7.3,
+      "total": 223.2,
       "pace": 106.3,
-      "homeWinProb": 0.6653,
-      "fairMlHome": -199,
-      "fairMlAway": 199,
+      "homeWinProb": 0.6995,
+      "fairMlHome": -233,
+      "fairMlAway": 233,
       "contributions": [
         {
           "key": "offense",
@@ -240,7 +240,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.67
+          "pts": -1.32
         }
       ],
       "sample": {
@@ -266,9 +266,21 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:25:14Z",
+        "reportPulledAt": "2026-10-24T01:35:18Z",
         "source": "espn",
-        "away": [],
+        "away": [
+          {
+            "player": "Cedric Coward",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Wrist Sprain",
+            "matched": true,
+            "expMin": 26.1,
+            "value": 3.14,
+            "impactPts": 1.35
+          }
+        ],
         "home": [
           {
             "player": "Shaedon Sharpe",

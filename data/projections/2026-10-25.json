@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261025-LAL-UTA",
-      "generatedAt": "2026-10-24T01:25:15Z",
+      "generatedAt": "2026-10-24T01:35:18Z",
       "ratingsAsOf": "2026-10-24T01:25:15Z",
       "modelVersion": "v2.0",
       "awayPts": 120.4,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:25:14Z",
+        "reportPulledAt": "2026-10-24T01:35:18Z",
         "source": "espn",
         "away": [
           {
@@ -131,7 +131,7 @@
     },
     {
       "gameId": "20261025-IND-BKN",
-      "generatedAt": "2026-10-24T01:25:15Z",
+      "generatedAt": "2026-10-24T01:35:18Z",
       "ratingsAsOf": "2026-10-24T01:25:15Z",
       "modelVersion": "v2.0",
       "awayPts": 110.2,
@@ -194,7 +194,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:25:14Z",
+        "reportPulledAt": "2026-10-24T01:35:18Z",
         "source": "espn",
         "away": [
           {
@@ -248,7 +248,7 @@
     },
     {
       "gameId": "20261025-LAC-OKC",
-      "generatedAt": "2026-10-24T01:25:15Z",
+      "generatedAt": "2026-10-24T01:35:18Z",
       "ratingsAsOf": "2026-10-24T01:25:15Z",
       "modelVersion": "v2.0",
       "awayPts": 99.9,
@@ -311,7 +311,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:25:14Z",
+        "reportPulledAt": "2026-10-24T01:35:18Z",
         "source": "espn",
         "away": [
           {
@@ -398,7 +398,7 @@
     },
     {
       "gameId": "20261025-ORL-NYK",
-      "generatedAt": "2026-10-24T01:25:15Z",
+      "generatedAt": "2026-10-24T01:35:18Z",
       "ratingsAsOf": "2026-10-24T01:25:15Z",
       "modelVersion": "v2.0",
       "awayPts": 107.8,
@@ -461,7 +461,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:25:14Z",
+        "reportPulledAt": "2026-10-24T01:35:18Z",
         "source": "espn",
         "away": [
           {
@@ -514,7 +514,7 @@
     },
     {
       "gameId": "20261025-TOR-MIN",
-      "generatedAt": "2026-10-24T01:25:15Z",
+      "generatedAt": "2026-10-24T01:35:18Z",
       "ratingsAsOf": "2026-10-24T01:25:15Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
@@ -577,7 +577,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:25:14Z",
+        "reportPulledAt": "2026-10-24T01:35:18Z",
         "source": "espn",
         "away": [
           {
@@ -620,7 +620,7 @@
     },
     {
       "gameId": "20261025-DET-PHI",
-      "generatedAt": "2026-10-24T01:25:15Z",
+      "generatedAt": "2026-10-24T01:35:18Z",
       "ratingsAsOf": "2026-10-24T01:25:15Z",
       "modelVersion": "v2.0",
       "awayPts": 114.2,
@@ -685,7 +685,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:25:14Z",
+        "reportPulledAt": "2026-10-24T01:35:18Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -727,18 +727,18 @@
     },
     {
       "gameId": "20261025-MEM-SAC",
-      "generatedAt": "2026-10-24T01:25:15Z",
+      "generatedAt": "2026-10-24T01:35:18Z",
       "ratingsAsOf": "2026-10-24T01:25:15Z",
       "modelVersion": "v2.0",
-      "awayPts": 116.4,
+      "awayPts": 115.1,
       "homePts": 110.6,
-      "margin": -5.87,
-      "spreadHome": 5.9,
-      "total": 227.0,
+      "margin": -4.52,
+      "spreadHome": 4.5,
+      "total": 225.7,
       "pace": 105.4,
-      "homeWinProb": 0.338,
-      "fairMlHome": 196,
-      "fairMlAway": -196,
+      "homeWinProb": 0.3738,
+      "fairMlHome": 168,
+      "fairMlAway": -168,
       "contributions": [
         {
           "key": "offense",
@@ -762,7 +762,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.94
+          "pts": -0.59
         }
       ],
       "sample": {
@@ -788,9 +788,21 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T01:25:14Z",
+        "reportPulledAt": "2026-10-24T01:35:18Z",
         "source": "espn",
-        "away": [],
+        "away": [
+          {
+            "player": "Cedric Coward",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Wrist Sprain",
+            "matched": true,
+            "expMin": 26.1,
+            "value": 3.14,
+            "impactPts": 1.35
+          }
+        ],
         "home": [
           {
             "player": "Maxime Raynaud",
