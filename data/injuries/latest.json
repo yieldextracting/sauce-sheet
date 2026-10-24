@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-10-24T22:17:54Z",
+  "pulledAt": "2026-10-24T22:28:38Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -94,24 +94,24 @@
       "source": "espn"
     },
     {
-      "player": "Noa Essengue",
-      "key": "noaessengue",
+      "player": "Patrick Williams",
+      "key": "patrickwilliams",
       "team": "CHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Head Bruise",
-      "espnId": "5242496",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Groin Soreness",
+      "espnId": "4431687",
       "gameId": "20261024-WAS-CHI",
       "source": "espn"
     },
     {
-      "player": "Patrick Williams",
-      "key": "patrickwilliams",
+      "player": "Noa Essengue",
+      "key": "noaessengue",
       "team": "CHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Groin Soreness",
-      "espnId": "4431687",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Head Bruise",
+      "espnId": "5242496",
       "gameId": "20261024-WAS-CHI",
       "source": "espn"
     },
@@ -127,12 +127,23 @@
       "source": "espn"
     },
     {
+      "player": "Kyrie Irving",
+      "key": "kyrieirving",
+      "team": "DAL",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Rest",
+      "espnId": "6442",
+      "gameId": "20261024-SAS-DAL",
+      "source": "espn"
+    },
+    {
       "player": "Morez Johnson Jr.",
       "key": "morezjohnsonjr",
       "team": "DAL",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Lower Leg",
+      "reason": null,
       "espnId": "4873153",
       "gameId": "20261024-SAS-DAL",
       "source": "espn"
@@ -145,17 +156,6 @@
       "pPlay": 0.5,
       "reason": "Hip Soreness",
       "espnId": "5211175",
-      "gameId": "20261024-SAS-DAL",
-      "source": "espn"
-    },
-    {
-      "player": "Kyrie Irving",
-      "key": "kyrieirving",
-      "team": "DAL",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Knee",
-      "espnId": "6442",
       "gameId": "20261024-SAS-DAL",
       "source": "espn"
     },
@@ -594,7 +594,7 @@
       "team": "NOP",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Knee",
+      "reason": "Knee Bruise",
       "espnId": "5061589",
       "gameId": "20261024-NOP-DEN",
       "source": "espn"
