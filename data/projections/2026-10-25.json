@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261025-LAL-UTA",
-      "generatedAt": "2026-10-24T22:58:48Z",
+      "generatedAt": "2026-10-24T23:18:54Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 121.4,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T22:58:48Z",
+        "reportPulledAt": "2026-10-24T23:18:54Z",
         "source": "espn",
         "away": [
           {
@@ -74,11 +74,22 @@
             "team": "LAL",
             "status": "questionable",
             "pPlay": 0.5,
-            "reason": "Ankle Sprain",
+            "reason": null,
             "matched": true,
             "expMin": 24.2,
             "value": 0.4,
             "impactPts": 0.09
+          },
+          {
+            "player": "Cameron Carr",
+            "team": "LAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Oblique Strain",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
           },
           {
             "player": "Adou Thiero",
@@ -88,17 +99,6 @@
             "reason": "Knee Inflammation",
             "matched": true,
             "expMin": 6.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Cameron Carr",
-            "team": "LAL",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Oblique Strain",
-            "matched": true,
-            "expMin": 0.0,
             "value": 0.0,
             "impactPts": 0.0
           }
@@ -131,7 +131,7 @@
     },
     {
       "gameId": "20261025-IND-BKN",
-      "generatedAt": "2026-10-24T22:58:48Z",
+      "generatedAt": "2026-10-24T23:18:54Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 109.2,
@@ -194,7 +194,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T22:58:48Z",
+        "reportPulledAt": "2026-10-24T23:18:54Z",
         "source": "espn",
         "away": [
           {
@@ -259,7 +259,7 @@
     },
     {
       "gameId": "20261025-LAC-OKC",
-      "generatedAt": "2026-10-24T22:58:48Z",
+      "generatedAt": "2026-10-24T23:18:54Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 100.4,
@@ -322,7 +322,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T22:58:48Z",
+        "reportPulledAt": "2026-10-24T23:18:54Z",
         "source": "espn",
         "away": [
           {
@@ -409,7 +409,7 @@
     },
     {
       "gameId": "20261025-ORL-NYK",
-      "generatedAt": "2026-10-24T22:58:48Z",
+      "generatedAt": "2026-10-24T23:18:54Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 103.1,
@@ -472,7 +472,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T22:58:48Z",
+        "reportPulledAt": "2026-10-24T23:18:54Z",
         "source": "espn",
         "away": [
           {
@@ -548,7 +548,7 @@
     },
     {
       "gameId": "20261025-TOR-MIN",
-      "generatedAt": "2026-10-24T22:58:48Z",
+      "generatedAt": "2026-10-24T23:18:54Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 106.3,
@@ -611,7 +611,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T22:58:48Z",
+        "reportPulledAt": "2026-10-24T23:18:54Z",
         "source": "espn",
         "away": [
           {
@@ -654,7 +654,7 @@
     },
     {
       "gameId": "20261025-DET-PHI",
-      "generatedAt": "2026-10-24T22:58:48Z",
+      "generatedAt": "2026-10-24T23:18:54Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 110.3,
@@ -719,7 +719,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T22:58:48Z",
+        "reportPulledAt": "2026-10-24T23:18:54Z",
         "source": "espn",
         "away": [
           {
@@ -795,7 +795,7 @@
     },
     {
       "gameId": "20261025-MEM-SAC",
-      "generatedAt": "2026-10-24T22:58:48Z",
+      "generatedAt": "2026-10-24T23:18:54Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 116.4,
@@ -856,7 +856,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-24T22:58:48Z",
+        "reportPulledAt": "2026-10-24T23:18:54Z",
         "source": "espn",
         "away": [
           {
