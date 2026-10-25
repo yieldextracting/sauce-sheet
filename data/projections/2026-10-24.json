@@ -756,18 +756,18 @@
     },
     {
       "gameId": "20261024-NOP-DEN",
-      "generatedAt": "2026-10-25T00:39:19Z",
-      "ratingsAsOf": "2026-10-24T04:56:43Z",
+      "generatedAt": "2026-10-25T00:49:22Z",
+      "ratingsAsOf": "2026-10-25T00:49:22Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.8,
+      "awayPts": 106.7,
       "homePts": 122.7,
-      "margin": 15.93,
+      "margin": 15.92,
       "spreadHome": -15.9,
-      "total": 229.5,
+      "total": 229.4,
       "pace": 102.8,
-      "homeWinProb": 0.8717,
-      "fairMlHome": -680,
-      "fairMlAway": 680,
+      "homeWinProb": 0.8716,
+      "fairMlHome": -679,
+      "fairMlAway": 679,
       "contributions": [
         {
           "key": "offense",
@@ -821,7 +821,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T00:39:19Z",
+        "reportPulledAt": "2026-10-25T00:49:22Z",
         "source": "espn",
         "away": [
           {
@@ -886,18 +886,18 @@
     },
     {
       "gameId": "20261024-GSW-PHX",
-      "generatedAt": "2026-10-25T00:39:19Z",
-      "ratingsAsOf": "2026-10-24T04:56:43Z",
+      "generatedAt": "2026-10-25T00:49:22Z",
+      "ratingsAsOf": "2026-10-25T00:49:22Z",
       "modelVersion": "v2.0",
       "awayPts": 91.6,
-      "homePts": 108.0,
-      "margin": 16.4,
-      "spreadHome": -16.4,
-      "total": 199.6,
+      "homePts": 108.3,
+      "margin": 16.68,
+      "spreadHome": -16.7,
+      "total": 199.8,
       "pace": 101.3,
-      "homeWinProb": 0.8785,
-      "fairMlHome": -723,
-      "fairMlAway": 723,
+      "homeWinProb": 0.8826,
+      "fairMlHome": -752,
+      "fairMlAway": 752,
       "contributions": [
         {
           "key": "offense",
@@ -921,7 +921,7 @@
         },
         {
           "key": "injuries",
-          "pts": 11.66
+          "pts": 11.95
         }
       ],
       "sample": {
@@ -951,7 +951,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T00:39:19Z",
+        "reportPulledAt": "2026-10-25T00:49:22Z",
         "source": "espn",
         "away": [
           {
@@ -1034,8 +1034,8 @@
           {
             "player": "Draymond Green",
             "team": "GSW",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Back",
             "matched": true,
             "expMin": 27.2,
@@ -1065,17 +1065,6 @@
             "expMin": 21.2,
             "value": 0.89,
             "impactPts": 0.38
-          },
-          {
-            "player": "Luke Kennard",
-            "team": "PHX",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": null,
-            "matched": true,
-            "expMin": 21.6,
-            "value": 1.37,
-            "impactPts": 0.29
           }
         ]
       }
