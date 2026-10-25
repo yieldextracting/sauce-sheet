@@ -248,7 +248,7 @@
     },
     {
       "gameId": "20261025-LAC-OKC",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 101.1,
@@ -311,7 +311,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
           {
@@ -398,7 +398,7 @@
     },
     {
       "gameId": "20261025-ORL-NYK",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 104.4,
@@ -461,7 +461,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
           {
@@ -526,18 +526,18 @@
     },
     {
       "gameId": "20261025-TOR-MIN",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.1,
+      "awayPts": 101.9,
       "homePts": 112.1,
-      "margin": 4.95,
-      "spreadHome": -4.9,
-      "total": 219.2,
+      "margin": 10.16,
+      "spreadHome": -10.2,
+      "total": 214.0,
       "pace": 104.7,
-      "homeWinProb": 0.6377,
-      "fairMlHome": -176,
-      "fairMlAway": 176,
+      "homeWinProb": 0.7653,
+      "fairMlHome": -326,
+      "fairMlAway": 326,
       "contributions": [
         {
           "key": "offense",
@@ -561,7 +561,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.87
+          "pts": 7.08
         }
       ],
       "sample": {
@@ -589,9 +589,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Kawhi Leonard",
+            "team": "TOR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Inflammation",
+            "matched": true,
+            "expMin": 30.7,
+            "value": 12.14,
+            "impactPts": 5.21
+          },
           {
             "player": "Brandon Ingram",
             "team": "TOR",
@@ -632,18 +643,18 @@
     },
     {
       "gameId": "20261025-DET-PHI",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
-      "awayPts": 111.8,
+      "awayPts": 111.2,
       "homePts": 103.2,
-      "margin": -8.63,
-      "spreadHome": 8.6,
-      "total": 214.9,
+      "margin": -8.06,
+      "spreadHome": 8.1,
+      "total": 214.4,
       "pace": 105.8,
-      "homeWinProb": 0.2695,
-      "fairMlHome": 271,
-      "fairMlAway": -271,
+      "homeWinProb": 0.2831,
+      "fairMlHome": 253,
+      "fairMlAway": -253,
       "contributions": [
         {
           "key": "offense",
@@ -667,7 +678,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.07
+          "pts": -0.5
         }
       ],
       "sample": {
@@ -697,7 +708,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
           {
@@ -714,13 +725,13 @@
           {
             "player": "Ausar Thompson",
             "team": "DET",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Ankle Sprain",
             "matched": true,
             "expMin": 25.9,
             "value": 2.62,
-            "impactPts": 0.56
+            "impactPts": 1.13
           }
         ],
         "home": [
@@ -795,7 +806,7 @@
     },
     {
       "gameId": "20261025-MEM-SAC",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 114.7,
@@ -856,7 +867,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
           {

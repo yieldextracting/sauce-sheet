@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 112.9,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
           {
@@ -132,7 +132,7 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 111.1,
@@ -195,7 +195,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
           {
@@ -260,7 +260,7 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 111.7,
@@ -323,7 +323,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
           {
@@ -410,18 +410,18 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
-      "awayPts": 109.8,
+      "awayPts": 104.6,
       "homePts": 113.0,
-      "margin": 3.17,
-      "spreadHome": -3.2,
-      "total": 222.8,
+      "margin": 8.38,
+      "spreadHome": -8.4,
+      "total": 217.6,
       "pace": 103.5,
-      "homeWinProb": 0.5892,
-      "fairMlHome": -143,
-      "fairMlAway": 143,
+      "homeWinProb": 0.7246,
+      "fairMlHome": -263,
+      "fairMlAway": 263,
       "contributions": [
         {
           "key": "offense",
@@ -445,7 +445,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.45
+          "pts": 7.66
         }
       ],
       "sample": {
@@ -473,9 +473,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Kawhi Leonard",
+            "team": "TOR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Inflammation",
+            "matched": true,
+            "expMin": 30.7,
+            "value": 12.14,
+            "impactPts": 5.21
+          },
           {
             "player": "Brandon Ingram",
             "team": "TOR",

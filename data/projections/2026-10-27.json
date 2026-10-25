@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261027-BKN-BOS",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 101.5,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
           {
@@ -110,18 +110,18 @@
     },
     {
       "gameId": "20261027-DET-NYK",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.4,
+      "awayPts": 106.3,
       "homePts": 109.7,
-      "margin": 2.25,
-      "spreadHome": -2.2,
-      "total": 217.1,
+      "margin": 3.38,
+      "spreadHome": -3.4,
+      "total": 215.9,
       "pace": 102.2,
-      "homeWinProb": 0.5635,
-      "fairMlHome": -129,
-      "fairMlAway": 129,
+      "homeWinProb": 0.595,
+      "fairMlHome": -147,
+      "fairMlAway": 147,
       "contributions": [
         {
           "key": "offense",
@@ -145,7 +145,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.86
+          "pts": 4.99
         }
       ],
       "sample": {
@@ -171,7 +171,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
           {
@@ -184,6 +184,17 @@
             "expMin": 25.9,
             "value": 9.59,
             "impactPts": 4.12
+          },
+          {
+            "player": "Ausar Thompson",
+            "team": "DET",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Sprain",
+            "matched": true,
+            "expMin": 25.9,
+            "value": 2.62,
+            "impactPts": 1.13
           }
         ],
         "home": [
@@ -203,7 +214,7 @@
     },
     {
       "gameId": "20261027-SAC-SAS",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 104.9,
@@ -266,7 +277,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
           {
@@ -331,7 +342,7 @@
     },
     {
       "gameId": "20261027-POR-LAL",
-      "generatedAt": "2026-10-25T22:02:03Z",
+      "generatedAt": "2026-10-25T22:22:08Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 112.4,
@@ -392,7 +403,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T22:02:02Z",
+        "reportPulledAt": "2026-10-25T22:22:08Z",
         "source": "espn",
         "away": [
           {
