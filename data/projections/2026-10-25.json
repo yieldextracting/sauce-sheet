@@ -120,18 +120,18 @@
     },
     {
       "gameId": "20261025-IND-BKN",
-      "generatedAt": "2026-10-25T21:21:50Z",
+      "generatedAt": "2026-10-25T21:31:53Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.6,
+      "awayPts": 110.7,
       "homePts": 111.8,
-      "margin": 1.2,
-      "spreadHome": -1.2,
+      "margin": 1.12,
+      "spreadHome": -1.1,
       "total": 222.5,
       "pace": 104.0,
-      "homeWinProb": 0.5341,
-      "fairMlHome": -115,
-      "fairMlAway": 115,
+      "homeWinProb": 0.5318,
+      "fairMlHome": -114,
+      "fairMlAway": 114,
       "contributions": [
         {
           "key": "offense",
@@ -155,7 +155,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.03
+          "pts": 1.95
         }
       ],
       "sample": {
@@ -183,7 +183,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T21:21:50Z",
+        "reportPulledAt": "2026-10-25T21:31:53Z",
         "source": "espn",
         "away": [
           {
@@ -196,17 +196,6 @@
             "expMin": 17.2,
             "value": 4.53,
             "impactPts": 1.95
-          },
-          {
-            "player": "Aaron Nesmith",
-            "team": "IND",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Hamstring Strain",
-            "matched": true,
-            "expMin": 28.4,
-            "value": 0.39,
-            "impactPts": 0.08
           },
           {
             "player": "Ben Sheppard",
@@ -259,7 +248,7 @@
     },
     {
       "gameId": "20261025-LAC-OKC",
-      "generatedAt": "2026-10-25T21:21:50Z",
+      "generatedAt": "2026-10-25T21:31:53Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 101.1,
@@ -322,7 +311,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T21:21:50Z",
+        "reportPulledAt": "2026-10-25T21:31:53Z",
         "source": "espn",
         "away": [
           {
@@ -409,18 +398,18 @@
     },
     {
       "gameId": "20261025-ORL-NYK",
-      "generatedAt": "2026-10-25T21:21:50Z",
+      "generatedAt": "2026-10-25T21:31:53Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 103.9,
-      "homePts": 114.8,
-      "margin": 10.91,
-      "spreadHome": -10.9,
-      "total": 218.6,
+      "homePts": 114.6,
+      "margin": 10.78,
+      "spreadHome": -10.8,
+      "total": 218.5,
       "pace": 102.5,
-      "homeWinProb": 0.7814,
-      "fairMlHome": -357,
-      "fairMlAway": 357,
+      "homeWinProb": 0.7787,
+      "fairMlHome": -352,
+      "fairMlAway": 352,
       "contributions": [
         {
           "key": "offense",
@@ -444,7 +433,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.84
+          "pts": 3.71
         }
       ],
       "sample": {
@@ -472,7 +461,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T21:21:50Z",
+        "reportPulledAt": "2026-10-25T21:31:53Z",
         "source": "espn",
         "away": [
           {
@@ -535,20 +524,20 @@
           {
             "player": "Jose Alvarado",
             "team": "NYK",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Ankle Sprain",
             "matched": true,
             "expMin": 18.3,
             "value": 0.61,
-            "impactPts": 0.13
+            "impactPts": 0.26
           }
         ]
       }
     },
     {
       "gameId": "20261025-TOR-MIN",
-      "generatedAt": "2026-10-25T21:21:50Z",
+      "generatedAt": "2026-10-25T21:31:53Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 107.1,
@@ -611,7 +600,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T21:21:50Z",
+        "reportPulledAt": "2026-10-25T21:31:53Z",
         "source": "espn",
         "away": [
           {
@@ -654,7 +643,7 @@
     },
     {
       "gameId": "20261025-DET-PHI",
-      "generatedAt": "2026-10-25T21:21:50Z",
+      "generatedAt": "2026-10-25T21:31:53Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 111.8,
@@ -719,7 +708,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T21:21:50Z",
+        "reportPulledAt": "2026-10-25T21:31:53Z",
         "source": "espn",
         "away": [
           {
@@ -817,7 +806,7 @@
     },
     {
       "gameId": "20261025-MEM-SAC",
-      "generatedAt": "2026-10-25T21:21:50Z",
+      "generatedAt": "2026-10-25T21:31:53Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 114.7,
@@ -878,7 +867,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T21:21:50Z",
+        "reportPulledAt": "2026-10-25T21:31:53Z",
         "source": "espn",
         "away": [
           {
