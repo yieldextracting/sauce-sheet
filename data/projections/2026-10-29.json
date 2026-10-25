@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261029-CLE-ATL",
-      "generatedAt": "2026-10-25T00:09:09Z",
+      "generatedAt": "2026-10-25T00:19:13Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 113.3,
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T00:09:09Z",
+        "reportPulledAt": "2026-10-25T00:19:13Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -100,7 +100,7 @@
     },
     {
       "gameId": "20261029-SAC-NOP",
-      "generatedAt": "2026-10-25T00:09:09Z",
+      "generatedAt": "2026-10-25T00:19:13Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
       "awayPts": 111.9,
@@ -163,7 +163,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T00:09:09Z",
+        "reportPulledAt": "2026-10-25T00:19:13Z",
         "source": "espn",
         "away": [
           {
@@ -217,18 +217,18 @@
     },
     {
       "gameId": "20261029-MEM-POR",
-      "generatedAt": "2026-10-25T00:09:09Z",
+      "generatedAt": "2026-10-25T00:19:13Z",
       "ratingsAsOf": "2026-10-24T04:56:43Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.2,
+      "awayPts": 107.8,
       "homePts": 116.2,
-      "margin": 5.96,
-      "spreadHome": -6.0,
-      "total": 226.4,
+      "margin": 8.41,
+      "spreadHome": -8.4,
+      "total": 223.9,
       "pace": 106.1,
-      "homeWinProb": 0.6644,
-      "fairMlHome": -198,
-      "fairMlAway": 198,
+      "homeWinProb": 0.7254,
+      "fairMlHome": -264,
+      "fairMlAway": 264,
       "contributions": [
         {
           "key": "offense",
@@ -252,7 +252,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.92
+          "pts": 0.53
         }
       ],
       "sample": {
@@ -278,9 +278,21 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T00:09:09Z",
+        "reportPulledAt": "2026-10-25T00:19:13Z",
         "source": "espn",
-        "away": [],
+        "away": [
+          {
+            "player": "Zach Edey",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle",
+            "matched": true,
+            "expMin": 24.8,
+            "value": 5.7,
+            "impactPts": 2.45
+          }
+        ],
         "home": [
           {
             "player": "Shaedon Sharpe",
