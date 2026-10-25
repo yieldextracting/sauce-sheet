@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261027-BKN-BOS",
-      "generatedAt": "2026-10-25T14:22:50Z",
+      "generatedAt": "2026-10-25T17:50:49Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 101.5,
@@ -67,9 +67,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T14:22:49Z",
+        "reportPulledAt": "2026-10-25T17:50:49Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Tyler Bilodeau",
+            "team": "BKN",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Shoulder Sprain",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
           {
             "player": "Mikel Brown Jr.",
             "team": "BKN",
@@ -99,7 +110,7 @@
     },
     {
       "gameId": "20261027-DET-NYK",
-      "generatedAt": "2026-10-25T14:22:50Z",
+      "generatedAt": "2026-10-25T17:50:49Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 107.4,
@@ -160,7 +171,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T14:22:49Z",
+        "reportPulledAt": "2026-10-25T17:50:49Z",
         "source": "espn",
         "away": [
           {
@@ -180,7 +191,7 @@
     },
     {
       "gameId": "20261027-SAC-SAS",
-      "generatedAt": "2026-10-25T14:22:50Z",
+      "generatedAt": "2026-10-25T17:50:49Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 104.9,
@@ -243,7 +254,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T14:22:49Z",
+        "reportPulledAt": "2026-10-25T17:50:49Z",
         "source": "espn",
         "away": [
           {
@@ -308,7 +319,7 @@
     },
     {
       "gameId": "20261027-POR-LAL",
-      "generatedAt": "2026-10-25T14:22:50Z",
+      "generatedAt": "2026-10-25T17:50:49Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 112.4,
@@ -369,7 +380,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T14:22:49Z",
+        "reportPulledAt": "2026-10-25T17:50:49Z",
         "source": "espn",
         "away": [
           {

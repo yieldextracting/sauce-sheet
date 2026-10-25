@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261025-LAL-UTA",
-      "generatedAt": "2026-10-25T14:22:50Z",
+      "generatedAt": "2026-10-25T17:50:49Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 122.2,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T14:22:49Z",
+        "reportPulledAt": "2026-10-25T17:50:49Z",
         "source": "espn",
         "away": [
           {
@@ -120,7 +120,7 @@
     },
     {
       "gameId": "20261025-IND-BKN",
-      "generatedAt": "2026-10-25T14:22:50Z",
+      "generatedAt": "2026-10-25T17:50:49Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 110.6,
@@ -183,7 +183,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T14:22:49Z",
+        "reportPulledAt": "2026-10-25T17:50:49Z",
         "source": "espn",
         "away": [
           {
@@ -235,9 +235,9 @@
           {
             "player": "Tyler Bilodeau",
             "team": "BKN",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Shoulder",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Shoulder Sprain",
             "matched": true,
             "expMin": 0.0,
             "value": 0.0,
@@ -259,7 +259,7 @@
     },
     {
       "gameId": "20261025-LAC-OKC",
-      "generatedAt": "2026-10-25T14:22:50Z",
+      "generatedAt": "2026-10-25T17:50:49Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 101.1,
@@ -322,7 +322,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T14:22:49Z",
+        "reportPulledAt": "2026-10-25T17:50:49Z",
         "source": "espn",
         "away": [
           {
@@ -409,7 +409,7 @@
     },
     {
       "gameId": "20261025-ORL-NYK",
-      "generatedAt": "2026-10-25T14:22:50Z",
+      "generatedAt": "2026-10-25T17:50:49Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 103.9,
@@ -472,7 +472,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T14:22:49Z",
+        "reportPulledAt": "2026-10-25T17:50:49Z",
         "source": "espn",
         "away": [
           {
@@ -548,7 +548,7 @@
     },
     {
       "gameId": "20261025-TOR-MIN",
-      "generatedAt": "2026-10-25T14:22:50Z",
+      "generatedAt": "2026-10-25T17:50:49Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 107.1,
@@ -611,7 +611,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T14:22:49Z",
+        "reportPulledAt": "2026-10-25T17:50:49Z",
         "source": "espn",
         "away": [
           {
@@ -654,18 +654,18 @@
     },
     {
       "gameId": "20261025-DET-PHI",
-      "generatedAt": "2026-10-25T14:22:50Z",
+      "generatedAt": "2026-10-25T17:50:49Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 111.8,
-      "homePts": 104.4,
-      "margin": -7.37,
-      "spreadHome": 7.4,
-      "total": 216.2,
+      "homePts": 103.7,
+      "margin": -8.08,
+      "spreadHome": 8.1,
+      "total": 215.5,
       "pace": 105.8,
-      "homeWinProb": 0.3,
-      "fairMlHome": 233,
-      "fairMlAway": -233,
+      "homeWinProb": 0.2826,
+      "fairMlHome": 254,
+      "fairMlAway": -254,
       "contributions": [
         {
           "key": "offense",
@@ -689,7 +689,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.19
+          "pts": -0.52
         }
       ],
       "sample": {
@@ -719,7 +719,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T14:22:49Z",
+        "reportPulledAt": "2026-10-25T17:50:49Z",
         "source": "espn",
         "away": [
           {
@@ -749,24 +749,13 @@
           {
             "player": "Joel Embiid",
             "team": "PHI",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Rest",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Heel",
             "matched": true,
             "expMin": 32.5,
             "value": 10.96,
-            "impactPts": 2.35
-          },
-          {
-            "player": "LeBron James",
-            "team": "PHI",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Back",
-            "matched": true,
-            "expMin": 33.2,
-            "value": 7.96,
-            "impactPts": 1.71
+            "impactPts": 4.71
           },
           {
             "player": "Dominick Barlow",
@@ -782,13 +771,13 @@
           {
             "player": "Jabari Walker",
             "team": "PHI",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Knee",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Soreness",
             "matched": true,
             "expMin": 10.1,
             "value": 0.31,
-            "impactPts": 0.07
+            "impactPts": 0.13
           },
           {
             "player": "Tacko Fall",
@@ -817,7 +806,7 @@
     },
     {
       "gameId": "20261025-MEM-SAC",
-      "generatedAt": "2026-10-25T14:22:50Z",
+      "generatedAt": "2026-10-25T17:50:49Z",
       "ratingsAsOf": "2026-10-25T04:41:09Z",
       "modelVersion": "v2.0",
       "awayPts": 114.7,
@@ -878,7 +867,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-25T14:22:49Z",
+        "reportPulledAt": "2026-10-25T17:50:49Z",
         "source": "espn",
         "away": [
           {

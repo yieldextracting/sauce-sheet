@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-10-25T14:22:49Z",
+  "pulledAt": "2026-10-25T17:50:49Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -42,9 +42,9 @@
       "player": "Tyler Bilodeau",
       "key": "tylerbilodeau",
       "team": "BKN",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Shoulder",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Shoulder Sprain",
       "espnId": "5105626",
       "gameId": "20261025-IND-BKN",
       "source": "espn"
@@ -655,39 +655,6 @@
       "source": "espn"
     },
     {
-      "player": "LeBron James",
-      "key": "lebronjames",
-      "team": "PHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Back",
-      "espnId": "1966",
-      "gameId": "20261025-DET-PHI",
-      "source": "espn"
-    },
-    {
-      "player": "Joel Embiid",
-      "key": "joelembiid",
-      "team": "PHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Rest",
-      "espnId": "3059318",
-      "gameId": "20261025-DET-PHI",
-      "source": "espn"
-    },
-    {
-      "player": "Jabari Walker",
-      "key": "jabariwalker",
-      "team": "PHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Knee",
-      "espnId": "4432446",
-      "gameId": "20261025-DET-PHI",
-      "source": "espn"
-    },
-    {
       "player": "Tacko Fall",
       "key": "tackofall",
       "team": "PHI",
@@ -695,6 +662,28 @@
       "pPlay": 0.0,
       "reason": "Quadriceps Strain",
       "espnId": "3904625",
+      "gameId": "20261025-DET-PHI",
+      "source": "espn"
+    },
+    {
+      "player": "Jabari Walker",
+      "key": "jabariwalker",
+      "team": "PHI",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Knee Soreness",
+      "espnId": "4432446",
+      "gameId": "20261025-DET-PHI",
+      "source": "espn"
+    },
+    {
+      "player": "Joel Embiid",
+      "key": "joelembiid",
+      "team": "PHI",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Heel",
+      "espnId": "3059318",
       "gameId": "20261025-DET-PHI",
       "source": "espn"
     },
