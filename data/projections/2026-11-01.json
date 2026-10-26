@@ -3,30 +3,30 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-26T01:33:42Z",
-      "ratingsAsOf": "2026-10-26T01:33:42Z",
+      "generatedAt": "2026-10-26T01:43:45Z",
+      "ratingsAsOf": "2026-10-26T01:43:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 113.1,
-      "homePts": 105.2,
-      "margin": -7.9,
-      "spreadHome": 7.9,
-      "total": 218.3,
-      "pace": 100.9,
-      "homeWinProb": 0.2869,
-      "fairMlHome": 249,
-      "fairMlAway": -249,
+      "awayPts": 112.0,
+      "homePts": 105.4,
+      "margin": -6.58,
+      "spreadHome": 6.6,
+      "total": 217.4,
+      "pace": 101.1,
+      "homeWinProb": 0.3197,
+      "fairMlHome": 213,
+      "fairMlAway": -213,
       "contributions": [
         {
           "key": "offense",
-          "pts": -5.45
+          "pts": -5.36
         },
         {
           "key": "defense",
-          "pts": -1.74
+          "pts": -0.46
         },
         {
           "key": "pace",
-          "pts": 0.18
+          "pts": 0.13
         },
         {
           "key": "home",
@@ -43,8 +43,8 @@
       ],
       "sample": {
         "awayGP": 2,
-        "homeGP": 2,
-        "priorWeight": 0.8333
+        "homeGP": 3,
+        "priorWeight": 0.8013
       },
       "flags": [
         "long_travel_away",
@@ -132,16 +132,16 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-26T01:33:42Z",
-      "ratingsAsOf": "2026-10-26T01:33:42Z",
+      "generatedAt": "2026-10-26T01:43:45Z",
+      "ratingsAsOf": "2026-10-26T01:43:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.9,
-      "homePts": 115.0,
+      "awayPts": 110.7,
+      "homePts": 114.8,
       "margin": 4.13,
       "spreadHome": -4.1,
-      "total": 225.8,
+      "total": 225.6,
       "pace": 104.4,
-      "homeWinProb": 0.6157,
+      "homeWinProb": 0.6156,
       "fairMlHome": -160,
       "fairMlAway": 160,
       "contributions": [
@@ -151,7 +151,7 @@
         },
         {
           "key": "defense",
-          "pts": 0.69
+          "pts": 0.7
         },
         {
           "key": "pace",
@@ -260,22 +260,22 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-26T01:33:42Z",
-      "ratingsAsOf": "2026-10-26T01:33:42Z",
+      "generatedAt": "2026-10-26T01:43:45Z",
+      "ratingsAsOf": "2026-10-26T01:43:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 111.7,
-      "homePts": 103.9,
+      "awayPts": 111.6,
+      "homePts": 103.8,
       "margin": -7.8,
       "spreadHome": 7.8,
-      "total": 215.6,
-      "pace": 101.7,
+      "total": 215.3,
+      "pace": 101.8,
       "homeWinProb": 0.2894,
       "fairMlHome": 246,
       "fairMlAway": -246,
       "contributions": [
         {
           "key": "offense",
-          "pts": -1.69
+          "pts": -1.68
         },
         {
           "key": "defense",
@@ -410,30 +410,30 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-26T01:33:42Z",
-      "ratingsAsOf": "2026-10-26T01:33:42Z",
+      "generatedAt": "2026-10-26T01:43:45Z",
+      "ratingsAsOf": "2026-10-26T01:43:45Z",
       "modelVersion": "v2.0",
-      "awayPts": 105.3,
-      "homePts": 113.9,
-      "margin": 8.64,
-      "spreadHome": -8.6,
-      "total": 219.2,
-      "pace": 103.5,
-      "homeWinProb": 0.7307,
-      "fairMlHome": -271,
-      "fairMlAway": 271,
+      "awayPts": 104.7,
+      "homePts": 114.1,
+      "margin": 9.41,
+      "spreadHome": -9.4,
+      "total": 218.8,
+      "pace": 103.3,
+      "homeWinProb": 0.7485,
+      "fairMlHome": -298,
+      "fairMlAway": 298,
       "contributions": [
         {
           "key": "offense",
-          "pts": 4.83
+          "pts": 5.85
         },
         {
           "key": "defense",
-          "pts": -5.83
+          "pts": -5.4
         },
         {
           "key": "pace",
-          "pts": -0.01
+          "pts": -0.02
         },
         {
           "key": "home",
@@ -445,13 +445,13 @@
         },
         {
           "key": "injuries",
-          "pts": 7.66
+          "pts": 6.99
         }
       ],
       "sample": {
-        "awayGP": 2,
+        "awayGP": 3,
         "homeGP": 3,
-        "priorWeight": 0.8013
+        "priorWeight": 0.7692
       },
       "flags": [
         "long_travel_away"
@@ -483,9 +483,9 @@
             "pPlay": 0.0,
             "reason": "Knee Inflammation",
             "matched": true,
-            "expMin": 30.7,
-            "value": 12.14,
-            "impactPts": 5.21
+            "expMin": 26.7,
+            "value": 10.57,
+            "impactPts": 4.54
           },
           {
             "player": "Brandon Ingram",
