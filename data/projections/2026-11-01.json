@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-26T22:45:33Z",
+      "generatedAt": "2026-10-26T22:55:37Z",
       "ratingsAsOf": "2026-10-26T07:44:28Z",
       "modelVersion": "v2.0",
       "awayPts": 112.0,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-26T22:45:33Z",
+        "reportPulledAt": "2026-10-26T22:55:36Z",
         "source": "espn",
         "away": [
           {
@@ -143,18 +143,18 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-26T22:45:33Z",
+      "generatedAt": "2026-10-26T22:55:37Z",
       "ratingsAsOf": "2026-10-26T07:44:28Z",
       "modelVersion": "v2.0",
       "awayPts": 110.6,
-      "homePts": 113.0,
-      "margin": 2.36,
-      "spreadHome": -2.4,
-      "total": 223.6,
+      "homePts": 110.8,
+      "margin": 0.25,
+      "spreadHome": -0.2,
+      "total": 221.4,
       "pace": 104.3,
-      "homeWinProb": 0.5667,
-      "fairMlHome": -131,
-      "fairMlAway": 131,
+      "homeWinProb": 0.5071,
+      "fairMlHome": -103,
+      "fairMlAway": 103,
       "contributions": [
         {
           "key": "offense",
@@ -178,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.72
+          "pts": -5.83
         }
       ],
       "sample": {
@@ -206,7 +206,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-26T22:45:33Z",
+        "reportPulledAt": "2026-10-26T22:55:36Z",
         "source": "espn",
         "away": [
           {
@@ -222,6 +222,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Andrew Nembhard",
+            "team": "IND",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back Soreness",
+            "matched": true,
+            "expMin": 31.5,
+            "value": 4.92,
+            "impactPts": 2.11
+          },
           {
             "player": "T.J. McConnell",
             "team": "IND",
@@ -271,7 +282,7 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-26T22:45:33Z",
+      "generatedAt": "2026-10-26T22:55:37Z",
       "ratingsAsOf": "2026-10-26T07:44:28Z",
       "modelVersion": "v2.0",
       "awayPts": 111.4,
@@ -334,7 +345,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-26T22:45:33Z",
+        "reportPulledAt": "2026-10-26T22:55:36Z",
         "source": "espn",
         "away": [
           {
@@ -421,7 +432,7 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-26T22:45:33Z",
+      "generatedAt": "2026-10-26T22:55:37Z",
       "ratingsAsOf": "2026-10-26T07:44:28Z",
       "modelVersion": "v2.0",
       "awayPts": 109.1,
@@ -484,7 +495,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-26T22:45:33Z",
+        "reportPulledAt": "2026-10-26T22:55:36Z",
         "source": "espn",
         "away": [
           {
