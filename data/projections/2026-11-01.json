@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-26T07:44:28Z",
+      "generatedAt": "2026-10-26T15:08:48Z",
       "ratingsAsOf": "2026-10-26T07:44:28Z",
       "modelVersion": "v2.0",
       "awayPts": 112.0,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-26T00:43:28Z",
+        "reportPulledAt": "2026-10-26T15:08:48Z",
         "source": "espn",
         "away": [
           {
@@ -132,7 +132,7 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-26T07:44:28Z",
+      "generatedAt": "2026-10-26T15:08:48Z",
       "ratingsAsOf": "2026-10-26T07:44:28Z",
       "modelVersion": "v2.0",
       "awayPts": 110.6,
@@ -195,7 +195,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-26T00:43:28Z",
+        "reportPulledAt": "2026-10-26T15:08:48Z",
         "source": "espn",
         "away": [
           {
@@ -207,17 +207,6 @@
             "matched": true,
             "expMin": 0.0,
             "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Mikel Brown Jr.",
-            "team": "BKN",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Rest",
-            "matched": true,
-            "expMin": 4.8,
-            "value": 0.42,
             "impactPts": 0.0
           }
         ],
@@ -260,7 +249,7 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-26T07:44:28Z",
+      "generatedAt": "2026-10-26T15:08:48Z",
       "ratingsAsOf": "2026-10-26T07:44:28Z",
       "modelVersion": "v2.0",
       "awayPts": 111.4,
@@ -323,7 +312,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-26T00:43:28Z",
+        "reportPulledAt": "2026-10-26T15:08:48Z",
         "source": "espn",
         "away": [
           {
@@ -410,18 +399,18 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-26T07:44:28Z",
+      "generatedAt": "2026-10-26T15:08:48Z",
       "ratingsAsOf": "2026-10-26T07:44:28Z",
       "modelVersion": "v2.0",
-      "awayPts": 104.6,
+      "awayPts": 109.1,
       "homePts": 114.0,
-      "margin": 9.41,
-      "spreadHome": -9.4,
-      "total": 218.5,
+      "margin": 4.87,
+      "spreadHome": -4.9,
+      "total": 223.1,
       "pace": 103.3,
-      "homeWinProb": 0.7486,
-      "fairMlHome": -298,
-      "fairMlAway": 298,
+      "homeWinProb": 0.6356,
+      "fairMlHome": -174,
+      "fairMlAway": 174,
       "contributions": [
         {
           "key": "offense",
@@ -445,7 +434,7 @@
         },
         {
           "key": "injuries",
-          "pts": 6.99
+          "pts": 2.45
         }
       ],
       "sample": {
@@ -473,20 +462,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-26T00:43:28Z",
+        "reportPulledAt": "2026-10-26T15:08:48Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Kawhi Leonard",
-            "team": "TOR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Inflammation",
-            "matched": true,
-            "expMin": 26.7,
-            "value": 10.57,
-            "impactPts": 4.54
-          },
           {
             "player": "Brandon Ingram",
             "team": "TOR",

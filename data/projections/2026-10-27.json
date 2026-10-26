@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261027-BKN-BOS",
-      "generatedAt": "2026-10-26T07:44:28Z",
+      "generatedAt": "2026-10-26T15:08:48Z",
       "ratingsAsOf": "2026-10-26T07:44:28Z",
       "modelVersion": "v2.0",
       "awayPts": 101.4,
@@ -67,9 +67,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-26T00:43:28Z",
+        "reportPulledAt": "2026-10-26T15:08:48Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Mikel Brown Jr.",
+            "team": "BKN",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Rest",
+            "matched": true,
+            "expMin": 4.8,
+            "value": 0.42,
+            "impactPts": 0.0
+          },
           {
             "player": "Tyler Bilodeau",
             "team": "BKN",
@@ -79,17 +90,6 @@
             "matched": true,
             "expMin": 0.0,
             "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Mikel Brown Jr.",
-            "team": "BKN",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Rest",
-            "matched": true,
-            "expMin": 4.8,
-            "value": 0.42,
             "impactPts": 0.0
           }
         ],
@@ -110,18 +110,18 @@
     },
     {
       "gameId": "20261027-DET-NYK",
-      "generatedAt": "2026-10-26T07:44:28Z",
+      "generatedAt": "2026-10-26T15:08:48Z",
       "ratingsAsOf": "2026-10-26T07:44:28Z",
       "modelVersion": "v2.0",
-      "awayPts": 105.7,
-      "homePts": 107.5,
-      "margin": 1.8,
+      "awayPts": 105.9,
+      "homePts": 107.7,
+      "margin": 1.78,
       "spreadHome": -1.8,
-      "total": 213.3,
+      "total": 213.6,
       "pace": 102.0,
-      "homeWinProb": 0.5511,
-      "fairMlHome": -123,
-      "fairMlAway": 123,
+      "homeWinProb": 0.5505,
+      "fairMlHome": -122,
+      "fairMlAway": 122,
       "contributions": [
         {
           "key": "offense",
@@ -145,7 +145,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.99
+          "pts": 4.97
         }
       ],
       "sample": {
@@ -171,7 +171,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-26T00:43:28Z",
+        "reportPulledAt": "2026-10-26T15:08:48Z",
         "source": "espn",
         "away": [
           {
@@ -188,33 +188,44 @@
           {
             "player": "Ausar Thompson",
             "team": "DET",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Ankle Sprain",
             "matched": true,
             "expMin": 25.9,
             "value": 2.62,
-            "impactPts": 1.13
+            "impactPts": 0.56
+          },
+          {
+            "player": "Isaiah Joe",
+            "team": "DET",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Hip Bruise",
+            "matched": true,
+            "expMin": 18.4,
+            "value": 1.96,
+            "impactPts": 0.42
           }
         ],
         "home": [
           {
             "player": "Jose Alvarado",
             "team": "NYK",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Ankle Sprain",
             "matched": true,
             "expMin": 18.3,
             "value": 0.61,
-            "impactPts": 0.26
+            "impactPts": 0.13
           }
         ]
       }
     },
     {
       "gameId": "20261027-SAC-SAS",
-      "generatedAt": "2026-10-26T07:44:28Z",
+      "generatedAt": "2026-10-26T15:08:48Z",
       "ratingsAsOf": "2026-10-26T07:44:28Z",
       "modelVersion": "v2.0",
       "awayPts": 104.8,
@@ -277,7 +288,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-26T00:43:28Z",
+        "reportPulledAt": "2026-10-26T15:08:48Z",
         "source": "espn",
         "away": [
           {
@@ -305,8 +316,8 @@
           {
             "player": "Keegan Murray",
             "team": "SAC",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Ankle",
             "matched": true,
             "expMin": 32.7,
@@ -353,18 +364,18 @@
     },
     {
       "gameId": "20261027-POR-LAL",
-      "generatedAt": "2026-10-26T07:44:28Z",
+      "generatedAt": "2026-10-26T15:08:48Z",
       "ratingsAsOf": "2026-10-26T07:44:28Z",
       "modelVersion": "v2.0",
-      "awayPts": 112.8,
+      "awayPts": 112.4,
       "homePts": 116.7,
-      "margin": 3.92,
-      "spreadHome": -3.9,
-      "total": 229.5,
+      "margin": 4.29,
+      "spreadHome": -4.3,
+      "total": 229.2,
       "pace": 104.4,
-      "homeWinProb": 0.6099,
-      "fairMlHome": -156,
-      "fairMlAway": 156,
+      "homeWinProb": 0.6199,
+      "fairMlHome": -163,
+      "fairMlAway": 163,
       "contributions": [
         {
           "key": "offense",
@@ -388,7 +399,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.92
+          "pts": 2.29
         }
       ],
       "sample": {
@@ -414,7 +425,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-26T00:43:28Z",
+        "reportPulledAt": "2026-10-26T15:08:48Z",
         "source": "espn",
         "away": [
           {
@@ -427,6 +438,28 @@
             "expMin": 29.4,
             "value": 4.47,
             "impactPts": 1.92
+          },
+          {
+            "player": "Branden Carlson",
+            "team": "POR",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Concussion Concussion",
+            "matched": true,
+            "expMin": 11.7,
+            "value": 1.74,
+            "impactPts": 0.37
+          },
+          {
+            "player": "Chris Youngblood",
+            "team": "POR",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Ankle Soreness",
+            "matched": true,
+            "expMin": 5.8,
+            "value": 0.0,
+            "impactPts": 0.0
           }
         ],
         "home": [
