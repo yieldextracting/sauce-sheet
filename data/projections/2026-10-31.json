@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261031-POR-UTA",
-      "generatedAt": "2026-10-27T16:31:48Z",
+      "generatedAt": "2026-10-27T20:57:16Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 118.8,
-      "homePts": 112.8,
-      "margin": -6.03,
-      "spreadHome": 6.0,
-      "total": 231.6,
+      "homePts": 111.1,
+      "margin": -7.75,
+      "spreadHome": 7.7,
+      "total": 229.9,
       "pace": 106.5,
-      "homeWinProb": 0.3339,
-      "fairMlHome": 200,
-      "fairMlAway": -200,
+      "homeWinProb": 0.2906,
+      "fairMlHome": 244,
+      "fairMlAway": -244,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.03
+          "pts": -1.75
         }
       ],
       "sample": {
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T16:31:48Z",
+        "reportPulledAt": "2026-10-27T20:57:16Z",
         "source": "espn",
         "away": [
           {
@@ -94,6 +94,17 @@
         ],
         "home": [
           {
+            "player": "Jaren Jackson Jr.",
+            "team": "UTA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Not Specified",
+            "matched": true,
+            "expMin": 28.1,
+            "value": 4.01,
+            "impactPts": 1.72
+          },
+          {
             "player": "Jusuf Nurkic",
             "team": "UTA",
             "status": "out",
@@ -120,7 +131,7 @@
     },
     {
       "gameId": "20261031-PHI-CHA",
-      "generatedAt": "2026-10-27T16:31:48Z",
+      "generatedAt": "2026-10-27T20:57:16Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
@@ -186,7 +197,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T16:31:48Z",
+        "reportPulledAt": "2026-10-27T20:57:16Z",
         "source": "espn",
         "away": [
           {
@@ -273,7 +284,7 @@
     },
     {
       "gameId": "20261031-ATL-NOP",
-      "generatedAt": "2026-10-27T16:31:48Z",
+      "generatedAt": "2026-10-27T20:57:16Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 122.2,
@@ -337,7 +348,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T16:31:48Z",
+        "reportPulledAt": "2026-10-27T20:57:16Z",
         "source": "espn",
         "away": [
           {
@@ -380,7 +391,7 @@
     },
     {
       "gameId": "20261031-CLE-MIL",
-      "generatedAt": "2026-10-27T16:31:48Z",
+      "generatedAt": "2026-10-27T20:57:16Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 118.8,
@@ -443,7 +454,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T16:31:48Z",
+        "reportPulledAt": "2026-10-27T20:57:16Z",
         "source": "espn",
         "away": [],
         "home": []
@@ -451,7 +462,7 @@
     },
     {
       "gameId": "20261031-MIN-SAS",
-      "generatedAt": "2026-10-27T16:31:48Z",
+      "generatedAt": "2026-10-27T20:57:16Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 111.1,
@@ -517,7 +528,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T16:31:48Z",
+        "reportPulledAt": "2026-10-27T20:57:16Z",
         "source": "espn",
         "away": [
           {
@@ -560,7 +571,7 @@
     },
     {
       "gameId": "20261031-SAC-MEM",
-      "generatedAt": "2026-10-27T16:31:48Z",
+      "generatedAt": "2026-10-27T20:57:16Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 108.6,
@@ -623,7 +634,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T16:31:48Z",
+        "reportPulledAt": "2026-10-27T20:57:16Z",
         "source": "espn",
         "away": [
           {
@@ -676,18 +687,18 @@
     },
     {
       "gameId": "20261031-OKC-HOU",
-      "generatedAt": "2026-10-27T16:31:48Z",
+      "generatedAt": "2026-10-27T20:57:16Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 107.8,
-      "homePts": 105.6,
-      "margin": -2.2,
-      "spreadHome": 2.2,
-      "total": 213.5,
+      "homePts": 101.6,
+      "margin": -6.23,
+      "spreadHome": 6.2,
+      "total": 209.4,
       "pace": 101.0,
-      "homeWinProb": 0.4377,
-      "fairMlHome": 128,
-      "fairMlAway": -128,
+      "homeWinProb": 0.3286,
+      "fairMlHome": 204,
+      "fairMlAway": -204,
       "contributions": [
         {
           "key": "offense",
@@ -711,7 +722,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.83
+          "pts": -2.2
         }
       ],
       "sample": {
@@ -740,7 +751,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T16:31:48Z",
+        "reportPulledAt": "2026-10-27T20:57:16Z",
         "source": "espn",
         "away": [
           {
@@ -800,6 +811,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Alperen Sengun",
+            "team": "HOU",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back Soreness",
+            "matched": true,
+            "expMin": 33.8,
+            "value": 9.4,
+            "impactPts": 4.03
+          },
           {
             "player": "Steven Adams",
             "team": "HOU",

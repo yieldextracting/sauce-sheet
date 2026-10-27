@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-10-27T16:31:48Z",
+  "pulledAt": "2026-10-27T20:57:16Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -25,6 +25,17 @@
       "reason": "Knee",
       "espnId": "5105571",
       "gameId": "20261028-MIA-ATL",
+      "source": "espn"
+    },
+    {
+      "player": "Derrick White",
+      "key": "derrickwhite",
+      "team": "BOS",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Hip",
+      "espnId": "3078576",
+      "gameId": "20261027-BKN-BOS",
       "source": "espn"
     },
     {
@@ -259,6 +270,17 @@
       "source": "espn"
     },
     {
+      "player": "Yaxel Lendeborg",
+      "key": "yaxellendeborg",
+      "team": "GSW",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Foot",
+      "espnId": "5175737",
+      "gameId": "20261028-GSW-MIN",
+      "source": "espn"
+    },
+    {
       "player": "Kristaps Porzingis",
       "key": "kristapsporzingis",
       "team": "GSW",
@@ -299,6 +321,17 @@
       "pPlay": 0.5,
       "reason": "Forearm Strain",
       "espnId": "2990992",
+      "gameId": "20261028-HOU-MIL",
+      "source": "espn"
+    },
+    {
+      "player": "Alperen Sengun",
+      "key": "alperensengun",
+      "team": "HOU",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Back Soreness",
+      "espnId": "4871144",
       "gameId": "20261028-HOU-MIL",
       "source": "espn"
     },
@@ -369,6 +402,17 @@
       "source": "espn"
     },
     {
+      "player": "Rui Hachimura",
+      "key": "ruihachimura",
+      "team": "LAC",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Quadriceps Soreness",
+      "espnId": "4066648",
+      "gameId": "20261028-LAL-LAC",
+      "source": "espn"
+    },
+    {
       "player": "Bradley Beal",
       "key": "bradleybeal",
       "team": "LAC",
@@ -435,6 +479,28 @@
       "source": "espn"
     },
     {
+      "player": "Pelle Larsson",
+      "key": "pellelarsson",
+      "team": "MIA",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Ankle Sprain",
+      "espnId": "4601025",
+      "gameId": "20261028-MIA-ATL",
+      "source": "espn"
+    },
+    {
+      "player": "Simone Fontecchio",
+      "key": "simonefontecchio",
+      "team": "MIA",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Illness",
+      "espnId": "3899664",
+      "gameId": "20261028-MIA-ATL",
+      "source": "espn"
+    },
+    {
       "player": "Donte DiVincenzo",
       "key": "dontedivincenzo",
       "team": "MIN",
@@ -443,6 +509,17 @@
       "reason": "Achilles Surgery",
       "espnId": "3934673",
       "gameId": "20261028-GSW-MIN",
+      "source": "espn"
+    },
+    {
+      "player": "Jordan Poole",
+      "key": "jordanpoole",
+      "team": "NOP",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Illness",
+      "espnId": "4277956",
+      "gameId": "20261028-DEN-NOP",
       "source": "espn"
     },
     {
@@ -545,17 +622,6 @@
       "source": "espn"
     },
     {
-      "player": "Jalen Suggs",
-      "key": "jalensuggs",
-      "team": "ORL",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Knee",
-      "espnId": "4432165",
-      "gameId": "20261028-ORL-TOR",
-      "source": "espn"
-    },
-    {
       "player": "Jonathan Isaac",
       "key": "jonathanisaac",
       "team": "ORL",
@@ -563,6 +629,17 @@
       "pPlay": 0.0,
       "reason": "Knee Not Specified",
       "espnId": "4065654",
+      "gameId": "20261028-ORL-TOR",
+      "source": "espn"
+    },
+    {
+      "player": "Jalen Suggs",
+      "key": "jalensuggs",
+      "team": "ORL",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Knee",
+      "espnId": "4432165",
       "gameId": "20261028-ORL-TOR",
       "source": "espn"
     },
@@ -600,13 +677,13 @@
       "source": "espn"
     },
     {
-      "player": "Jabari Walker",
-      "key": "jabariwalker",
+      "player": "Tacko Fall",
+      "key": "tackofall",
       "team": "PHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Knee Soreness",
-      "espnId": "4432446",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Quadriceps Strain",
+      "espnId": "3904625",
       "gameId": "20261028-PHI-IND",
       "source": "espn"
     },
@@ -622,6 +699,17 @@
       "source": "espn"
     },
     {
+      "player": "Jabari Walker",
+      "key": "jabariwalker",
+      "team": "PHI",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Knee Soreness",
+      "espnId": "4432446",
+      "gameId": "20261028-PHI-IND",
+      "source": "espn"
+    },
+    {
       "player": "Joel Embiid",
       "key": "joelembiid",
       "team": "PHI",
@@ -629,17 +717,6 @@
       "pPlay": 0.5,
       "reason": "Heel",
       "espnId": "3059318",
-      "gameId": "20261028-PHI-IND",
-      "source": "espn"
-    },
-    {
-      "player": "Tacko Fall",
-      "key": "tackofall",
-      "team": "PHI",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Quadriceps Strain",
-      "espnId": "3904625",
       "gameId": "20261028-PHI-IND",
       "source": "espn"
     },
@@ -695,17 +772,6 @@
       "pPlay": 0.0,
       "reason": "Ankle Soreness",
       "espnId": "4706557",
-      "gameId": "20261027-POR-LAL",
-      "source": "espn"
-    },
-    {
-      "player": "Branden Carlson",
-      "key": "brandencarlson",
-      "team": "POR",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Concussion Concussion",
-      "espnId": "4592435",
       "gameId": "20261027-POR-LAL",
       "source": "espn"
     },
@@ -798,17 +864,6 @@
       "source": "espn"
     },
     {
-      "player": "Kawhi Leonard",
-      "key": "kawhileonard",
-      "team": "TOR",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Knee Inflammation",
-      "espnId": "6450",
-      "gameId": "20261028-ORL-TOR",
-      "source": "espn"
-    },
-    {
       "player": "Nate Bittle",
       "key": "natebittle",
       "team": "TOR",
@@ -820,14 +875,14 @@
       "source": "espn"
     },
     {
-      "player": "Jaxson Hayes",
-      "key": "jaxsonhayes",
-      "team": "UTA",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Shoulder Soreness",
-      "espnId": "4397077",
-      "gameId": "20261028-SAS-UTA",
+      "player": "Kawhi Leonard",
+      "key": "kawhileonard",
+      "team": "TOR",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Knee Inflammation",
+      "espnId": "6450",
+      "gameId": "20261028-ORL-TOR",
       "source": "espn"
     },
     {
@@ -845,10 +900,21 @@
       "player": "Jaren Jackson Jr.",
       "key": "jarenjacksonjr",
       "team": "UTA",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Knee Not Specified",
       "espnId": "4277961",
+      "gameId": "20261028-SAS-UTA",
+      "source": "espn"
+    },
+    {
+      "player": "Jaxson Hayes",
+      "key": "jaxsonhayes",
+      "team": "UTA",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Shoulder Soreness",
+      "espnId": "4397077",
       "gameId": "20261028-SAS-UTA",
       "source": "espn"
     },
