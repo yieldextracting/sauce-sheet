@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-27T21:07:22Z",
+      "generatedAt": "2026-10-27T21:17:25Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 112.6,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T21:07:21Z",
+        "reportPulledAt": "2026-10-27T21:17:25Z",
         "source": "espn",
         "away": [
           {
@@ -143,18 +143,18 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-27T21:07:22Z",
+      "generatedAt": "2026-10-27T21:17:25Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 110.1,
-      "homePts": 113.8,
-      "margin": 3.74,
-      "spreadHome": -3.7,
-      "total": 223.9,
+      "homePts": 112.3,
+      "margin": 2.2,
+      "spreadHome": -2.2,
+      "total": 222.4,
       "pace": 104.1,
-      "homeWinProb": 0.6051,
-      "fairMlHome": -153,
-      "fairMlAway": 153,
+      "homeWinProb": 0.5623,
+      "fairMlHome": -128,
+      "fairMlAway": 128,
       "contributions": [
         {
           "key": "offense",
@@ -178,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.95
+          "pts": -3.49
         }
       ],
       "sample": {
@@ -206,7 +206,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T21:07:21Z",
+        "reportPulledAt": "2026-10-27T21:17:25Z",
         "source": "espn",
         "away": [
           {
@@ -232,6 +232,17 @@
             "expMin": 17.2,
             "value": 4.53,
             "impactPts": 1.95
+          },
+          {
+            "player": "Ivica Zubac",
+            "team": "IND",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Sprain",
+            "matched": true,
+            "expMin": 23.4,
+            "value": 3.59,
+            "impactPts": 1.54
           },
           {
             "player": "Ben Sheppard",
@@ -260,7 +271,7 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-27T21:07:22Z",
+      "generatedAt": "2026-10-27T21:17:25Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 110.7,
@@ -323,7 +334,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T21:07:21Z",
+        "reportPulledAt": "2026-10-27T21:17:25Z",
         "source": "espn",
         "away": [
           {
@@ -421,7 +432,7 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-27T21:07:22Z",
+      "generatedAt": "2026-10-27T21:17:25Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 104.4,
@@ -484,7 +495,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T21:07:21Z",
+        "reportPulledAt": "2026-10-27T21:17:25Z",
         "source": "espn",
         "away": [
           {

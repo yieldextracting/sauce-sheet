@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261031-POR-UTA",
-      "generatedAt": "2026-10-27T21:07:22Z",
+      "generatedAt": "2026-10-27T21:17:25Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 118.8,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T21:07:21Z",
+        "reportPulledAt": "2026-10-27T21:17:25Z",
         "source": "espn",
         "away": [
           {
@@ -131,18 +131,18 @@
     },
     {
       "gameId": "20261031-PHI-CHA",
-      "generatedAt": "2026-10-27T21:07:22Z",
+      "generatedAt": "2026-10-27T21:17:25Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.5,
+      "awayPts": 108.4,
       "homePts": 105.0,
-      "margin": -3.53,
-      "spreadHome": 3.5,
-      "total": 213.6,
+      "margin": -3.4,
+      "spreadHome": 3.4,
+      "total": 213.4,
       "pace": 102.6,
-      "homeWinProb": 0.4006,
-      "fairMlHome": 150,
-      "fairMlAway": -150,
+      "homeWinProb": 0.4042,
+      "fairMlHome": 147,
+      "fairMlAway": -147,
       "contributions": [
         {
           "key": "offense",
@@ -166,7 +166,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.07
+          "pts": -3.94
         }
       ],
       "sample": {
@@ -197,7 +197,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T21:07:21Z",
+        "reportPulledAt": "2026-10-27T21:17:25Z",
         "source": "espn",
         "away": [
           {
@@ -210,6 +210,17 @@
             "expMin": 23.7,
             "value": 0.84,
             "impactPts": 0.36
+          },
+          {
+            "player": "Jabari Walker",
+            "team": "PHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Soreness",
+            "matched": true,
+            "expMin": 10.1,
+            "value": 0.31,
+            "impactPts": 0.13
           },
           {
             "player": "Tacko Fall",
@@ -284,7 +295,7 @@
     },
     {
       "gameId": "20261031-ATL-NOP",
-      "generatedAt": "2026-10-27T21:07:22Z",
+      "generatedAt": "2026-10-27T21:17:25Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 122.2,
@@ -348,7 +359,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T21:07:21Z",
+        "reportPulledAt": "2026-10-27T21:17:25Z",
         "source": "espn",
         "away": [
           {
@@ -391,7 +402,7 @@
     },
     {
       "gameId": "20261031-CLE-MIL",
-      "generatedAt": "2026-10-27T21:07:22Z",
+      "generatedAt": "2026-10-27T21:17:25Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 118.8,
@@ -454,7 +465,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T21:07:21Z",
+        "reportPulledAt": "2026-10-27T21:17:25Z",
         "source": "espn",
         "away": [],
         "home": []
@@ -462,7 +473,7 @@
     },
     {
       "gameId": "20261031-MIN-SAS",
-      "generatedAt": "2026-10-27T21:07:22Z",
+      "generatedAt": "2026-10-27T21:17:25Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 111.1,
@@ -528,7 +539,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T21:07:21Z",
+        "reportPulledAt": "2026-10-27T21:17:25Z",
         "source": "espn",
         "away": [
           {
@@ -571,7 +582,7 @@
     },
     {
       "gameId": "20261031-SAC-MEM",
-      "generatedAt": "2026-10-27T21:07:22Z",
+      "generatedAt": "2026-10-27T21:17:25Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 108.6,
@@ -634,7 +645,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T21:07:21Z",
+        "reportPulledAt": "2026-10-27T21:17:25Z",
         "source": "espn",
         "away": [
           {
@@ -687,7 +698,7 @@
     },
     {
       "gameId": "20261031-OKC-HOU",
-      "generatedAt": "2026-10-27T21:07:22Z",
+      "generatedAt": "2026-10-27T21:17:25Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 107.8,
@@ -751,7 +762,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T21:07:21Z",
+        "reportPulledAt": "2026-10-27T21:17:25Z",
         "source": "espn",
         "away": [
           {
