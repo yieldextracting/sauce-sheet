@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261027-BKN-BOS",
-      "generatedAt": "2026-10-27T04:37:56Z",
+      "generatedAt": "2026-10-27T16:31:48Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 100.9,
@@ -67,20 +67,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T01:46:33Z",
+        "reportPulledAt": "2026-10-27T16:31:48Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Mikel Brown Jr.",
-            "team": "BKN",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Rest",
-            "matched": true,
-            "expMin": 4.8,
-            "value": 0.42,
-            "impactPts": 0.0
-          },
           {
             "player": "Tyler Bilodeau",
             "team": "BKN",
@@ -110,7 +99,7 @@
     },
     {
       "gameId": "20261027-DET-NYK",
-      "generatedAt": "2026-10-27T04:37:56Z",
+      "generatedAt": "2026-10-27T16:31:48Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 105.8,
@@ -171,7 +160,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T01:46:33Z",
+        "reportPulledAt": "2026-10-27T16:31:48Z",
         "source": "espn",
         "away": [
           {
@@ -225,7 +214,7 @@
     },
     {
       "gameId": "20261027-SAC-SAS",
-      "generatedAt": "2026-10-27T04:37:56Z",
+      "generatedAt": "2026-10-27T16:31:48Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 104.7,
@@ -288,7 +277,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T01:46:33Z",
+        "reportPulledAt": "2026-10-27T16:31:48Z",
         "source": "espn",
         "away": [
           {
@@ -364,7 +353,7 @@
     },
     {
       "gameId": "20261027-POR-LAL",
-      "generatedAt": "2026-10-27T04:37:56Z",
+      "generatedAt": "2026-10-27T16:31:48Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 111.9,
@@ -425,7 +414,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T01:46:33Z",
+        "reportPulledAt": "2026-10-27T16:31:48Z",
         "source": "espn",
         "away": [
           {
@@ -482,17 +471,6 @@
             "reason": "Knee Inflammation",
             "matched": true,
             "expMin": 6.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Cameron Carr",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Oblique Strain",
-            "matched": true,
-            "expMin": 0.0,
             "value": 0.0,
             "impactPts": 0.0
           }

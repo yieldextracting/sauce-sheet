@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-27T04:37:56Z",
+      "generatedAt": "2026-10-27T16:31:48Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 112.6,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T01:46:33Z",
+        "reportPulledAt": "2026-10-27T16:31:48Z",
         "source": "espn",
         "away": [
           {
@@ -143,18 +143,18 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-27T04:37:56Z",
+      "generatedAt": "2026-10-27T16:31:48Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 110.1,
-      "homePts": 110.2,
-      "margin": 0.09,
-      "spreadHome": -0.1,
-      "total": 220.3,
+      "homePts": 113.8,
+      "margin": 3.74,
+      "spreadHome": -3.7,
+      "total": 223.9,
       "pace": 104.1,
-      "homeWinProb": 0.5026,
-      "fairMlHome": -101,
-      "fairMlAway": 101,
+      "homeWinProb": 0.6051,
+      "fairMlHome": -153,
+      "fairMlAway": 153,
       "contributions": [
         {
           "key": "offense",
@@ -178,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.6
+          "pts": -1.95
         }
       ],
       "sample": {
@@ -206,7 +206,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T01:46:33Z",
+        "reportPulledAt": "2026-10-27T16:31:48Z",
         "source": "espn",
         "away": [
           {
@@ -223,17 +223,6 @@
         ],
         "home": [
           {
-            "player": "Andrew Nembhard",
-            "team": "IND",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Back Soreness",
-            "matched": true,
-            "expMin": 31.5,
-            "value": 4.92,
-            "impactPts": 2.11
-          },
-          {
             "player": "T.J. McConnell",
             "team": "IND",
             "status": "out",
@@ -243,17 +232,6 @@
             "expMin": 17.2,
             "value": 4.53,
             "impactPts": 1.95
-          },
-          {
-            "player": "Ivica Zubac",
-            "team": "IND",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 23.4,
-            "value": 3.59,
-            "impactPts": 1.54
           },
           {
             "player": "Ben Sheppard",
@@ -282,7 +260,7 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-27T04:37:56Z",
+      "generatedAt": "2026-10-27T16:31:48Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 110.7,
@@ -345,7 +323,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T01:46:33Z",
+        "reportPulledAt": "2026-10-27T16:31:48Z",
         "source": "espn",
         "away": [
           {
@@ -432,18 +410,18 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-27T04:37:56Z",
+      "generatedAt": "2026-10-27T16:31:48Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.9,
+      "awayPts": 104.4,
       "homePts": 114.0,
-      "margin": 5.12,
-      "spreadHome": -5.1,
-      "total": 222.9,
+      "margin": 9.66,
+      "spreadHome": -9.7,
+      "total": 218.4,
       "pace": 103.2,
-      "homeWinProb": 0.6422,
-      "fairMlHome": -180,
-      "fairMlAway": 180,
+      "homeWinProb": 0.7542,
+      "fairMlHome": -307,
+      "fairMlAway": 307,
       "contributions": [
         {
           "key": "offense",
@@ -467,7 +445,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.45
+          "pts": 6.99
         }
       ],
       "sample": {
@@ -495,9 +473,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T01:46:33Z",
+        "reportPulledAt": "2026-10-27T16:31:48Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Kawhi Leonard",
+            "team": "TOR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Inflammation",
+            "matched": true,
+            "expMin": 26.7,
+            "value": 10.57,
+            "impactPts": 4.54
+          },
           {
             "player": "Brandon Ingram",
             "team": "TOR",
@@ -530,17 +519,6 @@
             "reason": "Knee Inflammation",
             "matched": true,
             "expMin": 6.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Cameron Carr",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Oblique Strain",
-            "matched": true,
-            "expMin": 0.0,
             "value": 0.0,
             "impactPts": 0.0
           }
