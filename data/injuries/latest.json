@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-10-27T21:27:29Z",
+  "pulledAt": "2026-10-27T21:37:33Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -123,6 +123,17 @@
       "pPlay": 0.5,
       "reason": "Groin Soreness",
       "espnId": "4431687",
+      "gameId": "20261028-NYK-CHI",
+      "source": "espn"
+    },
+    {
+      "player": "Tobe Awaka",
+      "key": "tobeawaka",
+      "team": "CHI",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Ankle",
+      "espnId": "5105555",
       "gameId": "20261028-NYK-CHI",
       "source": "espn"
     },
@@ -358,17 +369,6 @@
       "source": "espn"
     },
     {
-      "player": "Ivica Zubac",
-      "key": "ivicazubac",
-      "team": "IND",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Ankle Sprain",
-      "espnId": "4017837",
-      "gameId": "20261028-PHI-IND",
-      "source": "espn"
-    },
-    {
       "player": "Andrew Nembhard",
       "key": "andrewnembhard",
       "team": "IND",
@@ -380,13 +380,35 @@
       "source": "espn"
     },
     {
-      "player": "Ben Sheppard",
-      "key": "bensheppard",
+      "player": "Tyrese Haliburton",
+      "key": "tyresehaliburton",
       "team": "IND",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Knee",
-      "espnId": "4433076",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Hamstring Soreness",
+      "espnId": "4396993",
+      "gameId": "20261028-PHI-IND",
+      "source": "espn"
+    },
+    {
+      "player": "Obi Toppin",
+      "key": "obitoppin",
+      "team": "IND",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Hand Sprain",
+      "espnId": "4278355",
+      "gameId": "20261028-PHI-IND",
+      "source": "espn"
+    },
+    {
+      "player": "Aaron Nesmith",
+      "key": "aaronnesmith",
+      "team": "IND",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Hamstring Strain",
+      "espnId": "4396909",
       "gameId": "20261028-PHI-IND",
       "source": "espn"
     },
@@ -398,6 +420,28 @@
       "pPlay": 0.0,
       "reason": "Hamstring Strain",
       "espnId": "2530530",
+      "gameId": "20261028-PHI-IND",
+      "source": "espn"
+    },
+    {
+      "player": "Ivica Zubac",
+      "key": "ivicazubac",
+      "team": "IND",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Ankle Sprain",
+      "espnId": "4017837",
+      "gameId": "20261028-PHI-IND",
+      "source": "espn"
+    },
+    {
+      "player": "Ben Sheppard",
+      "key": "bensheppard",
+      "team": "IND",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Knee",
+      "espnId": "4433076",
       "gameId": "20261028-PHI-IND",
       "source": "espn"
     },
