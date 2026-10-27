@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-27T23:38:16Z",
+      "generatedAt": "2026-10-27T23:48:19Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 112.6,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T23:38:15Z",
+        "reportPulledAt": "2026-10-27T23:48:19Z",
         "source": "espn",
         "away": [
           {
@@ -143,7 +143,7 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-27T23:38:16Z",
+      "generatedAt": "2026-10-27T23:48:19Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 110.1,
@@ -206,7 +206,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T23:38:15Z",
+        "reportPulledAt": "2026-10-27T23:48:19Z",
         "source": "espn",
         "away": [
           {
@@ -271,7 +271,7 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-27T23:38:16Z",
+      "generatedAt": "2026-10-27T23:48:19Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 110.7,
@@ -334,7 +334,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T23:38:15Z",
+        "reportPulledAt": "2026-10-27T23:48:19Z",
         "source": "espn",
         "away": [
           {
@@ -432,7 +432,7 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-27T23:38:16Z",
+      "generatedAt": "2026-10-27T23:48:19Z",
       "ratingsAsOf": "2026-10-27T04:37:56Z",
       "modelVersion": "v2.0",
       "awayPts": 104.4,
@@ -495,7 +495,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-27T23:38:15Z",
+        "reportPulledAt": "2026-10-27T23:48:19Z",
         "source": "espn",
         "away": [
           {
@@ -533,6 +533,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Cameron Carr",
+            "team": "LAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Oblique Strain",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
           {
             "player": "Adou Thiero",
             "team": "LAL",
