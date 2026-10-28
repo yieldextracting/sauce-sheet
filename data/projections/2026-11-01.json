@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-28T19:25:56Z",
+      "generatedAt": "2026-10-28T20:26:17Z",
       "ratingsAsOf": "2026-10-28T06:00:26Z",
       "modelVersion": "v2.0",
       "awayPts": 112.5,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-28T19:25:56Z",
+        "reportPulledAt": "2026-10-28T20:26:17Z",
         "source": "espn",
         "away": [
           {
@@ -143,7 +143,7 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-28T19:25:56Z",
+      "generatedAt": "2026-10-28T20:26:17Z",
       "ratingsAsOf": "2026-10-28T06:00:26Z",
       "modelVersion": "v2.0",
       "awayPts": 111.0,
@@ -206,7 +206,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-28T19:25:56Z",
+        "reportPulledAt": "2026-10-28T20:26:17Z",
         "source": "espn",
         "away": [
           {
@@ -282,7 +282,7 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-28T19:25:56Z",
+      "generatedAt": "2026-10-28T20:26:17Z",
       "ratingsAsOf": "2026-10-28T06:00:26Z",
       "modelVersion": "v2.0",
       "awayPts": 110.7,
@@ -345,7 +345,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-28T19:25:56Z",
+        "reportPulledAt": "2026-10-28T20:26:17Z",
         "source": "espn",
         "away": [
           {
@@ -443,18 +443,18 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-28T19:25:56Z",
+      "generatedAt": "2026-10-28T20:26:17Z",
       "ratingsAsOf": "2026-10-28T06:00:26Z",
       "modelVersion": "v2.0",
       "awayPts": 106.0,
-      "homePts": 115.0,
-      "margin": 9.04,
-      "spreadHome": -9.0,
-      "total": 221.0,
+      "homePts": 107.4,
+      "margin": 1.42,
+      "spreadHome": -1.4,
+      "total": 213.4,
       "pace": 103.0,
-      "homeWinProb": 0.7401,
-      "fairMlHome": -285,
-      "fairMlAway": 285,
+      "homeWinProb": 0.5402,
+      "fairMlHome": -117,
+      "fairMlAway": 117,
       "contributions": [
         {
           "key": "offense",
@@ -478,7 +478,7 @@
         },
         {
           "key": "injuries",
-          "pts": 6.99
+          "pts": -0.63
         }
       ],
       "sample": {
@@ -506,7 +506,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-28T19:25:56Z",
+        "reportPulledAt": "2026-10-28T20:26:17Z",
         "source": "espn",
         "away": [
           {
@@ -544,6 +544,28 @@
           }
         ],
         "home": [
+          {
+            "player": "Luka Doncic",
+            "team": "LAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back",
+            "matched": true,
+            "expMin": 35.8,
+            "value": 16.43,
+            "impactPts": 7.06
+          },
+          {
+            "player": "Ziaire Williams",
+            "team": "LAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot",
+            "matched": true,
+            "expMin": 25.4,
+            "value": 1.31,
+            "impactPts": 0.56
+          },
           {
             "player": "Cameron Carr",
             "team": "LAL",
