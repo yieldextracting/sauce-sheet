@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-28T13:30:08Z",
+      "generatedAt": "2026-10-28T19:05:49Z",
       "ratingsAsOf": "2026-10-28T06:00:26Z",
       "modelVersion": "v2.0",
       "awayPts": 112.5,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-28T13:30:08Z",
+        "reportPulledAt": "2026-10-28T19:05:48Z",
         "source": "espn",
         "away": [
           {
@@ -143,18 +143,18 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-28T13:30:08Z",
+      "generatedAt": "2026-10-28T19:05:49Z",
       "ratingsAsOf": "2026-10-28T06:00:26Z",
       "modelVersion": "v2.0",
       "awayPts": 111.0,
-      "homePts": 112.2,
-      "margin": 1.18,
-      "spreadHome": -1.2,
-      "total": 223.2,
+      "homePts": 111.1,
+      "margin": 0.15,
+      "spreadHome": -0.2,
+      "total": 222.1,
       "pace": 104.2,
-      "homeWinProb": 0.5336,
-      "fairMlHome": -114,
-      "fairMlAway": 114,
+      "homeWinProb": 0.5043,
+      "fairMlHome": -102,
+      "fairMlAway": 102,
       "contributions": [
         {
           "key": "offense",
@@ -178,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.49
+          "pts": -4.52
         }
       ],
       "sample": {
@@ -206,7 +206,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-28T13:30:08Z",
+        "reportPulledAt": "2026-10-28T19:05:48Z",
         "source": "espn",
         "away": [
           {
@@ -245,6 +245,17 @@
             "impactPts": 1.54
           },
           {
+            "player": "Tyrese Haliburton",
+            "team": "IND",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring Soreness",
+            "matched": true,
+            "expMin": 14.1,
+            "value": 2.39,
+            "impactPts": 1.03
+          },
+          {
             "player": "Ben Sheppard",
             "team": "IND",
             "status": "out",
@@ -271,7 +282,7 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-28T13:30:08Z",
+      "generatedAt": "2026-10-28T19:05:49Z",
       "ratingsAsOf": "2026-10-28T06:00:26Z",
       "modelVersion": "v2.0",
       "awayPts": 110.7,
@@ -334,7 +345,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-28T13:30:08Z",
+        "reportPulledAt": "2026-10-28T19:05:48Z",
         "source": "espn",
         "away": [
           {
@@ -432,7 +443,7 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-28T13:30:08Z",
+      "generatedAt": "2026-10-28T19:05:49Z",
       "ratingsAsOf": "2026-10-28T06:00:26Z",
       "modelVersion": "v2.0",
       "awayPts": 106.0,
@@ -495,7 +506,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-28T13:30:08Z",
+        "reportPulledAt": "2026-10-28T19:05:48Z",
         "source": "espn",
         "away": [
           {
