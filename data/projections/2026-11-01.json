@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-28T22:57:08Z",
+      "generatedAt": "2026-10-28T23:07:12Z",
       "ratingsAsOf": "2026-10-28T06:00:26Z",
       "modelVersion": "v2.0",
       "awayPts": 112.5,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-28T22:57:08Z",
+        "reportPulledAt": "2026-10-28T23:07:12Z",
         "source": "espn",
         "away": [
           {
@@ -143,7 +143,7 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-28T22:57:08Z",
+      "generatedAt": "2026-10-28T23:07:12Z",
       "ratingsAsOf": "2026-10-28T06:00:26Z",
       "modelVersion": "v2.0",
       "awayPts": 111.0,
@@ -206,7 +206,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-28T22:57:08Z",
+        "reportPulledAt": "2026-10-28T23:07:12Z",
         "source": "espn",
         "away": [
           {
@@ -282,18 +282,18 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-28T22:57:08Z",
+      "generatedAt": "2026-10-28T23:07:12Z",
       "ratingsAsOf": "2026-10-28T06:00:26Z",
       "modelVersion": "v2.0",
       "awayPts": 110.7,
-      "homePts": 105.2,
-      "margin": -5.48,
-      "spreadHome": 5.5,
-      "total": 215.9,
+      "homePts": 104.4,
+      "margin": -6.29,
+      "spreadHome": 6.3,
+      "total": 215.1,
       "pace": 101.3,
-      "homeWinProb": 0.3481,
-      "fairMlHome": 187,
-      "fairMlAway": -187,
+      "homeWinProb": 0.327,
+      "fairMlHome": 206,
+      "fairMlAway": -206,
       "contributions": [
         {
           "key": "offense",
@@ -317,7 +317,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.4
+          "pts": -6.21
         }
       ],
       "sample": {
@@ -345,7 +345,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-28T22:57:08Z",
+        "reportPulledAt": "2026-10-28T23:07:12Z",
         "source": "espn",
         "away": [
           {
@@ -437,13 +437,24 @@
             "expMin": 25.7,
             "value": 1.9,
             "impactPts": 0.82
+          },
+          {
+            "player": "Gui Santos",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Tendinitis",
+            "matched": true,
+            "expMin": 22.1,
+            "value": 1.88,
+            "impactPts": 0.81
           }
         ]
       }
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-28T22:57:08Z",
+      "generatedAt": "2026-10-28T23:07:12Z",
       "ratingsAsOf": "2026-10-28T06:00:26Z",
       "modelVersion": "v2.0",
       "awayPts": 106.0,
@@ -506,7 +517,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-28T22:57:08Z",
+        "reportPulledAt": "2026-10-28T23:07:12Z",
         "source": "espn",
         "away": [
           {
