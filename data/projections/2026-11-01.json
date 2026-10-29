@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 113.1,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -143,18 +143,18 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 110.6,
-      "homePts": 112.4,
-      "margin": 1.77,
-      "spreadHome": -1.8,
-      "total": 223.0,
+      "homePts": 111.0,
+      "margin": 0.43,
+      "spreadHome": -0.4,
+      "total": 221.7,
       "pace": 104.0,
-      "homeWinProb": 0.5501,
-      "fairMlHome": -122,
-      "fairMlAway": 122,
+      "homeWinProb": 0.5122,
+      "fairMlHome": -105,
+      "fairMlAway": 105,
       "contributions": [
         {
           "key": "offense",
@@ -178,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.94
+          "pts": -4.28
         }
       ],
       "sample": {
@@ -206,7 +206,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -243,6 +243,17 @@
             "expMin": 17.2,
             "value": 4.53,
             "impactPts": 1.95
+          },
+          {
+            "player": "Ivica Zubac",
+            "team": "IND",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Sprain",
+            "matched": true,
+            "expMin": 20.4,
+            "value": 3.13,
+            "impactPts": 1.34
           },
           {
             "player": "Tyrese Haliburton",
@@ -282,7 +293,7 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 105.8,
@@ -345,7 +356,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -443,7 +454,7 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
@@ -506,7 +517,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {

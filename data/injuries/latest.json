@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-10-29T16:53:21Z",
+  "pulledAt": "2026-10-29T21:46:17Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -61,17 +61,6 @@
       "source": "espn"
     },
     {
-      "player": "Coby White",
-      "key": "cobywhite",
-      "team": "CHA",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Calf Strain",
-      "espnId": "4395651",
-      "gameId": "20261030-CHA-WAS",
-      "source": "espn"
-    },
-    {
       "player": "Kon Knueppel",
       "key": "konknueppel",
       "team": "CHA",
@@ -79,6 +68,17 @@
       "pPlay": 0.0,
       "reason": "Hamstring",
       "espnId": "5061575",
+      "gameId": "20261030-CHA-WAS",
+      "source": "espn"
+    },
+    {
+      "player": "Coby White",
+      "key": "cobywhite",
+      "team": "CHA",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Calf Strain",
+      "espnId": "4395651",
       "gameId": "20261030-CHA-WAS",
       "source": "espn"
     },
@@ -105,17 +105,6 @@
       "source": "espn"
     },
     {
-      "player": "Tobe Awaka",
-      "key": "tobeawaka",
-      "team": "CHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Ankle",
-      "espnId": "5105555",
-      "gameId": "20261030-CHI-BOS",
-      "source": "espn"
-    },
-    {
       "player": "Patrick Williams",
       "key": "patrickwilliams",
       "team": "CHI",
@@ -123,6 +112,28 @@
       "pPlay": 0.0,
       "reason": "Groin Soreness",
       "espnId": "4431687",
+      "gameId": "20261030-CHI-BOS",
+      "source": "espn"
+    },
+    {
+      "player": "Jalen Smith",
+      "key": "jalensmith",
+      "team": "CHI",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Finger",
+      "espnId": "4397189",
+      "gameId": "20261030-CHI-BOS",
+      "source": "espn"
+    },
+    {
+      "player": "Tobe Awaka",
+      "key": "tobeawaka",
+      "team": "CHI",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Ankle",
+      "espnId": "5105555",
       "gameId": "20261030-CHI-BOS",
       "source": "espn"
     },
@@ -135,6 +146,28 @@
       "reason": "Hamstring",
       "espnId": "4278067",
       "gameId": "20261030-CHI-BOS",
+      "source": "espn"
+    },
+    {
+      "player": "Meleek Thomas",
+      "key": "meleekthomas",
+      "team": "CLE",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Foot",
+      "espnId": "5041951",
+      "gameId": "20261029-CLE-ATL",
+      "source": "espn"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "key": "jaylontyson",
+      "team": "CLE",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Neck",
+      "espnId": "4683747",
+      "gameId": "20261029-CLE-ATL",
       "source": "espn"
     },
     {
@@ -303,13 +336,13 @@
       "source": "espn"
     },
     {
-      "player": "Alperen Sengun",
-      "key": "alperensengun",
+      "player": "Reed Sheppard",
+      "key": "reedsheppard",
       "team": "HOU",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Back Soreness",
-      "espnId": "4871144",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Back",
+      "espnId": "4711272",
       "gameId": "20261030-HOU-DAL",
       "source": "espn"
     },
@@ -325,6 +358,17 @@
       "source": "espn"
     },
     {
+      "player": "Alperen Sengun",
+      "key": "alperensengun",
+      "team": "HOU",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Back Soreness",
+      "espnId": "4871144",
+      "gameId": "20261030-HOU-DAL",
+      "source": "espn"
+    },
+    {
       "player": "Steven Adams",
       "key": "stevenadams",
       "team": "HOU",
@@ -336,11 +380,33 @@
       "source": "espn"
     },
     {
-      "player": "Ivica Zubac",
-      "key": "ivicazubac",
+      "player": "Andrew Nembhard",
+      "key": "andrewnembhard",
       "team": "IND",
       "status": "questionable",
       "pPlay": 0.5,
+      "reason": "Neck Soreness",
+      "espnId": "4395712",
+      "gameId": "20261030-IND-MIA",
+      "source": "espn"
+    },
+    {
+      "player": "Aaron Nesmith",
+      "key": "aaronnesmith",
+      "team": "IND",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Hamstring",
+      "espnId": "4396909",
+      "gameId": "20261030-IND-MIA",
+      "source": "espn"
+    },
+    {
+      "player": "Ivica Zubac",
+      "key": "ivicazubac",
+      "team": "IND",
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Ankle Sprain",
       "espnId": "4017837",
       "gameId": "20261030-IND-MIA",
@@ -391,17 +457,6 @@
       "source": "espn"
     },
     {
-      "player": "Rui Hachimura",
-      "key": "ruihachimura",
-      "team": "LAC",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Quadriceps Soreness",
-      "espnId": "4066648",
-      "gameId": "20261030-LAC-MIN",
-      "source": "espn"
-    },
-    {
       "player": "Yanic Konan Niederhauser",
       "key": "yanickonanniederhauser",
       "team": "LAC",
@@ -409,6 +464,17 @@
       "pPlay": 0.0,
       "reason": "Foot Surgery",
       "espnId": "5108024",
+      "gameId": "20261030-LAC-MIN",
+      "source": "espn"
+    },
+    {
+      "player": "Rui Hachimura",
+      "key": "ruihachimura",
+      "team": "LAC",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Quadriceps Soreness",
+      "espnId": "4066648",
       "gameId": "20261030-LAC-MIN",
       "source": "espn"
     },
@@ -691,10 +757,21 @@
       "player": "Jabari Walker",
       "key": "jabariwalker",
       "team": "PHI",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Knee Soreness",
       "espnId": "4432446",
+      "gameId": "20261030-NYK-PHI",
+      "source": "espn"
+    },
+    {
+      "player": "Jaylen Brown",
+      "key": "jaylenbrown",
+      "team": "PHI",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Knee",
+      "espnId": "3917376",
       "gameId": "20261030-NYK-PHI",
       "source": "espn"
     },
@@ -751,6 +828,17 @@
       "reason": "Shoulder Surgery",
       "espnId": "4701232",
       "gameId": "20261030-DEN-PHX",
+      "source": "espn"
+    },
+    {
+      "player": "Robert Williams III",
+      "key": "robertwilliamsiii",
+      "team": "POR",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Knee",
+      "espnId": "4066211",
+      "gameId": "20261029-MEM-POR",
       "source": "espn"
     },
     {

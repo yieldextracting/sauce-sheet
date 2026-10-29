@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261104-ATL-WAS",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 123.4,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -129,18 +129,18 @@
     },
     {
       "gameId": "20261104-PHI-DET",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
-      "awayPts": 104.6,
+      "awayPts": 104.5,
       "homePts": 109.0,
-      "margin": 4.36,
-      "spreadHome": -4.4,
-      "total": 213.6,
+      "margin": 4.49,
+      "spreadHome": -4.5,
+      "total": 213.4,
       "pace": 104.0,
-      "homeWinProb": 0.6219,
-      "fairMlHome": -165,
-      "fairMlAway": 165,
+      "homeWinProb": 0.6254,
+      "fairMlHome": -167,
+      "fairMlAway": 167,
       "contributions": [
         {
           "key": "offense",
@@ -164,7 +164,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.76
+          "pts": -3.63
         }
       ],
       "sample": {
@@ -190,7 +190,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -203,6 +203,17 @@
             "expMin": 23.7,
             "value": 0.84,
             "impactPts": 0.36
+          },
+          {
+            "player": "Jabari Walker",
+            "team": "PHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Soreness",
+            "matched": true,
+            "expMin": 10.1,
+            "value": 0.31,
+            "impactPts": 0.13
           },
           {
             "player": "Tacko Fall",
@@ -244,7 +255,7 @@
     },
     {
       "gameId": "20261104-CHA-BKN",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 106.5,
@@ -307,7 +318,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -383,7 +394,7 @@
     },
     {
       "gameId": "20261104-CHI-NYK",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 107.7,
@@ -444,7 +455,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -487,7 +498,7 @@
     },
     {
       "gameId": "20261104-MIL-BOS",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 104.4,
@@ -552,7 +563,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -572,7 +583,7 @@
     },
     {
       "gameId": "20261104-CLE-OKC",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 108.1,
@@ -636,7 +647,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -700,18 +711,18 @@
     },
     {
       "gameId": "20261104-IND-MEM",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.7,
+      "awayPts": 107.4,
       "homePts": 117.9,
-      "margin": 9.22,
-      "spreadHome": -9.2,
-      "total": 226.6,
+      "margin": 10.56,
+      "spreadHome": -10.6,
+      "total": 225.3,
       "pace": 105.2,
-      "homeWinProb": 0.7442,
-      "fairMlHome": -291,
-      "fairMlAway": 291,
+      "homeWinProb": 0.7739,
+      "fairMlHome": -342,
+      "fairMlAway": 342,
       "contributions": [
         {
           "key": "offense",
@@ -735,7 +746,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.98
+          "pts": 4.32
         }
       ],
       "sample": {
@@ -763,7 +774,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -776,6 +787,17 @@
             "expMin": 17.2,
             "value": 4.53,
             "impactPts": 1.95
+          },
+          {
+            "player": "Ivica Zubac",
+            "team": "IND",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Sprain",
+            "matched": true,
+            "expMin": 20.4,
+            "value": 3.13,
+            "impactPts": 1.34
           },
           {
             "player": "Tyrese Haliburton",
@@ -816,7 +838,7 @@
     },
     {
       "gameId": "20261104-UTA-NOP",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 110.5,
@@ -877,7 +899,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -931,18 +953,18 @@
     },
     {
       "gameId": "20261104-MIN-HOU",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 104.3,
-      "homePts": 112.5,
-      "margin": 8.24,
-      "spreadHome": -8.2,
-      "total": 216.9,
+      "homePts": 111.4,
+      "margin": 7.08,
+      "spreadHome": -7.1,
+      "total": 215.7,
       "pace": 101.7,
-      "homeWinProb": 0.7213,
-      "fairMlHome": -259,
-      "fairMlAway": 259,
+      "homeWinProb": 0.6929,
+      "fairMlHome": -226,
+      "fairMlAway": 226,
       "contributions": [
         {
           "key": "offense",
@@ -966,7 +988,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.79
+          "pts": 3.63
         }
       ],
       "sample": {
@@ -994,7 +1016,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -1022,6 +1044,17 @@
         ],
         "home": [
           {
+            "player": "Reed Sheppard",
+            "team": "HOU",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back",
+            "matched": true,
+            "expMin": 25.1,
+            "value": 2.7,
+            "impactPts": 1.16
+          },
+          {
             "player": "Steven Adams",
             "team": "HOU",
             "status": "out",
@@ -1048,7 +1081,7 @@
     },
     {
       "gameId": "20261104-POR-PHX",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 113.3,
@@ -1109,7 +1142,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -1152,7 +1185,7 @@
     },
     {
       "gameId": "20261104-TOR-DEN",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 105.3,
@@ -1216,7 +1249,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -1292,7 +1325,7 @@
     },
     {
       "gameId": "20261104-DAL-SAS",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 106.3,
@@ -1353,7 +1386,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -1418,7 +1451,7 @@
     },
     {
       "gameId": "20261104-LAL-SAC",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 122.5,
@@ -1482,7 +1515,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [
           {
@@ -1558,7 +1591,7 @@
     },
     {
       "gameId": "20261104-MIA-LAC",
-      "generatedAt": "2026-10-29T16:53:22Z",
+      "generatedAt": "2026-10-29T21:46:17Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 113.4,
@@ -1621,7 +1654,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T16:53:21Z",
+        "reportPulledAt": "2026-10-29T21:46:17Z",
         "source": "espn",
         "away": [],
         "home": [
