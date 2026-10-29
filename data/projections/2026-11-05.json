@@ -1,0 +1,275 @@
+{
+  "etDate": "2026-11-05",
+  "games": [
+    {
+      "gameId": "20261105-ORL-PHX",
+      "generatedAt": "2026-10-29T04:09:58Z",
+      "ratingsAsOf": "2026-10-29T04:09:58Z",
+      "modelVersion": "v2.0",
+      "awayPts": 108.1,
+      "homePts": 109.2,
+      "margin": 1.13,
+      "spreadHome": -1.1,
+      "total": 217.2,
+      "pace": 102.8,
+      "homeWinProb": 0.532,
+      "fairMlHome": -114,
+      "fairMlAway": 114,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": 1.5
+        },
+        {
+          "key": "defense",
+          "pts": -1.55
+        },
+        {
+          "key": "pace",
+          "pts": 0.01
+        },
+        {
+          "key": "home",
+          "pts": 1.78
+        },
+        {
+          "key": "rest_travel",
+          "pts": -2.9
+        },
+        {
+          "key": "injuries",
+          "pts": 2.29
+        }
+      ],
+      "sample": {
+        "awayGP": 4,
+        "homeGP": 3,
+        "priorWeight": 0.7418
+      },
+      "flags": [
+        "long_travel_away",
+        "b2b_home",
+        "3in4_home"
+      ],
+      "spots": {
+        "away": {
+          "restDays": 2,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 2965.1,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 0,
+          "b2b": true,
+          "threeInFour": true,
+          "travelKm": 0.0,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-29T02:09:07Z",
+        "source": "espn",
+        "away": [
+          {
+            "player": "Paolo Banchero",
+            "team": "ORL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Sprain",
+            "matched": true,
+            "expMin": 34.3,
+            "value": 7.91,
+            "impactPts": 3.4
+          },
+          {
+            "player": "Jalen Suggs",
+            "team": "ORL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 29.5,
+            "value": 2.79,
+            "impactPts": 1.2
+          },
+          {
+            "player": "Jonathan Isaac",
+            "team": "ORL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Not Specified",
+            "matched": true,
+            "expMin": 10.4,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Noah Penda",
+            "team": "ORL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring Strain",
+            "matched": true,
+            "expMin": 13.1,
+            "value": 0.01,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Izaiyah Nelson",
+            "team": "ORL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Surgery",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ],
+        "home": [
+          {
+            "player": "Mark Williams",
+            "team": "PHX",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Shoulder Surgery",
+            "matched": true,
+            "expMin": 23.6,
+            "value": 5.38,
+            "impactPts": 2.31
+          }
+        ]
+      }
+    },
+    {
+      "gameId": "20261105-MIA-GSW",
+      "generatedAt": "2026-10-29T04:09:58Z",
+      "ratingsAsOf": "2026-10-29T04:09:58Z",
+      "modelVersion": "v2.0",
+      "awayPts": 115.3,
+      "homePts": 113.5,
+      "margin": -1.82,
+      "spreadHome": 1.8,
+      "total": 228.9,
+      "pace": 106.5,
+      "homeWinProb": 0.4484,
+      "fairMlHome": 123,
+      "fairMlAway": -123,
+      "contributions": [
+        {
+          "key": "offense",
+          "pts": 1.46
+        },
+        {
+          "key": "defense",
+          "pts": -0.49
+        },
+        {
+          "key": "pace",
+          "pts": 0.16
+        },
+        {
+          "key": "home",
+          "pts": 1.78
+        },
+        {
+          "key": "rest_travel",
+          "pts": 3.12
+        },
+        {
+          "key": "injuries",
+          "pts": -7.85
+        }
+      ],
+      "sample": {
+        "awayGP": 5,
+        "homeGP": 5,
+        "priorWeight": 0.6667
+      },
+      "flags": [
+        "b2b_away",
+        "3in4_away"
+      ],
+      "spots": {
+        "away": {
+          "restDays": 0,
+          "b2b": true,
+          "threeInFour": true,
+          "travelKm": 561.1,
+          "atAltitude": false
+        },
+        "home": {
+          "restDays": 2,
+          "b2b": false,
+          "threeInFour": false,
+          "travelKm": 0.0,
+          "atAltitude": false
+        }
+      },
+      "availability": {
+        "reportPulledAt": "2026-10-29T02:09:07Z",
+        "source": "espn",
+        "away": [
+          {
+            "player": "Simone Fontecchio",
+            "team": "MIA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 8.9,
+            "value": 0.78,
+            "impactPts": 0.33
+          }
+        ],
+        "home": [
+          {
+            "player": "Jimmy Butler III",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Surgery",
+            "matched": true,
+            "expMin": 31.2,
+            "value": 10.3,
+            "impactPts": 4.42
+          },
+          {
+            "player": "Kristaps Porzingis",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 20.9,
+            "value": 5.23,
+            "impactPts": 2.24
+          },
+          {
+            "player": "Moses Moody",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Surgery",
+            "matched": true,
+            "expMin": 25.7,
+            "value": 1.9,
+            "impactPts": 0.82
+          },
+          {
+            "player": "Gui Santos",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Tendinitis",
+            "matched": true,
+            "expMin": 19.3,
+            "value": 1.64,
+            "impactPts": 0.7
+          }
+        ]
+      }
+    }
+  ]
+}
