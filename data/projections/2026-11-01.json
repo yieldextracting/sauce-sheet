@@ -3,8 +3,8 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-29T01:38:53Z",
-      "ratingsAsOf": "2026-10-29T01:38:53Z",
+      "generatedAt": "2026-10-29T01:59:02Z",
+      "ratingsAsOf": "2026-10-29T01:59:02Z",
       "modelVersion": "v2.0",
       "awayPts": 112.5,
       "homePts": 104.5,
@@ -18,7 +18,7 @@
       "contributions": [
         {
           "key": "offense",
-          "pts": -5.31
+          "pts": -5.3
         },
         {
           "key": "defense",
@@ -143,26 +143,26 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-29T01:38:53Z",
-      "ratingsAsOf": "2026-10-29T01:38:53Z",
+      "generatedAt": "2026-10-29T01:59:02Z",
+      "ratingsAsOf": "2026-10-29T01:59:02Z",
       "modelVersion": "v2.0",
-      "awayPts": 111.0,
-      "homePts": 111.1,
-      "margin": 0.17,
-      "spreadHome": -0.2,
-      "total": 222.1,
-      "pace": 104.1,
-      "homeWinProb": 0.5047,
-      "fairMlHome": -102,
-      "fairMlAway": 102,
+      "awayPts": 110.8,
+      "homePts": 111.2,
+      "margin": 0.38,
+      "spreadHome": -0.4,
+      "total": 222.0,
+      "pace": 104.0,
+      "homeWinProb": 0.5108,
+      "fairMlHome": -104,
+      "fairMlAway": 104,
       "contributions": [
         {
           "key": "offense",
-          "pts": 2.23
+          "pts": 2.26
         },
         {
           "key": "defense",
-          "pts": 0.69
+          "pts": 0.68
         },
         {
           "key": "pace",
@@ -178,13 +178,13 @@
         },
         {
           "key": "injuries",
-          "pts": -4.52
+          "pts": -4.32
         }
       ],
       "sample": {
         "awayGP": 4,
-        "homeGP": 4,
-        "priorWeight": 0.7143
+        "homeGP": 5,
+        "priorWeight": 0.6905
       },
       "flags": [
         "long_travel_home"
@@ -240,9 +240,9 @@
             "pPlay": 0.0,
             "reason": "Ankle Sprain",
             "matched": true,
-            "expMin": 23.4,
-            "value": 3.59,
-            "impactPts": 1.54
+            "expMin": 20.4,
+            "value": 3.13,
+            "impactPts": 1.34
           },
           {
             "player": "Tyrese Haliburton",
@@ -282,14 +282,14 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-29T01:38:53Z",
-      "ratingsAsOf": "2026-10-29T01:38:53Z",
+      "generatedAt": "2026-10-29T01:59:02Z",
+      "ratingsAsOf": "2026-10-29T01:59:02Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.2,
+      "awayPts": 108.1,
       "homePts": 104.3,
       "margin": -3.84,
       "spreadHome": 3.8,
-      "total": 212.5,
+      "total": 212.4,
       "pace": 101.2,
       "homeWinProb": 0.3922,
       "fairMlHome": 155,
@@ -465,14 +465,14 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-29T01:38:53Z",
-      "ratingsAsOf": "2026-10-29T01:38:53Z",
+      "generatedAt": "2026-10-29T01:59:02Z",
+      "ratingsAsOf": "2026-10-29T01:59:02Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.4,
+      "awayPts": 108.3,
       "homePts": 107.3,
       "margin": -1.04,
       "spreadHome": 1.0,
-      "total": 215.7,
+      "total": 215.6,
       "pace": 102.9,
       "homeWinProb": 0.4704,
       "fairMlHome": 113,
