@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T00:07:32Z",
+  "generatedAt": "2026-10-29T00:58:37Z",
   "grades": [
     {
       "source": "model",
@@ -1292,6 +1292,25 @@
       "clvProb": null,
       "closeMinutesBeforeTip": null,
       "finalScore": null
+    },
+    {
+      "source": "model",
+      "gameId": "20261029-SAC-NOP",
+      "etDate": "2026-10-29",
+      "pickId": "model",
+      "market": "spread",
+      "side": "NOP",
+      "line": -5.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 1.9,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
     }
   ],
   "summary": {
@@ -1299,7 +1318,7 @@
       "w": 30,
       "l": 25,
       "p": 0,
-      "pending": 13,
+      "pending": 14,
       "units": 2.273,
       "risked": 55.0,
       "roi": 0.0413,
@@ -1311,7 +1330,7 @@
       "w": 25,
       "l": 19,
       "p": 0,
-      "pending": 9,
+      "pending": 10,
       "units": 3.728,
       "risked": 44.0,
       "roi": 0.0847,
