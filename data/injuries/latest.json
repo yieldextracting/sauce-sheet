@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-10-29T22:06:25Z",
+  "pulledAt": "2026-10-29T22:26:32Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -182,28 +182,6 @@
       "source": "espn"
     },
     {
-      "player": "Naji Marshall",
-      "key": "najimarshall",
-      "team": "DAL",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Illness",
-      "espnId": "4278594",
-      "gameId": "20261030-HOU-DAL",
-      "source": "espn"
-    },
-    {
-      "player": "Sergio de Larrea",
-      "key": "sergiodelarrea",
-      "team": "DAL",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Knee Strain",
-      "espnId": "5279129",
-      "gameId": "20261030-HOU-DAL",
-      "source": "espn"
-    },
-    {
       "player": "Tarik Biberovic",
       "key": "tarikbiberovic",
       "team": "DAL",
@@ -222,6 +200,28 @@
       "pPlay": 0.0,
       "reason": "Knee Surgery",
       "espnId": "4593125",
+      "gameId": "20261030-HOU-DAL",
+      "source": "espn"
+    },
+    {
+      "player": "Sergio de Larrea",
+      "key": "sergiodelarrea",
+      "team": "DAL",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Knee Strain",
+      "espnId": "5279129",
+      "gameId": "20261030-HOU-DAL",
+      "source": "espn"
+    },
+    {
+      "player": "Naji Marshall",
+      "key": "najimarshall",
+      "team": "DAL",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Illness",
+      "espnId": "4278594",
       "gameId": "20261030-HOU-DAL",
       "source": "espn"
     },
@@ -468,17 +468,6 @@
       "source": "espn"
     },
     {
-      "player": "Yanic Konan Niederhauser",
-      "key": "yanickonanniederhauser",
-      "team": "LAC",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Foot Surgery",
-      "espnId": "5108024",
-      "gameId": "20261030-LAC-MIN",
-      "source": "espn"
-    },
-    {
       "player": "Rui Hachimura",
       "key": "ruihachimura",
       "team": "LAC",
@@ -486,6 +475,17 @@
       "pPlay": 0.5,
       "reason": "Quadriceps Soreness",
       "espnId": "4066648",
+      "gameId": "20261030-LAC-MIN",
+      "source": "espn"
+    },
+    {
+      "player": "Yanic Konan Niederhauser",
+      "key": "yanickonanniederhauser",
+      "team": "LAC",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Foot Surgery",
+      "espnId": "5108024",
       "gameId": "20261030-LAC-MIN",
       "source": "espn"
     },
@@ -611,11 +611,22 @@
       "source": "espn"
     },
     {
+      "player": "Dejounte Murray",
+      "key": "dejountemurray",
+      "team": "NOP",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Personal",
+      "espnId": "3907497",
+      "gameId": "20261029-SAC-NOP",
+      "source": "espn"
+    },
+    {
       "player": "Jordan Poole",
       "key": "jordanpoole",
       "team": "NOP",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Ankle",
       "espnId": "4277956",
       "gameId": "20261029-SAC-NOP",

@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261029-CLE-ATL",
-      "generatedAt": "2026-10-29T22:06:25Z",
+      "generatedAt": "2026-10-29T22:26:33Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 115.5,
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T22:06:25Z",
+        "reportPulledAt": "2026-10-29T22:26:32Z",
         "source": "espn",
         "away": [
           {
@@ -123,18 +123,18 @@
     },
     {
       "gameId": "20261029-SAC-NOP",
-      "generatedAt": "2026-10-29T22:06:25Z",
+      "generatedAt": "2026-10-29T22:26:33Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 111.6,
-      "homePts": 118.0,
-      "margin": 6.47,
-      "spreadHome": -6.5,
-      "total": 229.6,
+      "homePts": 115.2,
+      "margin": 3.68,
+      "spreadHome": -3.7,
+      "total": 226.8,
       "pace": 104.3,
-      "homeWinProb": 0.6774,
-      "fairMlHome": -210,
-      "fairMlAway": 210,
+      "homeWinProb": 0.6033,
+      "fairMlHome": -152,
+      "fairMlAway": 152,
       "contributions": [
         {
           "key": "offense",
@@ -158,7 +158,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.87
+          "pts": -1.92
         }
       ],
       "sample": {
@@ -186,7 +186,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T22:06:25Z",
+        "reportPulledAt": "2026-10-29T22:26:32Z",
         "source": "espn",
         "away": [
           {
@@ -236,6 +236,17 @@
         ],
         "home": [
           {
+            "player": "Dejounte Murray",
+            "team": "NOP",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Personal",
+            "matched": true,
+            "expMin": 29.7,
+            "value": 6.02,
+            "impactPts": 2.58
+          },
+          {
             "player": "Yves Missi",
             "team": "NOP",
             "status": "out",
@@ -249,20 +260,20 @@
           {
             "player": "Jordan Poole",
             "team": "NOP",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Ankle",
             "matched": true,
             "expMin": 20.4,
             "value": 1.01,
-            "impactPts": 0.22
+            "impactPts": 0.43
           }
         ]
       }
     },
     {
       "gameId": "20261029-MEM-POR",
-      "generatedAt": "2026-10-29T22:06:25Z",
+      "generatedAt": "2026-10-29T22:26:33Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 111.3,
@@ -323,7 +334,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T22:06:25Z",
+        "reportPulledAt": "2026-10-29T22:26:32Z",
         "source": "espn",
         "away": [],
         "home": [
