@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261105-ORL-PHX",
-      "generatedAt": "2026-10-29T05:10:12Z",
+      "generatedAt": "2026-10-29T16:53:22Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 107.9,
@@ -68,7 +68,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T02:09:07Z",
+        "reportPulledAt": "2026-10-29T16:53:21Z",
         "source": "espn",
         "away": [
           {
@@ -144,18 +144,18 @@
     },
     {
       "gameId": "20261105-MIA-GSW",
-      "generatedAt": "2026-10-29T05:10:12Z",
+      "generatedAt": "2026-10-29T16:53:22Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
-      "awayPts": 115.3,
-      "homePts": 113.5,
-      "margin": -1.74,
-      "spreadHome": 1.7,
-      "total": 228.8,
+      "awayPts": 115.6,
+      "homePts": 114.2,
+      "margin": -1.37,
+      "spreadHome": 1.4,
+      "total": 229.8,
       "pace": 106.4,
-      "homeWinProb": 0.4508,
-      "fairMlHome": 122,
-      "fairMlAway": -122,
+      "homeWinProb": 0.4612,
+      "fairMlHome": 117,
+      "fairMlAway": -117,
       "contributions": [
         {
           "key": "offense",
@@ -179,7 +179,7 @@
         },
         {
           "key": "injuries",
-          "pts": -7.85
+          "pts": -7.48
         }
       ],
       "sample": {
@@ -208,21 +208,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T02:09:07Z",
+        "reportPulledAt": "2026-10-29T16:53:21Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Simone Fontecchio",
-            "team": "MIA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 8.9,
-            "value": 0.78,
-            "impactPts": 0.33
-          }
-        ],
+        "away": [],
         "home": [
           {
             "player": "Jimmy Butler III",
@@ -256,17 +244,6 @@
             "expMin": 25.7,
             "value": 1.9,
             "impactPts": 0.82
-          },
-          {
-            "player": "Gui Santos",
-            "team": "GSW",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Tendinitis",
-            "matched": true,
-            "expMin": 19.3,
-            "value": 1.64,
-            "impactPts": 0.7
           }
         ]
       }

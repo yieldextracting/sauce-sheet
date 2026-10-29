@@ -1767,55 +1767,341 @@
       "nBooks": 1
     }
   },
-  "20261029-MEM-POR": {
-    "takenAt": "2026-10-29T01:59:02Z",
+  "20261029-CLE-ATL": {
+    "takenAt": "2026-10-29T16:53:22Z",
     "provider": "espn",
-    "snapshot": "data/lines/snapshots/2026-10-28/20261029T0159Z.json",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
+    "gameId": "20261029-CLE-ATL",
+    "oddsEventId": null,
+    "books": [
+      {
+        "book": "DraftKings",
+        "spreadHome": -1.5,
+        "spreadHomePrice": -105,
+        "spreadAwayPrice": -115,
+        "total": 237.5,
+        "overPrice": -115,
+        "underPrice": -105,
+        "mlHome": -115,
+        "mlAway": -105,
+        "lastUpdate": "2026-10-29T16:53:22Z"
+      }
+    ],
+    "consensus": {
+      "spreadHome": -1.5,
+      "total": 237.5,
+      "nBooks": 1
+    }
+  },
+  "20261029-MEM-POR": {
+    "takenAt": "2026-10-29T16:53:22Z",
+    "provider": "espn",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
     "gameId": "20261029-MEM-POR",
     "oddsEventId": null,
     "books": [
       {
         "book": "DraftKings",
-        "spreadHome": -6.5,
+        "spreadHome": -7.5,
         "spreadHomePrice": -115,
         "spreadAwayPrice": -105,
         "total": 233.5,
         "overPrice": -110,
         "underPrice": -110,
-        "mlHome": -258,
-        "mlAway": 210,
-        "lastUpdate": "2026-10-29T01:59:03Z"
+        "mlHome": -290,
+        "mlAway": 235,
+        "lastUpdate": "2026-10-29T16:53:22Z"
       }
     ],
     "consensus": {
-      "spreadHome": -6.5,
+      "spreadHome": -7.5,
       "total": 233.5,
       "nBooks": 1
     }
   },
   "20261029-SAC-NOP": {
-    "takenAt": "2026-10-29T01:59:02Z",
+    "takenAt": "2026-10-29T16:53:22Z",
     "provider": "espn",
-    "snapshot": "data/lines/snapshots/2026-10-28/20261029T0159Z.json",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
     "gameId": "20261029-SAC-NOP",
     "oddsEventId": null,
     "books": [
       {
         "book": "DraftKings",
-        "spreadHome": -5.5,
-        "spreadHomePrice": -115,
-        "spreadAwayPrice": -105,
-        "total": 238.5,
-        "overPrice": -115,
-        "underPrice": -105,
-        "mlHome": -198,
-        "mlAway": 164,
-        "lastUpdate": "2026-10-29T01:59:03Z"
+        "spreadHome": -6.5,
+        "spreadHomePrice": -102,
+        "spreadAwayPrice": -118,
+        "total": 236.5,
+        "overPrice": -108,
+        "underPrice": -112,
+        "mlHome": -238,
+        "mlAway": 195,
+        "lastUpdate": "2026-10-29T16:53:22Z"
       }
     ],
     "consensus": {
-      "spreadHome": -5.5,
-      "total": 238.5,
+      "spreadHome": -6.5,
+      "total": 236.5,
+      "nBooks": 1
+    }
+  },
+  "20261030-CHA-WAS": {
+    "takenAt": "2026-10-29T16:53:22Z",
+    "provider": "espn",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
+    "gameId": "20261030-CHA-WAS",
+    "oddsEventId": null,
+    "books": [
+      {
+        "book": "DraftKings",
+        "spreadHome": 1.5,
+        "spreadHomePrice": -115,
+        "spreadAwayPrice": -105,
+        "total": 223.5,
+        "overPrice": -110,
+        "underPrice": -110,
+        "mlHome": -105,
+        "mlAway": -115,
+        "lastUpdate": "2026-10-29T16:53:22Z"
+      }
+    ],
+    "consensus": {
+      "spreadHome": 1.5,
+      "total": 223.5,
+      "nBooks": 1
+    }
+  },
+  "20261030-CHI-BOS": {
+    "takenAt": "2026-10-29T16:53:22Z",
+    "provider": "espn",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
+    "gameId": "20261030-CHI-BOS",
+    "oddsEventId": null,
+    "books": [
+      {
+        "book": "DraftKings",
+        "spreadHome": -15.5,
+        "spreadHomePrice": -110,
+        "spreadAwayPrice": -110,
+        "total": 230.5,
+        "overPrice": -110,
+        "underPrice": -110,
+        "mlHome": -700,
+        "mlAway": 500,
+        "lastUpdate": "2026-10-29T16:53:22Z"
+      }
+    ],
+    "consensus": {
+      "spreadHome": -15.5,
+      "total": 230.5,
+      "nBooks": 1
+    }
+  },
+  "20261030-DEN-PHX": {
+    "takenAt": "2026-10-29T16:53:22Z",
+    "provider": "espn",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
+    "gameId": "20261030-DEN-PHX",
+    "oddsEventId": null,
+    "books": [
+      {
+        "book": "DraftKings",
+        "spreadHome": 4.5,
+        "spreadHomePrice": -110,
+        "spreadAwayPrice": -110,
+        "total": 227.5,
+        "overPrice": -110,
+        "underPrice": -110,
+        "mlHome": 140,
+        "mlAway": -166,
+        "lastUpdate": "2026-10-29T16:53:22Z"
+      }
+    ],
+    "consensus": {
+      "spreadHome": 4.5,
+      "total": 227.5,
+      "nBooks": 1
+    }
+  },
+  "20261030-DET-BKN": {
+    "takenAt": "2026-10-29T16:53:22Z",
+    "provider": "espn",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
+    "gameId": "20261030-DET-BKN",
+    "oddsEventId": null,
+    "books": [
+      {
+        "book": "DraftKings",
+        "spreadHome": 8.5,
+        "spreadHomePrice": -115,
+        "spreadAwayPrice": -105,
+        "total": 227.5,
+        "overPrice": -110,
+        "underPrice": -110,
+        "mlHome": 280,
+        "mlAway": -355,
+        "lastUpdate": "2026-10-29T16:53:22Z"
+      }
+    ],
+    "consensus": {
+      "spreadHome": 8.5,
+      "total": 227.5,
+      "nBooks": 1
+    }
+  },
+  "20261030-HOU-DAL": {
+    "takenAt": "2026-10-29T16:53:22Z",
+    "provider": "espn",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
+    "gameId": "20261030-HOU-DAL",
+    "oddsEventId": null,
+    "books": [
+      {
+        "book": "DraftKings",
+        "spreadHome": 5.5,
+        "spreadHomePrice": -110,
+        "spreadAwayPrice": -110,
+        "total": 227.5,
+        "overPrice": -110,
+        "underPrice": -110,
+        "mlHome": 160,
+        "mlAway": -192,
+        "lastUpdate": "2026-10-29T16:53:22Z"
+      }
+    ],
+    "consensus": {
+      "spreadHome": 5.5,
+      "total": 227.5,
+      "nBooks": 1
+    }
+  },
+  "20261030-IND-MIA": {
+    "takenAt": "2026-10-29T16:53:22Z",
+    "provider": "espn",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
+    "gameId": "20261030-IND-MIA",
+    "oddsEventId": null,
+    "books": [
+      {
+        "book": "DraftKings",
+        "spreadHome": -3.5,
+        "spreadHomePrice": -112,
+        "spreadAwayPrice": -108,
+        "total": 239.5,
+        "overPrice": -110,
+        "underPrice": -110,
+        "mlHome": -180,
+        "mlAway": 150,
+        "lastUpdate": "2026-10-29T16:53:22Z"
+      }
+    ],
+    "consensus": {
+      "spreadHome": -3.5,
+      "total": 239.5,
+      "nBooks": 1
+    }
+  },
+  "20261030-LAC-MIN": {
+    "takenAt": "2026-10-29T16:53:22Z",
+    "provider": "espn",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
+    "gameId": "20261030-LAC-MIN",
+    "oddsEventId": null,
+    "books": [
+      {
+        "book": "DraftKings",
+        "spreadHome": -7.5,
+        "spreadHomePrice": -110,
+        "spreadAwayPrice": -110,
+        "total": 222.5,
+        "overPrice": -110,
+        "underPrice": -110,
+        "mlHome": -230,
+        "mlAway": 190,
+        "lastUpdate": "2026-10-29T16:53:22Z"
+      }
+    ],
+    "consensus": {
+      "spreadHome": -7.5,
+      "total": 222.5,
+      "nBooks": 1
+    }
+  },
+  "20261030-LAL-GSW": {
+    "takenAt": "2026-10-29T16:53:22Z",
+    "provider": "espn",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
+    "gameId": "20261030-LAL-GSW",
+    "oddsEventId": null,
+    "books": [
+      {
+        "book": "DraftKings",
+        "spreadHome": 1.5,
+        "spreadHomePrice": -110,
+        "spreadAwayPrice": -110,
+        "total": 234.5,
+        "overPrice": -108,
+        "underPrice": -112,
+        "mlHome": 105,
+        "mlAway": -125,
+        "lastUpdate": "2026-10-29T16:53:22Z"
+      }
+    ],
+    "consensus": {
+      "spreadHome": 1.5,
+      "total": 234.5,
+      "nBooks": 1
+    }
+  },
+  "20261030-NYK-PHI": {
+    "takenAt": "2026-10-29T16:53:22Z",
+    "provider": "espn",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
+    "gameId": "20261030-NYK-PHI",
+    "oddsEventId": null,
+    "books": [
+      {
+        "book": "DraftKings",
+        "spreadHome": 1.5,
+        "spreadHomePrice": -115,
+        "spreadAwayPrice": -105,
+        "total": 229.5,
+        "overPrice": -105,
+        "underPrice": -115,
+        "mlHome": -105,
+        "mlAway": -115,
+        "lastUpdate": "2026-10-29T16:53:22Z"
+      }
+    ],
+    "consensus": {
+      "spreadHome": 1.5,
+      "total": 229.5,
+      "nBooks": 1
+    }
+  },
+  "20261030-ORL-TOR": {
+    "takenAt": "2026-10-29T16:53:22Z",
+    "provider": "espn",
+    "snapshot": "data/lines/snapshots/2026-10-29/20261029T1653Z.json",
+    "gameId": "20261030-ORL-TOR",
+    "oddsEventId": null,
+    "books": [
+      {
+        "book": "DraftKings",
+        "spreadHome": -4.5,
+        "spreadHomePrice": -115,
+        "spreadAwayPrice": -105,
+        "total": 224.5,
+        "overPrice": -110,
+        "underPrice": -110,
+        "mlHome": -170,
+        "mlAway": 142,
+        "lastUpdate": "2026-10-29T16:53:22Z"
+      }
+    ],
+    "consensus": {
+      "spreadHome": -4.5,
+      "total": 224.5,
       "nBooks": 1
     }
   }

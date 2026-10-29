@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-29T05:10:12Z",
+      "generatedAt": "2026-10-29T16:53:22Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 113.1,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T02:09:07Z",
+        "reportPulledAt": "2026-10-29T16:53:21Z",
         "source": "espn",
         "away": [
           {
@@ -143,18 +143,18 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-29T05:10:12Z",
+      "generatedAt": "2026-10-29T16:53:22Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.7,
-      "homePts": 111.0,
-      "margin": 0.39,
-      "spreadHome": -0.4,
-      "total": 221.7,
+      "awayPts": 110.6,
+      "homePts": 112.4,
+      "margin": 1.77,
+      "spreadHome": -1.8,
+      "total": 223.0,
       "pace": 104.0,
-      "homeWinProb": 0.511,
-      "fairMlHome": -105,
-      "fairMlAway": 105,
+      "homeWinProb": 0.5501,
+      "fairMlHome": -122,
+      "fairMlAway": 122,
       "contributions": [
         {
           "key": "offense",
@@ -178,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.32
+          "pts": -2.94
         }
       ],
       "sample": {
@@ -206,9 +206,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T02:09:07Z",
+        "reportPulledAt": "2026-10-29T16:53:21Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Egor Demin",
+            "team": "BKN",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Leg Bruise",
+            "matched": true,
+            "expMin": 23.2,
+            "value": 0.08,
+            "impactPts": 0.04
+          },
           {
             "player": "Tyler Bilodeau",
             "team": "BKN",
@@ -232,17 +243,6 @@
             "expMin": 17.2,
             "value": 4.53,
             "impactPts": 1.95
-          },
-          {
-            "player": "Ivica Zubac",
-            "team": "IND",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 20.4,
-            "value": 3.13,
-            "impactPts": 1.34
           },
           {
             "player": "Tyrese Haliburton",
@@ -282,18 +282,18 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-29T05:10:12Z",
+      "generatedAt": "2026-10-29T16:53:22Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 105.8,
-      "homePts": 104.4,
-      "margin": -1.39,
-      "spreadHome": 1.4,
-      "total": 210.2,
+      "homePts": 105.1,
+      "margin": -0.69,
+      "spreadHome": 0.7,
+      "total": 210.9,
       "pace": 101.3,
-      "homeWinProb": 0.4606,
-      "fairMlHome": 117,
-      "fairMlAway": -117,
+      "homeWinProb": 0.4805,
+      "fairMlHome": 108,
+      "fairMlAway": -108,
       "contributions": [
         {
           "key": "offense",
@@ -317,7 +317,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.65
+          "pts": -2.95
         }
       ],
       "sample": {
@@ -345,7 +345,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T02:09:07Z",
+        "reportPulledAt": "2026-10-29T16:53:21Z",
         "source": "espn",
         "away": [
           {
@@ -393,17 +393,6 @@
             "impactPts": 0.43
           },
           {
-            "player": "Rui Hachimura",
-            "team": "LAC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Quadriceps Soreness",
-            "matched": true,
-            "expMin": 29.3,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
             "player": "Bradley Beal",
             "team": "LAC",
             "status": "out",
@@ -448,35 +437,24 @@
             "expMin": 25.7,
             "value": 1.9,
             "impactPts": 0.82
-          },
-          {
-            "player": "Gui Santos",
-            "team": "GSW",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Tendinitis",
-            "matched": true,
-            "expMin": 19.3,
-            "value": 1.64,
-            "impactPts": 0.7
           }
         ]
       }
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-29T05:10:12Z",
+      "generatedAt": "2026-10-29T16:53:22Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
-      "homePts": 105.9,
-      "margin": -1.38,
-      "spreadHome": 1.4,
-      "total": 213.2,
+      "homePts": 113.5,
+      "margin": 6.24,
+      "spreadHome": -6.2,
+      "total": 220.8,
       "pace": 102.8,
-      "homeWinProb": 0.461,
-      "fairMlHome": 117,
-      "fairMlAway": -117,
+      "homeWinProb": 0.6717,
+      "fairMlHome": -205,
+      "fairMlAway": 205,
       "contributions": [
         {
           "key": "offense",
@@ -500,7 +478,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.08
+          "pts": 4.54
         }
       ],
       "sample": {
@@ -528,7 +506,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-29T02:09:07Z",
+        "reportPulledAt": "2026-10-29T16:53:21Z",
         "source": "espn",
         "away": [
           {
@@ -555,28 +533,6 @@
           }
         ],
         "home": [
-          {
-            "player": "Luka Doncic",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Back",
-            "matched": true,
-            "expMin": 35.8,
-            "value": 16.43,
-            "impactPts": 7.06
-          },
-          {
-            "player": "Ziaire Williams",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Foot",
-            "matched": true,
-            "expMin": 25.4,
-            "value": 1.31,
-            "impactPts": 0.56
-          },
           {
             "player": "Cameron Carr",
             "team": "LAL",
