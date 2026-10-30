@@ -262,18 +262,18 @@
     },
     {
       "gameId": "20261029-MEM-POR",
-      "generatedAt": "2026-10-30T01:27:37Z",
+      "generatedAt": "2026-10-30T01:37:41Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.8,
+      "awayPts": 111.3,
       "homePts": 115.0,
-      "margin": 6.15,
-      "spreadHome": -6.2,
-      "total": 223.8,
+      "margin": 3.72,
+      "spreadHome": -3.7,
+      "total": 226.2,
       "pace": 105.3,
-      "homeWinProb": 0.6694,
-      "fairMlHome": -202,
-      "fairMlAway": 202,
+      "homeWinProb": 0.6045,
+      "fairMlHome": -153,
+      "fairMlAway": 153,
       "contributions": [
         {
           "key": "offense",
@@ -297,7 +297,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.38
+          "pts": -3.81
         }
       ],
       "sample": {
@@ -323,21 +323,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T01:27:37Z",
+        "reportPulledAt": "2026-10-30T01:37:41Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Ty Jerome",
-            "team": "MEM",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Back",
-            "matched": true,
-            "expMin": 26.4,
-            "value": 11.34,
-            "impactPts": 2.43
-          }
-        ],
+        "away": [],
         "home": [
           {
             "player": "Shaedon Sharpe",
