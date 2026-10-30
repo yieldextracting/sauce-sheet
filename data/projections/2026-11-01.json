@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-30T22:58:06Z",
+      "generatedAt": "2026-10-30T23:08:10Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 113.2,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:58:06Z",
+        "reportPulledAt": "2026-10-30T23:08:09Z",
         "source": "espn",
         "away": [
           {
@@ -143,18 +143,18 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-30T22:58:06Z",
+      "generatedAt": "2026-10-30T23:08:10Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 110.6,
-      "homePts": 111.1,
-      "margin": 0.45,
-      "spreadHome": -0.4,
-      "total": 221.7,
+      "homePts": 108.8,
+      "margin": -1.77,
+      "spreadHome": 1.8,
+      "total": 219.4,
       "pace": 104.0,
-      "homeWinProb": 0.5127,
-      "fairMlHome": -105,
-      "fairMlAway": 105,
+      "homeWinProb": 0.4498,
+      "fairMlHome": 122,
+      "fairMlAway": -122,
       "contributions": [
         {
           "key": "offense",
@@ -178,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.28
+          "pts": -6.5
         }
       ],
       "sample": {
@@ -206,7 +206,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:58:06Z",
+        "reportPulledAt": "2026-10-30T23:08:09Z",
         "source": "espn",
         "away": [
           {
@@ -233,6 +233,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Obi Toppin",
+            "team": "IND",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back Soreness",
+            "matched": true,
+            "expMin": 20.2,
+            "value": 5.16,
+            "impactPts": 2.22
+          },
           {
             "player": "T.J. McConnell",
             "team": "IND",
@@ -293,7 +304,7 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-30T22:58:06Z",
+      "generatedAt": "2026-10-30T23:08:10Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 105.7,
@@ -356,7 +367,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:58:06Z",
+        "reportPulledAt": "2026-10-30T23:08:09Z",
         "source": "espn",
         "away": [
           {
@@ -454,7 +465,7 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-30T22:58:06Z",
+      "generatedAt": "2026-10-30T23:08:10Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
@@ -517,7 +528,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:58:06Z",
+        "reportPulledAt": "2026-10-30T23:08:09Z",
         "source": "espn",
         "away": [
           {
