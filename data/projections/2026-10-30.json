@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261030-CHA-WAS",
-      "generatedAt": "2026-10-30T22:07:51Z",
+      "generatedAt": "2026-10-30T22:17:55Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 109.6,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:07:51Z",
+        "reportPulledAt": "2026-10-30T22:17:55Z",
         "source": "espn",
         "away": [
           {
@@ -151,7 +151,7 @@
             "team": "WAS",
             "status": "questionable",
             "pPlay": 0.5,
-            "reason": "Achilles Soreness",
+            "reason": null,
             "matched": true,
             "expMin": 20.5,
             "value": 0.48,
@@ -162,7 +162,7 @@
     },
     {
       "gameId": "20261030-CHI-BOS",
-      "generatedAt": "2026-10-30T22:07:51Z",
+      "generatedAt": "2026-10-30T22:17:55Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 106.4,
@@ -223,7 +223,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:07:51Z",
+        "reportPulledAt": "2026-10-30T22:17:55Z",
         "source": "espn",
         "away": [
           {
@@ -266,7 +266,7 @@
     },
     {
       "gameId": "20261030-DET-BKN",
-      "generatedAt": "2026-10-30T22:07:51Z",
+      "generatedAt": "2026-10-30T22:17:55Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 110.0,
@@ -329,7 +329,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:07:51Z",
+        "reportPulledAt": "2026-10-30T22:17:55Z",
         "source": "espn",
         "away": [
           {
@@ -383,7 +383,7 @@
     },
     {
       "gameId": "20261030-NYK-PHI",
-      "generatedAt": "2026-10-30T22:07:51Z",
+      "generatedAt": "2026-10-30T22:17:55Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 108.2,
@@ -446,7 +446,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:07:51Z",
+        "reportPulledAt": "2026-10-30T22:17:55Z",
         "source": "espn",
         "away": [
           {
@@ -533,7 +533,7 @@
     },
     {
       "gameId": "20261030-ORL-TOR",
-      "generatedAt": "2026-10-30T22:07:51Z",
+      "generatedAt": "2026-10-30T22:17:55Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 102.0,
@@ -594,7 +594,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:07:51Z",
+        "reportPulledAt": "2026-10-30T22:17:55Z",
         "source": "espn",
         "away": [
           {
@@ -681,18 +681,18 @@
     },
     {
       "gameId": "20261030-HOU-DAL",
-      "generatedAt": "2026-10-30T22:07:51Z",
+      "generatedAt": "2026-10-30T22:17:55Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 112.1,
-      "homePts": 105.6,
-      "margin": -6.44,
-      "spreadHome": 6.4,
-      "total": 217.7,
+      "homePts": 106.4,
+      "margin": -5.64,
+      "spreadHome": 5.6,
+      "total": 218.5,
       "pace": 102.1,
-      "homeWinProb": 0.3233,
-      "fairMlHome": 209,
-      "fairMlAway": -209,
+      "homeWinProb": 0.344,
+      "fairMlHome": 191,
+      "fairMlAway": -191,
       "contributions": [
         {
           "key": "offense",
@@ -716,7 +716,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.65
+          "pts": 1.45
         }
       ],
       "sample": {
@@ -742,7 +742,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:07:51Z",
+        "reportPulledAt": "2026-10-30T22:17:55Z",
         "source": "espn",
         "away": [
           {
@@ -803,17 +803,6 @@
             "impactPts": 1.83
           },
           {
-            "player": "Naji Marshall",
-            "team": "DAL",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 28.7,
-            "value": 3.71,
-            "impactPts": 0.8
-          },
-          {
             "player": "Dereck Lively II",
             "team": "DAL",
             "status": "out",
@@ -851,7 +840,7 @@
     },
     {
       "gameId": "20261030-IND-MIA",
-      "generatedAt": "2026-10-30T22:07:51Z",
+      "generatedAt": "2026-10-30T22:17:55Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 108.4,
@@ -914,7 +903,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:07:51Z",
+        "reportPulledAt": "2026-10-30T22:17:55Z",
         "source": "espn",
         "away": [
           {
@@ -1023,7 +1012,7 @@
     },
     {
       "gameId": "20261030-LAC-MIN",
-      "generatedAt": "2026-10-30T22:07:51Z",
+      "generatedAt": "2026-10-30T22:17:55Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 101.2,
@@ -1086,7 +1075,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:07:51Z",
+        "reportPulledAt": "2026-10-30T22:17:55Z",
         "source": "espn",
         "away": [
           {
@@ -1184,7 +1173,7 @@
     },
     {
       "gameId": "20261030-DEN-PHX",
-      "generatedAt": "2026-10-30T22:07:51Z",
+      "generatedAt": "2026-10-30T22:17:55Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 110.9,
@@ -1247,7 +1236,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:07:51Z",
+        "reportPulledAt": "2026-10-30T22:17:55Z",
         "source": "espn",
         "away": [
           {
@@ -1323,7 +1312,7 @@
     },
     {
       "gameId": "20261030-LAL-GSW",
-      "generatedAt": "2026-10-30T22:07:51Z",
+      "generatedAt": "2026-10-30T22:17:55Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 116.4,
@@ -1387,7 +1376,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:07:51Z",
+        "reportPulledAt": "2026-10-30T22:17:55Z",
         "source": "espn",
         "away": [
           {
