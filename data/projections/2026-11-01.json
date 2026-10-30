@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-30T20:07:14Z",
+      "generatedAt": "2026-10-30T20:17:17Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 113.2,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T20:07:14Z",
+        "reportPulledAt": "2026-10-30T20:17:17Z",
         "source": "espn",
         "away": [
           {
@@ -143,7 +143,7 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-30T20:07:14Z",
+      "generatedAt": "2026-10-30T20:17:17Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 110.6,
@@ -206,7 +206,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T20:07:14Z",
+        "reportPulledAt": "2026-10-30T20:17:17Z",
         "source": "espn",
         "away": [
           {
@@ -293,7 +293,7 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-30T20:07:14Z",
+      "generatedAt": "2026-10-30T20:17:17Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 105.7,
@@ -356,7 +356,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T20:07:14Z",
+        "reportPulledAt": "2026-10-30T20:17:17Z",
         "source": "espn",
         "away": [
           {
@@ -454,18 +454,18 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-30T20:07:14Z",
+      "generatedAt": "2026-10-30T20:17:17Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
-      "homePts": 113.5,
-      "margin": 6.13,
-      "spreadHome": -6.1,
-      "total": 220.8,
+      "homePts": 112.9,
+      "margin": 5.57,
+      "spreadHome": -5.6,
+      "total": 220.3,
       "pace": 102.8,
-      "homeWinProb": 0.6689,
-      "fairMlHome": -202,
-      "fairMlAway": 202,
+      "homeWinProb": 0.6543,
+      "fairMlHome": -189,
+      "fairMlAway": 189,
       "contributions": [
         {
           "key": "offense",
@@ -489,7 +489,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.54
+          "pts": 3.98
         }
       ],
       "sample": {
@@ -517,7 +517,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T20:07:14Z",
+        "reportPulledAt": "2026-10-30T20:17:17Z",
         "source": "espn",
         "away": [
           {
@@ -544,6 +544,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Ziaire Williams",
+            "team": "LAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot",
+            "matched": true,
+            "expMin": 25.4,
+            "value": 1.31,
+            "impactPts": 0.56
+          },
           {
             "player": "Adou Thiero",
             "team": "LAL",
