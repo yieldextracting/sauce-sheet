@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261030-CHA-WAS",
-      "generatedAt": "2026-10-30T22:38:01Z",
+      "generatedAt": "2026-10-30T22:48:03Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 109.6,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:38:00Z",
+        "reportPulledAt": "2026-10-30T22:48:03Z",
         "source": "espn",
         "away": [
           {
@@ -151,7 +151,7 @@
     },
     {
       "gameId": "20261030-CHI-BOS",
-      "generatedAt": "2026-10-30T22:38:01Z",
+      "generatedAt": "2026-10-30T22:48:03Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 106.4,
@@ -212,7 +212,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:38:00Z",
+        "reportPulledAt": "2026-10-30T22:48:03Z",
         "source": "espn",
         "away": [
           {
@@ -255,7 +255,7 @@
     },
     {
       "gameId": "20261030-DET-BKN",
-      "generatedAt": "2026-10-30T22:38:01Z",
+      "generatedAt": "2026-10-30T22:48:03Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 110.0,
@@ -318,7 +318,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:38:00Z",
+        "reportPulledAt": "2026-10-30T22:48:03Z",
         "source": "espn",
         "away": [
           {
@@ -372,7 +372,7 @@
     },
     {
       "gameId": "20261030-NYK-PHI",
-      "generatedAt": "2026-10-30T22:38:01Z",
+      "generatedAt": "2026-10-30T22:48:03Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 110.0,
@@ -435,7 +435,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:38:00Z",
+        "reportPulledAt": "2026-10-30T22:48:03Z",
         "source": "espn",
         "away": [
           {
@@ -511,7 +511,7 @@
     },
     {
       "gameId": "20261030-ORL-TOR",
-      "generatedAt": "2026-10-30T22:38:01Z",
+      "generatedAt": "2026-10-30T22:48:03Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 102.0,
@@ -572,7 +572,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:38:00Z",
+        "reportPulledAt": "2026-10-30T22:48:03Z",
         "source": "espn",
         "away": [
           {
@@ -659,18 +659,18 @@
     },
     {
       "gameId": "20261030-HOU-DAL",
-      "generatedAt": "2026-10-30T22:38:01Z",
+      "generatedAt": "2026-10-30T22:48:03Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
-      "awayPts": 112.1,
+      "awayPts": 110.1,
       "homePts": 106.4,
-      "margin": -5.64,
-      "spreadHome": 5.6,
-      "total": 218.5,
+      "margin": -3.63,
+      "spreadHome": 3.6,
+      "total": 216.5,
       "pace": 102.1,
-      "homeWinProb": 0.344,
-      "fairMlHome": 191,
-      "fairMlAway": -191,
+      "homeWinProb": 0.3981,
+      "fairMlHome": 151,
+      "fairMlAway": -151,
       "contributions": [
         {
           "key": "offense",
@@ -694,7 +694,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.45
+          "pts": 3.46
         }
       ],
       "sample": {
@@ -720,19 +720,19 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:38:00Z",
+        "reportPulledAt": "2026-10-30T22:48:03Z",
         "source": "espn",
         "away": [
           {
             "player": "Alperen Sengun",
             "team": "HOU",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Back Soreness",
             "matched": true,
             "expMin": 33.8,
             "value": 9.4,
-            "impactPts": 2.02
+            "impactPts": 4.03
           },
           {
             "player": "Reed Sheppard",
@@ -792,17 +792,6 @@
             "impactPts": 0.46
           },
           {
-            "player": "Tarik Biberovic",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Heel Inflammation",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
             "player": "Sergio de Larrea",
             "team": "DAL",
             "status": "out",
@@ -812,13 +801,24 @@
             "expMin": 5.2,
             "value": 0.49,
             "impactPts": 0.0
+          },
+          {
+            "player": "Tarik Biberovic",
+            "team": "DAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Heel Inflammation",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
           }
         ]
       }
     },
     {
       "gameId": "20261030-IND-MIA",
-      "generatedAt": "2026-10-30T22:38:01Z",
+      "generatedAt": "2026-10-30T22:48:03Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 108.4,
@@ -881,7 +881,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:38:00Z",
+        "reportPulledAt": "2026-10-30T22:48:03Z",
         "source": "espn",
         "away": [
           {
@@ -978,7 +978,7 @@
     },
     {
       "gameId": "20261030-LAC-MIN",
-      "generatedAt": "2026-10-30T22:38:01Z",
+      "generatedAt": "2026-10-30T22:48:03Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 101.2,
@@ -1041,7 +1041,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:38:00Z",
+        "reportPulledAt": "2026-10-30T22:48:03Z",
         "source": "espn",
         "away": [
           {
@@ -1089,17 +1089,6 @@
             "impactPts": 0.43
           },
           {
-            "player": "Rui Hachimura",
-            "team": "LAC",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Quadriceps Soreness",
-            "matched": true,
-            "expMin": 29.3,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
             "player": "Bradley Beal",
             "team": "LAC",
             "status": "out",
@@ -1139,7 +1128,7 @@
     },
     {
       "gameId": "20261030-DEN-PHX",
-      "generatedAt": "2026-10-30T22:38:01Z",
+      "generatedAt": "2026-10-30T22:48:03Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 110.9,
@@ -1202,7 +1191,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:38:00Z",
+        "reportPulledAt": "2026-10-30T22:48:03Z",
         "source": "espn",
         "away": [
           {
@@ -1278,7 +1267,7 @@
     },
     {
       "gameId": "20261030-LAL-GSW",
-      "generatedAt": "2026-10-30T22:38:01Z",
+      "generatedAt": "2026-10-30T22:48:03Z",
       "ratingsAsOf": "2026-10-30T04:29:10Z",
       "modelVersion": "v2.0",
       "awayPts": 116.4,
@@ -1342,7 +1331,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T22:38:00Z",
+        "reportPulledAt": "2026-10-30T22:48:03Z",
         "source": "espn",
         "away": [
           {
