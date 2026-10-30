@@ -262,18 +262,18 @@
     },
     {
       "gameId": "20261029-MEM-POR",
-      "generatedAt": "2026-10-30T00:27:16Z",
+      "generatedAt": "2026-10-30T00:47:23Z",
       "ratingsAsOf": "2026-10-29T05:10:12Z",
       "modelVersion": "v2.0",
       "awayPts": 111.3,
-      "homePts": 115.9,
-      "margin": 4.66,
-      "spreadHome": -4.7,
-      "total": 227.2,
+      "homePts": 115.0,
+      "margin": 3.72,
+      "spreadHome": -3.7,
+      "total": 226.2,
       "pace": 105.3,
-      "homeWinProb": 0.6301,
-      "fairMlHome": -170,
-      "fairMlAway": 170,
+      "homeWinProb": 0.6045,
+      "fairMlHome": -153,
+      "fairMlAway": 153,
       "contributions": [
         {
           "key": "offense",
@@ -297,7 +297,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.87
+          "pts": -3.81
         }
       ],
       "sample": {
@@ -323,7 +323,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-30T00:27:16Z",
+        "reportPulledAt": "2026-10-30T00:47:23Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -341,13 +341,13 @@
           {
             "player": "Robert Williams III",
             "team": "POR",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Knee",
             "matched": true,
             "expMin": 17.5,
             "value": 4.4,
-            "impactPts": 0.95
+            "impactPts": 1.89
           },
           {
             "player": "Chris Youngblood",
