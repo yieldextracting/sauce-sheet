@@ -3,26 +3,26 @@
   "games": [
     {
       "gameId": "20261105-ORL-PHX",
-      "generatedAt": "2026-10-31T04:41:17Z",
-      "ratingsAsOf": "2026-10-31T04:41:17Z",
+      "generatedAt": "2026-10-31T04:51:21Z",
+      "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 110.1,
       "homePts": 109.6,
-      "margin": -0.55,
+      "margin": -0.48,
       "spreadHome": 0.5,
-      "total": 219.7,
+      "total": 219.6,
       "pace": 102.0,
-      "homeWinProb": 0.4844,
+      "homeWinProb": 0.4863,
       "fairMlHome": 106,
       "fairMlAway": -106,
       "contributions": [
         {
           "key": "offense",
-          "pts": 0.14
+          "pts": 0.2
         },
         {
           "key": "defense",
-          "pts": -1.9
+          "pts": -1.89
         },
         {
           "key": "pace",
@@ -30,7 +30,7 @@
         },
         {
           "key": "home",
-          "pts": 1.78
+          "pts": 1.77
         },
         {
           "key": "rest_travel",
@@ -144,34 +144,34 @@
     },
     {
       "gameId": "20261105-MIA-GSW",
-      "generatedAt": "2026-10-31T04:41:17Z",
-      "ratingsAsOf": "2026-10-31T04:41:17Z",
+      "generatedAt": "2026-10-31T04:51:21Z",
+      "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
-      "awayPts": 117.0,
-      "homePts": 114.9,
-      "margin": -2.07,
-      "spreadHome": 2.1,
-      "total": 231.9,
-      "pace": 106.1,
-      "homeWinProb": 0.4415,
-      "fairMlHome": 126,
-      "fairMlAway": -126,
+      "awayPts": 115.6,
+      "homePts": 114.6,
+      "margin": -1.02,
+      "spreadHome": 1.0,
+      "total": 230.3,
+      "pace": 105.9,
+      "homeWinProb": 0.4712,
+      "fairMlHome": 112,
+      "fairMlAway": -112,
       "contributions": [
         {
           "key": "offense",
-          "pts": -0.21
+          "pts": -0.2
         },
         {
           "key": "defense",
-          "pts": 0.59
+          "pts": 1.62
         },
         {
           "key": "pace",
-          "pts": 0.15
+          "pts": 0.16
         },
         {
           "key": "home",
-          "pts": 1.78
+          "pts": 1.77
         },
         {
           "key": "rest_travel",
@@ -184,8 +184,8 @@
       ],
       "sample": {
         "awayGP": 6,
-        "homeGP": 5,
-        "priorWeight": 0.6459
+        "homeGP": 6,
+        "priorWeight": 0.625
       },
       "flags": [
         "b2b_away",
