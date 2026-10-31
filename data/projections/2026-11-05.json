@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261105-ORL-PHX",
-      "generatedAt": "2026-10-31T02:30:44Z",
-      "ratingsAsOf": "2026-10-31T02:30:44Z",
+      "generatedAt": "2026-10-31T02:40:47Z",
+      "ratingsAsOf": "2026-10-31T02:40:47Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.9,
-      "homePts": 108.9,
-      "margin": 0.0,
-      "spreadHome": -0.0,
-      "total": 217.7,
+      "awayPts": 109.0,
+      "homePts": 109.0,
+      "margin": -0.0,
+      "spreadHome": 0.0,
+      "total": 217.9,
       "pace": 102.0,
-      "homeWinProb": 0.5001,
-      "fairMlHome": -100,
-      "fairMlAway": 100,
+      "homeWinProb": 0.4999,
+      "fairMlHome": 100,
+      "fairMlAway": -100,
       "contributions": [
         {
           "key": "offense",
@@ -22,7 +22,7 @@
         },
         {
           "key": "defense",
-          "pts": -0.79
+          "pts": -0.8
         },
         {
           "key": "pace",
@@ -144,30 +144,30 @@
     },
     {
       "gameId": "20261105-MIA-GSW",
-      "generatedAt": "2026-10-31T02:30:44Z",
-      "ratingsAsOf": "2026-10-31T02:30:44Z",
+      "generatedAt": "2026-10-31T02:40:47Z",
+      "ratingsAsOf": "2026-10-31T02:40:47Z",
       "modelVersion": "v2.0",
-      "awayPts": 115.5,
-      "homePts": 114.3,
-      "margin": -1.19,
-      "spreadHome": 1.2,
-      "total": 229.8,
-      "pace": 106.4,
-      "homeWinProb": 0.4661,
-      "fairMlHome": 115,
-      "fairMlAway": -115,
+      "awayPts": 117.0,
+      "homePts": 115.0,
+      "margin": -2.02,
+      "spreadHome": 2.0,
+      "total": 232.0,
+      "pace": 106.1,
+      "homeWinProb": 0.4428,
+      "fairMlHome": 126,
+      "fairMlAway": -126,
       "contributions": [
         {
           "key": "offense",
-          "pts": 1.55
+          "pts": -0.09
         },
         {
           "key": "defense",
-          "pts": -0.34
+          "pts": 0.52
         },
         {
           "key": "pace",
-          "pts": 0.18
+          "pts": 0.15
         },
         {
           "key": "home",
@@ -183,9 +183,9 @@
         }
       ],
       "sample": {
-        "awayGP": 5,
+        "awayGP": 6,
         "homeGP": 5,
-        "priorWeight": 0.6667
+        "priorWeight": 0.6459
       },
       "flags": [
         "b2b_away",
