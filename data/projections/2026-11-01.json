@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-31T04:51:21Z",
+      "generatedAt": "2026-10-31T16:19:25Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 113.2,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T01:28:51Z",
+        "reportPulledAt": "2026-10-31T16:19:25Z",
         "source": "espn",
         "away": [
           {
@@ -143,18 +143,18 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-31T04:51:21Z",
+      "generatedAt": "2026-10-31T16:19:25Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 111.4,
-      "homePts": 109.7,
-      "margin": -1.7,
-      "spreadHome": 1.7,
-      "total": 221.1,
+      "homePts": 110.7,
+      "margin": -0.73,
+      "spreadHome": 0.7,
+      "total": 222.0,
       "pace": 103.7,
-      "homeWinProb": 0.4517,
-      "fairMlHome": 121,
-      "fairMlAway": -121,
+      "homeWinProb": 0.4792,
+      "fairMlHome": 109,
+      "fairMlAway": -109,
       "contributions": [
         {
           "key": "offense",
@@ -178,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": -6.04
+          "pts": -5.07
         }
       ],
       "sample": {
@@ -206,7 +206,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T01:28:51Z",
+        "reportPulledAt": "2026-10-31T16:19:25Z",
         "source": "espn",
         "away": [
           {
@@ -245,17 +245,6 @@
             "impactPts": 1.95
           },
           {
-            "player": "Obi Toppin",
-            "team": "IND",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Back Soreness",
-            "matched": true,
-            "expMin": 17.6,
-            "value": 4.49,
-            "impactPts": 1.93
-          },
-          {
             "player": "Ivica Zubac",
             "team": "IND",
             "status": "out",
@@ -276,6 +265,17 @@
             "expMin": 14.1,
             "value": 2.39,
             "impactPts": 1.03
+          },
+          {
+            "player": "Obi Toppin",
+            "team": "IND",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Back Soreness",
+            "matched": true,
+            "expMin": 17.6,
+            "value": 4.49,
+            "impactPts": 0.96
           },
           {
             "player": "Johnny Furphy",
@@ -304,7 +304,7 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-31T04:51:21Z",
+      "generatedAt": "2026-10-31T16:19:25Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 104.0,
@@ -367,7 +367,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T01:28:51Z",
+        "reportPulledAt": "2026-10-31T16:19:25Z",
         "source": "espn",
         "away": [
           {
@@ -465,18 +465,18 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-31T04:51:21Z",
+      "generatedAt": "2026-10-31T16:19:25Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
-      "homePts": 112.4,
-      "margin": 5.11,
-      "spreadHome": -5.1,
-      "total": 219.8,
+      "homePts": 112.7,
+      "margin": 5.39,
+      "spreadHome": -5.4,
+      "total": 220.1,
       "pace": 101.7,
-      "homeWinProb": 0.6421,
-      "fairMlHome": -179,
-      "fairMlAway": 179,
+      "homeWinProb": 0.6495,
+      "fairMlHome": -185,
+      "fairMlAway": 185,
       "contributions": [
         {
           "key": "offense",
@@ -500,7 +500,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.98
+          "pts": 4.26
         }
       ],
       "sample": {
@@ -528,7 +528,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T01:28:51Z",
+        "reportPulledAt": "2026-10-31T16:19:25Z",
         "source": "espn",
         "away": [
           {
@@ -558,13 +558,13 @@
           {
             "player": "Ziaire Williams",
             "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Foot",
             "matched": true,
             "expMin": 25.4,
             "value": 1.31,
-            "impactPts": 0.56
+            "impactPts": 0.28
           },
           {
             "player": "Adou Thiero",
