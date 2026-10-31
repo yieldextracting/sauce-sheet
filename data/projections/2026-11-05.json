@@ -3,26 +3,26 @@
   "games": [
     {
       "gameId": "20261105-ORL-PHX",
-      "generatedAt": "2026-10-31T04:01:06Z",
-      "ratingsAsOf": "2026-10-31T04:01:06Z",
+      "generatedAt": "2026-10-31T04:41:17Z",
+      "ratingsAsOf": "2026-10-31T04:41:17Z",
       "modelVersion": "v2.0",
-      "awayPts": 109.0,
-      "homePts": 109.0,
-      "margin": 0.0,
-      "spreadHome": -0.0,
-      "total": 218.0,
+      "awayPts": 110.1,
+      "homePts": 109.6,
+      "margin": -0.55,
+      "spreadHome": 0.5,
+      "total": 219.7,
       "pace": 102.0,
-      "homeWinProb": 0.5001,
-      "fairMlHome": -100,
-      "fairMlAway": 100,
+      "homeWinProb": 0.4844,
+      "fairMlHome": 106,
+      "fairMlAway": -106,
       "contributions": [
         {
           "key": "offense",
-          "pts": -0.4
+          "pts": 0.14
         },
         {
           "key": "defense",
-          "pts": -0.8
+          "pts": -1.9
         },
         {
           "key": "pace",
@@ -43,8 +43,8 @@
       ],
       "sample": {
         "awayGP": 5,
-        "homeGP": 3,
-        "priorWeight": 0.7179
+        "homeGP": 4,
+        "priorWeight": 0.6905
       },
       "flags": [
         "long_travel_away",
@@ -144,26 +144,26 @@
     },
     {
       "gameId": "20261105-MIA-GSW",
-      "generatedAt": "2026-10-31T04:01:06Z",
-      "ratingsAsOf": "2026-10-31T04:01:06Z",
+      "generatedAt": "2026-10-31T04:41:17Z",
+      "ratingsAsOf": "2026-10-31T04:41:17Z",
       "modelVersion": "v2.0",
       "awayPts": 117.0,
-      "homePts": 115.0,
-      "margin": -2.06,
+      "homePts": 114.9,
+      "margin": -2.07,
       "spreadHome": 2.1,
-      "total": 232.0,
+      "total": 231.9,
       "pace": 106.1,
-      "homeWinProb": 0.4416,
+      "homeWinProb": 0.4415,
       "fairMlHome": 126,
       "fairMlAway": -126,
       "contributions": [
         {
           "key": "offense",
-          "pts": -0.11
+          "pts": -0.21
         },
         {
           "key": "defense",
-          "pts": 0.49
+          "pts": 0.59
         },
         {
           "key": "pace",
