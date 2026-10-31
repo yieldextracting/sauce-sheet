@@ -3,26 +3,26 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-31T02:00:33Z",
-      "ratingsAsOf": "2026-10-31T02:00:33Z",
+      "generatedAt": "2026-10-31T02:10:36Z",
+      "ratingsAsOf": "2026-10-31T02:10:36Z",
       "modelVersion": "v2.0",
-      "awayPts": 113.0,
-      "homePts": 103.3,
-      "margin": -9.71,
-      "spreadHome": 9.7,
-      "total": 216.3,
-      "pace": 101.4,
-      "homeWinProb": 0.2447,
-      "fairMlHome": 309,
-      "fairMlAway": -309,
+      "awayPts": 113.2,
+      "homePts": 104.5,
+      "margin": -8.62,
+      "spreadHome": 8.6,
+      "total": 217.7,
+      "pace": 100.6,
+      "homeWinProb": 0.2697,
+      "fairMlHome": 271,
+      "fairMlAway": -271,
       "contributions": [
         {
           "key": "offense",
-          "pts": -6.06
+          "pts": -4.22
         },
         {
           "key": "defense",
-          "pts": -1.67
+          "pts": -2.42
         },
         {
           "key": "pace",
@@ -42,9 +42,9 @@
         }
       ],
       "sample": {
-        "awayGP": 4,
-        "homeGP": 4,
-        "priorWeight": 0.7143
+        "awayGP": 5,
+        "homeGP": 5,
+        "priorWeight": 0.6667
       },
       "flags": [
         "long_travel_away",
@@ -143,22 +143,22 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-31T02:00:33Z",
-      "ratingsAsOf": "2026-10-31T02:00:33Z",
+      "generatedAt": "2026-10-31T02:10:36Z",
+      "ratingsAsOf": "2026-10-31T02:10:36Z",
       "modelVersion": "v2.0",
-      "awayPts": 109.9,
+      "awayPts": 110.0,
       "homePts": 108.5,
-      "margin": -1.47,
-      "spreadHome": 1.5,
-      "total": 218.4,
-      "pace": 104.1,
-      "homeWinProb": 0.4584,
+      "margin": -1.44,
+      "spreadHome": 1.4,
+      "total": 218.5,
+      "pace": 104.0,
+      "homeWinProb": 0.4592,
       "fairMlHome": 118,
       "fairMlAway": -118,
       "contributions": [
         {
           "key": "offense",
-          "pts": 3.08
+          "pts": 3.1
         },
         {
           "key": "defense",
@@ -304,22 +304,22 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-31T02:00:33Z",
-      "ratingsAsOf": "2026-10-31T02:00:33Z",
+      "generatedAt": "2026-10-31T02:10:36Z",
+      "ratingsAsOf": "2026-10-31T02:10:36Z",
       "modelVersion": "v2.0",
       "awayPts": 105.5,
       "homePts": 105.0,
       "margin": -0.55,
       "spreadHome": 0.5,
       "total": 210.5,
-      "pace": 101.3,
-      "homeWinProb": 0.4845,
+      "pace": 101.1,
+      "homeWinProb": 0.4844,
       "fairMlHome": 106,
       "fairMlAway": -106,
       "contributions": [
         {
           "key": "offense",
-          "pts": 2.82
+          "pts": 2.81
         },
         {
           "key": "defense",
@@ -465,30 +465,30 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-31T02:00:33Z",
-      "ratingsAsOf": "2026-10-31T02:00:33Z",
+      "generatedAt": "2026-10-31T02:10:36Z",
+      "ratingsAsOf": "2026-10-31T02:10:36Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
-      "homePts": 112.8,
-      "margin": 5.48,
-      "spreadHome": -5.5,
-      "total": 220.1,
-      "pace": 102.8,
-      "homeWinProb": 0.6518,
-      "fairMlHome": -187,
-      "fairMlAway": 187,
+      "homePts": 113.7,
+      "margin": 6.4,
+      "spreadHome": -6.4,
+      "total": 221.1,
+      "pace": 101.9,
+      "homeWinProb": 0.6757,
+      "fairMlHome": -208,
+      "fairMlAway": 208,
       "contributions": [
         {
           "key": "offense",
-          "pts": 5.52
+          "pts": 4.62
         },
         {
           "key": "defense",
-          "pts": -5.98
+          "pts": -4.14
         },
         {
           "key": "pace",
-          "pts": -0.01
+          "pts": -0.03
         },
         {
           "key": "home",
@@ -504,9 +504,9 @@
         }
       ],
       "sample": {
-        "awayGP": 4,
+        "awayGP": 5,
         "homeGP": 5,
-        "priorWeight": 0.6905
+        "priorWeight": 0.6667
       },
       "flags": [
         "long_travel_away"
