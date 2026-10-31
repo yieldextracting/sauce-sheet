@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261105-ORL-PHX",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 110.1,
@@ -68,7 +68,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [
           {
@@ -144,18 +144,18 @@
     },
     {
       "gameId": "20261105-MIA-GSW",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 115.6,
-      "homePts": 114.6,
-      "margin": -1.02,
-      "spreadHome": 1.0,
-      "total": 230.3,
+      "homePts": 109.6,
+      "margin": -6.07,
+      "spreadHome": 6.1,
+      "total": 225.2,
       "pace": 105.9,
-      "homeWinProb": 0.4712,
-      "fairMlHome": 112,
-      "fairMlAway": -112,
+      "homeWinProb": 0.3329,
+      "fairMlHome": 200,
+      "fairMlAway": -200,
       "contributions": [
         {
           "key": "offense",
@@ -179,7 +179,7 @@
         },
         {
           "key": "injuries",
-          "pts": -7.48
+          "pts": -12.53
         }
       ],
       "sample": {
@@ -208,10 +208,21 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [],
         "home": [
+          {
+            "player": "Stephen Curry",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Rest",
+            "matched": true,
+            "expMin": 29.9,
+            "value": 11.77,
+            "impactPts": 5.05
+          },
           {
             "player": "Jimmy Butler III",
             "team": "GSW",

@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261101-BOS-ORL",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 113.2,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [
           {
@@ -143,7 +143,7 @@
     },
     {
       "gameId": "20261101-BKN-IND",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 111.4,
@@ -206,7 +206,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [
           {
@@ -304,18 +304,18 @@
     },
     {
       "gameId": "20261101-LAC-GSW",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 104.0,
-      "homePts": 105.8,
-      "margin": 1.81,
-      "spreadHome": -1.8,
-      "total": 209.8,
+      "homePts": 100.8,
+      "margin": -3.24,
+      "spreadHome": 3.2,
+      "total": 204.8,
       "pace": 100.9,
-      "homeWinProb": 0.5512,
-      "fairMlHome": -123,
-      "fairMlAway": 123,
+      "homeWinProb": 0.4087,
+      "fairMlHome": 145,
+      "fairMlAway": -145,
       "contributions": [
         {
           "key": "offense",
@@ -339,7 +339,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.95
+          "pts": -8.0
         }
       ],
       "sample": {
@@ -367,7 +367,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [
           {
@@ -428,6 +428,17 @@
         ],
         "home": [
           {
+            "player": "Stephen Curry",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Rest",
+            "matched": true,
+            "expMin": 29.9,
+            "value": 11.77,
+            "impactPts": 5.05
+          },
+          {
             "player": "Jimmy Butler III",
             "team": "GSW",
             "status": "out",
@@ -465,7 +476,7 @@
     },
     {
       "gameId": "20261101-TOR-LAL",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
@@ -528,7 +539,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [
           {

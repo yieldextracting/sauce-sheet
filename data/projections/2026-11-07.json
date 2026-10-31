@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261107-DEN-IND",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 119.2,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [
           {
@@ -165,7 +165,7 @@
     },
     {
       "gameId": "20261107-BKN-ATL",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 108.0,
@@ -229,7 +229,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [
           {
@@ -283,7 +283,7 @@
     },
     {
       "gameId": "20261107-NYK-CLE",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 113.4,
@@ -347,7 +347,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [
           {
@@ -379,7 +379,7 @@
     },
     {
       "gameId": "20261107-WAS-OKC",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 100.4,
@@ -445,7 +445,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [
           {
@@ -554,18 +554,18 @@
     },
     {
       "gameId": "20261107-ORL-GSW",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 107.5,
-      "homePts": 109.0,
-      "margin": 1.52,
-      "spreadHome": -1.5,
-      "total": 216.4,
+      "homePts": 103.9,
+      "margin": -3.53,
+      "spreadHome": 3.5,
+      "total": 211.4,
       "pace": 103.2,
-      "homeWinProb": 0.543,
-      "fairMlHome": -119,
-      "fairMlAway": 119,
+      "homeWinProb": 0.4006,
+      "fairMlHome": 150,
+      "fairMlAway": -150,
       "contributions": [
         {
           "key": "offense",
@@ -589,7 +589,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.88
+          "pts": -7.93
         }
       ],
       "sample": {
@@ -615,7 +615,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [
           {
@@ -676,6 +676,17 @@
         ],
         "home": [
           {
+            "player": "Stephen Curry",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Rest",
+            "matched": true,
+            "expMin": 29.9,
+            "value": 11.77,
+            "impactPts": 5.05
+          },
+          {
             "player": "Jimmy Butler III",
             "team": "GSW",
             "status": "out",
@@ -713,7 +724,7 @@
     },
     {
       "gameId": "20261107-HOU-PHX",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 113.3,
@@ -777,7 +788,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [
           {
@@ -831,7 +842,7 @@
     },
     {
       "gameId": "20261107-SAS-POR",
-      "generatedAt": "2026-10-31T19:10:18Z",
+      "generatedAt": "2026-10-31T19:50:30Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 114.2,
@@ -897,7 +908,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T19:10:18Z",
+        "reportPulledAt": "2026-10-31T19:50:30Z",
         "source": "espn",
         "away": [
           {
