@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261031-POR-UTA",
-      "generatedAt": "2026-10-31T16:19:25Z",
+      "generatedAt": "2026-10-31T17:19:44Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 114.4,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T16:19:25Z",
+        "reportPulledAt": "2026-10-31T17:19:44Z",
         "source": "espn",
         "away": [
           {
@@ -164,18 +164,18 @@
     },
     {
       "gameId": "20261031-PHI-CHA",
-      "generatedAt": "2026-10-31T16:19:25Z",
+      "generatedAt": "2026-10-31T17:19:44Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
-      "awayPts": 100.1,
+      "awayPts": 96.3,
       "homePts": 100.7,
-      "margin": 0.64,
-      "spreadHome": -0.6,
-      "total": 200.8,
+      "margin": 4.41,
+      "spreadHome": -4.4,
+      "total": 197.0,
       "pace": 100.9,
-      "homeWinProb": 0.518,
-      "fairMlHome": -107,
-      "fairMlAway": 107,
+      "homeWinProb": 0.6231,
+      "fairMlHome": -165,
+      "fairMlAway": 165,
       "contributions": [
         {
           "key": "offense",
@@ -199,7 +199,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.58
+          "pts": 5.35
         }
       ],
       "sample": {
@@ -230,19 +230,30 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T16:19:25Z",
+        "reportPulledAt": "2026-10-31T17:19:44Z",
         "source": "espn",
         "away": [
           {
             "player": "Joel Embiid",
             "team": "PHI",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Rest",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot",
             "matched": true,
             "expMin": 33.3,
             "value": 9.85,
-            "impactPts": 2.11
+            "impactPts": 4.23
+          },
+          {
+            "player": "LeBron James",
+            "team": "PHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back",
+            "matched": true,
+            "expMin": 33.3,
+            "value": 7.68,
+            "impactPts": 3.3
           },
           {
             "player": "Jaylen Brown",
@@ -254,17 +265,6 @@
             "expMin": 35.4,
             "value": 8.19,
             "impactPts": 1.76
-          },
-          {
-            "player": "LeBron James",
-            "team": "PHI",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Rest",
-            "matched": true,
-            "expMin": 33.3,
-            "value": 7.68,
-            "impactPts": 1.65
           },
           {
             "player": "Dominick Barlow",
@@ -361,7 +361,7 @@
     },
     {
       "gameId": "20261031-ATL-NOP",
-      "generatedAt": "2026-10-31T16:19:25Z",
+      "generatedAt": "2026-10-31T17:19:44Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 120.6,
@@ -425,7 +425,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T16:19:25Z",
+        "reportPulledAt": "2026-10-31T17:19:44Z",
         "source": "espn",
         "away": [
           {
@@ -479,7 +479,7 @@
     },
     {
       "gameId": "20261031-CLE-MIL",
-      "generatedAt": "2026-10-31T16:19:25Z",
+      "generatedAt": "2026-10-31T17:19:44Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 118.4,
@@ -542,7 +542,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T16:19:25Z",
+        "reportPulledAt": "2026-10-31T17:19:44Z",
         "source": "espn",
         "away": [
           {
@@ -573,7 +573,7 @@
     },
     {
       "gameId": "20261031-MIN-SAS",
-      "generatedAt": "2026-10-31T16:19:25Z",
+      "generatedAt": "2026-10-31T17:19:44Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 105.4,
@@ -639,7 +639,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T16:19:25Z",
+        "reportPulledAt": "2026-10-31T17:19:44Z",
         "source": "espn",
         "away": [
           {
@@ -693,7 +693,7 @@
     },
     {
       "gameId": "20261031-SAC-MEM",
-      "generatedAt": "2026-10-31T16:19:25Z",
+      "generatedAt": "2026-10-31T17:19:44Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 107.6,
@@ -756,7 +756,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T16:19:25Z",
+        "reportPulledAt": "2026-10-31T17:19:44Z",
         "source": "espn",
         "away": [
           {
@@ -843,18 +843,18 @@
     },
     {
       "gameId": "20261031-OKC-HOU",
-      "generatedAt": "2026-10-31T16:19:25Z",
+      "generatedAt": "2026-10-31T17:19:44Z",
       "ratingsAsOf": "2026-10-31T04:51:21Z",
       "modelVersion": "v2.0",
       "awayPts": 103.0,
-      "homePts": 105.0,
-      "margin": 1.99,
-      "spreadHome": -2.0,
-      "total": 207.9,
+      "homePts": 106.7,
+      "margin": 3.75,
+      "spreadHome": -3.7,
+      "total": 209.7,
       "pace": 100.6,
-      "homeWinProb": 0.5563,
-      "fairMlHome": -125,
-      "fairMlAway": 125,
+      "homeWinProb": 0.6052,
+      "fairMlHome": -153,
+      "fairMlAway": 153,
       "contributions": [
         {
           "key": "offense",
@@ -878,7 +878,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.18
+          "pts": 4.94
         }
       ],
       "sample": {
@@ -907,7 +907,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-10-31T16:19:25Z",
+        "reportPulledAt": "2026-10-31T17:19:44Z",
         "source": "espn",
         "away": [
           {
@@ -978,17 +978,6 @@
           }
         ],
         "home": [
-          {
-            "player": "Alperen Sengun",
-            "team": "HOU",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Back Soreness",
-            "matched": true,
-            "expMin": 29.4,
-            "value": 8.18,
-            "impactPts": 1.76
-          },
           {
             "player": "Steven Adams",
             "team": "HOU",
