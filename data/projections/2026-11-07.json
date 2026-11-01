@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261107-DEN-IND",
-      "generatedAt": "2026-11-01T22:24:11Z",
+      "generatedAt": "2026-11-01T22:34:15Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 119.2,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T22:24:11Z",
+        "reportPulledAt": "2026-11-01T22:34:14Z",
         "source": "espn",
         "away": [
           {
@@ -176,18 +176,18 @@
     },
     {
       "gameId": "20261107-BKN-ATL",
-      "generatedAt": "2026-11-01T22:24:11Z",
+      "generatedAt": "2026-11-01T22:34:15Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 107.8,
-      "homePts": 118.0,
-      "margin": 10.19,
-      "spreadHome": -10.2,
-      "total": 225.9,
+      "homePts": 117.1,
+      "margin": 9.28,
+      "spreadHome": -9.3,
+      "total": 225.0,
       "pace": 105.0,
-      "homeWinProb": 0.766,
-      "fairMlHome": -327,
-      "fairMlAway": 327,
+      "homeWinProb": 0.7457,
+      "fairMlHome": -293,
+      "fairMlAway": 293,
       "contributions": [
         {
           "key": "offense",
@@ -211,7 +211,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.26
+          "pts": -0.65
         }
       ],
       "sample": {
@@ -240,7 +240,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T22:24:11Z",
+        "reportPulledAt": "2026-11-01T22:34:14Z",
         "source": "espn",
         "away": [
           {
@@ -279,6 +279,17 @@
         ],
         "home": [
           {
+            "player": "Jock Landale",
+            "team": "ATL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hip",
+            "matched": true,
+            "expMin": 17.1,
+            "value": 2.11,
+            "impactPts": 0.91
+          },
+          {
             "player": "Mouhamed Gueye",
             "team": "ATL",
             "status": "out",
@@ -305,7 +316,7 @@
     },
     {
       "gameId": "20261107-NYK-CLE",
-      "generatedAt": "2026-11-01T22:24:11Z",
+      "generatedAt": "2026-11-01T22:34:15Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 113.4,
@@ -369,7 +380,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T22:24:11Z",
+        "reportPulledAt": "2026-11-01T22:34:14Z",
         "source": "espn",
         "away": [
           {
@@ -401,7 +412,7 @@
     },
     {
       "gameId": "20261107-WAS-OKC",
-      "generatedAt": "2026-11-01T22:24:11Z",
+      "generatedAt": "2026-11-01T22:34:15Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 101.0,
@@ -467,7 +478,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T22:24:11Z",
+        "reportPulledAt": "2026-11-01T22:34:14Z",
         "source": "espn",
         "away": [
           {
@@ -576,7 +587,7 @@
     },
     {
       "gameId": "20261107-ORL-GSW",
-      "generatedAt": "2026-11-01T22:24:11Z",
+      "generatedAt": "2026-11-01T22:34:15Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
@@ -637,7 +648,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T22:24:11Z",
+        "reportPulledAt": "2026-11-01T22:34:14Z",
         "source": "espn",
         "away": [
           {
@@ -757,7 +768,7 @@
     },
     {
       "gameId": "20261107-HOU-PHX",
-      "generatedAt": "2026-11-01T22:24:11Z",
+      "generatedAt": "2026-11-01T22:34:15Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 115.7,
@@ -821,7 +832,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T22:24:11Z",
+        "reportPulledAt": "2026-11-01T22:34:14Z",
         "source": "espn",
         "away": [
           {
@@ -853,7 +864,7 @@
     },
     {
       "gameId": "20261107-SAS-POR",
-      "generatedAt": "2026-11-01T22:24:11Z",
+      "generatedAt": "2026-11-01T22:34:15Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 112.8,
@@ -919,7 +930,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T22:24:11Z",
+        "reportPulledAt": "2026-11-01T22:34:14Z",
         "source": "espn",
         "away": [
           {
