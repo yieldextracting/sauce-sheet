@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T22:04:06Z",
+  "generatedAt": "2026-11-01T23:04:23Z",
   "grades": [
     {
       "source": "model",
@@ -1683,14 +1683,14 @@
       "line": 7.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "loss",
+      "profitU": -1.0,
       "edge": 0.1,
       "closingLine": 7.5,
       "clvPts": 0.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 37,
-      "finalScore": null
+      "finalScore": "108-97"
     },
     {
       "source": "model",
@@ -1734,15 +1734,15 @@
   "summary": {
     "all": {
       "w": 38,
-      "l": 49,
+      "l": 50,
       "p": 0,
-      "pending": 4,
-      "units": -14.454,
-      "risked": 87.0,
-      "roi": -0.1661,
-      "clvPtsAvg": 0.345,
-      "beatClosePct": 0.3218,
-      "clvN": 87
+      "pending": 3,
+      "units": -15.454,
+      "risked": 88.0,
+      "roi": -0.1756,
+      "clvPtsAvg": 0.341,
+      "beatClosePct": 0.3182,
+      "clvN": 88
     },
     "edge1.5": {
       "w": 31,

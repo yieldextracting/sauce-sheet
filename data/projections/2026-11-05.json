@@ -3,26 +3,26 @@
   "games": [
     {
       "gameId": "20261105-ORL-PHX",
-      "generatedAt": "2026-11-01T22:34:15Z",
-      "ratingsAsOf": "2026-11-01T05:55:07Z",
+      "generatedAt": "2026-11-01T23:04:23Z",
+      "ratingsAsOf": "2026-11-01T23:04:23Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.1,
-      "homePts": 109.7,
-      "margin": -0.37,
-      "spreadHome": 0.4,
-      "total": 219.8,
-      "pace": 101.9,
-      "homeWinProb": 0.4895,
-      "fairMlHome": 104,
-      "fairMlAway": -104,
+      "awayPts": 109.2,
+      "homePts": 109.3,
+      "margin": 0.07,
+      "spreadHome": -0.1,
+      "total": 218.6,
+      "pace": 101.5,
+      "homeWinProb": 0.5019,
+      "fairMlHome": -101,
+      "fairMlAway": 101,
       "contributions": [
         {
           "key": "offense",
-          "pts": 0.29
+          "pts": 0.65
         },
         {
           "key": "defense",
-          "pts": -1.86
+          "pts": -1.8
         },
         {
           "key": "pace",
@@ -42,9 +42,9 @@
         }
       ],
       "sample": {
-        "awayGP": 5,
+        "awayGP": 6,
         "homeGP": 4,
-        "priorWeight": 0.6905
+        "priorWeight": 0.6697
       },
       "flags": [
         "long_travel_away",
@@ -68,7 +68,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T22:34:14Z",
+        "reportPulledAt": "2026-11-01T23:04:23Z",
         "source": "espn",
         "away": [
           {
@@ -144,18 +144,18 @@
     },
     {
       "gameId": "20261105-MIA-GSW",
-      "generatedAt": "2026-11-01T22:34:15Z",
-      "ratingsAsOf": "2026-11-01T05:55:07Z",
+      "generatedAt": "2026-11-01T23:04:23Z",
+      "ratingsAsOf": "2026-11-01T23:04:23Z",
       "modelVersion": "v2.0",
-      "awayPts": 115.5,
-      "homePts": 109.6,
+      "awayPts": 115.4,
+      "homePts": 109.5,
       "margin": -5.9,
       "spreadHome": 5.9,
-      "total": 225.1,
+      "total": 225.0,
       "pace": 105.8,
       "homeWinProb": 0.3373,
-      "fairMlHome": 196,
-      "fairMlAway": -196,
+      "fairMlHome": 197,
+      "fairMlAway": -197,
       "contributions": [
         {
           "key": "offense",
@@ -208,7 +208,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T22:34:14Z",
+        "reportPulledAt": "2026-11-01T23:04:23Z",
         "source": "espn",
         "away": [],
         "home": [
