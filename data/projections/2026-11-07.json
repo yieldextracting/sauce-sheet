@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261107-DEN-IND",
-      "generatedAt": "2026-11-01T20:23:35Z",
+      "generatedAt": "2026-11-01T20:33:38Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 119.2,
-      "homePts": 109.8,
-      "margin": -9.45,
-      "spreadHome": 9.4,
-      "total": 229.0,
+      "homePts": 107.8,
+      "margin": -11.38,
+      "spreadHome": 11.4,
+      "total": 227.0,
       "pace": 102.2,
-      "homeWinProb": 0.2505,
-      "fairMlHome": 299,
-      "fairMlAway": -299,
+      "homeWinProb": 0.2089,
+      "fairMlHome": 379,
+      "fairMlAway": -379,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.8
+          "pts": -5.73
         }
       ],
       "sample": {
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T20:23:35Z",
+        "reportPulledAt": "2026-11-01T20:33:38Z",
         "source": "espn",
         "away": [
           {
@@ -115,6 +115,17 @@
             "expMin": 17.2,
             "value": 4.53,
             "impactPts": 1.95
+          },
+          {
+            "player": "Obi Toppin",
+            "team": "IND",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back Soreness",
+            "matched": true,
+            "expMin": 17.6,
+            "value": 4.49,
+            "impactPts": 1.93
           },
           {
             "player": "Ivica Zubac",
@@ -165,7 +176,7 @@
     },
     {
       "gameId": "20261107-BKN-ATL",
-      "generatedAt": "2026-11-01T20:23:35Z",
+      "generatedAt": "2026-11-01T20:33:38Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 107.8,
@@ -229,7 +240,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T20:23:35Z",
+        "reportPulledAt": "2026-11-01T20:33:38Z",
         "source": "espn",
         "away": [
           {
@@ -294,7 +305,7 @@
     },
     {
       "gameId": "20261107-NYK-CLE",
-      "generatedAt": "2026-11-01T20:23:35Z",
+      "generatedAt": "2026-11-01T20:33:38Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 113.4,
@@ -358,7 +369,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T20:23:35Z",
+        "reportPulledAt": "2026-11-01T20:33:38Z",
         "source": "espn",
         "away": [
           {
@@ -378,7 +389,7 @@
     },
     {
       "gameId": "20261107-WAS-OKC",
-      "generatedAt": "2026-11-01T20:23:35Z",
+      "generatedAt": "2026-11-01T20:33:38Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 101.0,
@@ -444,7 +455,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T20:23:35Z",
+        "reportPulledAt": "2026-11-01T20:33:38Z",
         "source": "espn",
         "away": [
           {
@@ -553,7 +564,7 @@
     },
     {
       "gameId": "20261107-ORL-GSW",
-      "generatedAt": "2026-11-01T20:23:35Z",
+      "generatedAt": "2026-11-01T20:33:38Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
@@ -614,7 +625,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T20:23:35Z",
+        "reportPulledAt": "2026-11-01T20:33:38Z",
         "source": "espn",
         "away": [
           {
@@ -734,7 +745,7 @@
     },
     {
       "gameId": "20261107-HOU-PHX",
-      "generatedAt": "2026-11-01T20:23:35Z",
+      "generatedAt": "2026-11-01T20:33:38Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 115.7,
@@ -798,7 +809,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T20:23:35Z",
+        "reportPulledAt": "2026-11-01T20:33:38Z",
         "source": "espn",
         "away": [
           {
@@ -830,7 +841,7 @@
     },
     {
       "gameId": "20261107-SAS-POR",
-      "generatedAt": "2026-11-01T20:23:35Z",
+      "generatedAt": "2026-11-01T20:33:38Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 112.8,
@@ -896,7 +907,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T20:23:35Z",
+        "reportPulledAt": "2026-11-01T20:33:38Z",
         "source": "espn",
         "away": [
           {
