@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261107-DEN-IND",
-      "generatedAt": "2026-11-01T05:55:07Z",
+      "generatedAt": "2026-11-01T18:33:03Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 119.2,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T00:13:17Z",
+        "reportPulledAt": "2026-11-01T18:33:03Z",
         "source": "espn",
         "away": [
           {
@@ -165,18 +165,18 @@
     },
     {
       "gameId": "20261107-BKN-ATL",
-      "generatedAt": "2026-11-01T05:55:07Z",
+      "generatedAt": "2026-11-01T18:33:03Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 107.8,
-      "homePts": 117.1,
-      "margin": 9.28,
-      "spreadHome": -9.3,
-      "total": 225.0,
+      "homePts": 118.0,
+      "margin": 10.19,
+      "spreadHome": -10.2,
+      "total": 225.9,
       "pace": 105.0,
-      "homeWinProb": 0.7457,
-      "fairMlHome": -293,
-      "fairMlAway": 293,
+      "homeWinProb": 0.766,
+      "fairMlHome": -327,
+      "fairMlAway": 327,
       "contributions": [
         {
           "key": "offense",
@@ -200,7 +200,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.65
+          "pts": 0.26
         }
       ],
       "sample": {
@@ -229,7 +229,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T00:13:17Z",
+        "reportPulledAt": "2026-11-01T18:33:03Z",
         "source": "espn",
         "away": [
           {
@@ -268,17 +268,6 @@
         ],
         "home": [
           {
-            "player": "Jock Landale",
-            "team": "ATL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hip",
-            "matched": true,
-            "expMin": 17.1,
-            "value": 2.11,
-            "impactPts": 0.91
-          },
-          {
             "player": "Mouhamed Gueye",
             "team": "ATL",
             "status": "out",
@@ -305,18 +294,18 @@
     },
     {
       "gameId": "20261107-NYK-CLE",
-      "generatedAt": "2026-11-01T05:55:07Z",
+      "generatedAt": "2026-11-01T18:33:03Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 113.4,
-      "homePts": 110.8,
-      "margin": -2.63,
-      "spreadHome": 2.6,
-      "total": 224.2,
+      "homePts": 111.5,
+      "margin": -1.86,
+      "spreadHome": 1.9,
+      "total": 225.0,
       "pace": 101.2,
-      "homeWinProb": 0.4256,
-      "fairMlHome": 135,
-      "fairMlAway": -135,
+      "homeWinProb": 0.4472,
+      "fairMlHome": 124,
+      "fairMlAway": -124,
       "contributions": [
         {
           "key": "offense",
@@ -340,7 +329,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.51
+          "pts": 0.26
         }
       ],
       "sample": {
@@ -369,7 +358,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T00:13:17Z",
+        "reportPulledAt": "2026-11-01T18:33:03Z",
         "source": "espn",
         "away": [
           {
@@ -384,24 +373,12 @@
             "impactPts": 0.26
           }
         ],
-        "home": [
-          {
-            "player": "Jaylon Tyson",
-            "team": "CLE",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 23.7,
-            "value": 1.79,
-            "impactPts": 0.77
-          }
-        ]
+        "home": []
       }
     },
     {
       "gameId": "20261107-WAS-OKC",
-      "generatedAt": "2026-11-01T05:55:07Z",
+      "generatedAt": "2026-11-01T18:33:03Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 101.0,
@@ -467,7 +444,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T00:13:17Z",
+        "reportPulledAt": "2026-11-01T18:33:03Z",
         "source": "espn",
         "away": [
           {
@@ -576,7 +553,7 @@
     },
     {
       "gameId": "20261107-ORL-GSW",
-      "generatedAt": "2026-11-01T05:55:07Z",
+      "generatedAt": "2026-11-01T18:33:03Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
@@ -637,7 +614,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T00:13:17Z",
+        "reportPulledAt": "2026-11-01T18:33:03Z",
         "source": "espn",
         "away": [
           {
@@ -757,18 +734,18 @@
     },
     {
       "gameId": "20261107-HOU-PHX",
-      "generatedAt": "2026-11-01T05:55:07Z",
+      "generatedAt": "2026-11-01T18:33:03Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
-      "awayPts": 114.2,
+      "awayPts": 115.7,
       "homePts": 104.3,
-      "margin": -9.93,
-      "spreadHome": 9.9,
-      "total": 218.5,
+      "margin": -11.44,
+      "spreadHome": 11.4,
+      "total": 220.0,
       "pace": 99.0,
-      "homeWinProb": 0.2398,
-      "fairMlHome": 317,
-      "fairMlAway": -317,
+      "homeWinProb": 0.2077,
+      "fairMlHome": 381,
+      "fairMlAway": -381,
       "contributions": [
         {
           "key": "offense",
@@ -792,7 +769,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.32
+          "pts": -1.83
         }
       ],
       "sample": {
@@ -821,31 +798,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T00:13:17Z",
+        "reportPulledAt": "2026-11-01T18:33:03Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Reed Sheppard",
-            "team": "HOU",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Back",
-            "matched": true,
-            "expMin": 19.0,
-            "value": 2.05,
-            "impactPts": 0.88
-          },
-          {
-            "player": "Fred VanVleet",
-            "team": "HOU",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 13.4,
-            "value": 1.46,
-            "impactPts": 0.63
-          },
           {
             "player": "Steven Adams",
             "team": "HOU",
@@ -875,7 +830,7 @@
     },
     {
       "gameId": "20261107-SAS-POR",
-      "generatedAt": "2026-11-01T05:55:07Z",
+      "generatedAt": "2026-11-01T18:33:03Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 112.8,
@@ -941,7 +896,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T00:13:17Z",
+        "reportPulledAt": "2026-11-01T18:33:03Z",
         "source": "espn",
         "away": [
           {
