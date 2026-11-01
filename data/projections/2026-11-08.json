@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261108-PHI-CHI",
-      "generatedAt": "2026-11-01T18:33:03Z",
+      "generatedAt": "2026-11-01T20:23:35Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 119.7,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T18:33:03Z",
+        "reportPulledAt": "2026-11-01T20:23:35Z",
         "source": "espn",
         "away": [
           {
@@ -107,7 +107,7 @@
     },
     {
       "gameId": "20261108-LAL-DET",
-      "generatedAt": "2026-11-01T18:33:03Z",
+      "generatedAt": "2026-11-01T20:23:35Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 108.2,
@@ -170,7 +170,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T18:33:03Z",
+        "reportPulledAt": "2026-11-01T20:23:35Z",
         "source": "espn",
         "away": [
           {
@@ -213,7 +213,7 @@
     },
     {
       "gameId": "20261108-UTA-MIN",
-      "generatedAt": "2026-11-01T18:33:03Z",
+      "generatedAt": "2026-11-01T20:23:35Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 101.6,
@@ -276,7 +276,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T18:33:03Z",
+        "reportPulledAt": "2026-11-01T20:23:35Z",
         "source": "espn",
         "away": [
           {
@@ -341,7 +341,7 @@
     },
     {
       "gameId": "20261108-BKN-DAL",
-      "generatedAt": "2026-11-01T18:33:03Z",
+      "generatedAt": "2026-11-01T20:23:35Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 105.2,
@@ -404,7 +404,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T18:33:03Z",
+        "reportPulledAt": "2026-11-01T20:23:35Z",
         "source": "espn",
         "away": [
           {
@@ -491,7 +491,7 @@
     },
     {
       "gameId": "20261108-BOS-MIL",
-      "generatedAt": "2026-11-01T18:33:03Z",
+      "generatedAt": "2026-11-01T20:23:35Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 116.3,
@@ -552,7 +552,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T18:33:03Z",
+        "reportPulledAt": "2026-11-01T20:23:35Z",
         "source": "espn",
         "away": [
           {
@@ -583,7 +583,7 @@
     },
     {
       "gameId": "20261108-MIA-SAC",
-      "generatedAt": "2026-11-01T18:33:03Z",
+      "generatedAt": "2026-11-01T20:23:35Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
       "awayPts": 126.0,
@@ -644,7 +644,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T18:33:03Z",
+        "reportPulledAt": "2026-11-01T20:23:35Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -697,18 +697,18 @@
     },
     {
       "gameId": "20261108-NOP-LAC",
-      "generatedAt": "2026-11-01T18:33:03Z",
+      "generatedAt": "2026-11-01T20:23:35Z",
       "ratingsAsOf": "2026-11-01T05:55:07Z",
       "modelVersion": "v2.0",
-      "awayPts": 109.5,
+      "awayPts": 109.0,
       "homePts": 112.0,
-      "margin": 2.54,
-      "spreadHome": -2.5,
-      "total": 221.5,
+      "margin": 2.97,
+      "spreadHome": -3.0,
+      "total": 221.0,
       "pace": 102.8,
-      "homeWinProb": 0.5719,
-      "fairMlHome": -134,
-      "fairMlAway": 134,
+      "homeWinProb": 0.5839,
+      "fairMlHome": -140,
+      "fairMlAway": 140,
       "contributions": [
         {
           "key": "offense",
@@ -732,7 +732,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.8
+          "pts": -0.37
         }
       ],
       "sample": {
@@ -760,7 +760,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-01T18:33:03Z",
+        "reportPulledAt": "2026-11-01T20:23:35Z",
         "source": "espn",
         "away": [
           {
@@ -773,6 +773,17 @@
             "expMin": 19.4,
             "value": 1.98,
             "impactPts": 0.85
+          },
+          {
+            "player": "Jordan Poole",
+            "team": "NOP",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Sprain",
+            "matched": true,
+            "expMin": 20.4,
+            "value": 1.01,
+            "impactPts": 0.43
           }
         ],
         "home": [
