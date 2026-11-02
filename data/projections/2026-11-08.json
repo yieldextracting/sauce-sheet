@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261108-PHI-CHI",
-      "generatedAt": "2026-11-02T09:24:12Z",
+      "generatedAt": "2026-11-02T19:46:33Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 119.7,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T01:56:39Z",
+        "reportPulledAt": "2026-11-02T19:46:33Z",
         "source": "espn",
         "away": [
           {
@@ -107,7 +107,7 @@
     },
     {
       "gameId": "20261108-LAL-DET",
-      "generatedAt": "2026-11-02T09:24:12Z",
+      "generatedAt": "2026-11-02T19:46:33Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
@@ -170,7 +170,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T01:56:39Z",
+        "reportPulledAt": "2026-11-02T19:46:33Z",
         "source": "espn",
         "away": [
           {
@@ -224,7 +224,7 @@
     },
     {
       "gameId": "20261108-UTA-MIN",
-      "generatedAt": "2026-11-02T09:24:12Z",
+      "generatedAt": "2026-11-02T19:46:33Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 101.5,
@@ -287,7 +287,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T01:56:39Z",
+        "reportPulledAt": "2026-11-02T19:46:33Z",
         "source": "espn",
         "away": [
           {
@@ -352,7 +352,7 @@
     },
     {
       "gameId": "20261108-BKN-DAL",
-      "generatedAt": "2026-11-02T09:24:12Z",
+      "generatedAt": "2026-11-02T19:46:33Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 104.9,
@@ -415,7 +415,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T01:56:39Z",
+        "reportPulledAt": "2026-11-02T19:46:33Z",
         "source": "espn",
         "away": [
           {
@@ -491,18 +491,18 @@
     },
     {
       "gameId": "20261108-BOS-MIL",
-      "generatedAt": "2026-11-02T09:24:12Z",
+      "generatedAt": "2026-11-02T19:46:33Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
-      "awayPts": 116.1,
+      "awayPts": 114.9,
       "homePts": 105.2,
-      "margin": -10.9,
-      "spreadHome": 10.9,
-      "total": 221.4,
+      "margin": -9.69,
+      "spreadHome": 9.7,
+      "total": 220.2,
       "pace": 99.6,
-      "homeWinProb": 0.2188,
-      "fairMlHome": 357,
-      "fairMlAway": -357,
+      "homeWinProb": 0.2451,
+      "fairMlHome": 308,
+      "fairMlAway": -308,
       "contributions": [
         {
           "key": "offense",
@@ -526,7 +526,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.97
+          "pts": 3.18
         }
       ],
       "sample": {
@@ -552,19 +552,19 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T01:56:39Z",
+        "reportPulledAt": "2026-11-02T19:46:33Z",
         "source": "espn",
         "away": [
           {
-            "player": "Mitchell Robinson",
+            "player": "Paul George",
             "team": "BOS",
             "status": "out",
             "pPlay": 0.0,
-            "reason": "Rest Not Specified",
+            "reason": "Rest",
             "matched": true,
-            "expMin": 19.9,
-            "value": 2.95,
-            "impactPts": 1.26
+            "expMin": 30.8,
+            "value": 5.75,
+            "impactPts": 2.47
           },
           {
             "player": "Devin Carter",
@@ -583,7 +583,7 @@
     },
     {
       "gameId": "20261108-MIA-SAC",
-      "generatedAt": "2026-11-02T09:24:12Z",
+      "generatedAt": "2026-11-02T19:46:33Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 126.0,
@@ -644,7 +644,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T01:56:39Z",
+        "reportPulledAt": "2026-11-02T19:46:33Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -697,7 +697,7 @@
     },
     {
       "gameId": "20261108-NOP-LAC",
-      "generatedAt": "2026-11-02T09:24:12Z",
+      "generatedAt": "2026-11-02T19:46:33Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 109.7,
@@ -760,7 +760,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T01:56:39Z",
+        "reportPulledAt": "2026-11-02T19:46:33Z",
         "source": "espn",
         "away": [
           {
