@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261108-PHI-CHI",
-      "generatedAt": "2026-11-02T21:37:12Z",
+      "generatedAt": "2026-11-02T22:57:40Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 119.7,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T21:37:12Z",
+        "reportPulledAt": "2026-11-02T22:57:40Z",
         "source": "espn",
         "away": [
           {
@@ -107,7 +107,7 @@
     },
     {
       "gameId": "20261108-LAL-DET",
-      "generatedAt": "2026-11-02T21:37:12Z",
+      "generatedAt": "2026-11-02T22:57:40Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 109.1,
@@ -170,7 +170,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T21:37:12Z",
+        "reportPulledAt": "2026-11-02T22:57:40Z",
         "source": "espn",
         "away": [
           {
@@ -213,7 +213,7 @@
     },
     {
       "gameId": "20261108-UTA-MIN",
-      "generatedAt": "2026-11-02T21:37:12Z",
+      "generatedAt": "2026-11-02T22:57:40Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 101.5,
@@ -276,7 +276,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T21:37:12Z",
+        "reportPulledAt": "2026-11-02T22:57:40Z",
         "source": "espn",
         "away": [
           {
@@ -341,7 +341,7 @@
     },
     {
       "gameId": "20261108-BKN-DAL",
-      "generatedAt": "2026-11-02T21:37:12Z",
+      "generatedAt": "2026-11-02T22:57:40Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 104.9,
@@ -404,7 +404,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T21:37:12Z",
+        "reportPulledAt": "2026-11-02T22:57:40Z",
         "source": "espn",
         "away": [
           {
@@ -480,7 +480,7 @@
     },
     {
       "gameId": "20261108-BOS-MIL",
-      "generatedAt": "2026-11-02T21:37:12Z",
+      "generatedAt": "2026-11-02T22:57:40Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 114.9,
@@ -541,7 +541,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T21:37:12Z",
+        "reportPulledAt": "2026-11-02T22:57:40Z",
         "source": "espn",
         "away": [
           {
@@ -572,7 +572,7 @@
     },
     {
       "gameId": "20261108-MIA-SAC",
-      "generatedAt": "2026-11-02T21:37:12Z",
+      "generatedAt": "2026-11-02T22:57:40Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 126.0,
@@ -633,7 +633,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T21:37:12Z",
+        "reportPulledAt": "2026-11-02T22:57:40Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -686,18 +686,18 @@
     },
     {
       "gameId": "20261108-NOP-LAC",
-      "generatedAt": "2026-11-02T21:37:12Z",
+      "generatedAt": "2026-11-02T22:57:40Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
-      "awayPts": 109.7,
+      "awayPts": 107.1,
       "homePts": 109.4,
-      "margin": -0.26,
-      "spreadHome": 0.3,
-      "total": 219.1,
+      "margin": 2.32,
+      "spreadHome": -2.3,
+      "total": 216.5,
       "pace": 102.5,
-      "homeWinProb": 0.4926,
-      "fairMlHome": 103,
-      "fairMlAway": -103,
+      "homeWinProb": 0.5656,
+      "fairMlHome": -130,
+      "fairMlAway": 130,
       "contributions": [
         {
           "key": "offense",
@@ -721,7 +721,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.22
+          "pts": -0.64
         }
       ],
       "sample": {
@@ -749,9 +749,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-02T21:37:12Z",
+        "reportPulledAt": "2026-11-02T22:57:40Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Dejounte Murray",
+            "team": "NOP",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Personal",
+            "matched": true,
+            "expMin": 29.7,
+            "value": 6.02,
+            "impactPts": 2.58
+          },
           {
             "player": "Yves Missi",
             "team": "NOP",
