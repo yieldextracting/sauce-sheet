@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261105-ORL-PHX",
-      "generatedAt": "2026-11-03T01:08:30Z",
+      "generatedAt": "2026-11-03T02:14:56Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 107.6,
@@ -68,7 +68,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-03T01:08:30Z",
+        "reportPulledAt": "2026-11-03T02:14:56Z",
         "source": "espn",
         "away": [
           {
@@ -155,18 +155,18 @@
     },
     {
       "gameId": "20261105-MIA-GSW",
-      "generatedAt": "2026-11-03T01:08:30Z",
+      "generatedAt": "2026-11-03T02:14:56Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 115.6,
-      "homePts": 114.2,
-      "margin": -1.4,
-      "spreadHome": 1.4,
-      "total": 229.9,
+      "homePts": 112.7,
+      "margin": -2.96,
+      "spreadHome": 3.0,
+      "total": 228.3,
       "pace": 105.6,
-      "homeWinProb": 0.4603,
-      "fairMlHome": 117,
-      "fairMlAway": -117,
+      "homeWinProb": 0.4165,
+      "fairMlHome": 140,
+      "fairMlAway": -140,
       "contributions": [
         {
           "key": "offense",
@@ -190,7 +190,7 @@
         },
         {
           "key": "injuries",
-          "pts": -8.53
+          "pts": -10.09
         }
       ],
       "sample": {
@@ -219,7 +219,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-03T01:08:30Z",
+        "reportPulledAt": "2026-11-03T02:14:56Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -244,6 +244,17 @@
             "expMin": 20.9,
             "value": 5.23,
             "impactPts": 2.24
+          },
+          {
+            "player": "Brandon Williams",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Quadriceps Bruise",
+            "matched": true,
+            "expMin": 19.6,
+            "value": 3.63,
+            "impactPts": 1.56
           },
           {
             "player": "Moses Moody",
