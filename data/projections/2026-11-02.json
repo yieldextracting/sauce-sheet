@@ -1693,7 +1693,7 @@
     },
     {
       "gameId": "20261102-MIA-LAL",
-      "generatedAt": "2026-11-03T02:14:56Z",
+      "generatedAt": "2026-11-03T02:35:02Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 119.6,
@@ -1758,7 +1758,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-03T02:14:56Z",
+        "reportPulledAt": "2026-11-03T02:35:02Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -1778,7 +1778,7 @@
     },
     {
       "gameId": "20261102-PHX-GSW",
-      "generatedAt": "2026-11-03T02:14:56Z",
+      "generatedAt": "2026-11-03T02:35:02Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
       "awayPts": 109.4,
@@ -1842,7 +1842,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-03T02:14:56Z",
+        "reportPulledAt": "2026-11-03T02:35:02Z",
         "source": "espn",
         "away": [
           {
@@ -1929,18 +1929,18 @@
     },
     {
       "gameId": "20261102-TOR-LAC",
-      "generatedAt": "2026-11-03T02:14:56Z",
+      "generatedAt": "2026-11-03T02:35:02Z",
       "ratingsAsOf": "2026-11-02T09:24:12Z",
       "modelVersion": "v2.0",
-      "awayPts": 104.8,
+      "awayPts": 106.0,
       "homePts": 103.6,
-      "margin": -1.16,
-      "spreadHome": 1.2,
-      "total": 208.4,
+      "margin": -2.35,
+      "spreadHome": 2.3,
+      "total": 209.6,
       "pace": 101.0,
-      "homeWinProb": 0.4672,
-      "fairMlHome": 114,
-      "fairMlAway": -114,
+      "homeWinProb": 0.4336,
+      "fairMlHome": 131,
+      "fairMlAway": -131,
       "contributions": [
         {
           "key": "offense",
@@ -1964,7 +1964,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.14
+          "pts": 0.95
         }
       ],
       "sample": {
@@ -1995,7 +1995,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-03T02:14:56Z",
+        "reportPulledAt": "2026-11-03T02:35:02Z",
         "source": "espn",
         "away": [
           {
@@ -2010,26 +2010,15 @@
             "impactPts": 4.54
           },
           {
-            "player": "Scottie Barnes",
-            "team": "TOR",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Hip Soreness",
-            "matched": true,
-            "expMin": 33.5,
-            "value": 7.64,
-            "impactPts": 1.64
-          },
-          {
             "player": "Jakob Poeltl",
             "team": "TOR",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Shoulder Inflammation",
             "matched": true,
             "expMin": 19.5,
             "value": 2.13,
-            "impactPts": 0.46
+            "impactPts": 0.91
           },
           {
             "player": "Nate Bittle",
