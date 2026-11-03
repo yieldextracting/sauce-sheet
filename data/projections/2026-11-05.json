@@ -3,26 +3,26 @@
   "games": [
     {
       "gameId": "20261105-ORL-PHX",
-      "generatedAt": "2026-11-03T05:05:48Z",
-      "ratingsAsOf": "2026-11-03T05:05:48Z",
+      "generatedAt": "2026-11-03T05:35:57Z",
+      "ratingsAsOf": "2026-11-03T05:35:57Z",
       "modelVersion": "v2.0",
       "awayPts": 106.2,
-      "homePts": 108.6,
-      "margin": 2.5,
+      "homePts": 108.7,
+      "margin": 2.51,
       "spreadHome": -2.5,
-      "total": 214.8,
+      "total": 214.9,
       "pace": 100.8,
-      "homeWinProb": 0.5705,
+      "homeWinProb": 0.571,
       "fairMlHome": -133,
       "fairMlAway": 133,
       "contributions": [
         {
           "key": "offense",
-          "pts": 1.3
+          "pts": 1.31
         },
         {
           "key": "defense",
-          "pts": -1.49
+          "pts": -1.48
         },
         {
           "key": "pace",
@@ -155,30 +155,30 @@
     },
     {
       "gameId": "20261105-MIA-GSW",
-      "generatedAt": "2026-11-03T05:05:48Z",
-      "ratingsAsOf": "2026-11-03T05:05:48Z",
+      "generatedAt": "2026-11-03T05:35:57Z",
+      "ratingsAsOf": "2026-11-03T05:35:57Z",
       "modelVersion": "v2.0",
-      "awayPts": 115.5,
-      "homePts": 112.6,
-      "margin": -2.91,
-      "spreadHome": 2.9,
-      "total": 228.1,
-      "pace": 105.5,
-      "homeWinProb": 0.4178,
-      "fairMlHome": 139,
-      "fairMlAway": -139,
+      "awayPts": 115.3,
+      "homePts": 113.6,
+      "margin": -1.7,
+      "spreadHome": 1.7,
+      "total": 228.8,
+      "pace": 105.4,
+      "homeWinProb": 0.4519,
+      "fairMlHome": 121,
+      "fairMlAway": -121,
       "contributions": [
         {
           "key": "offense",
-          "pts": 0.57
+          "pts": 0.63
         },
         {
           "key": "defense",
-          "pts": 1.55
+          "pts": 2.68
         },
         {
           "key": "pace",
-          "pts": 0.2
+          "pts": 0.23
         },
         {
           "key": "home",
@@ -194,9 +194,9 @@
         }
       ],
       "sample": {
-        "awayGP": 6,
+        "awayGP": 7,
         "homeGP": 7,
-        "priorWeight": 0.6066
+        "priorWeight": 0.5882
       },
       "flags": [
         "b2b_away",
