@@ -3,26 +3,26 @@
   "games": [
     {
       "gameId": "20261105-ORL-PHX",
-      "generatedAt": "2026-11-03T02:45:06Z",
-      "ratingsAsOf": "2026-11-03T02:45:06Z",
+      "generatedAt": "2026-11-03T02:55:09Z",
+      "ratingsAsOf": "2026-11-03T02:55:09Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.6,
-      "homePts": 109.2,
-      "margin": 1.63,
-      "spreadHome": -1.6,
-      "total": 216.8,
-      "pace": 101.5,
-      "homeWinProb": 0.5462,
-      "fairMlHome": -120,
-      "fairMlAway": 120,
+      "awayPts": 106.2,
+      "homePts": 108.6,
+      "margin": 2.41,
+      "spreadHome": -2.4,
+      "total": 214.9,
+      "pace": 100.9,
+      "homeWinProb": 0.568,
+      "fairMlHome": -131,
+      "fairMlAway": 131,
       "contributions": [
         {
           "key": "offense",
-          "pts": 0.69
+          "pts": 1.37
         },
         {
           "key": "defense",
-          "pts": -1.75
+          "pts": -1.66
         },
         {
           "key": "pace",
@@ -42,9 +42,9 @@
         }
       ],
       "sample": {
-        "awayGP": 6,
+        "awayGP": 7,
         "homeGP": 4,
-        "priorWeight": 0.6697
+        "priorWeight": 0.6512
       },
       "flags": [
         "long_travel_away",
@@ -155,16 +155,16 @@
     },
     {
       "gameId": "20261105-MIA-GSW",
-      "generatedAt": "2026-11-03T02:45:06Z",
-      "ratingsAsOf": "2026-11-03T02:45:06Z",
+      "generatedAt": "2026-11-03T02:55:09Z",
+      "ratingsAsOf": "2026-11-03T02:55:09Z",
       "modelVersion": "v2.0",
       "awayPts": 115.6,
-      "homePts": 112.7,
-      "margin": -2.96,
+      "homePts": 112.6,
+      "margin": -2.97,
       "spreadHome": 3.0,
-      "total": 228.3,
-      "pace": 105.6,
-      "homeWinProb": 0.4166,
+      "total": 228.2,
+      "pace": 105.5,
+      "homeWinProb": 0.4164,
       "fairMlHome": 140,
       "fairMlAway": -140,
       "contributions": [
@@ -174,7 +174,7 @@
         },
         {
           "key": "defense",
-          "pts": 1.41
+          "pts": 1.4
         },
         {
           "key": "pace",
