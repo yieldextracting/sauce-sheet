@@ -3,26 +3,26 @@
   "games": [
     {
       "gameId": "20261105-ORL-PHX",
-      "generatedAt": "2026-11-03T05:35:57Z",
-      "ratingsAsOf": "2026-11-03T05:35:57Z",
+      "generatedAt": "2026-11-03T05:56:03Z",
+      "ratingsAsOf": "2026-11-03T05:56:03Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.2,
-      "homePts": 108.7,
-      "margin": 2.51,
+      "awayPts": 106.3,
+      "homePts": 108.8,
+      "margin": 2.54,
       "spreadHome": -2.5,
-      "total": 214.9,
-      "pace": 100.8,
-      "homeWinProb": 0.571,
-      "fairMlHome": -133,
-      "fairMlAway": 133,
+      "total": 215.0,
+      "pace": 100.9,
+      "homeWinProb": 0.5718,
+      "fairMlHome": -134,
+      "fairMlAway": 134,
       "contributions": [
         {
           "key": "offense",
-          "pts": 1.31
+          "pts": 1.29
         },
         {
           "key": "defense",
-          "pts": -1.48
+          "pts": -1.43
         },
         {
           "key": "pace",
@@ -43,8 +43,8 @@
       ],
       "sample": {
         "awayGP": 7,
-        "homeGP": 4,
-        "priorWeight": 0.6512
+        "homeGP": 5,
+        "priorWeight": 0.6274
       },
       "flags": [
         "long_travel_away",
@@ -155,30 +155,30 @@
     },
     {
       "gameId": "20261105-MIA-GSW",
-      "generatedAt": "2026-11-03T05:35:57Z",
-      "ratingsAsOf": "2026-11-03T05:35:57Z",
+      "generatedAt": "2026-11-03T05:56:03Z",
+      "ratingsAsOf": "2026-11-03T05:56:03Z",
       "modelVersion": "v2.0",
       "awayPts": 115.3,
-      "homePts": 113.6,
-      "margin": -1.7,
-      "spreadHome": 1.7,
-      "total": 228.8,
-      "pace": 105.4,
-      "homeWinProb": 0.4519,
-      "fairMlHome": 121,
-      "fairMlAway": -121,
+      "homePts": 113.8,
+      "margin": -1.52,
+      "spreadHome": 1.5,
+      "total": 229.2,
+      "pace": 105.5,
+      "homeWinProb": 0.457,
+      "fairMlHome": 119,
+      "fairMlAway": -119,
       "contributions": [
         {
           "key": "offense",
-          "pts": 0.63
+          "pts": 0.59
         },
         {
           "key": "defense",
-          "pts": 2.68
+          "pts": 2.7
         },
         {
           "key": "pace",
-          "pts": 0.23
+          "pts": 0.24
         },
         {
           "key": "home",
@@ -190,13 +190,13 @@
         },
         {
           "key": "injuries",
-          "pts": -10.09
+          "pts": -9.89
         }
       ],
       "sample": {
         "awayGP": 7,
-        "homeGP": 7,
-        "priorWeight": 0.5882
+        "homeGP": 8,
+        "priorWeight": 0.5719
       },
       "flags": [
         "b2b_away",
@@ -252,9 +252,9 @@
             "pPlay": 0.0,
             "reason": "Quadriceps Bruise",
             "matched": true,
-            "expMin": 19.6,
-            "value": 3.63,
-            "impactPts": 1.56
+            "expMin": 17.1,
+            "value": 3.16,
+            "impactPts": 1.36
           },
           {
             "player": "Moses Moody",
