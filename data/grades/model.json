@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T02:55:09Z",
+  "generatedAt": "2026-11-03T03:05:12Z",
   "grades": [
     {
       "source": "model",
@@ -1740,14 +1740,14 @@
       "line": -9.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "loss",
+      "profitU": -1.0,
       "edge": 8.5,
       "closingLine": -10.5,
       "clvPts": 1.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 2,
-      "finalScore": null
+      "finalScore": "108-104"
     },
     {
       "source": "model",
@@ -1797,14 +1797,14 @@
       "line": 11.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "loss",
+      "profitU": -1.0,
       "edge": 1.5,
       "closingLine": 10.5,
       "clvPts": 1.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 2,
-      "finalScore": null
+      "finalScore": "107-126"
     },
     {
       "source": "model",
@@ -1816,14 +1816,14 @@
       "line": -4.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "win",
+      "profitU": 0.9091,
       "edge": 1.2,
       "closingLine": -5.5,
       "clvPts": 1.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 2,
-      "finalScore": null
+      "finalScore": "124-91"
     },
     {
       "source": "model",
@@ -1838,10 +1838,10 @@
       "result": "pending",
       "profitU": 0.0,
       "edge": 0.1,
-      "closingLine": null,
-      "clvPts": null,
+      "closingLine": 2.5,
+      "clvPts": -1.0,
       "clvProb": null,
-      "closeMinutesBeforeTip": null,
+      "closeMinutesBeforeTip": 35,
       "finalScore": null
     },
     {
@@ -1914,10 +1914,10 @@
       "result": "pending",
       "profitU": 0.0,
       "edge": 7.3,
-      "closingLine": null,
-      "clvPts": null,
+      "closingLine": 2.5,
+      "clvPts": 0.0,
       "clvProb": null,
-      "closeMinutesBeforeTip": null,
+      "closeMinutesBeforeTip": 35,
       "finalScore": null
     },
     {
@@ -1971,10 +1971,10 @@
       "result": "pending",
       "profitU": 0.0,
       "edge": 2.4,
-      "closingLine": null,
-      "clvPts": null,
+      "closingLine": 4.5,
+      "clvPts": 1.0,
       "clvProb": null,
-      "closeMinutesBeforeTip": null,
+      "closeMinutesBeforeTip": 35,
       "finalScore": null
     },
     {
@@ -2018,52 +2018,52 @@
   ],
   "summary": {
     "all": {
-      "w": 41,
-      "l": 52,
+      "w": 42,
+      "l": 54,
       "p": 0,
-      "pending": 13,
-      "units": -14.727,
-      "risked": 93.0,
-      "roi": -0.1584,
-      "clvPtsAvg": 0.344,
-      "beatClosePct": 0.3226,
-      "clvN": 93
+      "pending": 10,
+      "units": -15.818,
+      "risked": 96.0,
+      "roi": -0.1648,
+      "clvPtsAvg": 0.365,
+      "beatClosePct": 0.3438,
+      "clvN": 96
     },
     "edge1.5": {
       "w": 33,
-      "l": 37,
+      "l": 39,
       "p": 0,
-      "pending": 7,
-      "units": -7.0,
-      "risked": 70.0,
-      "roi": -0.1,
-      "clvPtsAvg": 0.614,
-      "beatClosePct": 0.3857,
-      "clvN": 70
+      "pending": 5,
+      "units": -9.0,
+      "risked": 72.0,
+      "roi": -0.125,
+      "clvPtsAvg": 0.625,
+      "beatClosePct": 0.4028,
+      "clvN": 72
     },
     "edge3": {
       "w": 22,
-      "l": 22,
+      "l": 23,
       "p": 0,
-      "pending": 5,
-      "units": -2.0,
-      "risked": 44.0,
-      "roi": -0.0454,
-      "clvPtsAvg": 1.045,
-      "beatClosePct": 0.5,
-      "clvN": 44
+      "pending": 4,
+      "units": -3.0,
+      "risked": 45.0,
+      "roi": -0.0667,
+      "clvPtsAvg": 1.044,
+      "beatClosePct": 0.5111,
+      "clvN": 45
     },
     "edge5": {
       "w": 11,
-      "l": 7,
+      "l": 8,
       "p": 0,
-      "pending": 3,
-      "units": 3.0,
-      "risked": 18.0,
-      "roi": 0.1667,
-      "clvPtsAvg": 1.556,
-      "beatClosePct": 0.5556,
-      "clvN": 18
+      "pending": 2,
+      "units": 2.0,
+      "risked": 19.0,
+      "roi": 0.1053,
+      "clvPtsAvg": 1.526,
+      "beatClosePct": 0.5789,
+      "clvN": 19
     }
   }
 }
