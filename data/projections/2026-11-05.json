@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261105-ORL-PHX",
-      "generatedAt": "2026-11-03T06:06:06Z",
-      "ratingsAsOf": "2026-11-03T06:06:06Z",
+      "generatedAt": "2026-11-04T11:33:18Z",
+      "ratingsAsOf": "2026-11-04T11:33:18Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.2,
-      "homePts": 108.8,
-      "margin": 2.51,
-      "spreadHome": -2.5,
-      "total": 215.0,
+      "awayPts": 112.3,
+      "homePts": 111.1,
+      "margin": -1.26,
+      "spreadHome": 1.3,
+      "total": 223.4,
       "pace": 100.9,
-      "homeWinProb": 0.571,
-      "fairMlHome": -133,
-      "fairMlAway": 133,
+      "homeWinProb": 0.4643,
+      "fairMlHome": 115,
+      "fairMlAway": -115,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.77
+          "pts": 0
         }
       ],
       "sample": {
@@ -68,105 +68,26 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-03T02:45:05Z",
-        "source": "espn",
-        "away": [
-          {
-            "player": "Paolo Banchero",
-            "team": "ORL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 34.3,
-            "value": 7.91,
-            "impactPts": 3.4
-          },
-          {
-            "player": "Anthony Black",
-            "team": "ORL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Rest",
-            "matched": true,
-            "expMin": 29.3,
-            "value": 3.44,
-            "impactPts": 1.48
-          },
-          {
-            "player": "Jalen Suggs",
-            "team": "ORL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 29.5,
-            "value": 2.79,
-            "impactPts": 1.2
-          },
-          {
-            "player": "Jonathan Isaac",
-            "team": "ORL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Not Specified",
-            "matched": true,
-            "expMin": 10.4,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Noah Penda",
-            "team": "ORL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring Strain",
-            "matched": true,
-            "expMin": 13.1,
-            "value": 0.01,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Izaiyah Nelson",
-            "team": "ORL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Surgery",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          }
-        ],
-        "home": [
-          {
-            "player": "Mark Williams",
-            "team": "PHX",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Shoulder Surgery",
-            "matched": true,
-            "expMin": 23.6,
-            "value": 5.38,
-            "impactPts": 2.31
-          }
-        ]
+        "reportPulledAt": null,
+        "source": null,
+        "away": [],
+        "home": []
       }
     },
     {
       "gameId": "20261105-MIA-GSW",
-      "generatedAt": "2026-11-03T06:06:06Z",
-      "ratingsAsOf": "2026-11-03T06:06:06Z",
+      "generatedAt": "2026-11-04T11:33:18Z",
+      "ratingsAsOf": "2026-11-04T11:33:18Z",
       "modelVersion": "v2.0",
       "awayPts": 115.4,
-      "homePts": 113.9,
-      "margin": -1.53,
-      "spreadHome": 1.5,
-      "total": 229.2,
+      "homePts": 123.7,
+      "margin": 8.36,
+      "spreadHome": -8.4,
+      "total": 239.1,
       "pace": 105.5,
-      "homeWinProb": 0.4566,
-      "fairMlHome": 119,
-      "fairMlAway": -119,
+      "homeWinProb": 0.7242,
+      "fairMlHome": -263,
+      "fairMlAway": 263,
       "contributions": [
         {
           "key": "offense",
@@ -190,7 +111,7 @@
         },
         {
           "key": "injuries",
-          "pts": -9.89
+          "pts": 0
         }
       ],
       "sample": {
@@ -219,77 +140,10 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-03T02:45:05Z",
-        "source": "espn",
+        "reportPulledAt": null,
+        "source": null,
         "away": [],
-        "home": [
-          {
-            "player": "Jimmy Butler III",
-            "team": "GSW",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Surgery",
-            "matched": true,
-            "expMin": 31.2,
-            "value": 10.3,
-            "impactPts": 4.42
-          },
-          {
-            "player": "Kristaps Porzingis",
-            "team": "GSW",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 20.9,
-            "value": 5.23,
-            "impactPts": 2.24
-          },
-          {
-            "player": "Brandon Williams",
-            "team": "GSW",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Quadriceps Bruise",
-            "matched": true,
-            "expMin": 17.1,
-            "value": 3.16,
-            "impactPts": 1.36
-          },
-          {
-            "player": "Moses Moody",
-            "team": "GSW",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Surgery",
-            "matched": true,
-            "expMin": 25.7,
-            "value": 1.9,
-            "impactPts": 0.82
-          },
-          {
-            "player": "Gui Santos",
-            "team": "GSW",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 17.6,
-            "value": 1.26,
-            "impactPts": 0.54
-          },
-          {
-            "player": "Al Horford",
-            "team": "GSW",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Rest",
-            "matched": true,
-            "expMin": 20.1,
-            "value": 1.19,
-            "impactPts": 0.51
-          }
-        ]
+        "home": []
       }
     }
   ]
