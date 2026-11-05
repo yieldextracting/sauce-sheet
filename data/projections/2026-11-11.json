@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261111-BOS-TOR",
-      "generatedAt": "2026-11-05T22:58:04Z",
+      "generatedAt": "2026-11-05T23:08:07Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 107.9,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T22:58:03Z",
+        "reportPulledAt": "2026-11-05T23:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -110,7 +110,7 @@
     },
     {
       "gameId": "20261111-CLE-NYK",
-      "generatedAt": "2026-11-05T22:58:04Z",
+      "generatedAt": "2026-11-05T23:08:07Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 111.3,
@@ -173,7 +173,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T22:58:03Z",
+        "reportPulledAt": "2026-11-05T23:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -193,7 +193,7 @@
     },
     {
       "gameId": "20261111-WAS-IND",
-      "generatedAt": "2026-11-05T22:58:04Z",
+      "generatedAt": "2026-11-05T23:08:07Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 109.1,
@@ -254,7 +254,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T22:58:03Z",
+        "reportPulledAt": "2026-11-05T23:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -352,7 +352,7 @@
     },
     {
       "gameId": "20261111-BKN-NOP",
-      "generatedAt": "2026-11-05T22:58:04Z",
+      "generatedAt": "2026-11-05T23:08:07Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 108.7,
@@ -416,7 +416,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T22:58:03Z",
+        "reportPulledAt": "2026-11-05T23:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -459,18 +459,18 @@
     },
     {
       "gameId": "20261111-DEN-MEM",
-      "generatedAt": "2026-11-05T22:58:04Z",
+      "generatedAt": "2026-11-05T23:08:07Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 114.0,
-      "homePts": 115.3,
-      "margin": 1.29,
-      "spreadHome": -1.3,
-      "total": 229.2,
+      "homePts": 114.2,
+      "margin": 0.2,
+      "spreadHome": -0.2,
+      "total": 228.2,
       "pace": 101.1,
-      "homeWinProb": 0.5366,
-      "fairMlHome": -116,
-      "fairMlAway": 116,
+      "homeWinProb": 0.5057,
+      "fairMlHome": -102,
+      "fairMlAway": 102,
       "contributions": [
         {
           "key": "offense",
@@ -494,7 +494,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.51
+          "pts": -1.6
         }
       ],
       "sample": {
@@ -520,7 +520,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T22:58:03Z",
+        "reportPulledAt": "2026-11-05T23:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -548,6 +548,17 @@
         ],
         "home": [
           {
+            "player": "Isaiah Stewart",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Bruise",
+            "matched": true,
+            "expMin": 19.9,
+            "value": 2.54,
+            "impactPts": 1.09
+          },
+          {
             "player": "Scotty Pippen Jr.",
             "team": "MEM",
             "status": "out",
@@ -563,7 +574,7 @@
     },
     {
       "gameId": "20261111-LAL-MIL",
-      "generatedAt": "2026-11-05T22:58:04Z",
+      "generatedAt": "2026-11-05T23:08:07Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 121.8,
@@ -628,7 +639,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T22:58:03Z",
+        "reportPulledAt": "2026-11-05T23:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -648,7 +659,7 @@
     },
     {
       "gameId": "20261111-SAS-CHI",
-      "generatedAt": "2026-11-05T22:58:04Z",
+      "generatedAt": "2026-11-05T23:08:07Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 124.0,
@@ -711,7 +722,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T22:58:03Z",
+        "reportPulledAt": "2026-11-05T23:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -754,7 +765,7 @@
     },
     {
       "gameId": "20261111-ORL-UTA",
-      "generatedAt": "2026-11-05T22:58:04Z",
+      "generatedAt": "2026-11-05T23:08:07Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 109.6,
@@ -820,7 +831,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T22:58:03Z",
+        "reportPulledAt": "2026-11-05T23:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -918,7 +929,7 @@
     },
     {
       "gameId": "20261111-GSW-HOU",
-      "generatedAt": "2026-11-05T22:58:04Z",
+      "generatedAt": "2026-11-05T23:08:07Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 100.4,
@@ -981,7 +992,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T22:58:03Z",
+        "reportPulledAt": "2026-11-05T23:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -1046,7 +1057,7 @@
     },
     {
       "gameId": "20261111-OKC-POR",
-      "generatedAt": "2026-11-05T22:58:04Z",
+      "generatedAt": "2026-11-05T23:08:07Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 105.5,
@@ -1110,7 +1121,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T22:58:03Z",
+        "reportPulledAt": "2026-11-05T23:08:06Z",
         "source": "espn",
         "away": [
           {
