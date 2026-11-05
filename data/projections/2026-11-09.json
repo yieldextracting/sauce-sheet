@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261109-CLE-CHA",
-      "generatedAt": "2026-11-05T02:02:09Z",
+      "generatedAt": "2026-11-05T02:12:12Z",
       "ratingsAsOf": "2026-11-04T11:33:18Z",
       "modelVersion": "v2.0",
       "awayPts": 110.6,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T02:02:09Z",
+        "reportPulledAt": "2026-11-05T02:12:12Z",
         "source": "espn",
         "away": [
           {
@@ -98,7 +98,7 @@
             "team": "CHA",
             "status": "out",
             "pPlay": 0.0,
-            "reason": "Hamstring",
+            "reason": "Leg Soreness",
             "matched": true,
             "expMin": 31.5,
             "value": 5.09,
@@ -120,7 +120,7 @@
     },
     {
       "gameId": "20261109-LAL-ATL",
-      "generatedAt": "2026-11-05T02:02:09Z",
+      "generatedAt": "2026-11-05T02:12:12Z",
       "ratingsAsOf": "2026-11-04T11:33:18Z",
       "modelVersion": "v2.0",
       "awayPts": 116.1,
@@ -185,7 +185,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T02:02:09Z",
+        "reportPulledAt": "2026-11-05T02:12:12Z",
         "source": "espn",
         "away": [
           {
@@ -250,7 +250,7 @@
     },
     {
       "gameId": "20261109-WAS-DET",
-      "generatedAt": "2026-11-05T02:02:09Z",
+      "generatedAt": "2026-11-05T02:12:12Z",
       "ratingsAsOf": "2026-11-04T11:33:18Z",
       "modelVersion": "v2.0",
       "awayPts": 100.0,
@@ -314,7 +314,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T02:02:09Z",
+        "reportPulledAt": "2026-11-05T02:12:12Z",
         "source": "espn",
         "away": [
           {
@@ -390,7 +390,7 @@
     },
     {
       "gameId": "20261109-MEM-TOR",
-      "generatedAt": "2026-11-05T02:02:09Z",
+      "generatedAt": "2026-11-05T02:12:12Z",
       "ratingsAsOf": "2026-11-04T11:33:18Z",
       "modelVersion": "v2.0",
       "awayPts": 110.9,
@@ -451,7 +451,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T02:02:09Z",
+        "reportPulledAt": "2026-11-05T02:12:12Z",
         "source": "espn",
         "away": [
           {
@@ -494,7 +494,7 @@
     },
     {
       "gameId": "20261109-IND-DAL",
-      "generatedAt": "2026-11-05T02:02:09Z",
+      "generatedAt": "2026-11-05T02:12:12Z",
       "ratingsAsOf": "2026-11-04T11:33:18Z",
       "modelVersion": "v2.0",
       "awayPts": 108.7,
@@ -559,7 +559,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T02:02:09Z",
+        "reportPulledAt": "2026-11-05T02:12:12Z",
         "source": "espn",
         "away": [
           {
@@ -679,18 +679,18 @@
     },
     {
       "gameId": "20261109-DEN-HOU",
-      "generatedAt": "2026-11-05T02:02:09Z",
+      "generatedAt": "2026-11-05T02:12:12Z",
       "ratingsAsOf": "2026-11-04T11:33:18Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.7,
+      "awayPts": 105.1,
       "homePts": 116.9,
-      "margin": 10.28,
-      "spreadHome": -10.3,
-      "total": 223.6,
+      "margin": 11.88,
+      "spreadHome": -11.9,
+      "total": 222.0,
       "pace": 98.0,
-      "homeWinProb": 0.7679,
-      "fairMlHome": -331,
-      "fairMlAway": 331,
+      "homeWinProb": 0.8012,
+      "fairMlHome": -403,
+      "fairMlAway": 403,
       "contributions": [
         {
           "key": "offense",
@@ -714,7 +714,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.62
+          "pts": 0.98
         }
       ],
       "sample": {
@@ -742,9 +742,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T02:02:09Z",
+        "reportPulledAt": "2026-11-05T02:12:12Z",
         "source": "espn",
         "away": [
+          {
+            "player": "DeMar DeRozan",
+            "team": "DEN",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back Spasms",
+            "matched": true,
+            "expMin": 27.5,
+            "value": 3.72,
+            "impactPts": 1.6
+          },
           {
             "player": "Julian Strawther",
             "team": "DEN",
@@ -796,7 +807,7 @@
     },
     {
       "gameId": "20261109-SAS-PHX",
-      "generatedAt": "2026-11-05T02:02:09Z",
+      "generatedAt": "2026-11-05T02:12:12Z",
       "ratingsAsOf": "2026-11-04T11:33:18Z",
       "modelVersion": "v2.0",
       "awayPts": 114.0,
@@ -860,7 +871,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T02:02:09Z",
+        "reportPulledAt": "2026-11-05T02:12:12Z",
         "source": "espn",
         "away": [
           {
@@ -925,7 +936,7 @@
     },
     {
       "gameId": "20261109-NOP-GSW",
-      "generatedAt": "2026-11-05T02:02:09Z",
+      "generatedAt": "2026-11-05T02:12:12Z",
       "ratingsAsOf": "2026-11-04T11:33:18Z",
       "modelVersion": "v2.0",
       "awayPts": 108.3,
@@ -989,7 +1000,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T02:02:09Z",
+        "reportPulledAt": "2026-11-05T02:12:12Z",
         "source": "espn",
         "away": [
           {
