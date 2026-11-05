@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261105-ORL-PHX",
-      "generatedAt": "2026-11-05T07:22:33Z",
+      "generatedAt": "2026-11-05T15:48:42Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
-      "homePts": 108.4,
-      "margin": -0.07,
-      "spreadHome": 0.1,
-      "total": 216.9,
+      "homePts": 108.8,
+      "margin": 0.31,
+      "spreadHome": -0.3,
+      "total": 217.3,
       "pace": 101.1,
-      "homeWinProb": 0.4981,
-      "fairMlHome": 101,
-      "fairMlAway": -101,
+      "homeWinProb": 0.5089,
+      "fairMlHome": -104,
+      "fairMlAway": 104,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.53
+          "pts": 1.91
         }
       ],
       "sample": {
@@ -68,7 +68,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T03:22:40Z",
+        "reportPulledAt": "2026-11-05T15:48:42Z",
         "source": "espn",
         "away": [
           {
@@ -142,19 +142,19 @@
           {
             "player": "Jordan Goodwin",
             "team": "PHX",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Calf Not Specified",
             "matched": true,
             "expMin": 20.4,
             "value": 1.77,
-            "impactPts": 0.76
+            "impactPts": 0.38
           },
           {
             "player": "Rasheer Fleming",
             "team": "PHX",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Ankle Sprain",
             "matched": true,
             "expMin": 7.3,
@@ -166,7 +166,7 @@
     },
     {
       "gameId": "20261105-MIA-GSW",
-      "generatedAt": "2026-11-05T07:22:33Z",
+      "generatedAt": "2026-11-05T15:48:42Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 114.8,
@@ -230,7 +230,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T03:22:40Z",
+        "reportPulledAt": "2026-11-05T15:48:42Z",
         "source": "espn",
         "away": [],
         "home": [
