@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261112-DET-WAS",
-      "generatedAt": "2026-11-05T21:57:45Z",
+      "generatedAt": "2026-11-05T22:17:51Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 112.5,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T21:57:45Z",
+        "reportPulledAt": "2026-11-05T22:17:51Z",
         "source": "espn",
         "away": [
           {
@@ -143,7 +143,7 @@
     },
     {
       "gameId": "20261112-TOR-PHI",
-      "generatedAt": "2026-11-05T21:57:45Z",
+      "generatedAt": "2026-11-05T22:17:51Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 104.4,
@@ -207,7 +207,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T21:57:45Z",
+        "reportPulledAt": "2026-11-05T22:17:51Z",
         "source": "espn",
         "away": [
           {
@@ -261,7 +261,7 @@
     },
     {
       "gameId": "20261112-DAL-MIN",
-      "generatedAt": "2026-11-05T21:57:45Z",
+      "generatedAt": "2026-11-05T22:17:51Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
       "awayPts": 104.6,
@@ -322,7 +322,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T21:57:45Z",
+        "reportPulledAt": "2026-11-05T22:17:51Z",
         "source": "espn",
         "away": [
           {
@@ -398,18 +398,18 @@
     },
     {
       "gameId": "20261112-CHA-PHX",
-      "generatedAt": "2026-11-05T21:57:45Z",
+      "generatedAt": "2026-11-05T22:17:51Z",
       "ratingsAsOf": "2026-11-05T07:22:33Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.0,
+      "awayPts": 105.1,
       "homePts": 106.4,
-      "margin": -0.57,
-      "spreadHome": 0.6,
-      "total": 213.4,
+      "margin": 1.32,
+      "spreadHome": -1.3,
+      "total": 211.5,
       "pace": 98.3,
-      "homeWinProb": 0.4839,
-      "fairMlHome": 107,
-      "fairMlAway": -107,
+      "homeWinProb": 0.5376,
+      "fairMlHome": -116,
+      "fairMlAway": 116,
       "contributions": [
         {
           "key": "offense",
@@ -433,7 +433,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.77
+          "pts": -0.88
         }
       ],
       "sample": {
@@ -462,9 +462,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-05T21:57:45Z",
+        "reportPulledAt": "2026-11-05T22:17:51Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Kon Knueppel",
+            "team": "CHA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring Strain",
+            "matched": true,
+            "expMin": 28.2,
+            "value": 4.4,
+            "impactPts": 1.89
+          },
           {
             "player": "Grant Williams",
             "team": "CHA",
