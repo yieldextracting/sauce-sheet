@@ -1,10 +1,21 @@
 {
-  "pulledAt": "2026-11-06T17:27:27Z",
+  "pulledAt": "2026-11-06T22:22:58Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
   "errors": [],
   "items": [
+    {
+      "player": "Jalen Johnson",
+      "key": "jalenjohnson",
+      "team": "ATL",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Ankle",
+      "espnId": "4701230",
+      "gameId": "20261106-WAS-ATL",
+      "source": "espn"
+    },
     {
       "player": "Keshon Gilbert",
       "key": "keshongilbert",
@@ -39,17 +50,6 @@
       "source": "espn"
     },
     {
-      "player": "Jalen Johnson",
-      "key": "jalenjohnson",
-      "team": "ATL",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Ankle",
-      "espnId": "4701230",
-      "gameId": "20261106-WAS-ATL",
-      "source": "espn"
-    },
-    {
       "player": "Mouhamed Gueye",
       "key": "mouhamedgueye",
       "team": "ATL",
@@ -72,17 +72,6 @@
       "source": "espn"
     },
     {
-      "player": "Payton Pritchard",
-      "key": "paytonpritchard",
-      "team": "BOS",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Eye Abrasion",
-      "espnId": "4066354",
-      "gameId": "20261106-BOS-CHA",
-      "source": "espn"
-    },
-    {
       "player": "Devin Carter",
       "key": "devincarter",
       "team": "BOS",
@@ -91,17 +80,6 @@
       "reason": "Illness",
       "espnId": "4433188",
       "gameId": "20261106-BOS-CHA",
-      "source": "espn"
-    },
-    {
-      "player": "Noah Clowney",
-      "key": "noahclowney",
-      "team": "BKN",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Knee Soreness",
-      "espnId": "4712896",
-      "gameId": "20261107-BKN-ATL",
       "source": "espn"
     },
     {
@@ -141,8 +119,8 @@
       "player": "Dennis Schroder",
       "key": "dennisschroder",
       "team": "CHA",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Thigh",
       "espnId": "3032979",
       "gameId": "20261106-BOS-CHA",
@@ -152,8 +130,8 @@
       "player": "Moussa Diabate",
       "key": "moussadiabate",
       "team": "CHA",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Quadriceps",
       "espnId": "4433249",
       "gameId": "20261106-BOS-CHA",
@@ -182,6 +160,17 @@
       "source": "espn"
     },
     {
+      "player": "Zach Collins",
+      "key": "zachcollins",
+      "team": "CHI",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Illness",
+      "espnId": "4066650",
+      "gameId": null,
+      "source": "espn"
+    },
+    {
       "player": "Nic Claxton",
       "key": "nicclaxton",
       "team": "CHI",
@@ -189,17 +178,6 @@
       "pPlay": 0.0,
       "reason": "Hamstring Strain",
       "espnId": "4278067",
-      "gameId": null,
-      "source": "espn"
-    },
-    {
-      "player": "Zach Collins",
-      "key": "zachcollins",
-      "team": "CHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Undisclosed",
-      "espnId": "4066650",
       "gameId": null,
       "source": "espn"
     },
@@ -256,6 +234,17 @@
       "reason": "Knee",
       "espnId": "4066328",
       "gameId": "20261106-PHI-CLE",
+      "source": "espn"
+    },
+    {
+      "player": "Kyrie Irving",
+      "key": "kyrieirving",
+      "team": "DAL",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Illness",
+      "espnId": "6442",
+      "gameId": "20261106-UTA-DAL",
       "source": "espn"
     },
     {
@@ -369,17 +358,6 @@
       "source": "espn"
     },
     {
-      "player": "Gui Santos",
-      "key": "guisantos",
-      "team": "GSW",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Knee",
-      "espnId": "4997536",
-      "gameId": "20261107-ORL-GSW",
-      "source": "espn"
-    },
-    {
       "player": "Kristaps Porzingis",
       "key": "kristapsporzingis",
       "team": "GSW",
@@ -387,6 +365,17 @@
       "pPlay": 0.0,
       "reason": "Illness",
       "espnId": "3102531",
+      "gameId": "20261107-ORL-GSW",
+      "source": "espn"
+    },
+    {
+      "player": "Gui Santos",
+      "key": "guisantos",
+      "team": "GSW",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Knee",
+      "espnId": "4997536",
       "gameId": "20261107-ORL-GSW",
       "source": "espn"
     },
@@ -416,8 +405,8 @@
       "player": "Clint Capela",
       "key": "clintcapela",
       "team": "HOU",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Ankle Sprain",
       "espnId": "3102529",
       "gameId": "20261107-HOU-PHX",
@@ -490,17 +479,6 @@
       "source": "espn"
     },
     {
-      "player": "Yanic Konan Niederhauser",
-      "key": "yanickonanniederhauser",
-      "team": "LAC",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Foot Surgery",
-      "espnId": "5108024",
-      "gameId": null,
-      "source": "espn"
-    },
-    {
       "player": "Brandon Ingram",
       "key": "brandoningram",
       "team": "LAC",
@@ -508,6 +486,17 @@
       "pPlay": 0.0,
       "reason": "Achilles Surgery",
       "espnId": "3913176",
+      "gameId": null,
+      "source": "espn"
+    },
+    {
+      "player": "Yanic Konan Niederhauser",
+      "key": "yanickonanniederhauser",
+      "team": "LAC",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Foot Surgery",
+      "espnId": "5108024",
       "gameId": null,
       "source": "espn"
     },
@@ -531,17 +520,6 @@
       "reason": "Shoulder Surgery",
       "espnId": "4396818",
       "gameId": null,
-      "source": "espn"
-    },
-    {
-      "player": "Sandro Mamukelashvili",
-      "key": "sandromamukelashvili",
-      "team": "LAL",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Illness",
-      "espnId": "4278580",
-      "gameId": "20261106-POR-LAL",
       "source": "espn"
     },
     {
@@ -581,8 +559,8 @@
       "player": "Terrence Shannon Jr.",
       "key": "terrenceshannonjr",
       "team": "MIN",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Hip Bruise",
       "espnId": "4432847",
       "gameId": "20261106-MIN-NOP",
@@ -622,22 +600,11 @@
       "source": "espn"
     },
     {
-      "player": "Trey Murphy III",
-      "key": "treymurphyiii",
-      "team": "NOP",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Knee",
-      "espnId": "4397688",
-      "gameId": "20261106-MIN-NOP",
-      "source": "espn"
-    },
-    {
       "player": "Josh Hart",
       "key": "joshhart",
       "team": "NYK",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Ankle",
       "espnId": "3062679",
       "gameId": "20261107-NYK-CLE",
@@ -864,6 +831,17 @@
       "source": "espn"
     },
     {
+      "player": "De'Andre Hunter",
+      "key": "deandrehunter",
+      "team": "SAC",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Illness",
+      "espnId": "4065732",
+      "gameId": "20261106-SAS-SAC",
+      "source": "espn"
+    },
+    {
       "player": "Maxime Raynaud",
       "key": "maximeraynaud",
       "team": "SAC",
@@ -919,13 +897,24 @@
       "source": "espn"
     },
     {
-      "player": "Kyle Anderson",
-      "key": "kyleanderson",
+      "player": "Jakob Poeltl",
+      "key": "jakobpoeltl",
       "team": "TOR",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Illness",
-      "espnId": "2993874",
+      "reason": "Shoulder",
+      "espnId": "3134908",
+      "gameId": "20261106-TOR-MIL",
+      "source": "espn"
+    },
+    {
+      "player": "Immanuel Quickley",
+      "key": "immanuelquickley",
+      "team": "TOR",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Hamstring",
+      "espnId": "4395724",
       "gameId": "20261106-TOR-MIL",
       "source": "espn"
     },
@@ -937,6 +926,17 @@
       "pPlay": 0.5,
       "reason": "Groin Soreness",
       "espnId": "4433134",
+      "gameId": "20261106-TOR-MIL",
+      "source": "espn"
+    },
+    {
+      "player": "Kyle Anderson",
+      "key": "kyleanderson",
+      "team": "TOR",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Illness",
+      "espnId": "2993874",
       "gameId": "20261106-TOR-MIL",
       "source": "espn"
     },
