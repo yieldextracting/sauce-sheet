@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261107-DEN-IND",
-      "generatedAt": "2026-11-06T05:40:55Z",
+      "generatedAt": "2026-11-06T17:27:27Z",
       "ratingsAsOf": "2026-11-06T05:40:55Z",
       "modelVersion": "v2.0",
-      "awayPts": 117.1,
-      "homePts": 108.9,
-      "margin": -8.13,
-      "spreadHome": 8.1,
-      "total": 226.0,
+      "awayPts": 116.4,
+      "homePts": 108.8,
+      "margin": -7.58,
+      "spreadHome": 7.6,
+      "total": 225.2,
       "pace": 101.0,
-      "homeWinProb": 0.2813,
-      "fairMlHome": 255,
-      "fairMlAway": -255,
+      "homeWinProb": 0.2947,
+      "fairMlHome": 239,
+      "fairMlAway": -239,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.63
+          "pts": -2.08
         }
       ],
       "sample": {
@@ -67,9 +67,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-06T02:09:01Z",
+        "reportPulledAt": "2026-11-06T17:27:27Z",
         "source": "espn",
         "away": [
+          {
+            "player": "DeMar DeRozan",
+            "team": "DEN",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Back Spasms",
+            "matched": true,
+            "expMin": 24.0,
+            "value": 3.24,
+            "impactPts": 0.7
+          },
           {
             "player": "Julian Strawther",
             "team": "DEN",
@@ -117,6 +128,17 @@
             "impactPts": 1.03
           },
           {
+            "player": "Kelly Oubre Jr.",
+            "team": "IND",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Calf Bruise",
+            "matched": true,
+            "expMin": 19.9,
+            "value": 0.69,
+            "impactPts": 0.15
+          },
+          {
             "player": "Johnny Furphy",
             "team": "IND",
             "status": "out",
@@ -143,18 +165,18 @@
     },
     {
       "gameId": "20261107-BKN-ATL",
-      "generatedAt": "2026-11-06T05:40:55Z",
+      "generatedAt": "2026-11-06T17:27:27Z",
       "ratingsAsOf": "2026-11-06T05:40:55Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.0,
+      "awayPts": 106.2,
       "homePts": 113.9,
-      "margin": 6.91,
-      "spreadHome": -6.9,
-      "total": 220.8,
+      "margin": 7.63,
+      "spreadHome": -7.6,
+      "total": 220.1,
       "pace": 103.7,
-      "homeWinProb": 0.6886,
-      "fairMlHome": -221,
-      "fairMlAway": 221,
+      "homeWinProb": 0.7065,
+      "fairMlHome": -241,
+      "fairMlAway": 241,
       "contributions": [
         {
           "key": "offense",
@@ -178,7 +200,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.11
+          "pts": -0.39
         }
       ],
       "sample": {
@@ -207,9 +229,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-06T02:09:01Z",
+        "reportPulledAt": "2026-11-06T17:27:27Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Day'Ron Sharpe",
+            "team": "BKN",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Undisclosed",
+            "matched": true,
+            "expMin": 21.8,
+            "value": 3.36,
+            "impactPts": 0.72
+          },
           {
             "player": "Egor Demin",
             "team": "BKN",
@@ -220,6 +253,17 @@
             "expMin": 23.2,
             "value": 0.08,
             "impactPts": 0.04
+          },
+          {
+            "player": "Noah Clowney",
+            "team": "BKN",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Knee Soreness",
+            "matched": true,
+            "expMin": 22.9,
+            "value": 0.0,
+            "impactPts": 0.0
           },
           {
             "player": "Tyler Bilodeau",
@@ -294,18 +338,18 @@
     },
     {
       "gameId": "20261107-NYK-CLE",
-      "generatedAt": "2026-11-06T05:40:55Z",
+      "generatedAt": "2026-11-06T17:27:27Z",
       "ratingsAsOf": "2026-11-06T05:40:55Z",
       "modelVersion": "v2.0",
-      "awayPts": 114.4,
+      "awayPts": 114.0,
       "homePts": 110.6,
-      "margin": -3.76,
-      "spreadHome": 3.8,
-      "total": 225.0,
+      "margin": -3.34,
+      "spreadHome": 3.3,
+      "total": 224.6,
       "pace": 100.7,
-      "homeWinProb": 0.3944,
-      "fairMlHome": 154,
-      "fairMlAway": -154,
+      "homeWinProb": 0.406,
+      "fairMlHome": 146,
+      "fairMlAway": -146,
       "contributions": [
         {
           "key": "offense",
@@ -329,7 +373,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.77
+          "pts": -0.35
         }
       ],
       "sample": {
@@ -358,9 +402,21 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-06T02:09:01Z",
+        "reportPulledAt": "2026-11-06T17:27:27Z",
         "source": "espn",
-        "away": [],
+        "away": [
+          {
+            "player": "Josh Hart",
+            "team": "NYK",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Ankle",
+            "matched": true,
+            "expMin": 30.8,
+            "value": 1.97,
+            "impactPts": 0.42
+          }
+        ],
         "home": [
           {
             "player": "Jaylon Tyson",
@@ -378,7 +434,7 @@
     },
     {
       "gameId": "20261107-WAS-OKC",
-      "generatedAt": "2026-11-06T05:40:55Z",
+      "generatedAt": "2026-11-06T17:27:27Z",
       "ratingsAsOf": "2026-11-06T05:40:55Z",
       "modelVersion": "v2.0",
       "awayPts": 100.0,
@@ -444,7 +500,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-06T02:09:01Z",
+        "reportPulledAt": "2026-11-06T17:27:27Z",
         "source": "espn",
         "away": [
           {
@@ -564,18 +620,18 @@
     },
     {
       "gameId": "20261107-ORL-GSW",
-      "generatedAt": "2026-11-06T05:40:55Z",
+      "generatedAt": "2026-11-06T17:27:27Z",
       "ratingsAsOf": "2026-11-06T05:40:55Z",
       "modelVersion": "v2.0",
       "awayPts": 103.7,
-      "homePts": 108.1,
-      "margin": 4.39,
-      "spreadHome": -4.4,
-      "total": 211.9,
+      "homePts": 108.4,
+      "margin": 4.66,
+      "spreadHome": -4.7,
+      "total": 212.1,
       "pace": 101.9,
-      "homeWinProb": 0.6226,
-      "fairMlHome": -165,
-      "fairMlAway": 165,
+      "homeWinProb": 0.6299,
+      "fairMlHome": -170,
+      "fairMlAway": 170,
       "contributions": [
         {
           "key": "offense",
@@ -599,7 +655,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.42
+          "pts": -3.15
         }
       ],
       "sample": {
@@ -625,7 +681,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-06T02:09:01Z",
+        "reportPulledAt": "2026-11-06T17:27:27Z",
         "source": "espn",
         "away": [
           {
@@ -721,31 +777,31 @@
           {
             "player": "Gui Santos",
             "team": "GSW",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Knee",
             "matched": true,
             "expMin": 17.6,
             "value": 1.26,
-            "impactPts": 0.54
+            "impactPts": 0.27
           }
         ]
       }
     },
     {
       "gameId": "20261107-HOU-PHX",
-      "generatedAt": "2026-11-06T05:40:55Z",
+      "generatedAt": "2026-11-06T17:27:27Z",
       "ratingsAsOf": "2026-11-06T05:40:55Z",
       "modelVersion": "v2.0",
-      "awayPts": 115.6,
-      "homePts": 104.1,
-      "margin": -11.47,
-      "spreadHome": 11.5,
-      "total": 219.7,
+      "awayPts": 115.3,
+      "homePts": 104.5,
+      "margin": -10.85,
+      "spreadHome": 10.9,
+      "total": 219.8,
       "pace": 98.9,
-      "homeWinProb": 0.207,
-      "fairMlHome": 383,
-      "fairMlAway": -383,
+      "homeWinProb": 0.2199,
+      "fairMlHome": 355,
+      "fairMlAway": -355,
       "contributions": [
         {
           "key": "offense",
@@ -769,7 +825,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.7
+          "pts": -2.08
         }
       ],
       "sample": {
@@ -798,7 +854,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-06T02:09:01Z",
+        "reportPulledAt": "2026-11-06T17:27:27Z",
         "source": "espn",
         "away": [
           {
@@ -811,6 +867,17 @@
             "expMin": 12.2,
             "value": 0.86,
             "impactPts": 0.37
+          },
+          {
+            "player": "Clint Capela",
+            "team": "HOU",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Ankle Sprain",
+            "matched": true,
+            "expMin": 9.9,
+            "value": 1.12,
+            "impactPts": 0.24
           }
         ],
         "home": [
@@ -828,19 +895,19 @@
           {
             "player": "Jordan Goodwin",
             "team": "PHX",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Calf Not Specified",
             "matched": true,
             "expMin": 20.4,
             "value": 1.77,
-            "impactPts": 0.76
+            "impactPts": 0.38
           },
           {
             "player": "Rasheer Fleming",
             "team": "PHX",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Ankle Sprain",
             "matched": true,
             "expMin": 7.3,
@@ -852,7 +919,7 @@
     },
     {
       "gameId": "20261107-SAS-POR",
-      "generatedAt": "2026-11-06T05:40:55Z",
+      "generatedAt": "2026-11-06T17:27:27Z",
       "ratingsAsOf": "2026-11-06T05:40:55Z",
       "modelVersion": "v2.0",
       "awayPts": 112.2,
@@ -918,7 +985,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-06T02:09:01Z",
+        "reportPulledAt": "2026-11-06T17:27:27Z",
         "source": "espn",
         "away": [
           {
