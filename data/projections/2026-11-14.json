@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261114-DEN-NOP",
-      "generatedAt": "2026-11-07T06:06:34Z",
+      "generatedAt": "2026-11-07T15:54:51Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 117.4,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:54:22Z",
+        "reportPulledAt": "2026-11-07T15:54:51Z",
         "source": "espn",
         "away": [
           {
@@ -99,18 +99,18 @@
     },
     {
       "gameId": "20261114-DAL-CLE",
-      "generatedAt": "2026-11-07T06:06:34Z",
+      "generatedAt": "2026-11-07T15:54:51Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 112.9,
-      "homePts": 113.2,
-      "margin": 0.27,
-      "spreadHome": -0.3,
-      "total": 226.1,
+      "homePts": 116.5,
+      "margin": 3.56,
+      "spreadHome": -3.6,
+      "total": 229.3,
       "pace": 104.0,
-      "homeWinProb": 0.5078,
-      "fairMlHome": -103,
-      "fairMlAway": 103,
+      "homeWinProb": 0.6002,
+      "fairMlHome": -150,
+      "fairMlAway": 150,
       "contributions": [
         {
           "key": "offense",
@@ -134,7 +134,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.6
+          "pts": -0.31
         }
       ],
       "sample": {
@@ -164,7 +164,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:54:22Z",
+        "reportPulledAt": "2026-11-07T15:54:51Z",
         "source": "espn",
         "away": [
           {
@@ -203,17 +203,6 @@
         ],
         "home": [
           {
-            "player": "Jarrett Allen",
-            "team": "CLE",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 24.8,
-            "value": 6.53,
-            "impactPts": 2.8
-          },
-          {
             "player": "Jaylon Tyson",
             "team": "CLE",
             "status": "out",
@@ -223,24 +212,13 @@
             "expMin": 23.7,
             "value": 1.79,
             "impactPts": 0.77
-          },
-          {
-            "player": "Sam Merrill",
-            "team": "CLE",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Elbow",
-            "matched": true,
-            "expMin": 23.6,
-            "value": 1.13,
-            "impactPts": 0.49
           }
         ]
       }
     },
     {
       "gameId": "20261114-BKN-MEM",
-      "generatedAt": "2026-11-07T06:06:34Z",
+      "generatedAt": "2026-11-07T15:54:51Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
@@ -304,7 +282,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:54:22Z",
+        "reportPulledAt": "2026-11-07T15:54:51Z",
         "source": "espn",
         "away": [
           {
@@ -358,18 +336,18 @@
     },
     {
       "gameId": "20261114-CHI-MIN",
-      "generatedAt": "2026-11-07T06:06:34Z",
+      "generatedAt": "2026-11-07T15:54:51Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 105.4,
-      "homePts": 122.4,
-      "margin": 17.06,
-      "spreadHome": -17.1,
-      "total": 227.8,
+      "homePts": 123.6,
+      "margin": 18.26,
+      "spreadHome": -18.3,
+      "total": 229.0,
       "pace": 107.4,
-      "homeWinProb": 0.8878,
-      "fairMlHome": -791,
-      "fairMlAway": 791,
+      "homeWinProb": 0.9033,
+      "fairMlHome": -934,
+      "fairMlAway": 934,
       "contributions": [
         {
           "key": "offense",
@@ -393,7 +371,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.14
+          "pts": -3.94
         }
       ],
       "sample": {
@@ -422,7 +400,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:54:22Z",
+        "reportPulledAt": "2026-11-07T15:54:51Z",
         "source": "espn",
         "away": [
           {
@@ -448,17 +426,6 @@
             "expMin": 34.6,
             "value": 11.11,
             "impactPts": 4.77
-          },
-          {
-            "player": "Joan Beringer",
-            "team": "MIN",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Fracture",
-            "matched": true,
-            "expMin": 14.0,
-            "value": 2.79,
-            "impactPts": 1.2
           },
           {
             "player": "Donte DiVincenzo",
@@ -487,7 +454,7 @@
     },
     {
       "gameId": "20261114-DET-MIA",
-      "generatedAt": "2026-11-07T06:06:34Z",
+      "generatedAt": "2026-11-07T15:54:51Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 114.5,
@@ -550,7 +517,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:54:22Z",
+        "reportPulledAt": "2026-11-07T15:54:51Z",
         "source": "espn",
         "away": [
           {

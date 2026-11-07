@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261112-DET-WAS",
-      "generatedAt": "2026-11-07T06:06:34Z",
+      "generatedAt": "2026-11-07T15:54:51Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 113.6,
-      "homePts": 97.2,
-      "margin": -16.34,
-      "spreadHome": 16.3,
-      "total": 210.8,
+      "homePts": 101.0,
+      "margin": -12.6,
+      "spreadHome": 12.6,
+      "total": 214.6,
       "pace": 102.7,
-      "homeWinProb": 0.1223,
-      "fairMlHome": 717,
-      "fairMlAway": -717,
+      "homeWinProb": 0.1848,
+      "fairMlHome": 441,
+      "fairMlAway": -441,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.29
+          "pts": 2.45
         }
       ],
       "sample": {
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:54:22Z",
+        "reportPulledAt": "2026-11-07T15:54:51Z",
         "source": "espn",
         "away": [
           {
@@ -94,17 +94,6 @@
           }
         ],
         "home": [
-          {
-            "player": "Anthony Davis",
-            "team": "WAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 32.4,
-            "value": 8.71,
-            "impactPts": 3.74
-          },
           {
             "player": "Justin Champagnie",
             "team": "WAS",
@@ -154,7 +143,7 @@
     },
     {
       "gameId": "20261112-TOR-PHI",
-      "generatedAt": "2026-11-07T06:06:34Z",
+      "generatedAt": "2026-11-07T15:54:51Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 99.5,
@@ -218,7 +207,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:54:22Z",
+        "reportPulledAt": "2026-11-07T15:54:51Z",
         "source": "espn",
         "away": [
           {
@@ -305,18 +294,18 @@
     },
     {
       "gameId": "20261112-DAL-MIN",
-      "generatedAt": "2026-11-07T06:06:34Z",
+      "generatedAt": "2026-11-07T15:54:51Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 106.1,
-      "homePts": 110.6,
-      "margin": 4.46,
-      "spreadHome": -4.5,
-      "total": 216.7,
+      "homePts": 111.8,
+      "margin": 5.66,
+      "spreadHome": -5.7,
+      "total": 217.9,
       "pace": 103.8,
-      "homeWinProb": 0.6246,
-      "fairMlHome": -166,
-      "fairMlAway": 166,
+      "homeWinProb": 0.6565,
+      "fairMlHome": -191,
+      "fairMlAway": 191,
       "contributions": [
         {
           "key": "offense",
@@ -340,7 +329,7 @@
         },
         {
           "key": "injuries",
-          "pts": -6.44
+          "pts": -5.24
         }
       ],
       "sample": {
@@ -366,7 +355,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:54:22Z",
+        "reportPulledAt": "2026-11-07T15:54:51Z",
         "source": "espn",
         "away": [
           {
@@ -416,17 +405,6 @@
             "impactPts": 4.77
           },
           {
-            "player": "Joan Beringer",
-            "team": "MIN",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Fracture",
-            "matched": true,
-            "expMin": 14.0,
-            "value": 2.79,
-            "impactPts": 1.2
-          },
-          {
             "player": "Donte DiVincenzo",
             "team": "MIN",
             "status": "out",
@@ -453,7 +431,7 @@
     },
     {
       "gameId": "20261112-CHA-PHX",
-      "generatedAt": "2026-11-07T06:06:34Z",
+      "generatedAt": "2026-11-07T15:54:51Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 101.9,
@@ -517,7 +495,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:54:22Z",
+        "reportPulledAt": "2026-11-07T15:54:51Z",
         "source": "espn",
         "away": [
           {
