@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261112-DET-WAS",
-      "generatedAt": "2026-11-07T02:24:13Z",
+      "generatedAt": "2026-11-07T02:54:22Z",
       "ratingsAsOf": "2026-11-07T02:24:13Z",
       "modelVersion": "v2.0",
       "awayPts": 113.6,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:24:13Z",
+        "reportPulledAt": "2026-11-07T02:54:22Z",
         "source": "espn",
         "away": [
           {
@@ -154,7 +154,7 @@
     },
     {
       "gameId": "20261112-TOR-PHI",
-      "generatedAt": "2026-11-07T02:24:13Z",
+      "generatedAt": "2026-11-07T02:54:22Z",
       "ratingsAsOf": "2026-11-07T02:24:13Z",
       "modelVersion": "v2.0",
       "awayPts": 98.8,
@@ -218,7 +218,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:24:13Z",
+        "reportPulledAt": "2026-11-07T02:54:22Z",
         "source": "espn",
         "away": [
           {
@@ -305,18 +305,18 @@
     },
     {
       "gameId": "20261112-DAL-MIN",
-      "generatedAt": "2026-11-07T02:24:13Z",
+      "generatedAt": "2026-11-07T02:54:22Z",
       "ratingsAsOf": "2026-11-07T02:24:13Z",
       "modelVersion": "v2.0",
       "awayPts": 106.6,
-      "homePts": 112.4,
-      "margin": 5.84,
-      "spreadHome": -5.8,
-      "total": 219.0,
+      "homePts": 111.1,
+      "margin": 4.56,
+      "spreadHome": -4.6,
+      "total": 217.7,
       "pace": 104.1,
-      "homeWinProb": 0.6613,
-      "fairMlHome": -195,
-      "fairMlAway": 195,
+      "homeWinProb": 0.6273,
+      "fairMlHome": -168,
+      "fairMlAway": 168,
       "contributions": [
         {
           "key": "offense",
@@ -340,7 +340,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.24
+          "pts": -6.52
         }
       ],
       "sample": {
@@ -366,7 +366,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:24:13Z",
+        "reportPulledAt": "2026-11-07T02:54:22Z",
         "source": "espn",
         "away": [
           {
@@ -416,6 +416,17 @@
             "impactPts": 4.77
           },
           {
+            "player": "Joan Beringer",
+            "team": "MIN",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Fracture",
+            "matched": true,
+            "expMin": 15.0,
+            "value": 2.99,
+            "impactPts": 1.28
+          },
+          {
             "player": "Donte DiVincenzo",
             "team": "MIN",
             "status": "out",
@@ -442,7 +453,7 @@
     },
     {
       "gameId": "20261112-CHA-PHX",
-      "generatedAt": "2026-11-07T02:24:13Z",
+      "generatedAt": "2026-11-07T02:54:22Z",
       "ratingsAsOf": "2026-11-07T02:24:13Z",
       "modelVersion": "v2.0",
       "awayPts": 102.0,
@@ -506,7 +517,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T02:24:13Z",
+        "reportPulledAt": "2026-11-07T02:54:22Z",
         "source": "espn",
         "away": [
           {
