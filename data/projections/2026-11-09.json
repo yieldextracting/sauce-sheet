@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261109-CLE-CHA",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
-      "awayPts": 112.9,
-      "homePts": 103.5,
-      "margin": -9.39,
-      "spreadHome": 9.4,
-      "total": 216.4,
+      "awayPts": 109.6,
+      "homePts": 104.9,
+      "margin": -4.76,
+      "spreadHome": 4.8,
+      "total": 214.5,
       "pace": 100.1,
-      "homeWinProb": 0.2519,
-      "fairMlHome": 297,
-      "fairMlAway": -297,
+      "homeWinProb": 0.3674,
+      "fairMlHome": 172,
+      "fairMlAway": -172,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.87
+          "pts": 1.76
         }
       ],
       "sample": {
@@ -66,9 +66,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Jarrett Allen",
+            "team": "CLE",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 24.8,
+            "value": 6.53,
+            "impactPts": 2.8
+          },
           {
             "player": "Jaylon Tyson",
             "team": "CLE",
@@ -79,6 +90,17 @@
             "expMin": 23.7,
             "value": 1.79,
             "impactPts": 0.77
+          },
+          {
+            "player": "Sam Merrill",
+            "team": "CLE",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Elbow",
+            "matched": true,
+            "expMin": 23.6,
+            "value": 1.13,
+            "impactPts": 0.49
           }
         ],
         "home": [
@@ -92,17 +114,6 @@
             "expMin": 28.2,
             "value": 4.4,
             "impactPts": 1.89
-          },
-          {
-            "player": "Moussa Diabate",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Quadriceps",
-            "matched": true,
-            "expMin": 27.9,
-            "value": 3.12,
-            "impactPts": 1.34
           },
           {
             "player": "Grant Williams",
@@ -131,7 +142,7 @@
     },
     {
       "gameId": "20261109-LAL-ATL",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 117.1,
@@ -196,7 +207,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -234,6 +245,28 @@
             "impactPts": 0.11
           },
           {
+            "player": "Keshon Gilbert",
+            "team": "ATL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Inflammation",
+            "matched": true,
+            "expMin": 18.5,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Asa Newell",
+            "team": "ATL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Toe",
+            "matched": true,
+            "expMin": 7.7,
+            "value": 0.52,
+            "impactPts": 0.0
+          },
+          {
             "player": "Henri Veesaar",
             "team": "ATL",
             "status": "out",
@@ -249,7 +282,7 @@
     },
     {
       "gameId": "20261109-WAS-DET",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 101.2,
@@ -313,7 +346,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -389,18 +422,18 @@
     },
     {
       "gameId": "20261109-MEM-TOR",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 109.1,
-      "homePts": 107.2,
-      "margin": -1.86,
-      "spreadHome": 1.9,
-      "total": 216.3,
+      "homePts": 112.5,
+      "margin": 3.41,
+      "spreadHome": -3.4,
+      "total": 221.6,
       "pace": 104.1,
-      "homeWinProb": 0.4474,
-      "fairMlHome": 123,
-      "fairMlAway": -123,
+      "homeWinProb": 0.5961,
+      "fairMlHome": -148,
+      "fairMlAway": 148,
       "contributions": [
         {
           "key": "offense",
@@ -424,7 +457,7 @@
         },
         {
           "key": "injuries",
-          "pts": -7.86
+          "pts": -2.59
         }
       ],
       "sample": {
@@ -450,7 +483,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -474,6 +507,17 @@
             "expMin": 18.5,
             "value": 2.0,
             "impactPts": 0.86
+          },
+          {
+            "player": "Richie Saunders",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Surgery",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
           }
         ],
         "home": [
@@ -487,28 +531,6 @@
             "expMin": 26.7,
             "value": 10.57,
             "impactPts": 4.54
-          },
-          {
-            "player": "Scottie Barnes",
-            "team": "TOR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Groin Soreness",
-            "matched": true,
-            "expMin": 33.8,
-            "value": 7.63,
-            "impactPts": 3.28
-          },
-          {
-            "player": "Immanuel Quickley",
-            "team": "TOR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring",
-            "matched": true,
-            "expMin": 28.2,
-            "value": 4.64,
-            "impactPts": 1.99
           },
           {
             "player": "Nate Bittle",
@@ -526,7 +548,7 @@
     },
     {
       "gameId": "20261109-IND-DAL",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 108.2,
@@ -591,7 +613,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -678,7 +700,7 @@
     },
     {
       "gameId": "20261109-DEN-HOU",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 107.6,
@@ -741,7 +763,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -784,7 +806,7 @@
     },
     {
       "gameId": "20261109-SAS-PHX",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 114.3,
@@ -848,7 +870,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -891,7 +913,7 @@
     },
     {
       "gameId": "20261109-NOP-GSW",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 109.0,
@@ -955,7 +977,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {

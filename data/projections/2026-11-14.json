@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261114-DEN-NOP",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 117.4,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -99,18 +99,18 @@
     },
     {
       "gameId": "20261114-DAL-CLE",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 112.9,
-      "homePts": 116.5,
-      "margin": 3.56,
-      "spreadHome": -3.6,
-      "total": 229.3,
+      "homePts": 113.2,
+      "margin": 0.27,
+      "spreadHome": -0.3,
+      "total": 226.1,
       "pace": 104.0,
-      "homeWinProb": 0.6002,
-      "fairMlHome": -150,
-      "fairMlAway": 150,
+      "homeWinProb": 0.5078,
+      "fairMlHome": -103,
+      "fairMlAway": 103,
       "contributions": [
         {
           "key": "offense",
@@ -134,7 +134,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.31
+          "pts": -3.6
         }
       ],
       "sample": {
@@ -164,7 +164,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -203,6 +203,17 @@
         ],
         "home": [
           {
+            "player": "Jarrett Allen",
+            "team": "CLE",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 24.8,
+            "value": 6.53,
+            "impactPts": 2.8
+          },
+          {
             "player": "Jaylon Tyson",
             "team": "CLE",
             "status": "out",
@@ -212,13 +223,24 @@
             "expMin": 23.7,
             "value": 1.79,
             "impactPts": 0.77
+          },
+          {
+            "player": "Sam Merrill",
+            "team": "CLE",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Elbow",
+            "matched": true,
+            "expMin": 23.6,
+            "value": 1.13,
+            "impactPts": 0.49
           }
         ]
       }
     },
     {
       "gameId": "20261114-BKN-MEM",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
@@ -282,7 +304,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -295,17 +317,6 @@
             "expMin": 23.2,
             "value": 0.08,
             "impactPts": 0.04
-          },
-          {
-            "player": "Tyler Bilodeau",
-            "team": "BKN",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Shoulder Sprain",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
           }
         ],
         "home": [
@@ -330,13 +341,24 @@
             "expMin": 18.5,
             "value": 2.0,
             "impactPts": 0.86
+          },
+          {
+            "player": "Richie Saunders",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Surgery",
+            "matched": true,
+            "expMin": 0.0,
+            "value": 0.0,
+            "impactPts": 0.0
           }
         ]
       }
     },
     {
       "gameId": "20261114-CHI-MIN",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 105.4,
@@ -400,7 +422,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -454,7 +476,7 @@
     },
     {
       "gameId": "20261114-DET-MIA",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 114.5,
@@ -517,7 +539,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {

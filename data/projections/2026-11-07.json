@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261107-DEN-IND",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 116.5,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -154,7 +154,7 @@
     },
     {
       "gameId": "20261107-BKN-ATL",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 107.4,
@@ -218,7 +218,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -251,17 +251,6 @@
             "reason": "Illness",
             "matched": true,
             "expMin": 22.9,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Tyler Bilodeau",
-            "team": "BKN",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Shoulder Sprain",
-            "matched": true,
-            "expMin": 0.0,
             "value": 0.0,
             "impactPts": 0.0
           }
@@ -303,8 +292,8 @@
           {
             "player": "Keshon Gilbert",
             "team": "ATL",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Knee Inflammation",
             "matched": true,
             "expMin": 18.5,
@@ -314,8 +303,8 @@
           {
             "player": "Asa Newell",
             "team": "ATL",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Toe",
             "matched": true,
             "expMin": 7.7,
@@ -338,18 +327,18 @@
     },
     {
       "gameId": "20261107-NYK-CLE",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 112.6,
-      "homePts": 109.2,
-      "margin": -3.39,
-      "spreadHome": 3.4,
-      "total": 221.7,
+      "homePts": 107.5,
+      "margin": -5.04,
+      "spreadHome": 5.0,
+      "total": 220.1,
       "pace": 100.7,
-      "homeWinProb": 0.4046,
-      "fairMlHome": 147,
-      "fairMlAway": -147,
+      "homeWinProb": 0.3598,
+      "fairMlHome": 178,
+      "fairMlAway": -178,
       "contributions": [
         {
           "key": "offense",
@@ -373,7 +362,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.57
+          "pts": -3.22
         }
       ],
       "sample": {
@@ -402,7 +391,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -421,13 +410,13 @@
           {
             "player": "Jarrett Allen",
             "team": "CLE",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Knee",
             "matched": true,
             "expMin": 24.8,
             "value": 6.53,
-            "impactPts": 1.4
+            "impactPts": 2.8
           },
           {
             "player": "Jaylon Tyson",
@@ -443,31 +432,31 @@
           {
             "player": "Sam Merrill",
             "team": "CLE",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Elbow",
             "matched": true,
             "expMin": 23.6,
             "value": 1.13,
-            "impactPts": 0.24
+            "impactPts": 0.49
           }
         ]
       }
     },
     {
       "gameId": "20261107-WAS-OKC",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 98.7,
-      "homePts": 113.4,
-      "margin": 14.71,
+      "homePts": 113.3,
+      "margin": 14.67,
       "spreadHome": -14.7,
       "total": 212.0,
       "pace": 102.7,
-      "homeWinProb": 0.8525,
-      "fairMlHome": -578,
-      "fairMlAway": 578,
+      "homeWinProb": 0.8519,
+      "fairMlHome": -575,
+      "fairMlAway": 575,
       "contributions": [
         {
           "key": "offense",
@@ -491,7 +480,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.0
+          "pts": -1.04
         }
       ],
       "sample": {
@@ -522,7 +511,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -618,13 +607,13 @@
           {
             "player": "Jaylin Williams",
             "team": "OKC",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Back Spasms",
             "matched": true,
             "expMin": 19.5,
             "value": 0.22,
-            "impactPts": 0.05
+            "impactPts": 0.09
           },
           {
             "player": "Thomas Sorber",
@@ -642,18 +631,18 @@
     },
     {
       "gameId": "20261107-ORL-GSW",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
-      "awayPts": 103.7,
+      "awayPts": 102.2,
       "homePts": 107.9,
-      "margin": 4.13,
-      "spreadHome": -4.1,
-      "total": 211.6,
+      "margin": 5.66,
+      "spreadHome": -5.7,
+      "total": 210.1,
       "pace": 101.9,
-      "homeWinProb": 0.6157,
-      "fairMlHome": -160,
-      "fairMlAway": 160,
+      "homeWinProb": 0.6566,
+      "fairMlHome": -191,
+      "fairMlAway": 191,
       "contributions": [
         {
           "key": "offense",
@@ -677,7 +666,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.51
+          "pts": -1.98
         }
       ],
       "sample": {
@@ -703,7 +692,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -716,6 +705,17 @@
             "expMin": 34.3,
             "value": 7.91,
             "impactPts": 3.4
+          },
+          {
+            "player": "Desmond Bane",
+            "team": "ORL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 34.5,
+            "value": 3.57,
+            "impactPts": 1.53
           },
           {
             "player": "Jalen Suggs",
@@ -834,7 +834,7 @@
     },
     {
       "gameId": "20261107-HOU-PHX",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 115.1,
@@ -898,7 +898,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -963,7 +963,7 @@
     },
     {
       "gameId": "20261107-SAS-POR",
-      "generatedAt": "2026-11-07T15:54:51Z",
+      "generatedAt": "2026-11-07T20:12:10Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 112.9,
@@ -1029,7 +1029,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T15:54:51Z",
+        "reportPulledAt": "2026-11-07T20:12:09Z",
         "source": "espn",
         "away": [
           {
