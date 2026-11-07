@@ -3,8 +3,8 @@
   "games": [
     {
       "gameId": "20261112-DET-WAS",
-      "generatedAt": "2026-11-07T03:34:35Z",
-      "ratingsAsOf": "2026-11-07T03:34:35Z",
+      "generatedAt": "2026-11-07T03:44:38Z",
+      "ratingsAsOf": "2026-11-07T03:44:38Z",
       "modelVersion": "v2.0",
       "awayPts": 113.6,
       "homePts": 97.2,
@@ -12,13 +12,13 @@
       "spreadHome": 16.3,
       "total": 210.8,
       "pace": 102.7,
-      "homeWinProb": 0.1222,
+      "homeWinProb": 0.1223,
       "fairMlHome": 718,
       "fairMlAway": -718,
       "contributions": [
         {
           "key": "offense",
-          "pts": -3.75
+          "pts": -3.74
         },
         {
           "key": "defense",
@@ -154,26 +154,26 @@
     },
     {
       "gameId": "20261112-TOR-PHI",
-      "generatedAt": "2026-11-07T03:34:35Z",
-      "ratingsAsOf": "2026-11-07T03:34:35Z",
+      "generatedAt": "2026-11-07T03:44:38Z",
+      "ratingsAsOf": "2026-11-07T03:44:38Z",
       "modelVersion": "v2.0",
-      "awayPts": 99.0,
-      "homePts": 112.2,
-      "margin": 13.19,
-      "spreadHome": -13.2,
-      "total": 211.2,
+      "awayPts": 99.4,
+      "homePts": 112.1,
+      "margin": 12.62,
+      "spreadHome": -12.6,
+      "total": 211.5,
       "pace": 103.4,
-      "homeWinProb": 0.8262,
-      "fairMlHome": -475,
-      "fairMlAway": 475,
+      "homeWinProb": 0.8156,
+      "fairMlHome": -442,
+      "fairMlAway": 442,
       "contributions": [
         {
           "key": "offense",
-          "pts": -2.71
+          "pts": -2.8
         },
         {
           "key": "defense",
-          "pts": 1.38
+          "pts": 1.21
         },
         {
           "key": "pace",
@@ -189,13 +189,13 @@
         },
         {
           "key": "injuries",
-          "pts": 9.75
+          "pts": 9.45
         }
       ],
       "sample": {
-        "awayGP": 8,
+        "awayGP": 9,
         "homeGP": 10,
-        "priorWeight": 0.5278
+        "priorWeight": 0.5131
       },
       "flags": [
         "b2b_away",
@@ -250,9 +250,9 @@
             "pPlay": 0.0,
             "reason": "Hamstring",
             "matched": true,
-            "expMin": 32.3,
-            "value": 5.32,
-            "impactPts": 2.29
+            "expMin": 28.2,
+            "value": 4.64,
+            "impactPts": 1.99
           },
           {
             "player": "Nate Bittle",
@@ -305,8 +305,8 @@
     },
     {
       "gameId": "20261112-DAL-MIN",
-      "generatedAt": "2026-11-07T03:34:35Z",
-      "ratingsAsOf": "2026-11-07T03:34:35Z",
+      "generatedAt": "2026-11-07T03:44:38Z",
+      "ratingsAsOf": "2026-11-07T03:44:38Z",
       "modelVersion": "v2.0",
       "awayPts": 106.2,
       "homePts": 110.6,
@@ -314,7 +314,7 @@
       "spreadHome": -4.5,
       "total": 216.8,
       "pace": 104.0,
-      "homeWinProb": 0.6253,
+      "homeWinProb": 0.6254,
       "fairMlHome": -167,
       "fairMlAway": 167,
       "contributions": [
@@ -324,7 +324,7 @@
         },
         {
           "key": "defense",
-          "pts": 4.49
+          "pts": 4.48
         },
         {
           "key": "pace",
@@ -453,18 +453,18 @@
     },
     {
       "gameId": "20261112-CHA-PHX",
-      "generatedAt": "2026-11-07T03:34:35Z",
-      "ratingsAsOf": "2026-11-07T03:34:35Z",
+      "generatedAt": "2026-11-07T03:44:38Z",
+      "ratingsAsOf": "2026-11-07T03:44:38Z",
       "modelVersion": "v2.0",
       "awayPts": 101.9,
       "homePts": 108.0,
-      "margin": 6.15,
+      "margin": 6.16,
       "spreadHome": -6.2,
       "total": 209.9,
       "pace": 98.4,
-      "homeWinProb": 0.6694,
-      "fairMlHome": -202,
-      "fairMlAway": 202,
+      "homeWinProb": 0.6695,
+      "fairMlHome": -203,
+      "fairMlAway": 203,
       "contributions": [
         {
           "key": "offense",
