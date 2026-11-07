@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261112-DET-WAS",
-      "generatedAt": "2026-11-07T23:23:06Z",
+      "generatedAt": "2026-11-07T23:43:12Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 113.6,
-      "homePts": 101.0,
-      "margin": -12.6,
-      "spreadHome": 12.6,
-      "total": 214.6,
+      "homePts": 97.2,
+      "margin": -16.34,
+      "spreadHome": 16.3,
+      "total": 210.8,
       "pace": 102.7,
-      "homeWinProb": 0.1848,
-      "fairMlHome": 441,
-      "fairMlAway": -441,
+      "homeWinProb": 0.1223,
+      "fairMlHome": 717,
+      "fairMlAway": -717,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.45
+          "pts": -1.29
         }
       ],
       "sample": {
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T23:23:06Z",
+        "reportPulledAt": "2026-11-07T23:43:11Z",
         "source": "espn",
         "away": [
           {
@@ -94,6 +94,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Anthony Davis",
+            "team": "WAS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Sprain",
+            "matched": true,
+            "expMin": 32.4,
+            "value": 8.71,
+            "impactPts": 3.74
+          },
           {
             "player": "Justin Champagnie",
             "team": "WAS",
@@ -143,7 +154,7 @@
     },
     {
       "gameId": "20261112-TOR-PHI",
-      "generatedAt": "2026-11-07T23:23:06Z",
+      "generatedAt": "2026-11-07T23:43:12Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 104.7,
@@ -207,7 +218,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T23:23:06Z",
+        "reportPulledAt": "2026-11-07T23:43:11Z",
         "source": "espn",
         "away": [
           {
@@ -272,7 +283,7 @@
     },
     {
       "gameId": "20261112-DAL-MIN",
-      "generatedAt": "2026-11-07T23:23:06Z",
+      "generatedAt": "2026-11-07T23:43:12Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 106.1,
@@ -333,7 +344,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T23:23:06Z",
+        "reportPulledAt": "2026-11-07T23:43:11Z",
         "source": "espn",
         "away": [
           {
@@ -398,7 +409,7 @@
     },
     {
       "gameId": "20261112-CHA-PHX",
-      "generatedAt": "2026-11-07T23:23:06Z",
+      "generatedAt": "2026-11-07T23:43:12Z",
       "ratingsAsOf": "2026-11-07T06:06:34Z",
       "modelVersion": "v2.0",
       "awayPts": 103.2,
@@ -462,7 +473,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-07T23:23:06Z",
+        "reportPulledAt": "2026-11-07T23:43:11Z",
         "source": "espn",
         "away": [
           {
