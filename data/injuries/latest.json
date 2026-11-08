@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-11-08T23:01:42Z",
+  "pulledAt": "2026-11-08T23:11:51Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -143,7 +143,7 @@
       "team": "CHA",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Thigh",
+      "reason": "Hamstring Strain",
       "espnId": "3032979",
       "gameId": "20261109-CLE-CHA",
       "source": "espn"
@@ -248,17 +248,6 @@
       "source": "espn"
     },
     {
-      "player": "DeMar DeRozan",
-      "key": "demarderozan",
-      "team": "DEN",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Back Spasms",
-      "espnId": "3978",
-      "gameId": "20261109-DEN-HOU",
-      "source": "espn"
-    },
-    {
       "player": "Cameron Johnson",
       "key": "cameronjohnson",
       "team": "DEN",
@@ -266,6 +255,17 @@
       "pPlay": 0.5,
       "reason": "Lower Body",
       "espnId": "3138196",
+      "gameId": "20261109-DEN-HOU",
+      "source": "espn"
+    },
+    {
+      "player": "DeMar DeRozan",
+      "key": "demarderozan",
+      "team": "DEN",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Back Spasms",
+      "espnId": "3978",
       "gameId": "20261109-DEN-HOU",
       "source": "espn"
     },
@@ -913,7 +913,7 @@
       "team": "UTA",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Illness",
+      "reason": null,
       "espnId": "4433627",
       "gameId": "20261108-UTA-MIN",
       "source": "espn"
