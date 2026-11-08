@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T18:30:13Z",
+  "generatedAt": "2026-11-08T19:50:39Z",
   "grades": [
     {
       "source": "model",
@@ -2717,6 +2717,44 @@
       "clvProb": null,
       "closeMinutesBeforeTip": null,
       "finalScore": null
+    },
+    {
+      "source": "model",
+      "gameId": "20261109-DEN-HOU",
+      "etDate": "2026-11-09",
+      "pickId": "model",
+      "market": "spread",
+      "side": "HOU",
+      "line": -4.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 3.6,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
+    },
+    {
+      "source": "model",
+      "gameId": "20261109-SAS-PHX",
+      "etDate": "2026-11-09",
+      "pickId": "model",
+      "market": "spread",
+      "side": "PHX",
+      "line": 7.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 0.1,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
     }
   ],
   "summary": {
@@ -2724,7 +2762,7 @@
       "w": 61,
       "l": 76,
       "p": 0,
-      "pending": 6,
+      "pending": 8,
       "units": -20.545,
       "risked": 137.0,
       "roi": -0.15,
@@ -2736,7 +2774,7 @@
       "w": 44,
       "l": 52,
       "p": 0,
-      "pending": 3,
+      "pending": 4,
       "units": -12.0,
       "risked": 96.0,
       "roi": -0.125,
@@ -2748,7 +2786,7 @@
       "w": 31,
       "l": 30,
       "p": 0,
-      "pending": 1,
+      "pending": 2,
       "units": -1.818,
       "risked": 61.0,
       "roi": -0.0298,
