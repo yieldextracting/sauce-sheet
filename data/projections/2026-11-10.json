@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261110-MIL-NYK",
-      "generatedAt": "2026-11-08T01:13:40Z",
+      "generatedAt": "2026-11-08T01:23:43Z",
       "ratingsAsOf": "2026-11-08T00:33:27Z",
       "modelVersion": "v2.0",
       "awayPts": 103.3,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T01:13:39Z",
+        "reportPulledAt": "2026-11-08T01:23:43Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -84,7 +84,7 @@
     },
     {
       "gameId": "20261110-BOS-PHI",
-      "generatedAt": "2026-11-08T01:13:40Z",
+      "generatedAt": "2026-11-08T01:23:43Z",
       "ratingsAsOf": "2026-11-08T00:33:27Z",
       "modelVersion": "v2.0",
       "awayPts": 109.0,
@@ -145,7 +145,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T01:13:39Z",
+        "reportPulledAt": "2026-11-08T01:23:43Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -187,18 +187,18 @@
     },
     {
       "gameId": "20261110-LAC-PHX",
-      "generatedAt": "2026-11-08T01:13:40Z",
+      "generatedAt": "2026-11-08T01:23:43Z",
       "ratingsAsOf": "2026-11-08T00:33:27Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.4,
-      "homePts": 107.9,
-      "margin": 0.43,
-      "spreadHome": -0.4,
-      "total": 215.3,
+      "awayPts": 106.4,
+      "homePts": 107.1,
+      "margin": 0.66,
+      "spreadHome": -0.7,
+      "total": 213.5,
       "pace": 99.7,
-      "homeWinProb": 0.5121,
-      "fairMlHome": -105,
-      "fairMlAway": 105,
+      "homeWinProb": 0.5186,
+      "fairMlHome": -108,
+      "fairMlAway": 108,
       "contributions": [
         {
           "key": "offense",
@@ -222,7 +222,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.63
+          "pts": 1.86
         }
       ],
       "sample": {
@@ -251,7 +251,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T01:13:39Z",
+        "reportPulledAt": "2026-11-08T01:23:43Z",
         "source": "espn",
         "away": [
           {
@@ -275,6 +275,17 @@
             "expMin": 22.0,
             "value": 2.47,
             "impactPts": 1.06
+          },
+          {
+            "player": "Isaiah Jackson",
+            "team": "LAC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Groin Soreness",
+            "matched": true,
+            "expMin": 19.4,
+            "value": 2.3,
+            "impactPts": 0.99
           },
           {
             "player": "Yanic Konan Niederhauser",
@@ -310,13 +321,24 @@
             "expMin": 23.6,
             "value": 5.38,
             "impactPts": 2.31
+          },
+          {
+            "player": "Jordan Goodwin",
+            "team": "PHX",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Calf Not Specified",
+            "matched": true,
+            "expMin": 20.4,
+            "value": 1.77,
+            "impactPts": 0.76
           }
         ]
       }
     },
     {
       "gameId": "20261110-MIA-UTA",
-      "generatedAt": "2026-11-08T01:13:40Z",
+      "generatedAt": "2026-11-08T01:23:43Z",
       "ratingsAsOf": "2026-11-08T00:33:27Z",
       "modelVersion": "v2.0",
       "awayPts": 119.4,
@@ -380,7 +402,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T01:13:39Z",
+        "reportPulledAt": "2026-11-08T01:23:43Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -411,7 +433,7 @@
     },
     {
       "gameId": "20261110-ORL-SAC",
-      "generatedAt": "2026-11-08T01:13:40Z",
+      "generatedAt": "2026-11-08T01:23:43Z",
       "ratingsAsOf": "2026-11-08T00:33:27Z",
       "modelVersion": "v2.0",
       "awayPts": 110.0,
@@ -472,7 +494,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T01:13:39Z",
+        "reportPulledAt": "2026-11-08T01:23:43Z",
         "source": "espn",
         "away": [
           {
@@ -581,7 +603,7 @@
     },
     {
       "gameId": "20261110-OKC-POR",
-      "generatedAt": "2026-11-08T01:13:40Z",
+      "generatedAt": "2026-11-08T01:23:43Z",
       "ratingsAsOf": "2026-11-08T00:33:27Z",
       "modelVersion": "v2.0",
       "awayPts": 106.6,
@@ -644,7 +666,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T01:13:39Z",
+        "reportPulledAt": "2026-11-08T01:23:43Z",
         "source": "espn",
         "away": [
           {
