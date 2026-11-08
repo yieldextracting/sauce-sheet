@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "pulledAt": "2026-11-07T05:06:11Z",
+  "pulledAt": "2026-11-08T05:05:49Z",
   "source": "ESPN site API",
   "games": [
     {
@@ -1944,7 +1944,7 @@
       "home": "POR",
       "espnId": "401909944",
       "oddsEventId": null,
-      "status": "scheduled",
+      "status": "live",
       "neutralSite": false,
       "venue": "Moda Center",
       "venueKey": "Portland, OR"
@@ -2916,24 +2916,10 @@
       "venueKey": "Minneapolis, MN"
     },
     {
-      "id": "20261117-CHA-LAL",
-      "season": "2026-27",
-      "etDate": "2026-11-17",
-      "tipUtc": "2026-11-18T03:00:00Z",
-      "away": "CHA",
-      "home": "LAL",
-      "espnId": "401910005",
-      "oddsEventId": null,
-      "status": "scheduled",
-      "neutralSite": false,
-      "venue": "crypto.com Arena",
-      "venueKey": "Los Angeles, CA"
-    },
-    {
       "id": "20261117-UTA-LAC",
       "season": "2026-27",
       "etDate": "2026-11-17",
-      "tipUtc": "2026-11-18T04:00:00Z",
+      "tipUtc": "2026-11-18T03:30:00Z",
       "away": "UTA",
       "home": "LAC",
       "espnId": "401910006",
@@ -2942,6 +2928,20 @@
       "neutralSite": false,
       "venue": "Intuit Dome",
       "venueKey": "Inglewood, CA"
+    },
+    {
+      "id": "20261117-CHA-LAL",
+      "season": "2026-27",
+      "etDate": "2026-11-17",
+      "tipUtc": "2026-11-18T04:00:00Z",
+      "away": "CHA",
+      "home": "LAL",
+      "espnId": "401910005",
+      "oddsEventId": null,
+      "status": "scheduled",
+      "neutralSite": false,
+      "venue": "crypto.com Arena",
+      "venueKey": "Los Angeles, CA"
     },
     {
       "id": "20261118-HOU-IND",
