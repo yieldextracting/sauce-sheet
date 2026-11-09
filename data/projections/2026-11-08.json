@@ -572,18 +572,18 @@
     },
     {
       "gameId": "20261108-MIA-SAC",
-      "generatedAt": "2026-11-09T01:13:42Z",
+      "generatedAt": "2026-11-09T01:23:46Z",
       "ratingsAsOf": "2026-11-08T22:51:38Z",
       "modelVersion": "v2.0",
       "awayPts": 122.7,
-      "homePts": 112.9,
-      "margin": -9.79,
-      "spreadHome": 9.8,
-      "total": 235.6,
+      "homePts": 111.4,
+      "margin": -11.26,
+      "spreadHome": 11.3,
+      "total": 234.1,
       "pace": 105.9,
-      "homeWinProb": 0.2429,
-      "fairMlHome": 312,
-      "fairMlAway": -312,
+      "homeWinProb": 0.2114,
+      "fairMlHome": 373,
+      "fairMlAway": -373,
       "contributions": [
         {
           "key": "offense",
@@ -607,7 +607,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.81
+          "pts": -4.28
         }
       ],
       "sample": {
@@ -633,20 +633,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:13:42Z",
+        "reportPulledAt": "2026-11-09T01:23:46Z",
         "source": "espn",
         "away": [],
         "home": [
           {
             "player": "Domantas Sabonis",
             "team": "SAC",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Knee Soreness",
             "matched": true,
             "expMin": 33.5,
             "value": 6.84,
-            "impactPts": 1.47
+            "impactPts": 2.94
           },
           {
             "player": "Maxime Raynaud",
@@ -675,7 +675,7 @@
     },
     {
       "gameId": "20261108-NOP-LAC",
-      "generatedAt": "2026-11-09T01:13:42Z",
+      "generatedAt": "2026-11-09T01:23:46Z",
       "ratingsAsOf": "2026-11-08T22:51:38Z",
       "modelVersion": "v2.0",
       "awayPts": 109.9,
@@ -738,7 +738,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:13:42Z",
+        "reportPulledAt": "2026-11-09T01:23:46Z",
         "source": "espn",
         "away": [
           {
