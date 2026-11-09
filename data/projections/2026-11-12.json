@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261112-DET-WAS",
-      "generatedAt": "2026-11-09T23:12:09Z",
+      "generatedAt": "2026-11-09T23:22:18Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 113.3,
-      "homePts": 100.1,
-      "margin": -13.25,
-      "spreadHome": 13.2,
-      "total": 213.4,
+      "homePts": 99.8,
+      "margin": -13.51,
+      "spreadHome": 13.5,
+      "total": 213.1,
       "pace": 102.6,
-      "homeWinProb": 0.1727,
-      "fairMlHome": 479,
-      "fairMlAway": -479,
+      "homeWinProb": 0.168,
+      "fairMlHome": 495,
+      "fairMlAway": -495,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.45
+          "pts": 2.19
         }
       ],
       "sample": {
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T23:12:09Z",
+        "reportPulledAt": "2026-11-09T23:22:18Z",
         "source": "espn",
         "away": [
           {
@@ -117,6 +117,17 @@
             "impactPts": 1.11
           },
           {
+            "player": "Bilal Coulibaly",
+            "team": "WAS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hand",
+            "matched": true,
+            "expMin": 25.4,
+            "value": 0.6,
+            "impactPts": 0.26
+          },
+          {
             "player": "Jamir Watkins",
             "team": "WAS",
             "status": "out",
@@ -143,7 +154,7 @@
     },
     {
       "gameId": "20261112-TOR-PHI",
-      "generatedAt": "2026-11-09T23:12:09Z",
+      "generatedAt": "2026-11-09T23:22:18Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 98.9,
@@ -207,7 +218,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T23:12:09Z",
+        "reportPulledAt": "2026-11-09T23:22:18Z",
         "source": "espn",
         "away": [
           {
@@ -305,7 +316,7 @@
     },
     {
       "gameId": "20261112-DAL-MIN",
-      "generatedAt": "2026-11-09T23:12:09Z",
+      "generatedAt": "2026-11-09T23:22:18Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 106.4,
@@ -366,7 +377,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T23:12:09Z",
+        "reportPulledAt": "2026-11-09T23:22:18Z",
         "source": "espn",
         "away": [
           {
@@ -442,7 +453,7 @@
     },
     {
       "gameId": "20261112-CHA-PHX",
-      "generatedAt": "2026-11-09T23:12:09Z",
+      "generatedAt": "2026-11-09T23:22:18Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 99.2,
@@ -506,7 +517,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T23:12:09Z",
+        "reportPulledAt": "2026-11-09T23:22:18Z",
         "source": "espn",
         "away": [
           {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T20:41:07Z",
+  "generatedAt": "2026-11-09T23:22:19Z",
   "grades": [
     {
       "source": "model",
@@ -2888,6 +2888,25 @@
       "clvProb": null,
       "closeMinutesBeforeTip": null,
       "finalScore": null
+    },
+    {
+      "source": "model",
+      "gameId": "20261110-MIL-NYK",
+      "etDate": "2026-11-10",
+      "pickId": "model",
+      "market": "spread",
+      "side": "NYK",
+      "line": -15.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 0.5,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
     }
   ],
   "summary": {
@@ -2895,7 +2914,7 @@
       "w": 66,
       "l": 77,
       "p": 0,
-      "pending": 9,
+      "pending": 10,
       "units": -16.999,
       "risked": 143.0,
       "roi": -0.1189,
