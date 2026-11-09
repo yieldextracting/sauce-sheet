@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261114-DEN-NOP",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 118.5,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {
@@ -99,7 +99,7 @@
     },
     {
       "gameId": "20261114-DAL-CLE",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 113.8,
@@ -164,7 +164,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {
@@ -229,18 +229,18 @@
     },
     {
       "gameId": "20261114-BKN-MEM",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.1,
+      "awayPts": 108.6,
       "homePts": 112.4,
-      "margin": 4.3,
-      "spreadHome": -4.3,
-      "total": 220.4,
+      "margin": 3.78,
+      "spreadHome": -3.8,
+      "total": 220.9,
       "pace": 102.7,
-      "homeWinProb": 0.6202,
-      "fairMlHome": -163,
-      "fairMlAway": 163,
+      "homeWinProb": 0.606,
+      "fairMlHome": -154,
+      "fairMlAway": 154,
       "contributions": [
         {
           "key": "offense",
@@ -264,7 +264,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.39
+          "pts": -1.91
         }
       ],
       "sample": {
@@ -293,20 +293,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Mikel Brown Jr.",
-            "team": "BKN",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Rest",
-            "matched": true,
-            "expMin": 14.6,
-            "value": 1.22,
-            "impactPts": 0.52
-          },
           {
             "player": "Egor Demin",
             "team": "BKN",
@@ -358,18 +347,18 @@
     },
     {
       "gameId": "20261114-CHI-MIN",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
-      "awayPts": 104.4,
+      "awayPts": 107.5,
       "homePts": 124.0,
-      "margin": 19.54,
-      "spreadHome": -19.5,
-      "total": 228.4,
+      "margin": 16.47,
+      "spreadHome": -16.5,
+      "total": 231.5,
       "pace": 107.0,
-      "homeWinProb": 0.9179,
-      "fairMlHome": -1119,
-      "fairMlAway": 1119,
+      "homeWinProb": 0.8795,
+      "fairMlHome": -730,
+      "fairMlAway": 730,
       "contributions": [
         {
           "key": "offense",
@@ -393,7 +382,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.28
+          "pts": -5.35
         }
       ],
       "sample": {
@@ -422,32 +411,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Norman Powell",
-            "team": "CHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Shoulder Inflammation",
-            "matched": true,
-            "expMin": 29.0,
-            "value": 5.6,
-            "impactPts": 2.41
-          },
-          {
-            "player": "Zach Collins",
-            "team": "CHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 10.8,
-            "value": 1.53,
-            "impactPts": 0.66
-          }
-        ],
+        "away": [],
         "home": [
           {
             "player": "Anthony Edwards",
@@ -476,7 +442,7 @@
     },
     {
       "gameId": "20261114-DET-MIA",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 114.0,
@@ -539,7 +505,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {

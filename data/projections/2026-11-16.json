@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261116-CHI-CLE",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
-      "awayPts": 111.4,
+      "awayPts": 114.5,
       "homePts": 127.6,
-      "margin": 16.23,
-      "spreadHome": -16.2,
-      "total": 239.0,
+      "margin": 13.16,
+      "spreadHome": -13.2,
+      "total": 242.1,
       "pace": 107.0,
-      "homeWinProb": 0.8761,
-      "fairMlHome": -707,
-      "fairMlAway": 707,
+      "homeWinProb": 0.8256,
+      "fairMlHome": -474,
+      "fairMlAway": 474,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.81
+          "pts": -1.26
         }
       ],
       "sample": {
@@ -67,32 +67,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Norman Powell",
-            "team": "CHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Shoulder Inflammation",
-            "matched": true,
-            "expMin": 29.0,
-            "value": 5.6,
-            "impactPts": 2.41
-          },
-          {
-            "player": "Zach Collins",
-            "team": "CHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 10.8,
-            "value": 1.53,
-            "impactPts": 0.66
-          }
-        ],
+        "away": [],
         "home": [
           {
             "player": "Jaylon Tyson",
@@ -121,7 +98,7 @@
     },
     {
       "gameId": "20261116-MEM-WAS",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 114.9,
@@ -185,7 +162,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {
@@ -272,7 +249,7 @@
     },
     {
       "gameId": "20261116-ORL-BOS",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 98.9,
@@ -336,7 +313,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {
@@ -400,18 +377,18 @@
     },
     {
       "gameId": "20261116-HOU-MIA",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
-      "awayPts": 117.0,
+      "awayPts": 116.1,
       "homePts": 112.2,
-      "margin": -4.78,
-      "spreadHome": 4.8,
-      "total": 229.2,
+      "margin": -3.87,
+      "spreadHome": 3.9,
+      "total": 228.3,
       "pace": 102.9,
-      "homeWinProb": 0.3668,
-      "fairMlHome": 173,
-      "fairMlAway": -173,
+      "homeWinProb": 0.3915,
+      "fairMlHome": 155,
+      "fairMlAway": -155,
       "contributions": [
         {
           "key": "offense",
@@ -435,7 +412,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.74
+          "pts": 1.65
         }
       ],
       "sample": {
@@ -465,9 +442,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Oscar Tshiebwe",
+            "team": "HOU",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 9.6,
+            "value": 2.13,
+            "impactPts": 0.91
+          },
           {
             "player": "Clint Capela",
             "team": "HOU",
@@ -496,18 +484,18 @@
     },
     {
       "gameId": "20261116-PHI-BKN",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 111.0,
-      "homePts": 105.3,
-      "margin": -5.71,
-      "spreadHome": 5.7,
-      "total": 216.3,
+      "homePts": 105.8,
+      "margin": -5.19,
+      "spreadHome": 5.2,
+      "total": 216.8,
       "pace": 101.8,
-      "homeWinProb": 0.3422,
-      "fairMlHome": 192,
-      "fairMlAway": -192,
+      "homeWinProb": 0.3559,
+      "fairMlHome": 181,
+      "fairMlAway": -181,
       "contributions": [
         {
           "key": "offense",
@@ -531,7 +519,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.2
+          "pts": 0.32
         }
       ],
       "sample": {
@@ -560,7 +548,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {
@@ -575,17 +563,6 @@
             "impactPts": 0.36
           },
           {
-            "player": "Adem Bona",
-            "team": "PHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Back Sprain",
-            "matched": true,
-            "expMin": 15.5,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
             "player": "Ariel Hukporti",
             "team": "PHI",
             "status": "out",
@@ -598,17 +575,6 @@
           }
         ],
         "home": [
-          {
-            "player": "Mikel Brown Jr.",
-            "team": "BKN",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Rest",
-            "matched": true,
-            "expMin": 14.6,
-            "value": 1.22,
-            "impactPts": 0.52
-          },
           {
             "player": "Egor Demin",
             "team": "BKN",
@@ -625,7 +591,7 @@
     },
     {
       "gameId": "20261116-GSW-NOP",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 110.9,
@@ -688,7 +654,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {
@@ -723,6 +689,17 @@
             "expMin": 25.7,
             "value": 1.9,
             "impactPts": 0.82
+          },
+          {
+            "player": "Will Richard",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Thumb",
+            "matched": true,
+            "expMin": 18.0,
+            "value": 0.0,
+            "impactPts": 0.0
           }
         ],
         "home": [
@@ -742,7 +719,7 @@
     },
     {
       "gameId": "20261116-POR-MIN",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 105.9,
@@ -805,7 +782,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {
@@ -870,7 +847,7 @@
     },
     {
       "gameId": "20261116-PHX-DEN",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 105.2,
@@ -935,7 +912,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {

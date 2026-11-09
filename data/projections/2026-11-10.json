@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261110-MIL-NYK",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 102.2,
-      "homePts": 117.2,
-      "margin": 15.03,
-      "spreadHome": -15.0,
-      "total": 219.4,
+      "homePts": 116.8,
+      "margin": 14.61,
+      "spreadHome": -14.6,
+      "total": 219.0,
       "pace": 99.1,
-      "homeWinProb": 0.8577,
-      "fairMlHome": -603,
-      "fairMlAway": 603,
+      "homeWinProb": 0.8509,
+      "fairMlHome": -571,
+      "fairMlAway": 571,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.0
+          "pts": -0.42
         }
       ],
       "sample": {
@@ -64,14 +64,14 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {
             "player": "Gary Trent Jr.",
             "team": "MIL",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Illness",
             "matched": true,
             "expMin": 7.1,
@@ -79,12 +79,24 @@
             "impactPts": 0.0
           }
         ],
-        "home": []
+        "home": [
+          {
+            "player": "Josh Hart",
+            "team": "NYK",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Ankle",
+            "matched": true,
+            "expMin": 30.8,
+            "value": 1.97,
+            "impactPts": 0.42
+          }
+        ]
       }
     },
     {
       "gameId": "20261110-BOS-PHI",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 109.5,
@@ -145,7 +157,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -163,8 +175,8 @@
           {
             "player": "Adem Bona",
             "team": "PHI",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Back Sprain",
             "matched": true,
             "expMin": 15.5,
@@ -187,18 +199,18 @@
     },
     {
       "gameId": "20261110-LAC-PHX",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.0,
+      "awayPts": 107.5,
       "homePts": 107.5,
-      "margin": 0.51,
-      "spreadHome": -0.5,
-      "total": 214.4,
+      "margin": 0.01,
+      "spreadHome": -0.0,
+      "total": 214.9,
       "pace": 99.6,
-      "homeWinProb": 0.5144,
-      "fairMlHome": -106,
-      "fairMlAway": 106,
+      "homeWinProb": 0.5002,
+      "fairMlHome": -100,
+      "fairMlAway": 100,
       "contributions": [
         {
           "key": "offense",
@@ -222,7 +234,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.86
+          "pts": 1.36
         }
       ],
       "sample": {
@@ -251,7 +263,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {
@@ -279,13 +291,13 @@
           {
             "player": "Isaiah Jackson",
             "team": "LAC",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Groin Soreness",
             "matched": true,
             "expMin": 19.4,
             "value": 2.3,
-            "impactPts": 0.99
+            "impactPts": 0.49
           },
           {
             "player": "Yanic Konan Niederhauser",
@@ -338,18 +350,18 @@
     },
     {
       "gameId": "20261110-MIA-UTA",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 118.3,
-      "homePts": 109.9,
-      "margin": -8.37,
-      "spreadHome": 8.4,
-      "total": 228.2,
+      "homePts": 110.0,
+      "margin": -8.25,
+      "spreadHome": 8.3,
+      "total": 228.3,
       "pace": 106.2,
-      "homeWinProb": 0.2755,
-      "fairMlHome": 263,
-      "fairMlAway": -263,
+      "homeWinProb": 0.2783,
+      "fairMlHome": 259,
+      "fairMlAway": -259,
       "contributions": [
         {
           "key": "offense",
@@ -373,7 +385,7 @@
         },
         {
           "key": "injuries",
-          "pts": -6.68
+          "pts": -6.56
         }
       ],
       "sample": {
@@ -402,21 +414,10 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [],
         "home": [
-          {
-            "player": "Lauri Markkanen",
-            "team": "UTA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Wrist Sprain",
-            "matched": true,
-            "expMin": 32.2,
-            "value": 7.65,
-            "impactPts": 3.28
-          },
           {
             "player": "Jaren Jackson Jr.",
             "team": "UTA",
@@ -438,24 +439,46 @@
             "expMin": 26.4,
             "value": 3.92,
             "impactPts": 1.68
+          },
+          {
+            "player": "Lauri Markkanen",
+            "team": "UTA",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Wrist Sprain",
+            "matched": true,
+            "expMin": 32.2,
+            "value": 7.65,
+            "impactPts": 1.64
+          },
+          {
+            "player": "Keyonte George",
+            "team": "UTA",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Ankle",
+            "matched": true,
+            "expMin": 32.4,
+            "value": 7.09,
+            "impactPts": 1.52
           }
         ]
       }
     },
     {
       "gameId": "20261110-ORL-SAC",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.9,
-      "homePts": 106.0,
-      "margin": -4.94,
-      "spreadHome": 4.9,
-      "total": 216.9,
+      "awayPts": 110.2,
+      "homePts": 107.5,
+      "margin": -2.7,
+      "spreadHome": 2.7,
+      "total": 217.6,
       "pace": 102.1,
-      "homeWinProb": 0.3626,
-      "fairMlHome": 176,
-      "fairMlAway": -176,
+      "homeWinProb": 0.4239,
+      "fairMlHome": 136,
+      "fairMlAway": -136,
       "contributions": [
         {
           "key": "offense",
@@ -479,7 +502,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.32
+          "pts": 2.56
         }
       ],
       "sample": {
@@ -505,7 +528,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {
@@ -529,6 +552,17 @@
             "expMin": 29.5,
             "value": 2.79,
             "impactPts": 1.2
+          },
+          {
+            "player": "Desmond Bane",
+            "team": "ORL",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 34.5,
+            "value": 3.57,
+            "impactPts": 0.77
           },
           {
             "player": "Jonathan Isaac",
@@ -568,13 +602,13 @@
           {
             "player": "Domantas Sabonis",
             "team": "SAC",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Knee Soreness",
             "matched": true,
             "expMin": 33.5,
             "value": 6.84,
-            "impactPts": 2.94
+            "impactPts": 1.47
           },
           {
             "player": "Maxime Raynaud",
@@ -603,18 +637,18 @@
     },
     {
       "gameId": "20261110-OKC-POR",
-      "generatedAt": "2026-11-09T09:41:22Z",
+      "generatedAt": "2026-11-09T20:41:06Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 106.9,
-      "homePts": 104.2,
-      "margin": -2.75,
-      "spreadHome": 2.8,
-      "total": 211.1,
+      "homePts": 103.3,
+      "margin": -3.63,
+      "spreadHome": 3.6,
+      "total": 210.3,
       "pace": 103.4,
-      "homeWinProb": 0.4223,
-      "fairMlHome": 137,
-      "fairMlAway": -137,
+      "homeWinProb": 0.3979,
+      "fairMlHome": 151,
+      "fairMlAway": -151,
       "contributions": [
         {
           "key": "offense",
@@ -638,7 +672,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.88
+          "pts": 0.0
         }
       ],
       "sample": {
@@ -666,7 +700,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T01:33:49Z",
+        "reportPulledAt": "2026-11-09T20:41:06Z",
         "source": "espn",
         "away": [
           {
@@ -747,6 +781,17 @@
             "expMin": 29.4,
             "value": 4.47,
             "impactPts": 1.92
+          },
+          {
+            "player": "Robert Williams III",
+            "team": "POR",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Rest",
+            "matched": true,
+            "expMin": 16.6,
+            "value": 4.12,
+            "impactPts": 0.88
           },
           {
             "player": "Vit Krejci",
