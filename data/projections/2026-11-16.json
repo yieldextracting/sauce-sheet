@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261116-CHI-CLE",
-      "generatedAt": "2026-11-09T21:11:19Z",
+      "generatedAt": "2026-11-09T21:51:36Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 114.5,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T21:11:18Z",
+        "reportPulledAt": "2026-11-09T21:51:35Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -98,7 +98,7 @@
     },
     {
       "gameId": "20261116-MEM-WAS",
-      "generatedAt": "2026-11-09T21:11:19Z",
+      "generatedAt": "2026-11-09T21:51:36Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 114.9,
@@ -162,7 +162,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T21:11:18Z",
+        "reportPulledAt": "2026-11-09T21:51:35Z",
         "source": "espn",
         "away": [
           {
@@ -249,7 +249,7 @@
     },
     {
       "gameId": "20261116-ORL-BOS",
-      "generatedAt": "2026-11-09T21:11:19Z",
+      "generatedAt": "2026-11-09T21:51:36Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 98.9,
@@ -313,7 +313,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T21:11:18Z",
+        "reportPulledAt": "2026-11-09T21:51:35Z",
         "source": "espn",
         "away": [
           {
@@ -377,7 +377,7 @@
     },
     {
       "gameId": "20261116-HOU-MIA",
-      "generatedAt": "2026-11-09T21:11:19Z",
+      "generatedAt": "2026-11-09T21:51:36Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 116.1,
@@ -442,7 +442,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T21:11:18Z",
+        "reportPulledAt": "2026-11-09T21:51:35Z",
         "source": "espn",
         "away": [
           {
@@ -484,7 +484,7 @@
     },
     {
       "gameId": "20261116-PHI-BKN",
-      "generatedAt": "2026-11-09T21:11:19Z",
+      "generatedAt": "2026-11-09T21:51:36Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 111.0,
@@ -548,7 +548,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T21:11:18Z",
+        "reportPulledAt": "2026-11-09T21:51:35Z",
         "source": "espn",
         "away": [
           {
@@ -591,18 +591,18 @@
     },
     {
       "gameId": "20261116-GSW-NOP",
-      "generatedAt": "2026-11-09T21:11:19Z",
+      "generatedAt": "2026-11-09T21:51:36Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 110.9,
-      "homePts": 109.8,
-      "margin": -1.17,
-      "spreadHome": 1.2,
-      "total": 220.7,
+      "homePts": 105.7,
+      "margin": -5.2,
+      "spreadHome": 5.2,
+      "total": 216.7,
       "pace": 103.3,
-      "homeWinProb": 0.4668,
-      "fairMlHome": 114,
-      "fairMlAway": -114,
+      "homeWinProb": 0.3556,
+      "fairMlHome": 181,
+      "fairMlAway": -181,
       "contributions": [
         {
           "key": "offense",
@@ -626,7 +626,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.05
+          "pts": 0.02
         }
       ],
       "sample": {
@@ -654,7 +654,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T21:11:18Z",
+        "reportPulledAt": "2026-11-09T21:51:35Z",
         "source": "espn",
         "away": [
           {
@@ -704,6 +704,17 @@
         ],
         "home": [
           {
+            "player": "Zion Williamson",
+            "team": "NOP",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Rest",
+            "matched": true,
+            "expMin": 32.5,
+            "value": 9.39,
+            "impactPts": 4.03
+          },
+          {
             "player": "Trey Murphy III",
             "team": "NOP",
             "status": "out",
@@ -741,7 +752,7 @@
     },
     {
       "gameId": "20261116-POR-MIN",
-      "generatedAt": "2026-11-09T21:11:19Z",
+      "generatedAt": "2026-11-09T21:51:36Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 105.9,
@@ -804,7 +815,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T21:11:18Z",
+        "reportPulledAt": "2026-11-09T21:51:35Z",
         "source": "espn",
         "away": [
           {
@@ -869,7 +880,7 @@
     },
     {
       "gameId": "20261116-PHX-DEN",
-      "generatedAt": "2026-11-09T21:11:19Z",
+      "generatedAt": "2026-11-09T21:51:36Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 105.2,
@@ -934,7 +945,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T21:11:18Z",
+        "reportPulledAt": "2026-11-09T21:51:35Z",
         "source": "espn",
         "away": [
           {
