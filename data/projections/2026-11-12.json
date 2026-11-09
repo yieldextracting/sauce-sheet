@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261112-DET-WAS",
-      "generatedAt": "2026-11-09T22:41:59Z",
+      "generatedAt": "2026-11-09T22:52:02Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 113.3,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T22:41:58Z",
+        "reportPulledAt": "2026-11-09T22:52:02Z",
         "source": "espn",
         "away": [
           {
@@ -143,18 +143,18 @@
     },
     {
       "gameId": "20261112-TOR-PHI",
-      "generatedAt": "2026-11-09T22:41:59Z",
+      "generatedAt": "2026-11-09T22:52:02Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
-      "awayPts": 105.2,
+      "awayPts": 101.9,
       "homePts": 112.3,
-      "margin": 7.12,
-      "spreadHome": -7.1,
-      "total": 217.5,
+      "margin": 10.4,
+      "spreadHome": -10.4,
+      "total": 214.3,
       "pace": 103.2,
-      "homeWinProb": 0.6938,
-      "fairMlHome": -227,
-      "fairMlAway": 227,
+      "homeWinProb": 0.7705,
+      "fairMlHome": -336,
+      "fairMlAway": 336,
       "contributions": [
         {
           "key": "offense",
@@ -178,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.18
+          "pts": 7.46
         }
       ],
       "sample": {
@@ -207,7 +207,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T22:41:58Z",
+        "reportPulledAt": "2026-11-09T22:52:02Z",
         "source": "espn",
         "away": [
           {
@@ -220,6 +220,17 @@
             "expMin": 26.7,
             "value": 10.57,
             "impactPts": 4.54
+          },
+          {
+            "player": "Scottie Barnes",
+            "team": "TOR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Groin Soreness",
+            "matched": true,
+            "expMin": 33.8,
+            "value": 7.63,
+            "impactPts": 3.28
           },
           {
             "player": "Nate Bittle",
@@ -272,7 +283,7 @@
     },
     {
       "gameId": "20261112-DAL-MIN",
-      "generatedAt": "2026-11-09T22:41:59Z",
+      "generatedAt": "2026-11-09T22:52:02Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 106.9,
@@ -333,7 +344,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T22:41:58Z",
+        "reportPulledAt": "2026-11-09T22:52:02Z",
         "source": "espn",
         "away": [
           {
@@ -398,7 +409,7 @@
     },
     {
       "gameId": "20261112-CHA-PHX",
-      "generatedAt": "2026-11-09T22:41:59Z",
+      "generatedAt": "2026-11-09T22:52:02Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 99.2,
@@ -462,7 +473,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T22:41:58Z",
+        "reportPulledAt": "2026-11-09T22:52:02Z",
         "source": "espn",
         "away": [
           {
