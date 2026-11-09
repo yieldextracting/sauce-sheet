@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261113-MIL-ORL",
-      "generatedAt": "2026-11-08T23:53:16Z",
+      "generatedAt": "2026-11-09T00:03:20Z",
       "ratingsAsOf": "2026-11-08T22:51:38Z",
       "modelVersion": "v2.0",
       "awayPts": 108.8,
@@ -69,9 +69,21 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T23:53:16Z",
+        "reportPulledAt": "2026-11-09T00:03:20Z",
         "source": "espn",
-        "away": [],
+        "away": [
+          {
+            "player": "Gary Trent Jr.",
+            "team": "MIL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 7.1,
+            "value": 0.0,
+            "impactPts": 0.0
+          }
+        ],
         "home": [
           {
             "player": "Paolo Banchero",
@@ -133,7 +145,7 @@
     },
     {
       "gameId": "20261113-NYK-IND",
-      "generatedAt": "2026-11-08T23:53:16Z",
+      "generatedAt": "2026-11-09T00:03:20Z",
       "ratingsAsOf": "2026-11-08T22:51:38Z",
       "modelVersion": "v2.0",
       "awayPts": 112.9,
@@ -196,7 +208,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T23:53:16Z",
+        "reportPulledAt": "2026-11-09T00:03:20Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -238,7 +250,7 @@
     },
     {
       "gameId": "20261113-ATL-CHI",
-      "generatedAt": "2026-11-08T23:53:16Z",
+      "generatedAt": "2026-11-09T00:03:20Z",
       "ratingsAsOf": "2026-11-08T22:51:38Z",
       "modelVersion": "v2.0",
       "awayPts": 126.2,
@@ -299,7 +311,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T23:53:16Z",
+        "reportPulledAt": "2026-11-09T00:03:20Z",
         "source": "espn",
         "away": [
           {
@@ -386,7 +398,7 @@
     },
     {
       "gameId": "20261113-CLE-MIA",
-      "generatedAt": "2026-11-08T23:53:16Z",
+      "generatedAt": "2026-11-09T00:03:20Z",
       "ratingsAsOf": "2026-11-08T22:51:38Z",
       "modelVersion": "v2.0",
       "awayPts": 120.2,
@@ -450,7 +462,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T23:53:16Z",
+        "reportPulledAt": "2026-11-09T00:03:20Z",
         "source": "espn",
         "away": [
           {
@@ -481,7 +493,7 @@
     },
     {
       "gameId": "20261113-MEM-NOP",
-      "generatedAt": "2026-11-08T23:53:16Z",
+      "generatedAt": "2026-11-09T00:03:20Z",
       "ratingsAsOf": "2026-11-08T22:51:38Z",
       "modelVersion": "v2.0",
       "awayPts": 113.2,
@@ -542,7 +554,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T23:53:16Z",
+        "reportPulledAt": "2026-11-09T00:03:20Z",
         "source": "espn",
         "away": [
           {
@@ -596,18 +608,18 @@
     },
     {
       "gameId": "20261113-UTA-HOU",
-      "generatedAt": "2026-11-08T23:53:16Z",
+      "generatedAt": "2026-11-09T00:03:20Z",
       "ratingsAsOf": "2026-11-08T22:51:38Z",
       "modelVersion": "v2.0",
-      "awayPts": 97.5,
+      "awayPts": 94.2,
       "homePts": 121.2,
-      "margin": 23.66,
-      "spreadHome": -23.7,
-      "total": 218.7,
+      "margin": 26.94,
+      "spreadHome": -26.9,
+      "total": 215.4,
       "pace": 100.8,
-      "homeWinProb": 0.954,
-      "fairMlHome": -2074,
-      "fairMlAway": 2074,
+      "homeWinProb": 0.9725,
+      "fairMlHome": -3533,
+      "fairMlAway": 3533,
       "contributions": [
         {
           "key": "offense",
@@ -631,7 +643,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.66
+          "pts": 5.94
         }
       ],
       "sample": {
@@ -660,9 +672,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T23:53:16Z",
+        "reportPulledAt": "2026-11-09T00:03:20Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Lauri Markkanen",
+            "team": "UTA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Wrist Sprain",
+            "matched": true,
+            "expMin": 32.2,
+            "value": 7.65,
+            "impactPts": 3.28
+          },
           {
             "player": "Jaren Jackson Jr.",
             "team": "UTA",
@@ -714,7 +737,7 @@
     },
     {
       "gameId": "20261113-GSW-SAS",
-      "generatedAt": "2026-11-08T23:53:16Z",
+      "generatedAt": "2026-11-09T00:03:20Z",
       "ratingsAsOf": "2026-11-08T22:51:38Z",
       "modelVersion": "v2.0",
       "awayPts": 102.6,
@@ -777,7 +800,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T23:53:16Z",
+        "reportPulledAt": "2026-11-09T00:03:20Z",
         "source": "espn",
         "away": [
           {
@@ -842,7 +865,7 @@
     },
     {
       "gameId": "20261113-POR-SAC",
-      "generatedAt": "2026-11-08T23:53:16Z",
+      "generatedAt": "2026-11-09T00:03:20Z",
       "ratingsAsOf": "2026-11-08T22:51:38Z",
       "modelVersion": "v2.0",
       "awayPts": 116.4,
@@ -905,7 +928,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T23:53:16Z",
+        "reportPulledAt": "2026-11-09T00:03:20Z",
         "source": "espn",
         "away": [
           {
@@ -970,7 +993,7 @@
     },
     {
       "gameId": "20261113-OKC-LAC",
-      "generatedAt": "2026-11-08T23:53:16Z",
+      "generatedAt": "2026-11-09T00:03:20Z",
       "ratingsAsOf": "2026-11-08T22:51:38Z",
       "modelVersion": "v2.0",
       "awayPts": 105.3,
@@ -1033,7 +1056,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-08T23:53:16Z",
+        "reportPulledAt": "2026-11-09T00:03:20Z",
         "source": "espn",
         "away": [
           {
