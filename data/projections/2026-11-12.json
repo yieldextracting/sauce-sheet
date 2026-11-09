@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261112-DET-WAS",
-      "generatedAt": "2026-11-09T22:52:02Z",
+      "generatedAt": "2026-11-09T23:12:09Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 113.3,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T22:52:02Z",
+        "reportPulledAt": "2026-11-09T23:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -143,18 +143,18 @@
     },
     {
       "gameId": "20261112-TOR-PHI",
-      "generatedAt": "2026-11-09T22:52:02Z",
+      "generatedAt": "2026-11-09T23:12:09Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
-      "awayPts": 101.9,
+      "awayPts": 98.9,
       "homePts": 112.3,
-      "margin": 10.4,
-      "spreadHome": -10.4,
-      "total": 214.3,
+      "margin": 13.42,
+      "spreadHome": -13.4,
+      "total": 211.2,
       "pace": 103.2,
-      "homeWinProb": 0.7705,
-      "fairMlHome": -336,
-      "fairMlAway": 336,
+      "homeWinProb": 0.8303,
+      "fairMlHome": -489,
+      "fairMlAway": 489,
       "contributions": [
         {
           "key": "offense",
@@ -178,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": 7.46
+          "pts": 10.48
         }
       ],
       "sample": {
@@ -207,7 +207,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T22:52:02Z",
+        "reportPulledAt": "2026-11-09T23:12:09Z",
         "source": "espn",
         "away": [
           {
@@ -231,6 +231,28 @@
             "expMin": 33.8,
             "value": 7.63,
             "impactPts": 3.28
+          },
+          {
+            "player": "Immanuel Quickley",
+            "team": "TOR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 28.2,
+            "value": 4.64,
+            "impactPts": 1.99
+          },
+          {
+            "player": "Collin Murray-Boyles",
+            "team": "TOR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 23.2,
+            "value": 2.4,
+            "impactPts": 1.03
           },
           {
             "player": "Nate Bittle",
@@ -283,18 +305,18 @@
     },
     {
       "gameId": "20261112-DAL-MIN",
-      "generatedAt": "2026-11-09T22:52:02Z",
+      "generatedAt": "2026-11-09T23:12:09Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.9,
+      "awayPts": 106.4,
       "homePts": 111.2,
-      "margin": 4.25,
-      "spreadHome": -4.3,
-      "total": 218.1,
+      "margin": 4.81,
+      "spreadHome": -4.8,
+      "total": 217.5,
       "pace": 103.6,
-      "homeWinProb": 0.619,
-      "fairMlHome": -162,
-      "fairMlAway": 162,
+      "homeWinProb": 0.6341,
+      "fairMlHome": -173,
+      "fairMlAway": 173,
       "contributions": [
         {
           "key": "offense",
@@ -318,7 +340,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.89
+          "pts": -4.33
         }
       ],
       "sample": {
@@ -344,9 +366,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T22:52:02Z",
+        "reportPulledAt": "2026-11-09T23:12:09Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Morez Johnson Jr.",
+            "team": "DAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Leg",
+            "matched": true,
+            "expMin": 13.5,
+            "value": 1.31,
+            "impactPts": 0.56
+          },
           {
             "player": "Dereck Lively II",
             "team": "DAL",
@@ -409,7 +442,7 @@
     },
     {
       "gameId": "20261112-CHA-PHX",
-      "generatedAt": "2026-11-09T22:52:02Z",
+      "generatedAt": "2026-11-09T23:12:09Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 99.2,
@@ -473,7 +506,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-09T22:52:02Z",
+        "reportPulledAt": "2026-11-09T23:12:09Z",
         "source": "espn",
         "away": [
           {

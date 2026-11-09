@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-11-09T22:52:02Z",
+  "pulledAt": "2026-11-09T23:12:09Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -196,8 +196,8 @@
       "player": "Morez Johnson Jr.",
       "key": "morezjohnsonjr",
       "team": "DAL",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Leg",
       "espnId": "4873153",
       "gameId": "20261109-IND-DAL",
@@ -974,6 +974,28 @@
       "source": "espn"
     },
     {
+      "player": "Immanuel Quickley",
+      "key": "immanuelquickley",
+      "team": "TOR",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Hamstring",
+      "espnId": "4395724",
+      "gameId": "20261109-MEM-TOR",
+      "source": "espn"
+    },
+    {
+      "player": "Collin Murray-Boyles",
+      "key": "collinmurrayboyles",
+      "team": "TOR",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Illness",
+      "espnId": "5093267",
+      "gameId": "20261109-MEM-TOR",
+      "source": "espn"
+    },
+    {
       "player": "Scottie Barnes",
       "key": "scottiebarnes",
       "team": "TOR",
@@ -985,17 +1007,6 @@
       "source": "espn"
     },
     {
-      "player": "Collin Murray-Boyles",
-      "key": "collinmurrayboyles",
-      "team": "TOR",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Illness",
-      "espnId": "5093267",
-      "gameId": "20261109-MEM-TOR",
-      "source": "espn"
-    },
-    {
       "player": "Nate Bittle",
       "key": "natebittle",
       "team": "TOR",
@@ -1003,17 +1014,6 @@
       "pPlay": 0.0,
       "reason": "Foot Fracture",
       "espnId": "4432586",
-      "gameId": "20261109-MEM-TOR",
-      "source": "espn"
-    },
-    {
-      "player": "Immanuel Quickley",
-      "key": "immanuelquickley",
-      "team": "TOR",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Hamstring",
-      "espnId": "4395724",
       "gameId": "20261109-MEM-TOR",
       "source": "espn"
     },
@@ -1100,7 +1100,7 @@
       "team": "WAS",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Ankle Sprain",
+      "reason": null,
       "espnId": "6583",
       "gameId": "20261109-WAS-DET",
       "source": "espn"
