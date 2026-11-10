@@ -604,7 +604,7 @@
     },
     {
       "gameId": "20261109-IND-DAL",
-      "generatedAt": "2026-11-10T00:32:48Z",
+      "generatedAt": "2026-11-10T00:52:55Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 108.9,
@@ -669,7 +669,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T00:32:48Z",
+        "reportPulledAt": "2026-11-10T00:52:55Z",
         "source": "espn",
         "away": [
           {
@@ -756,18 +756,18 @@
     },
     {
       "gameId": "20261109-DEN-HOU",
-      "generatedAt": "2026-11-10T00:32:48Z",
+      "generatedAt": "2026-11-10T00:52:55Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
-      "awayPts": 99.3,
+      "awayPts": 107.0,
       "homePts": 114.4,
-      "margin": 15.05,
-      "spreadHome": -15.1,
-      "total": 213.7,
+      "margin": 7.35,
+      "spreadHome": -7.4,
+      "total": 221.4,
       "pace": 97.7,
-      "homeWinProb": 0.8582,
-      "fairMlHome": -605,
-      "fairMlAway": 605,
+      "homeWinProb": 0.6998,
+      "fairMlHome": -233,
+      "fairMlAway": 233,
       "contributions": [
         {
           "key": "offense",
@@ -791,7 +791,7 @@
         },
         {
           "key": "injuries",
-          "pts": 6.35
+          "pts": -1.35
         }
       ],
       "sample": {
@@ -819,53 +819,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T00:32:48Z",
+        "reportPulledAt": "2026-11-10T00:52:55Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Nikola Jokic",
-            "team": "DEN",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Elbow Sprain",
-            "matched": true,
-            "expMin": 35.2,
-            "value": 16.09,
-            "impactPts": 3.45
-          },
-          {
-            "player": "Jamal Murray",
-            "team": "DEN",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Lower Leg Bruise",
-            "matched": true,
-            "expMin": 35.6,
-            "value": 10.1,
-            "impactPts": 2.17
-          },
-          {
-            "player": "Aaron Gordon",
-            "team": "DEN",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Lower Body",
-            "matched": true,
-            "expMin": 28.4,
-            "value": 4.05,
-            "impactPts": 0.87
-          },
-          {
-            "player": "DeMar DeRozan",
-            "team": "DEN",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Back Spasms",
-            "matched": true,
-            "expMin": 23.7,
-            "value": 3.24,
-            "impactPts": 0.7
-          },
           {
             "player": "Julian Strawther",
             "team": "DEN",
@@ -876,28 +832,6 @@
             "expMin": 13.1,
             "value": 0.7,
             "impactPts": 0.3
-          },
-          {
-            "player": "Christian Braun",
-            "team": "DEN",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Calf Bruise",
-            "matched": true,
-            "expMin": 32.9,
-            "value": 1.35,
-            "impactPts": 0.29
-          },
-          {
-            "player": "Cameron Johnson",
-            "team": "DEN",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Ankle",
-            "matched": true,
-            "expMin": 29.5,
-            "value": 1.04,
-            "impactPts": 0.22
           }
         ],
         "home": [
@@ -939,7 +873,7 @@
     },
     {
       "gameId": "20261109-SAS-PHX",
-      "generatedAt": "2026-11-10T00:32:48Z",
+      "generatedAt": "2026-11-10T00:52:55Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 113.3,
@@ -1003,7 +937,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T00:32:48Z",
+        "reportPulledAt": "2026-11-10T00:52:55Z",
         "source": "espn",
         "away": [
           {
@@ -1068,7 +1002,7 @@
     },
     {
       "gameId": "20261109-NOP-GSW",
-      "generatedAt": "2026-11-10T00:32:48Z",
+      "generatedAt": "2026-11-10T00:52:55Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 103.0,
@@ -1132,7 +1066,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T00:32:48Z",
+        "reportPulledAt": "2026-11-10T00:52:55Z",
         "source": "espn",
         "away": [
           {
