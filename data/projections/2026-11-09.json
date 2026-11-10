@@ -873,7 +873,7 @@
     },
     {
       "gameId": "20261109-SAS-PHX",
-      "generatedAt": "2026-11-10T01:43:12Z",
+      "generatedAt": "2026-11-10T01:53:16Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 113.3,
@@ -937,7 +937,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T01:43:12Z",
+        "reportPulledAt": "2026-11-10T01:53:16Z",
         "source": "espn",
         "away": [
           {
@@ -1002,18 +1002,18 @@
     },
     {
       "gameId": "20261109-NOP-GSW",
-      "generatedAt": "2026-11-10T01:43:12Z",
+      "generatedAt": "2026-11-10T01:53:16Z",
       "ratingsAsOf": "2026-11-09T09:41:22Z",
       "modelVersion": "v2.0",
       "awayPts": 103.0,
-      "homePts": 113.2,
-      "margin": 10.17,
-      "spreadHome": -10.2,
-      "total": 216.1,
+      "homePts": 113.0,
+      "margin": 10.06,
+      "spreadHome": -10.1,
+      "total": 216.0,
       "pace": 103.3,
-      "homeWinProb": 0.7656,
-      "fairMlHome": -327,
-      "fairMlAway": 327,
+      "homeWinProb": 0.7632,
+      "fairMlHome": -322,
+      "fairMlAway": 322,
       "contributions": [
         {
           "key": "offense",
@@ -1037,7 +1037,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.58
+          "pts": -0.69
         }
       ],
       "sample": {
@@ -1066,7 +1066,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T01:43:12Z",
+        "reportPulledAt": "2026-11-10T01:53:16Z",
         "source": "espn",
         "away": [
           {
@@ -1151,24 +1151,13 @@
           {
             "player": "Gary Payton II",
             "team": "GSW",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Knee",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Inflammation",
             "matched": true,
             "expMin": 13.9,
             "value": 1.56,
-            "impactPts": 0.33
-          },
-          {
-            "player": "Gui Santos",
-            "team": "GSW",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Knee Tendinitis",
-            "matched": true,
-            "expMin": 16.8,
-            "value": 1.09,
-            "impactPts": 0.23
+            "impactPts": 0.67
           },
           {
             "player": "Will Richard",
