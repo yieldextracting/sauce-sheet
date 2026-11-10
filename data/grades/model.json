@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T22:32:15Z",
+  "generatedAt": "2026-11-10T23:52:43Z",
   "grades": [
     {
       "source": "model",
@@ -3043,6 +3043,25 @@
     },
     {
       "source": "model",
+      "gameId": "20261111-SAS-CHI",
+      "etDate": "2026-11-11",
+      "pickId": "model",
+      "market": "spread",
+      "side": "SAS",
+      "line": -15.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 0.5,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
+    },
+    {
+      "source": "model",
       "gameId": "20261111-WAS-IND",
       "etDate": "2026-11-11",
       "pickId": "model",
@@ -3066,7 +3085,7 @@
       "w": 71,
       "l": 80,
       "p": 0,
-      "pending": 10,
+      "pending": 11,
       "units": -15.454,
       "risked": 151.0,
       "roi": -0.1023,
