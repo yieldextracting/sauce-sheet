@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261112-DET-WAS",
-      "generatedAt": "2026-11-10T05:30:47Z",
+      "generatedAt": "2026-11-10T19:41:12Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
       "awayPts": 113.7,
-      "homePts": 100.4,
-      "margin": -13.31,
-      "spreadHome": 13.3,
-      "total": 214.2,
+      "homePts": 100.7,
+      "margin": -13.05,
+      "spreadHome": 13.0,
+      "total": 214.4,
       "pace": 102.8,
-      "homeWinProb": 0.1717,
-      "fairMlHome": 482,
-      "fairMlAway": -482,
+      "homeWinProb": 0.1764,
+      "fairMlHome": 467,
+      "fairMlAway": -467,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.19
+          "pts": 2.45
         }
       ],
       "sample": {
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T02:03:19Z",
+        "reportPulledAt": "2026-11-10T19:41:12Z",
         "source": "espn",
         "away": [
           {
@@ -117,17 +117,6 @@
             "impactPts": 1.11
           },
           {
-            "player": "Bilal Coulibaly",
-            "team": "WAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hand",
-            "matched": true,
-            "expMin": 25.4,
-            "value": 0.6,
-            "impactPts": 0.26
-          },
-          {
             "player": "Jamir Watkins",
             "team": "WAS",
             "status": "out",
@@ -154,18 +143,18 @@
     },
     {
       "gameId": "20261112-TOR-PHI",
-      "generatedAt": "2026-11-10T05:30:47Z",
+      "generatedAt": "2026-11-10T19:41:12Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
-      "awayPts": 98.2,
+      "awayPts": 104.5,
       "homePts": 112.6,
-      "margin": 14.43,
-      "spreadHome": -14.4,
-      "total": 210.8,
+      "margin": 8.13,
+      "spreadHome": -8.1,
+      "total": 217.1,
       "pace": 102.7,
-      "homeWinProb": 0.8479,
-      "fairMlHome": -558,
-      "fairMlAway": 558,
+      "homeWinProb": 0.7187,
+      "fairMlHome": -255,
+      "fairMlAway": 255,
       "contributions": [
         {
           "key": "offense",
@@ -189,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": 10.48
+          "pts": 4.18
         }
       ],
       "sample": {
@@ -218,7 +207,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T02:03:19Z",
+        "reportPulledAt": "2026-11-10T19:41:12Z",
         "source": "espn",
         "away": [
           {
@@ -231,39 +220,6 @@
             "expMin": 26.7,
             "value": 10.57,
             "impactPts": 4.54
-          },
-          {
-            "player": "Scottie Barnes",
-            "team": "TOR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Groin Soreness",
-            "matched": true,
-            "expMin": 33.8,
-            "value": 7.63,
-            "impactPts": 3.28
-          },
-          {
-            "player": "Immanuel Quickley",
-            "team": "TOR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring",
-            "matched": true,
-            "expMin": 28.2,
-            "value": 4.64,
-            "impactPts": 1.99
-          },
-          {
-            "player": "Collin Murray-Boyles",
-            "team": "TOR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 23.2,
-            "value": 2.4,
-            "impactPts": 1.03
           },
           {
             "player": "Nate Bittle",
@@ -316,18 +272,18 @@
     },
     {
       "gameId": "20261112-DAL-MIN",
-      "generatedAt": "2026-11-10T05:30:47Z",
+      "generatedAt": "2026-11-10T19:41:12Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.0,
+      "awayPts": 107.5,
       "homePts": 111.7,
-      "margin": 4.76,
-      "spreadHome": -4.8,
-      "total": 218.7,
+      "margin": 4.2,
+      "spreadHome": -4.2,
+      "total": 219.2,
       "pace": 103.7,
-      "homeWinProb": 0.6328,
-      "fairMlHome": -172,
-      "fairMlAway": 172,
+      "homeWinProb": 0.6177,
+      "fairMlHome": -162,
+      "fairMlAway": 162,
       "contributions": [
         {
           "key": "offense",
@@ -351,7 +307,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.33
+          "pts": -4.89
         }
       ],
       "sample": {
@@ -377,20 +333,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T02:03:19Z",
+        "reportPulledAt": "2026-11-10T19:41:12Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Morez Johnson Jr.",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Leg",
-            "matched": true,
-            "expMin": 13.5,
-            "value": 1.31,
-            "impactPts": 0.56
-          },
           {
             "player": "Dereck Lively II",
             "team": "DAL",
@@ -453,18 +398,18 @@
     },
     {
       "gameId": "20261112-CHA-PHX",
-      "generatedAt": "2026-11-10T05:30:47Z",
+      "generatedAt": "2026-11-10T19:41:12Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
-      "awayPts": 100.3,
+      "awayPts": 103.2,
       "homePts": 106.5,
-      "margin": 6.21,
-      "spreadHome": -6.2,
-      "total": 206.8,
+      "margin": 3.3,
+      "spreadHome": -3.3,
+      "total": 209.7,
       "pace": 98.0,
-      "homeWinProb": 0.6708,
-      "fairMlHome": -204,
-      "fairMlAway": 204,
+      "homeWinProb": 0.5928,
+      "fairMlHome": -146,
+      "fairMlAway": 146,
       "contributions": [
         {
           "key": "offense",
@@ -488,7 +433,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.14
+          "pts": -0.77
         }
       ],
       "sample": {
@@ -517,7 +462,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T02:03:19Z",
+        "reportPulledAt": "2026-11-10T19:41:12Z",
         "source": "espn",
         "away": [
           {
@@ -530,28 +475,6 @@
             "expMin": 28.2,
             "value": 4.4,
             "impactPts": 1.89
-          },
-          {
-            "player": "Brandon Miller",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Groin Soreness",
-            "matched": true,
-            "expMin": 29.5,
-            "value": 3.66,
-            "impactPts": 1.57
-          },
-          {
-            "player": "Moussa Diabate",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Quadriceps",
-            "matched": true,
-            "expMin": 27.9,
-            "value": 3.12,
-            "impactPts": 1.34
           },
           {
             "player": "Grant Williams",

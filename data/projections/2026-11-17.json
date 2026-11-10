@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261117-NYK-TOR",
-      "generatedAt": "2026-11-10T05:30:47Z",
+      "generatedAt": "2026-11-10T19:41:12Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
       "awayPts": 109.7,
-      "homePts": 97.7,
-      "margin": -11.97,
-      "spreadHome": 12.0,
-      "total": 207.3,
+      "homePts": 104.0,
+      "margin": -5.67,
+      "spreadHome": 5.7,
+      "total": 213.6,
       "pace": 99.8,
-      "homeWinProb": 0.197,
-      "fairMlHome": 408,
-      "fairMlAway": -408,
+      "homeWinProb": 0.3432,
+      "fairMlHome": 191,
+      "fairMlAway": -191,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -10.84
+          "pts": -4.54
         }
       ],
       "sample": {
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T02:03:19Z",
+        "reportPulledAt": "2026-11-10T19:41:12Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -78,39 +78,6 @@
             "expMin": 26.7,
             "value": 10.57,
             "impactPts": 4.54
-          },
-          {
-            "player": "Scottie Barnes",
-            "team": "TOR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Groin Soreness",
-            "matched": true,
-            "expMin": 33.8,
-            "value": 7.63,
-            "impactPts": 3.28
-          },
-          {
-            "player": "Immanuel Quickley",
-            "team": "TOR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring",
-            "matched": true,
-            "expMin": 28.2,
-            "value": 4.64,
-            "impactPts": 1.99
-          },
-          {
-            "player": "Collin Murray-Boyles",
-            "team": "TOR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 23.2,
-            "value": 2.4,
-            "impactPts": 1.03
           },
           {
             "player": "Nate Bittle",
@@ -128,18 +95,18 @@
     },
     {
       "gameId": "20261117-DET-SAS",
-      "generatedAt": "2026-11-10T05:30:47Z",
+      "generatedAt": "2026-11-10T19:41:12Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
       "awayPts": 103.8,
-      "homePts": 110.3,
-      "margin": 6.5,
-      "spreadHome": -6.5,
-      "total": 214.1,
+      "homePts": 111.1,
+      "margin": 7.28,
+      "spreadHome": -7.3,
+      "total": 214.9,
       "pace": 102.1,
-      "homeWinProb": 0.6784,
-      "fairMlHome": -211,
-      "fairMlAway": 211,
+      "homeWinProb": 0.698,
+      "fairMlHome": -231,
+      "fairMlAway": 231,
       "contributions": [
         {
           "key": "offense",
@@ -163,7 +130,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.86
+          "pts": 3.64
         }
       ],
       "sample": {
@@ -192,7 +159,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T02:03:19Z",
+        "reportPulledAt": "2026-11-10T19:41:12Z",
         "source": "espn",
         "away": [
           {
@@ -231,17 +198,6 @@
             "impactPts": 1.32
           },
           {
-            "player": "Devin Vassell",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Groin",
-            "matched": true,
-            "expMin": 29.7,
-            "value": 1.82,
-            "impactPts": 0.78
-          },
-          {
             "player": "Jayden Quaintance",
             "team": "SAS",
             "status": "out",
@@ -257,7 +213,7 @@
     },
     {
       "gameId": "20261117-POR-MIN",
-      "generatedAt": "2026-11-10T05:30:47Z",
+      "generatedAt": "2026-11-10T19:41:12Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
       "awayPts": 106.5,
@@ -322,7 +278,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T02:03:19Z",
+        "reportPulledAt": "2026-11-10T19:41:12Z",
         "source": "espn",
         "away": [
           {
@@ -387,18 +343,18 @@
     },
     {
       "gameId": "20261117-UTA-LAC",
-      "generatedAt": "2026-11-10T05:30:47Z",
+      "generatedAt": "2026-11-10T19:41:12Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
-      "awayPts": 99.9,
+      "awayPts": 96.6,
       "homePts": 113.7,
-      "margin": 13.85,
-      "spreadHome": -13.8,
-      "total": 213.6,
+      "margin": 17.13,
+      "spreadHome": -17.1,
+      "total": 210.3,
       "pace": 101.5,
-      "homeWinProb": 0.8379,
-      "fairMlHome": -517,
-      "fairMlAway": 517,
+      "homeWinProb": 0.8887,
+      "fairMlHome": -798,
+      "fairMlAway": 798,
       "contributions": [
         {
           "key": "offense",
@@ -422,7 +378,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.5
+          "pts": 5.78
         }
       ],
       "sample": {
@@ -448,9 +404,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T02:03:19Z",
+        "reportPulledAt": "2026-11-10T19:41:12Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Lauri Markkanen",
+            "team": "UTA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Wrist Sprain",
+            "matched": true,
+            "expMin": 32.2,
+            "value": 7.65,
+            "impactPts": 3.28
+          },
           {
             "player": "Keyonte George",
             "team": "UTA",
@@ -535,18 +502,18 @@
     },
     {
       "gameId": "20261117-CHA-LAL",
-      "generatedAt": "2026-11-10T05:30:47Z",
+      "generatedAt": "2026-11-10T19:41:12Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
-      "awayPts": 99.2,
-      "homePts": 112.9,
-      "margin": 13.7,
-      "spreadHome": -13.7,
-      "total": 212.2,
+      "awayPts": 102.2,
+      "homePts": 116.7,
+      "margin": 14.54,
+      "spreadHome": -14.5,
+      "total": 218.8,
       "pace": 98.7,
-      "homeWinProb": 0.8353,
-      "fairMlHome": -507,
-      "fairMlAway": 507,
+      "homeWinProb": 0.8497,
+      "fairMlHome": -565,
+      "fairMlAway": 565,
       "contributions": [
         {
           "key": "offense",
@@ -570,7 +537,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.46
+          "pts": 2.3
         }
       ],
       "sample": {
@@ -596,7 +563,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T02:03:19Z",
+        "reportPulledAt": "2026-11-10T19:41:12Z",
         "source": "espn",
         "away": [
           {
@@ -609,28 +576,6 @@
             "expMin": 28.2,
             "value": 4.4,
             "impactPts": 1.89
-          },
-          {
-            "player": "Brandon Miller",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Groin Soreness",
-            "matched": true,
-            "expMin": 29.5,
-            "value": 3.66,
-            "impactPts": 1.57
-          },
-          {
-            "player": "Moussa Diabate",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Quadriceps",
-            "matched": true,
-            "expMin": 27.9,
-            "value": 3.12,
-            "impactPts": 1.34
           },
           {
             "player": "Grant Williams",
@@ -655,30 +600,7 @@
             "impactPts": 0.14
           }
         ],
-        "home": [
-          {
-            "player": "Austin Reaves",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 36.1,
-            "value": 8.32,
-            "impactPts": 3.57
-          },
-          {
-            "player": "Quentin Grimes",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Finger",
-            "matched": true,
-            "expMin": 26.8,
-            "value": 0.43,
-            "impactPts": 0.18
-          }
-        ]
+        "home": []
       }
     }
   ]
