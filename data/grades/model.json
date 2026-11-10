@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T01:02:59Z",
+  "generatedAt": "2026-11-10T01:23:06Z",
   "grades": [
     {
       "source": "model",
@@ -2891,6 +2891,25 @@
     },
     {
       "source": "model",
+      "gameId": "20261110-MIA-UTA",
+      "etDate": "2026-11-10",
+      "pickId": "model",
+      "market": "spread",
+      "side": "UTA",
+      "line": 10.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 4.1,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
+    },
+    {
+      "source": "model",
       "gameId": "20261110-MIL-NYK",
       "etDate": "2026-11-10",
       "pickId": "model",
@@ -2926,6 +2945,25 @@
       "clvProb": null,
       "closeMinutesBeforeTip": null,
       "finalScore": null
+    },
+    {
+      "source": "model",
+      "gameId": "20261110-ORL-SAC",
+      "etDate": "2026-11-10",
+      "pickId": "model",
+      "market": "spread",
+      "side": "SAC",
+      "line": 5.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 2.0,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
     }
   ],
   "summary": {
@@ -2933,7 +2971,7 @@
       "w": 66,
       "l": 77,
       "p": 0,
-      "pending": 11,
+      "pending": 13,
       "units": -16.999,
       "risked": 143.0,
       "roi": -0.1189,
@@ -2945,7 +2983,7 @@
       "w": 47,
       "l": 52,
       "p": 0,
-      "pending": 7,
+      "pending": 9,
       "units": -9.272,
       "risked": 99.0,
       "roi": -0.0937,
@@ -2957,7 +2995,7 @@
       "w": 32,
       "l": 30,
       "p": 0,
-      "pending": 4,
+      "pending": 5,
       "units": -0.909,
       "risked": 62.0,
       "roi": -0.0147,
