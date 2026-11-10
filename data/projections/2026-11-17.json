@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261117-NYK-TOR",
-      "generatedAt": "2026-11-10T21:51:56Z",
+      "generatedAt": "2026-11-10T22:02:00Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
       "awayPts": 109.7,
-      "homePts": 104.0,
-      "margin": -5.67,
-      "spreadHome": 5.7,
-      "total": 213.6,
+      "homePts": 100.7,
+      "margin": -8.95,
+      "spreadHome": 8.9,
+      "total": 210.4,
       "pace": 99.8,
-      "homeWinProb": 0.3432,
-      "fairMlHome": 191,
-      "fairMlAway": -191,
+      "homeWinProb": 0.262,
+      "fairMlHome": 282,
+      "fairMlAway": -282,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.54
+          "pts": -7.82
         }
       ],
       "sample": {
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T21:51:56Z",
+        "reportPulledAt": "2026-11-10T22:02:00Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -78,6 +78,17 @@
             "expMin": 26.7,
             "value": 10.57,
             "impactPts": 4.54
+          },
+          {
+            "player": "Scottie Barnes",
+            "team": "TOR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Groin Soreness",
+            "matched": true,
+            "expMin": 33.8,
+            "value": 7.63,
+            "impactPts": 3.28
           },
           {
             "player": "Nate Bittle",
@@ -95,7 +106,7 @@
     },
     {
       "gameId": "20261117-DET-SAS",
-      "generatedAt": "2026-11-10T21:51:56Z",
+      "generatedAt": "2026-11-10T22:02:00Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
       "awayPts": 103.8,
@@ -159,7 +170,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T21:51:56Z",
+        "reportPulledAt": "2026-11-10T22:02:00Z",
         "source": "espn",
         "away": [
           {
@@ -213,7 +224,7 @@
     },
     {
       "gameId": "20261117-POR-MIN",
-      "generatedAt": "2026-11-10T21:51:56Z",
+      "generatedAt": "2026-11-10T22:02:00Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
       "awayPts": 106.5,
@@ -278,7 +289,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T21:51:56Z",
+        "reportPulledAt": "2026-11-10T22:02:00Z",
         "source": "espn",
         "away": [
           {
@@ -343,7 +354,7 @@
     },
     {
       "gameId": "20261117-UTA-LAC",
-      "generatedAt": "2026-11-10T21:51:56Z",
+      "generatedAt": "2026-11-10T22:02:00Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
       "awayPts": 96.6,
@@ -404,7 +415,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T21:51:56Z",
+        "reportPulledAt": "2026-11-10T22:02:00Z",
         "source": "espn",
         "away": [
           {
@@ -502,7 +513,7 @@
     },
     {
       "gameId": "20261117-CHA-LAL",
-      "generatedAt": "2026-11-10T21:51:56Z",
+      "generatedAt": "2026-11-10T22:02:00Z",
       "ratingsAsOf": "2026-11-10T05:30:47Z",
       "modelVersion": "v2.0",
       "awayPts": 102.2,
@@ -563,7 +574,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-10T21:51:56Z",
+        "reportPulledAt": "2026-11-10T22:02:00Z",
         "source": "espn",
         "away": [
           {
