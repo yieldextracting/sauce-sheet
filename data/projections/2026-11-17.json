@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261117-NYK-TOR",
-      "generatedAt": "2026-11-11T16:06:13Z",
+      "generatedAt": "2026-11-11T22:41:10Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.9,
+      "awayPts": 109.8,
       "homePts": 99.8,
-      "margin": -9.1,
-      "spreadHome": 9.1,
-      "total": 208.7,
+      "margin": -9.94,
+      "spreadHome": 9.9,
+      "total": 209.6,
       "pace": 99.4,
-      "homeWinProb": 0.2584,
-      "fairMlHome": 287,
-      "fairMlAway": -287,
+      "homeWinProb": 0.2395,
+      "fairMlHome": 318,
+      "fairMlAway": -318,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -6.98
+          "pts": -7.82
         }
       ],
       "sample": {
@@ -64,21 +64,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T16:06:13Z",
+        "reportPulledAt": "2026-11-11T22:41:10Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Josh Hart",
-            "team": "NYK",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 30.8,
-            "value": 1.97,
-            "impactPts": 0.84
-          }
-        ],
+        "away": [],
         "home": [
           {
             "player": "Kawhi Leonard",
@@ -103,6 +91,17 @@
             "impactPts": 3.28
           },
           {
+            "player": "Trayce Jackson-Davis",
+            "team": "TOR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 7.2,
+            "value": 1.03,
+            "impactPts": 0.0
+          },
+          {
             "player": "Nate Bittle",
             "team": "TOR",
             "status": "out",
@@ -118,7 +117,7 @@
     },
     {
       "gameId": "20261117-DET-SAS",
-      "generatedAt": "2026-11-11T16:06:13Z",
+      "generatedAt": "2026-11-11T22:41:10Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 103.8,
@@ -182,7 +181,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T16:06:13Z",
+        "reportPulledAt": "2026-11-11T22:41:10Z",
         "source": "espn",
         "away": [
           {
@@ -236,7 +235,7 @@
     },
     {
       "gameId": "20261117-POR-MIN",
-      "generatedAt": "2026-11-11T16:06:13Z",
+      "generatedAt": "2026-11-11T22:41:10Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 107.4,
@@ -301,7 +300,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T16:06:13Z",
+        "reportPulledAt": "2026-11-11T22:41:10Z",
         "source": "espn",
         "away": [
           {
@@ -325,6 +324,17 @@
             "expMin": 29.4,
             "value": 4.47,
             "impactPts": 1.92
+          },
+          {
+            "player": "Chris Youngblood",
+            "team": "POR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot Bruise",
+            "matched": true,
+            "expMin": 10.7,
+            "value": 0.0,
+            "impactPts": 0.0
           },
           {
             "player": "Vit Krejci",
@@ -366,18 +376,18 @@
     },
     {
       "gameId": "20261117-UTA-LAC",
-      "generatedAt": "2026-11-11T16:06:13Z",
+      "generatedAt": "2026-11-11T22:41:10Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
-      "awayPts": 103.7,
+      "awayPts": 100.4,
       "homePts": 113.4,
-      "margin": 9.76,
-      "spreadHome": -9.8,
-      "total": 217.1,
+      "margin": 13.04,
+      "spreadHome": -13.0,
+      "total": 213.8,
       "pace": 101.8,
-      "homeWinProb": 0.7565,
-      "fairMlHome": -311,
-      "fairMlAway": 311,
+      "homeWinProb": 0.8235,
+      "fairMlHome": -466,
+      "fairMlAway": 466,
       "contributions": [
         {
           "key": "offense",
@@ -401,7 +411,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.54
+          "pts": 2.74
         }
       ],
       "sample": {
@@ -427,9 +437,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T16:06:13Z",
+        "reportPulledAt": "2026-11-11T22:41:10Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Lauri Markkanen",
+            "team": "UTA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hand Fracture",
+            "matched": true,
+            "expMin": 32.2,
+            "value": 7.65,
+            "impactPts": 3.28
+          },
           {
             "player": "Jaren Jackson Jr.",
             "team": "UTA",
@@ -503,18 +524,18 @@
     },
     {
       "gameId": "20261117-CHA-LAL",
-      "generatedAt": "2026-11-11T16:06:13Z",
+      "generatedAt": "2026-11-11T22:41:10Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 102.1,
-      "homePts": 116.6,
-      "margin": 14.54,
-      "spreadHome": -14.5,
-      "total": 218.8,
+      "homePts": 116.5,
+      "margin": 14.36,
+      "spreadHome": -14.4,
+      "total": 218.6,
       "pace": 98.7,
-      "homeWinProb": 0.8498,
-      "fairMlHome": -566,
-      "fairMlAway": 566,
+      "homeWinProb": 0.8468,
+      "fairMlHome": -553,
+      "fairMlAway": 553,
       "contributions": [
         {
           "key": "offense",
@@ -538,7 +559,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.3
+          "pts": 2.12
         }
       ],
       "sample": {
@@ -564,7 +585,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T16:06:13Z",
+        "reportPulledAt": "2026-11-11T22:41:10Z",
         "source": "espn",
         "away": [
           {
@@ -601,7 +622,19 @@
             "impactPts": 0.14
           }
         ],
-        "home": []
+        "home": [
+          {
+            "player": "Quentin Grimes",
+            "team": "LAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Finger",
+            "matched": true,
+            "expMin": 26.8,
+            "value": 0.43,
+            "impactPts": 0.18
+          }
+        ]
       }
     }
   ]
