@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T03:04:59Z",
+  "generatedAt": "2026-11-11T03:25:07Z",
   "grades": [
     {
       "source": "model",
@@ -2880,14 +2880,14 @@
       "line": -1.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "win",
+      "profitU": 0.9091,
       "edge": 2.9,
       "closingLine": -1.5,
       "clvPts": 0.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 37,
-      "finalScore": null
+      "finalScore": "123-101"
     },
     {
       "source": "model",
@@ -3005,6 +3005,25 @@
     },
     {
       "source": "model",
+      "gameId": "20261111-CLE-NYK",
+      "etDate": "2026-11-11",
+      "pickId": "model",
+      "market": "spread",
+      "side": "CLE",
+      "line": 4.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 0.8,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
+    },
+    {
+      "source": "model",
       "gameId": "20261111-DEN-MEM",
       "etDate": "2026-11-11",
       "pickId": "model",
@@ -3101,28 +3120,28 @@
   ],
   "summary": {
     "all": {
-      "w": 72,
+      "w": 73,
       "l": 80,
       "p": 0,
       "pending": 11,
-      "units": -14.545,
-      "risked": 152.0,
-      "roi": -0.0957,
-      "clvPtsAvg": 0.197,
-      "beatClosePct": 0.3158,
-      "clvN": 152
+      "units": -13.636,
+      "risked": 153.0,
+      "roi": -0.0891,
+      "clvPtsAvg": 0.196,
+      "beatClosePct": 0.3137,
+      "clvN": 153
     },
     "edge1.5": {
-      "w": 50,
+      "w": 51,
       "l": 54,
       "p": 0,
-      "pending": 8,
-      "units": -8.545,
-      "risked": 104.0,
-      "roi": -0.0822,
-      "clvPtsAvg": 0.452,
-      "beatClosePct": 0.3942,
-      "clvN": 104
+      "pending": 7,
+      "units": -7.636,
+      "risked": 105.0,
+      "roi": -0.0727,
+      "clvPtsAvg": 0.448,
+      "beatClosePct": 0.3905,
+      "clvN": 105
     },
     "edge3": {
       "w": 34,
