@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261114-DEN-NOP",
-      "generatedAt": "2026-11-11T22:51:13Z",
+      "generatedAt": "2026-11-11T23:31:34Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 118.9,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T22:51:13Z",
+        "reportPulledAt": "2026-11-11T23:31:34Z",
         "source": "espn",
         "away": [
           {
@@ -121,7 +121,7 @@
     },
     {
       "gameId": "20261114-DAL-CLE",
-      "generatedAt": "2026-11-11T22:51:13Z",
+      "generatedAt": "2026-11-11T23:31:34Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 115.3,
@@ -186,7 +186,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T22:51:13Z",
+        "reportPulledAt": "2026-11-11T23:31:34Z",
         "source": "espn",
         "away": [
           {
@@ -251,7 +251,7 @@
     },
     {
       "gameId": "20261114-BKN-MEM",
-      "generatedAt": "2026-11-11T22:51:13Z",
+      "generatedAt": "2026-11-11T23:31:34Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 107.1,
@@ -315,7 +315,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T22:51:13Z",
+        "reportPulledAt": "2026-11-11T23:31:34Z",
         "source": "espn",
         "away": [
           {
@@ -380,18 +380,18 @@
     },
     {
       "gameId": "20261114-CHI-MIN",
-      "generatedAt": "2026-11-11T22:51:13Z",
+      "generatedAt": "2026-11-11T23:31:34Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.7,
+      "awayPts": 105.3,
       "homePts": 124.0,
-      "margin": 16.36,
-      "spreadHome": -16.4,
-      "total": 231.7,
+      "margin": 18.77,
+      "spreadHome": -18.8,
+      "total": 229.3,
       "pace": 107.1,
-      "homeWinProb": 0.878,
-      "fairMlHome": -720,
-      "fairMlAway": 720,
+      "homeWinProb": 0.9093,
+      "fairMlHome": -1003,
+      "fairMlAway": 1003,
       "contributions": [
         {
           "key": "offense",
@@ -415,7 +415,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.35
+          "pts": -2.94
         }
       ],
       "sample": {
@@ -444,9 +444,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T22:51:13Z",
+        "reportPulledAt": "2026-11-11T23:31:34Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Norman Powell",
+            "team": "CHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Shoulder Inflammation",
+            "matched": true,
+            "expMin": 29.0,
+            "value": 5.6,
+            "impactPts": 2.41
+          },
           {
             "player": "Tobe Awaka",
             "team": "CHI",
@@ -487,7 +498,7 @@
     },
     {
       "gameId": "20261114-DET-MIA",
-      "generatedAt": "2026-11-11T22:51:13Z",
+      "generatedAt": "2026-11-11T23:31:34Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 113.7,
@@ -550,7 +561,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T22:51:13Z",
+        "reportPulledAt": "2026-11-11T23:31:34Z",
         "source": "espn",
         "away": [
           {
