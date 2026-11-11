@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261114-DEN-NOP",
-      "generatedAt": "2026-11-11T23:41:38Z",
+      "generatedAt": "2026-11-11T23:51:41Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 118.9,
-      "homePts": 111.2,
-      "margin": -7.72,
-      "spreadHome": 7.7,
-      "total": 230.1,
+      "homePts": 109.0,
+      "margin": -9.94,
+      "spreadHome": 9.9,
+      "total": 227.9,
       "pace": 101.0,
-      "homeWinProb": 0.2912,
-      "fairMlHome": 243,
-      "fairMlAway": -243,
+      "homeWinProb": 0.2395,
+      "fairMlHome": 318,
+      "fairMlAway": -318,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.44
+          "pts": -3.66
         }
       ],
       "sample": {
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T23:41:37Z",
+        "reportPulledAt": "2026-11-11T23:51:40Z",
         "source": "espn",
         "away": [
           {
@@ -83,6 +83,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Trey Murphy III",
+            "team": "NOP",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Tendinitis",
+            "matched": true,
+            "expMin": 33.6,
+            "value": 5.17,
+            "impactPts": 2.22
+          },
           {
             "player": "Yves Missi",
             "team": "NOP",
@@ -121,7 +132,7 @@
     },
     {
       "gameId": "20261114-DAL-CLE",
-      "generatedAt": "2026-11-11T23:41:38Z",
+      "generatedAt": "2026-11-11T23:51:41Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 115.3,
@@ -186,7 +197,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T23:41:37Z",
+        "reportPulledAt": "2026-11-11T23:51:40Z",
         "source": "espn",
         "away": [
           {
@@ -240,7 +251,7 @@
     },
     {
       "gameId": "20261114-BKN-MEM",
-      "generatedAt": "2026-11-11T23:41:38Z",
+      "generatedAt": "2026-11-11T23:51:41Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 107.1,
@@ -304,7 +315,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T23:41:37Z",
+        "reportPulledAt": "2026-11-11T23:51:40Z",
         "source": "espn",
         "away": [
           {
@@ -369,7 +380,7 @@
     },
     {
       "gameId": "20261114-CHI-MIN",
-      "generatedAt": "2026-11-11T23:41:38Z",
+      "generatedAt": "2026-11-11T23:51:41Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 105.3,
@@ -433,7 +444,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T23:41:37Z",
+        "reportPulledAt": "2026-11-11T23:51:40Z",
         "source": "espn",
         "away": [
           {
@@ -487,7 +498,7 @@
     },
     {
       "gameId": "20261114-DET-MIA",
-      "generatedAt": "2026-11-11T23:41:38Z",
+      "generatedAt": "2026-11-11T23:51:41Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 113.7,
@@ -550,7 +561,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-11T23:41:37Z",
+        "reportPulledAt": "2026-11-11T23:51:40Z",
         "source": "espn",
         "away": [
           {
