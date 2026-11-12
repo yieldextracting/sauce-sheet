@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261119-GSW-MEM",
-      "generatedAt": "2026-11-12T23:18:16Z",
+      "generatedAt": "2026-11-12T23:28:20Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 102.7,
-      "homePts": 111.6,
-      "margin": 8.96,
-      "spreadHome": -9.0,
-      "total": 214.3,
+      "homePts": 109.8,
+      "margin": 7.1,
+      "spreadHome": -7.1,
+      "total": 212.4,
       "pace": 102.3,
-      "homeWinProb": 0.7383,
-      "fairMlHome": -282,
-      "fairMlAway": 282,
+      "homeWinProb": 0.6934,
+      "fairMlHome": -226,
+      "fairMlAway": 226,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 12.7
+          "pts": 10.84
         }
       ],
       "sample": {
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T23:18:16Z",
+        "reportPulledAt": "2026-11-12T23:28:20Z",
         "source": "espn",
         "away": [
           {
@@ -130,6 +130,17 @@
         ],
         "home": [
           {
+            "player": "Zach Edey",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle",
+            "matched": true,
+            "expMin": 22.1,
+            "value": 3.87,
+            "impactPts": 1.66
+          },
+          {
             "player": "Scotty Pippen Jr.",
             "team": "MEM",
             "status": "out",
@@ -139,6 +150,17 @@
             "expMin": 18.5,
             "value": 2.0,
             "impactPts": 0.86
+          },
+          {
+            "player": "Quinten Post",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Concussion",
+            "matched": true,
+            "expMin": 13.4,
+            "value": 0.48,
+            "impactPts": 0.2
           },
           {
             "player": "Richie Saunders",
@@ -156,7 +178,7 @@
     },
     {
       "gameId": "20261119-LAC-SAS",
-      "generatedAt": "2026-11-12T23:18:16Z",
+      "generatedAt": "2026-11-12T23:28:20Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 102.2,
@@ -219,7 +241,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T23:18:16Z",
+        "reportPulledAt": "2026-11-12T23:28:20Z",
         "source": "espn",
         "away": [
           {
@@ -295,7 +317,7 @@
     },
     {
       "gameId": "20261119-NYK-MIN",
-      "generatedAt": "2026-11-12T23:18:16Z",
+      "generatedAt": "2026-11-12T23:28:20Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 106.7,
@@ -358,7 +380,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T23:18:16Z",
+        "reportPulledAt": "2026-11-12T23:28:20Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -389,7 +411,7 @@
     },
     {
       "gameId": "20261119-POR-MIL",
-      "generatedAt": "2026-11-12T23:18:16Z",
+      "generatedAt": "2026-11-12T23:28:20Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 117.2,
@@ -454,7 +476,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T23:18:16Z",
+        "reportPulledAt": "2026-11-12T23:28:20Z",
         "source": "espn",
         "away": [
           {

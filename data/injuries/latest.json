@@ -1,18 +1,18 @@
 {
-  "pulledAt": "2026-11-12T23:18:16Z",
+  "pulledAt": "2026-11-12T23:28:20Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
   "errors": [],
   "items": [
     {
-      "player": "Kingston Flemings",
-      "key": "kingstonflemings",
+      "player": "Keshon Gilbert",
+      "key": "keshongilbert",
       "team": "ATL",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Back",
-      "espnId": "5149077",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Knee Inflammation",
+      "espnId": "4585618",
       "gameId": "20261113-ATL-CHI",
       "source": "espn"
     },
@@ -28,13 +28,13 @@
       "source": "espn"
     },
     {
-      "player": "Keshon Gilbert",
-      "key": "keshongilbert",
+      "player": "Kingston Flemings",
+      "key": "kingstonflemings",
       "team": "ATL",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Knee Inflammation",
-      "espnId": "4585618",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Back",
+      "espnId": "5149077",
       "gameId": "20261113-ATL-CHI",
       "source": "espn"
     },
@@ -222,17 +222,6 @@
       "pPlay": 0.0,
       "reason": "Knee Strain",
       "espnId": "5279129",
-      "gameId": "20261112-DAL-MIN",
-      "source": "espn"
-    },
-    {
-      "player": "Morez Johnson Jr.",
-      "key": "morezjohnsonjr",
-      "team": "DAL",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Lower Leg Bruise",
-      "espnId": "4873153",
       "gameId": "20261112-DAL-MIN",
       "source": "espn"
     },
@@ -526,10 +515,21 @@
       "player": "Quinten Post",
       "key": "quintenpost",
       "team": "MEM",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Concussion",
       "espnId": "4593016",
+      "gameId": "20261113-MEM-NOP",
+      "source": "espn"
+    },
+    {
+      "player": "Zach Edey",
+      "key": "zachedey",
+      "team": "MEM",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Ankle",
+      "espnId": "4600663",
       "gameId": "20261113-MEM-NOP",
       "source": "espn"
     },
