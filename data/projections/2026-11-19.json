@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261119-GSW-MEM",
-      "generatedAt": "2026-11-12T05:34:18Z",
+      "generatedAt": "2026-11-12T20:27:18Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.9,
-      "homePts": 111.4,
-      "margin": 4.47,
-      "spreadHome": -4.5,
-      "total": 218.4,
+      "awayPts": 102.7,
+      "homePts": 111.6,
+      "margin": 8.96,
+      "spreadHome": -9.0,
+      "total": 214.3,
       "pace": 102.3,
-      "homeWinProb": 0.6249,
-      "fairMlHome": -167,
-      "fairMlAway": 167,
+      "homeWinProb": 0.7383,
+      "fairMlHome": -282,
+      "fairMlAway": 282,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 8.21
+          "pts": 12.7
         }
       ],
       "sample": {
@@ -69,9 +69,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T02:52:42Z",
+        "reportPulledAt": "2026-11-12T20:27:18Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Stephen Curry",
+            "team": "GSW",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Abdomen",
+            "matched": true,
+            "expMin": 26.5,
+            "value": 11.35,
+            "impactPts": 4.87
+          },
           {
             "player": "Jimmy Butler III",
             "team": "GSW",
@@ -115,17 +126,6 @@
             "expMin": 25.7,
             "value": 1.9,
             "impactPts": 0.82
-          },
-          {
-            "player": "Gary Payton II",
-            "team": "GSW",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Inflammation",
-            "matched": true,
-            "expMin": 12.1,
-            "value": 1.35,
-            "impactPts": 0.58
           }
         ],
         "home": [
@@ -139,17 +139,6 @@
             "expMin": 18.5,
             "value": 2.0,
             "impactPts": 0.86
-          },
-          {
-            "player": "Quinten Post",
-            "team": "MEM",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Head",
-            "matched": true,
-            "expMin": 13.4,
-            "value": 0.48,
-            "impactPts": 0.2
           },
           {
             "player": "Richie Saunders",
@@ -167,18 +156,18 @@
     },
     {
       "gameId": "20261119-LAC-SAS",
-      "generatedAt": "2026-11-12T05:34:18Z",
+      "generatedAt": "2026-11-12T20:27:18Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 102.2,
-      "homePts": 116.0,
-      "margin": 13.79,
-      "spreadHome": -13.8,
-      "total": 218.2,
+      "homePts": 116.8,
+      "margin": 14.57,
+      "spreadHome": -14.6,
+      "total": 219.0,
       "pace": 100.3,
-      "homeWinProb": 0.8369,
-      "fairMlHome": -513,
-      "fairMlAway": 513,
+      "homeWinProb": 0.8502,
+      "fairMlHome": -568,
+      "fairMlAway": 568,
       "contributions": [
         {
           "key": "offense",
@@ -202,7 +191,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.84
+          "pts": 2.62
         }
       ],
       "sample": {
@@ -230,7 +219,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T02:52:42Z",
+        "reportPulledAt": "2026-11-12T20:27:18Z",
         "source": "espn",
         "away": [
           {
@@ -291,17 +280,6 @@
             "impactPts": 1.32
           },
           {
-            "player": "Devin Vassell",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Groin",
-            "matched": true,
-            "expMin": 29.7,
-            "value": 1.82,
-            "impactPts": 0.78
-          },
-          {
             "player": "Jayden Quaintance",
             "team": "SAS",
             "status": "out",
@@ -317,7 +295,7 @@
     },
     {
       "gameId": "20261119-NYK-MIN",
-      "generatedAt": "2026-11-12T05:34:18Z",
+      "generatedAt": "2026-11-12T20:27:18Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 106.7,
@@ -380,7 +358,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T02:52:42Z",
+        "reportPulledAt": "2026-11-12T20:27:18Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -411,18 +389,18 @@
     },
     {
       "gameId": "20261119-POR-MIL",
-      "generatedAt": "2026-11-12T05:34:18Z",
+      "generatedAt": "2026-11-12T20:27:18Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 117.2,
-      "homePts": 107.7,
-      "margin": -9.46,
-      "spreadHome": 9.5,
+      "homePts": 107.8,
+      "margin": -9.4,
+      "spreadHome": 9.4,
       "total": 224.9,
       "pace": 102.4,
-      "homeWinProb": 0.2502,
-      "fairMlHome": 300,
-      "fairMlAway": -300,
+      "homeWinProb": 0.2515,
+      "fairMlHome": 298,
+      "fairMlAway": -298,
       "contributions": [
         {
           "key": "offense",
@@ -446,7 +424,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.48
+          "pts": 4.54
         }
       ],
       "sample": {
@@ -476,7 +454,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T02:52:42Z",
+        "reportPulledAt": "2026-11-12T20:27:18Z",
         "source": "espn",
         "away": [
           {
@@ -502,17 +480,6 @@
             "impactPts": 1.92
           },
           {
-            "player": "Chris Youngblood",
-            "team": "POR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Foot Bruise",
-            "matched": true,
-            "expMin": 10.7,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
             "player": "Vit Krejci",
             "team": "POR",
             "status": "out",
@@ -524,19 +491,7 @@
             "impactPts": 0.0
           }
         ],
-        "home": [
-          {
-            "player": "Myles Turner",
-            "team": "MIL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Rest",
-            "matched": true,
-            "expMin": 27.0,
-            "value": 0.14,
-            "impactPts": 0.06
-          }
-        ]
+        "home": []
       }
     }
   ]

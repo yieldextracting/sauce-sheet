@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261117-NYK-TOR",
-      "generatedAt": "2026-11-12T05:34:18Z",
+      "generatedAt": "2026-11-12T20:27:18Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 108.9,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T02:52:42Z",
+        "reportPulledAt": "2026-11-12T20:27:18Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -117,18 +117,18 @@
     },
     {
       "gameId": "20261117-DET-SAS",
-      "generatedAt": "2026-11-12T05:34:18Z",
+      "generatedAt": "2026-11-12T20:27:18Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 104.3,
-      "homePts": 110.1,
-      "margin": 5.87,
-      "spreadHome": -5.9,
-      "total": 214.4,
+      "homePts": 110.9,
+      "margin": 6.65,
+      "spreadHome": -6.7,
+      "total": 215.2,
       "pace": 101.7,
-      "homeWinProb": 0.6621,
-      "fairMlHome": -196,
-      "fairMlAway": 196,
+      "homeWinProb": 0.6822,
+      "fairMlHome": -215,
+      "fairMlAway": 215,
       "contributions": [
         {
           "key": "offense",
@@ -152,7 +152,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.86
+          "pts": 3.64
         }
       ],
       "sample": {
@@ -181,7 +181,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T02:52:42Z",
+        "reportPulledAt": "2026-11-12T20:27:18Z",
         "source": "espn",
         "away": [
           {
@@ -220,17 +220,6 @@
             "impactPts": 1.32
           },
           {
-            "player": "Devin Vassell",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Groin",
-            "matched": true,
-            "expMin": 29.7,
-            "value": 1.82,
-            "impactPts": 0.78
-          },
-          {
             "player": "Jayden Quaintance",
             "team": "SAS",
             "status": "out",
@@ -246,7 +235,7 @@
     },
     {
       "gameId": "20261117-POR-MIN",
-      "generatedAt": "2026-11-12T05:34:18Z",
+      "generatedAt": "2026-11-12T20:27:18Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 107.7,
@@ -311,7 +300,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T02:52:42Z",
+        "reportPulledAt": "2026-11-12T20:27:18Z",
         "source": "espn",
         "away": [
           {
@@ -335,17 +324,6 @@
             "expMin": 29.4,
             "value": 4.47,
             "impactPts": 1.92
-          },
-          {
-            "player": "Chris Youngblood",
-            "team": "POR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Foot Bruise",
-            "matched": true,
-            "expMin": 10.7,
-            "value": 0.0,
-            "impactPts": 0.0
           },
           {
             "player": "Vit Krejci",
@@ -387,18 +365,18 @@
     },
     {
       "gameId": "20261117-UTA-LAC",
-      "generatedAt": "2026-11-12T05:34:18Z",
+      "generatedAt": "2026-11-12T20:27:18Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
-      "awayPts": 100.2,
+      "awayPts": 99.9,
       "homePts": 113.9,
-      "margin": 13.71,
-      "spreadHome": -13.7,
-      "total": 214.0,
+      "margin": 13.98,
+      "spreadHome": -14.0,
+      "total": 213.8,
       "pace": 101.7,
-      "homeWinProb": 0.8356,
-      "fairMlHome": -508,
-      "fairMlAway": 508,
+      "homeWinProb": 0.8403,
+      "fairMlHome": -526,
+      "fairMlAway": 526,
       "contributions": [
         {
           "key": "offense",
@@ -422,7 +400,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.74
+          "pts": 3.01
         }
       ],
       "sample": {
@@ -448,7 +426,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T02:52:42Z",
+        "reportPulledAt": "2026-11-12T20:27:18Z",
         "source": "espn",
         "away": [
           {
@@ -483,6 +461,17 @@
             "expMin": 26.4,
             "value": 3.92,
             "impactPts": 1.68
+          },
+          {
+            "player": "Trey Alexander",
+            "team": "UTA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Sprain",
+            "matched": true,
+            "expMin": 12.3,
+            "value": 0.63,
+            "impactPts": 0.27
           }
         ],
         "home": [
@@ -535,18 +524,18 @@
     },
     {
       "gameId": "20261117-CHA-LAL",
-      "generatedAt": "2026-11-12T05:34:18Z",
+      "generatedAt": "2026-11-12T20:27:18Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
-      "awayPts": 100.9,
-      "homePts": 116.4,
-      "margin": 15.51,
-      "spreadHome": -15.5,
-      "total": 217.2,
+      "awayPts": 101.1,
+      "homePts": 116.6,
+      "margin": 15.42,
+      "spreadHome": -15.4,
+      "total": 217.7,
       "pace": 98.8,
-      "homeWinProb": 0.8653,
-      "fairMlHome": -642,
-      "fairMlAway": 642,
+      "homeWinProb": 0.8639,
+      "fairMlHome": -635,
+      "fairMlAway": 635,
       "contributions": [
         {
           "key": "offense",
@@ -570,7 +559,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.69
+          "pts": 3.6
         }
       ],
       "sample": {
@@ -596,7 +585,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T02:52:42Z",
+        "reportPulledAt": "2026-11-12T20:27:18Z",
         "source": "espn",
         "away": [
           {
@@ -622,17 +611,6 @@
             "impactPts": 1.57
           },
           {
-            "player": "Grant Williams",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring",
-            "matched": true,
-            "expMin": 17.2,
-            "value": 0.62,
-            "impactPts": 0.27
-          },
-          {
             "player": "Dennis Schroder",
             "team": "CHA",
             "status": "out",
@@ -644,19 +622,7 @@
             "impactPts": 0.14
           }
         ],
-        "home": [
-          {
-            "player": "Quentin Grimes",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Finger",
-            "matched": true,
-            "expMin": 26.8,
-            "value": 0.43,
-            "impactPts": 0.18
-          }
-        ]
+        "home": []
       }
     }
   ]
