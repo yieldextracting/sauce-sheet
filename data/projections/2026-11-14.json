@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261114-DEN-NOP",
-      "generatedAt": "2026-11-12T21:37:44Z",
+      "generatedAt": "2026-11-12T21:47:48Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 120.8,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T21:37:44Z",
+        "reportPulledAt": "2026-11-12T21:47:47Z",
         "source": "espn",
         "away": [
           {
@@ -110,7 +110,7 @@
     },
     {
       "gameId": "20261114-DAL-CLE",
-      "generatedAt": "2026-11-12T21:37:44Z",
+      "generatedAt": "2026-11-12T21:47:48Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 115.0,
@@ -175,7 +175,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T21:37:44Z",
+        "reportPulledAt": "2026-11-12T21:47:47Z",
         "source": "espn",
         "away": [
           {
@@ -229,7 +229,7 @@
     },
     {
       "gameId": "20261114-BKN-MEM",
-      "generatedAt": "2026-11-12T21:37:44Z",
+      "generatedAt": "2026-11-12T21:47:48Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 110.1,
@@ -293,7 +293,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T21:37:44Z",
+        "reportPulledAt": "2026-11-12T21:47:47Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -324,18 +324,18 @@
     },
     {
       "gameId": "20261114-CHI-MIN",
-      "generatedAt": "2026-11-12T21:37:44Z",
+      "generatedAt": "2026-11-12T21:47:48Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.3,
+      "awayPts": 107.2,
       "homePts": 124.0,
-      "margin": 15.66,
-      "spreadHome": -15.7,
-      "total": 232.2,
+      "margin": 16.71,
+      "spreadHome": -16.7,
+      "total": 231.2,
       "pace": 106.8,
-      "homeWinProb": 0.8676,
-      "fairMlHome": -655,
-      "fairMlAway": 655,
+      "homeWinProb": 0.8829,
+      "fairMlHome": -754,
+      "fairMlAway": 754,
       "contributions": [
         {
           "key": "offense",
@@ -359,7 +359,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.35
+          "pts": -4.3
         }
       ],
       "sample": {
@@ -388,9 +388,21 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T21:37:44Z",
+        "reportPulledAt": "2026-11-12T21:47:47Z",
         "source": "espn",
-        "away": [],
+        "away": [
+          {
+            "player": "Caleb Wilson",
+            "team": "CHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hand",
+            "matched": true,
+            "expMin": 21.6,
+            "value": 2.44,
+            "impactPts": 1.05
+          }
+        ],
         "home": [
           {
             "player": "Anthony Edwards",
@@ -419,7 +431,7 @@
     },
     {
       "gameId": "20261114-DET-MIA",
-      "generatedAt": "2026-11-12T21:37:44Z",
+      "generatedAt": "2026-11-12T21:47:48Z",
       "ratingsAsOf": "2026-11-12T05:34:18Z",
       "modelVersion": "v2.0",
       "awayPts": 113.8,
@@ -482,7 +494,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T21:37:44Z",
+        "reportPulledAt": "2026-11-12T21:47:47Z",
         "source": "espn",
         "away": [
           {
