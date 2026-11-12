@@ -363,7 +363,7 @@
     },
     {
       "gameId": "20261111-BKN-NOP",
-      "generatedAt": "2026-11-12T00:41:57Z",
+      "generatedAt": "2026-11-12T00:52:00Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 110.0,
@@ -427,7 +427,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T00:41:56Z",
+        "reportPulledAt": "2026-11-12T00:52:00Z",
         "source": "espn",
         "away": [
           {
@@ -503,7 +503,7 @@
     },
     {
       "gameId": "20261111-DEN-MEM",
-      "generatedAt": "2026-11-12T00:41:57Z",
+      "generatedAt": "2026-11-12T00:52:00Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 113.6,
@@ -564,7 +564,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T00:41:56Z",
+        "reportPulledAt": "2026-11-12T00:52:00Z",
         "source": "espn",
         "away": [
           {
@@ -618,7 +618,7 @@
     },
     {
       "gameId": "20261111-LAL-MIL",
-      "generatedAt": "2026-11-12T00:41:57Z",
+      "generatedAt": "2026-11-12T00:52:00Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 123.2,
@@ -683,7 +683,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T00:41:56Z",
+        "reportPulledAt": "2026-11-12T00:52:00Z",
         "source": "espn",
         "away": [
           {
@@ -715,18 +715,18 @@
     },
     {
       "gameId": "20261111-SAS-CHI",
-      "generatedAt": "2026-11-12T00:41:57Z",
+      "generatedAt": "2026-11-12T00:52:00Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 125.1,
-      "homePts": 108.1,
-      "margin": -17.0,
-      "spreadHome": 17.0,
-      "total": 233.3,
+      "homePts": 108.6,
+      "margin": -16.5,
+      "spreadHome": 16.5,
+      "total": 233.8,
       "pace": 106.3,
-      "homeWinProb": 0.113,
-      "fairMlHome": 785,
-      "fairMlAway": -785,
+      "homeWinProb": 0.12,
+      "fairMlHome": 734,
+      "fairMlAway": -734,
       "contributions": [
         {
           "key": "offense",
@@ -750,7 +750,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.81
+          "pts": -0.31
         }
       ],
       "sample": {
@@ -778,7 +778,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T00:41:56Z",
+        "reportPulledAt": "2026-11-12T00:52:00Z",
         "source": "espn",
         "away": [
           {
@@ -828,17 +828,6 @@
             "impactPts": 2.41
           },
           {
-            "player": "Caleb Wilson",
-            "team": "CHI",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": null,
-            "matched": true,
-            "expMin": 22.6,
-            "value": 2.32,
-            "impactPts": 0.5
-          },
-          {
             "player": "Dailyn Swain",
             "team": "CHI",
             "status": "out",
@@ -865,7 +854,7 @@
     },
     {
       "gameId": "20261111-ORL-UTA",
-      "generatedAt": "2026-11-12T00:41:57Z",
+      "generatedAt": "2026-11-12T00:52:00Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
@@ -931,7 +920,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T00:41:56Z",
+        "reportPulledAt": "2026-11-12T00:52:00Z",
         "source": "espn",
         "away": [
           {
@@ -1062,7 +1051,7 @@
     },
     {
       "gameId": "20261111-GSW-HOU",
-      "generatedAt": "2026-11-12T00:41:57Z",
+      "generatedAt": "2026-11-12T00:52:00Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 99.0,
@@ -1125,7 +1114,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T00:41:56Z",
+        "reportPulledAt": "2026-11-12T00:52:00Z",
         "source": "espn",
         "away": [
           {
@@ -1182,17 +1171,6 @@
             "expMin": 12.1,
             "value": 1.35,
             "impactPts": 0.58
-          },
-          {
-            "player": "Will Richard",
-            "team": "GSW",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Thumb",
-            "matched": true,
-            "expMin": 18.0,
-            "value": 0.0,
-            "impactPts": 0.0
           }
         ],
         "home": [
@@ -1223,7 +1201,7 @@
     },
     {
       "gameId": "20261111-OKC-POR",
-      "generatedAt": "2026-11-12T00:41:57Z",
+      "generatedAt": "2026-11-12T00:52:00Z",
       "ratingsAsOf": "2026-11-11T07:43:17Z",
       "modelVersion": "v2.0",
       "awayPts": 103.8,
@@ -1287,7 +1265,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-12T00:41:56Z",
+        "reportPulledAt": "2026-11-12T00:52:00Z",
         "source": "espn",
         "away": [
           {
