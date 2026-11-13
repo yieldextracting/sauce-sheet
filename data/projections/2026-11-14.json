@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261114-DEN-NOP",
-      "generatedAt": "2026-11-13T17:10:11Z",
+      "generatedAt": "2026-11-13T22:51:29Z",
       "ratingsAsOf": "2026-11-13T08:44:32Z",
       "modelVersion": "v2.0",
       "awayPts": 120.8,
-      "homePts": 111.8,
-      "margin": -8.97,
-      "spreadHome": 9.0,
-      "total": 232.5,
+      "homePts": 107.6,
+      "margin": -13.16,
+      "spreadHome": 13.2,
+      "total": 228.3,
       "pace": 100.9,
-      "homeWinProb": 0.2614,
-      "fairMlHome": 282,
-      "fairMlAway": -282,
+      "homeWinProb": 0.1743,
+      "fairMlHome": 474,
+      "fairMlAway": -474,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.91
+          "pts": -5.1
         }
       ],
       "sample": {
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-13T17:10:11Z",
+        "reportPulledAt": "2026-11-13T22:51:29Z",
         "source": "espn",
         "away": [
           {
@@ -83,6 +83,28 @@
           }
         ],
         "home": [
+          {
+            "player": "Trey Murphy III",
+            "team": "NOP",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Tendinitis",
+            "matched": true,
+            "expMin": 33.6,
+            "value": 5.17,
+            "impactPts": 2.22
+          },
+          {
+            "player": "Dejounte Murray",
+            "team": "NOP",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle",
+            "matched": true,
+            "expMin": 29.6,
+            "value": 4.32,
+            "impactPts": 1.85
+          },
           {
             "player": "Yves Missi",
             "team": "NOP",
@@ -104,24 +126,35 @@
             "expMin": 14.2,
             "value": 0.83,
             "impactPts": 0.36
+          },
+          {
+            "player": "Bryce McGowens",
+            "team": "NOP",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Elbow Infection",
+            "matched": true,
+            "expMin": 10.8,
+            "value": 0.28,
+            "impactPts": 0.12
           }
         ]
       }
     },
     {
       "gameId": "20261114-DAL-CLE",
-      "generatedAt": "2026-11-13T17:10:11Z",
+      "generatedAt": "2026-11-13T22:51:29Z",
       "ratingsAsOf": "2026-11-13T08:44:32Z",
       "modelVersion": "v2.0",
-      "awayPts": 114.3,
+      "awayPts": 114.1,
       "homePts": 114.0,
-      "margin": -0.3,
-      "spreadHome": 0.3,
-      "total": 228.3,
+      "margin": -0.06,
+      "spreadHome": 0.1,
+      "total": 228.1,
       "pace": 103.5,
-      "homeWinProb": 0.4914,
-      "fairMlHome": 103,
-      "fairMlAway": -103,
+      "homeWinProb": 0.4982,
+      "fairMlHome": 101,
+      "fairMlAway": -101,
       "contributions": [
         {
           "key": "offense",
@@ -145,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.94
+          "pts": -2.7
         }
       ],
       "sample": {
@@ -175,7 +208,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-13T17:10:11Z",
+        "reportPulledAt": "2026-11-13T22:51:29Z",
         "source": "espn",
         "away": [
           {
@@ -188,6 +221,28 @@
             "expMin": 16.4,
             "value": 1.07,
             "impactPts": 0.46
+          },
+          {
+            "player": "Morez Johnson Jr.",
+            "team": "DAL",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Lower Leg",
+            "matched": true,
+            "expMin": 13.4,
+            "value": 1.1,
+            "impactPts": 0.24
+          },
+          {
+            "player": "Max Christie",
+            "team": "DAL",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Ankle",
+            "matched": true,
+            "expMin": 18.0,
+            "value": 0.0,
+            "impactPts": 0.0
           },
           {
             "player": "Tarik Biberovic",
@@ -240,7 +295,7 @@
     },
     {
       "gameId": "20261114-BKN-MEM",
-      "generatedAt": "2026-11-13T17:10:11Z",
+      "generatedAt": "2026-11-13T22:51:29Z",
       "ratingsAsOf": "2026-11-13T08:44:32Z",
       "modelVersion": "v2.0",
       "awayPts": 109.7,
@@ -304,7 +359,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-13T17:10:11Z",
+        "reportPulledAt": "2026-11-13T22:51:29Z",
         "source": "espn",
         "away": [
           {
@@ -380,7 +435,7 @@
     },
     {
       "gameId": "20261114-CHI-MIN",
-      "generatedAt": "2026-11-13T17:10:11Z",
+      "generatedAt": "2026-11-13T22:51:29Z",
       "ratingsAsOf": "2026-11-13T08:44:32Z",
       "modelVersion": "v2.0",
       "awayPts": 106.6,
@@ -444,7 +499,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-13T17:10:11Z",
+        "reportPulledAt": "2026-11-13T22:51:29Z",
         "source": "espn",
         "away": [
           {
@@ -498,7 +553,7 @@
     },
     {
       "gameId": "20261114-DET-MIA",
-      "generatedAt": "2026-11-13T17:10:11Z",
+      "generatedAt": "2026-11-13T22:51:29Z",
       "ratingsAsOf": "2026-11-13T08:44:32Z",
       "modelVersion": "v2.0",
       "awayPts": 114.0,
@@ -561,7 +616,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-13T17:10:11Z",
+        "reportPulledAt": "2026-11-13T22:51:29Z",
         "source": "espn",
         "away": [
           {
