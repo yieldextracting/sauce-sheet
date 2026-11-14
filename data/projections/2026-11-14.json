@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261114-DEN-NOP",
-      "generatedAt": "2026-11-14T06:04:56Z",
+      "generatedAt": "2026-11-14T17:01:11Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 121.5,
       "homePts": 107.5,
-      "margin": -14.02,
+      "margin": -13.96,
       "spreadHome": 14.0,
       "total": 229.0,
       "pace": 101.1,
-      "homeWinProb": 0.159,
-      "fairMlHome": 529,
-      "fairMlAway": -529,
+      "homeWinProb": 0.16,
+      "fairMlHome": 525,
+      "fairMlAway": -525,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.1
+          "pts": -5.04
         }
       ],
       "sample": {
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T03:23:07Z",
+        "reportPulledAt": "2026-11-14T17:01:11Z",
         "source": "espn",
         "away": [
           {
@@ -130,31 +130,31 @@
           {
             "player": "Bryce McGowens",
             "team": "NOP",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Elbow Infection",
             "matched": true,
             "expMin": 10.8,
             "value": 0.28,
-            "impactPts": 0.12
+            "impactPts": 0.06
           }
         ]
       }
     },
     {
       "gameId": "20261114-DAL-CLE",
-      "generatedAt": "2026-11-14T06:04:56Z",
+      "generatedAt": "2026-11-14T17:01:11Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 114.8,
-      "homePts": 113.6,
-      "margin": -1.19,
-      "spreadHome": 1.2,
-      "total": 228.5,
+      "homePts": 115.1,
+      "margin": 0.27,
+      "spreadHome": -0.3,
+      "total": 229.9,
       "pace": 103.3,
-      "homeWinProb": 0.4662,
-      "fairMlHome": 114,
-      "fairMlAway": -114,
+      "homeWinProb": 0.5077,
+      "fairMlHome": -103,
+      "fairMlAway": 103,
       "contributions": [
         {
           "key": "offense",
@@ -178,7 +178,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.94
+          "pts": -1.48
         }
       ],
       "sample": {
@@ -208,7 +208,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T03:23:07Z",
+        "reportPulledAt": "2026-11-14T17:01:11Z",
         "source": "espn",
         "away": [
           {
@@ -271,13 +271,13 @@
           {
             "player": "Evan Mobley",
             "team": "CLE",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Toe",
             "matched": true,
             "expMin": 31.5,
             "value": 6.77,
-            "impactPts": 2.91
+            "impactPts": 1.45
           },
           {
             "player": "Sam Merrill",
@@ -306,18 +306,18 @@
     },
     {
       "gameId": "20261114-BKN-MEM",
-      "generatedAt": "2026-11-14T06:04:56Z",
+      "generatedAt": "2026-11-14T17:01:11Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 109.5,
-      "homePts": 112.8,
-      "margin": 3.28,
-      "spreadHome": -3.3,
-      "total": 222.3,
+      "homePts": 113.7,
+      "margin": 4.21,
+      "spreadHome": -4.2,
+      "total": 223.3,
       "pace": 102.4,
-      "homeWinProb": 0.5924,
-      "fairMlHome": -145,
-      "fairMlAway": 145,
+      "homeWinProb": 0.6179,
+      "fairMlHome": -162,
+      "fairMlAway": 162,
       "contributions": [
         {
           "key": "offense",
@@ -341,7 +341,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.32
+          "pts": -1.39
         }
       ],
       "sample": {
@@ -370,7 +370,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T03:23:07Z",
+        "reportPulledAt": "2026-11-14T17:01:11Z",
         "source": "espn",
         "away": [
           {
@@ -398,17 +398,6 @@
         ],
         "home": [
           {
-            "player": "Zach Edey",
-            "team": "MEM",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle",
-            "matched": true,
-            "expMin": 22.1,
-            "value": 3.87,
-            "impactPts": 1.66
-          },
-          {
             "player": "Scotty Pippen Jr.",
             "team": "MEM",
             "status": "out",
@@ -420,15 +409,26 @@
             "impactPts": 0.86
           },
           {
+            "player": "Zach Edey",
+            "team": "MEM",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Ankle",
+            "matched": true,
+            "expMin": 22.1,
+            "value": 3.87,
+            "impactPts": 0.83
+          },
+          {
             "player": "Quinten Post",
             "team": "MEM",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Concussion",
             "matched": true,
             "expMin": 13.4,
             "value": 0.48,
-            "impactPts": 0.2
+            "impactPts": 0.1
           },
           {
             "player": "Richie Saunders",
@@ -446,18 +446,18 @@
     },
     {
       "gameId": "20261114-CHI-MIN",
-      "generatedAt": "2026-11-14T06:04:56Z",
+      "generatedAt": "2026-11-14T17:01:11Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.4,
+      "awayPts": 105.5,
       "homePts": 123.6,
-      "margin": 17.21,
-      "spreadHome": -17.2,
-      "total": 230.0,
+      "margin": 18.1,
+      "spreadHome": -18.1,
+      "total": 229.1,
       "pace": 106.8,
-      "homeWinProb": 0.8899,
-      "fairMlHome": -808,
-      "fairMlAway": 808,
+      "homeWinProb": 0.9013,
+      "fairMlHome": -914,
+      "fairMlAway": 914,
       "contributions": [
         {
           "key": "offense",
@@ -481,7 +481,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.3
+          "pts": -3.41
         }
       ],
       "sample": {
@@ -510,7 +510,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T03:23:07Z",
+        "reportPulledAt": "2026-11-14T17:01:11Z",
         "source": "espn",
         "away": [
           {
@@ -525,10 +525,21 @@
             "impactPts": 1.05
           },
           {
+            "player": "Jalen Smith",
+            "team": "CHI",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Hand",
+            "matched": true,
+            "expMin": 24.6,
+            "value": 4.15,
+            "impactPts": 0.89
+          },
+          {
             "player": "Dailyn Swain",
             "team": "CHI",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Back",
             "matched": true,
             "expMin": 2.1,
@@ -538,8 +549,8 @@
           {
             "player": "Tobe Awaka",
             "team": "CHI",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Back",
             "matched": true,
             "expMin": 3.2,
@@ -575,18 +586,18 @@
     },
     {
       "gameId": "20261114-DET-MIA",
-      "generatedAt": "2026-11-14T06:04:56Z",
+      "generatedAt": "2026-11-14T17:01:11Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 114.0,
-      "homePts": 110.5,
-      "margin": -3.52,
-      "spreadHome": 3.5,
-      "total": 224.5,
+      "homePts": 111.1,
+      "margin": -2.87,
+      "spreadHome": 2.9,
+      "total": 225.1,
       "pace": 104.7,
-      "homeWinProb": 0.401,
-      "fairMlHome": 149,
-      "fairMlAway": -149,
+      "homeWinProb": 0.419,
+      "fairMlHome": 139,
+      "fairMlAway": -139,
       "contributions": [
         {
           "key": "offense",
@@ -610,7 +621,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.65
+          "pts": 4.3
         }
       ],
       "sample": {
@@ -638,7 +649,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T03:23:07Z",
+        "reportPulledAt": "2026-11-14T17:01:11Z",
         "source": "espn",
         "away": [
           {
@@ -679,24 +690,24 @@
           {
             "player": "Pelle Larsson",
             "team": "MIA",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Illness",
             "matched": true,
             "expMin": 28.7,
             "value": 1.87,
-            "impactPts": 0.8
+            "impactPts": 0.4
           },
           {
             "player": "Klay Thompson",
             "team": "MIA",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Ankle Soreness",
             "matched": true,
             "expMin": 22.1,
             "value": 1.2,
-            "impactPts": 0.51
+            "impactPts": 0.26
           }
         ]
       }
