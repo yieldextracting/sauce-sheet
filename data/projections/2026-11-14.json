@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261114-DEN-NOP",
-      "generatedAt": "2026-11-14T22:56:13Z",
+      "generatedAt": "2026-11-14T23:16:18Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 121.5,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:56:12Z",
+        "reportPulledAt": "2026-11-14T23:16:18Z",
         "source": "espn",
         "away": [
           {
@@ -132,18 +132,18 @@
     },
     {
       "gameId": "20261114-DAL-CLE",
-      "generatedAt": "2026-11-14T22:56:13Z",
+      "generatedAt": "2026-11-14T23:16:18Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
-      "awayPts": 114.8,
-      "homePts": 107.2,
-      "margin": -7.62,
-      "spreadHome": 7.6,
-      "total": 222.0,
+      "awayPts": 115.1,
+      "homePts": 103.6,
+      "margin": -11.45,
+      "spreadHome": 11.5,
+      "total": 218.7,
       "pace": 103.3,
-      "homeWinProb": 0.2937,
-      "fairMlHome": 241,
-      "fairMlAway": -241,
+      "homeWinProb": 0.2074,
+      "fairMlHome": 382,
+      "fairMlAway": -382,
       "contributions": [
         {
           "key": "offense",
@@ -167,7 +167,7 @@
         },
         {
           "key": "injuries",
-          "pts": -9.37
+          "pts": -13.2
         }
       ],
       "sample": {
@@ -197,7 +197,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:56:12Z",
+        "reportPulledAt": "2026-11-14T23:16:18Z",
         "source": "espn",
         "away": [
           {
@@ -212,21 +212,10 @@
             "impactPts": 0.46
           },
           {
-            "player": "Morez Johnson Jr.",
-            "team": "DAL",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Lower Leg",
-            "matched": true,
-            "expMin": 13.4,
-            "value": 1.1,
-            "impactPts": 0.24
-          },
-          {
             "player": "Max Christie",
             "team": "DAL",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Ankle Sprain",
             "matched": true,
             "expMin": 18.0,
@@ -258,6 +247,17 @@
         ],
         "home": [
           {
+            "player": "Donovan Mitchell",
+            "team": "CLE",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Bruise",
+            "matched": true,
+            "expMin": 32.7,
+            "value": 9.37,
+            "impactPts": 4.02
+          },
+          {
             "player": "Evan Mobley",
             "team": "CLE",
             "status": "out",
@@ -280,26 +280,15 @@
             "impactPts": 2.85
           },
           {
-            "player": "Donovan Mitchell",
-            "team": "CLE",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Knee Bruise",
-            "matched": true,
-            "expMin": 32.7,
-            "value": 9.37,
-            "impactPts": 2.01
-          },
-          {
             "player": "James Harden",
             "team": "CLE",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Calf",
             "matched": true,
             "expMin": 32.8,
             "value": 6.36,
-            "impactPts": 1.36
+            "impactPts": 2.73
           },
           {
             "player": "Sam Merrill",
@@ -313,6 +302,17 @@
             "impactPts": 0.49
           },
           {
+            "player": "Peyton Watson",
+            "team": "CLE",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 28.1,
+            "value": 0.98,
+            "impactPts": 0.42
+          },
+          {
             "player": "Nae'Qwan Tomlin",
             "team": "CLE",
             "status": "out",
@@ -322,24 +322,13 @@
             "expMin": 15.7,
             "value": 0.57,
             "impactPts": 0.24
-          },
-          {
-            "player": "Peyton Watson",
-            "team": "CLE",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Hamstring",
-            "matched": true,
-            "expMin": 28.1,
-            "value": 0.98,
-            "impactPts": 0.21
           }
         ]
       }
     },
     {
       "gameId": "20261114-BKN-MEM",
-      "generatedAt": "2026-11-14T22:56:13Z",
+      "generatedAt": "2026-11-14T23:16:18Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 109.5,
@@ -403,7 +392,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:56:12Z",
+        "reportPulledAt": "2026-11-14T23:16:18Z",
         "source": "espn",
         "away": [
           {
@@ -501,7 +490,7 @@
     },
     {
       "gameId": "20261114-CHI-MIN",
-      "generatedAt": "2026-11-14T22:56:13Z",
+      "generatedAt": "2026-11-14T23:16:18Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 103.4,
@@ -565,7 +554,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:56:12Z",
+        "reportPulledAt": "2026-11-14T23:16:18Z",
         "source": "espn",
         "away": [
           {
@@ -652,7 +641,7 @@
     },
     {
       "gameId": "20261114-DET-MIA",
-      "generatedAt": "2026-11-14T22:56:13Z",
+      "generatedAt": "2026-11-14T23:16:18Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 114.0,
@@ -715,7 +704,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:56:12Z",
+        "reportPulledAt": "2026-11-14T23:16:18Z",
         "source": "espn",
         "away": [
           {
