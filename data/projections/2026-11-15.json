@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261115-IND-PHI",
-      "generatedAt": "2026-11-14T22:16:00Z",
+      "generatedAt": "2026-11-14T22:26:03Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 105.6,
-      "homePts": 113.7,
-      "margin": 8.04,
-      "spreadHome": -8.0,
-      "total": 219.3,
+      "homePts": 111.6,
+      "margin": 5.95,
+      "spreadHome": -6.0,
+      "total": 217.2,
       "pace": 103.0,
-      "homeWinProb": 0.7166,
-      "fairMlHome": -253,
-      "fairMlAway": 253,
+      "homeWinProb": 0.6642,
+      "fairMlHome": -198,
+      "fairMlAway": 198,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.18
+          "pts": -1.91
         }
       ],
       "sample": {
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:16:00Z",
+        "reportPulledAt": "2026-11-14T22:26:03Z",
         "source": "espn",
         "away": [
           {
@@ -125,15 +125,15 @@
         ],
         "home": [
           {
-            "player": "LeBron James",
+            "player": "Joel Embiid",
             "team": "PHI",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Back",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot",
             "matched": true,
-            "expMin": 32.4,
-            "value": 6.3,
-            "impactPts": 1.35
+            "expMin": 30.7,
+            "value": 8.01,
+            "impactPts": 3.44
           },
           {
             "player": "Dominick Barlow",
@@ -173,7 +173,7 @@
     },
     {
       "gameId": "20261115-LAL-PHX",
-      "generatedAt": "2026-11-14T22:16:00Z",
+      "generatedAt": "2026-11-14T22:26:03Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 114.8,
@@ -236,7 +236,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:16:00Z",
+        "reportPulledAt": "2026-11-14T22:26:03Z",
         "source": "espn",
         "away": [
           {
@@ -301,7 +301,7 @@
     },
     {
       "gameId": "20261115-CHA-LAC",
-      "generatedAt": "2026-11-14T22:16:00Z",
+      "generatedAt": "2026-11-14T22:26:03Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 101.7,
@@ -362,7 +362,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:16:00Z",
+        "reportPulledAt": "2026-11-14T22:26:03Z",
         "source": "espn",
         "away": [
           {
@@ -449,7 +449,7 @@
     },
     {
       "gameId": "20261115-SAS-UTA",
-      "generatedAt": "2026-11-14T22:16:00Z",
+      "generatedAt": "2026-11-14T22:26:03Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 118.2,
@@ -514,7 +514,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:16:00Z",
+        "reportPulledAt": "2026-11-14T22:26:03Z",
         "source": "espn",
         "away": [
           {
@@ -601,18 +601,18 @@
     },
     {
       "gameId": "20261115-DAL-BOS",
-      "generatedAt": "2026-11-14T22:16:00Z",
+      "generatedAt": "2026-11-14T22:26:03Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 102.0,
-      "homePts": 114.9,
-      "margin": 12.89,
-      "spreadHome": -12.9,
-      "total": 216.8,
+      "homePts": 116.2,
+      "margin": 14.19,
+      "spreadHome": -14.2,
+      "total": 218.1,
       "pace": 99.5,
-      "homeWinProb": 0.8207,
-      "fairMlHome": -458,
-      "fairMlAway": 458,
+      "homeWinProb": 0.8439,
+      "fairMlHome": -541,
+      "fairMlAway": 541,
       "contributions": [
         {
           "key": "offense",
@@ -636,7 +636,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.84
+          "pts": 0.46
         }
       ],
       "sample": {
@@ -665,7 +665,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:16:00Z",
+        "reportPulledAt": "2026-11-14T22:26:03Z",
         "source": "espn",
         "away": [
           {
@@ -702,24 +702,12 @@
             "impactPts": 0.0
           }
         ],
-        "home": [
-          {
-            "player": "Paul George",
-            "team": "BOS",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 29.9,
-            "value": 6.08,
-            "impactPts": 1.3
-          }
-        ]
+        "home": []
       }
     },
     {
       "gameId": "20261115-NYK-TOR",
-      "generatedAt": "2026-11-14T22:16:00Z",
+      "generatedAt": "2026-11-14T22:26:03Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 109.0,
@@ -780,7 +768,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:16:00Z",
+        "reportPulledAt": "2026-11-14T22:26:03Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -833,7 +821,7 @@
     },
     {
       "gameId": "20261115-HOU-WAS",
-      "generatedAt": "2026-11-14T22:16:00Z",
+      "generatedAt": "2026-11-14T22:26:03Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 116.6,
@@ -896,7 +884,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:16:00Z",
+        "reportPulledAt": "2026-11-14T22:26:03Z",
         "source": "espn",
         "away": [
           {
@@ -1016,7 +1004,7 @@
     },
     {
       "gameId": "20261115-ATL-MIL",
-      "generatedAt": "2026-11-14T22:16:00Z",
+      "generatedAt": "2026-11-14T22:26:03Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 119.0,
@@ -1079,7 +1067,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:16:00Z",
+        "reportPulledAt": "2026-11-14T22:26:03Z",
         "source": "espn",
         "away": [
           {
@@ -1143,7 +1131,7 @@
     },
     {
       "gameId": "20261115-OKC-SAC",
-      "generatedAt": "2026-11-14T22:16:00Z",
+      "generatedAt": "2026-11-14T22:26:03Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 110.9,
@@ -1204,7 +1192,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:16:00Z",
+        "reportPulledAt": "2026-11-14T22:26:03Z",
         "source": "espn",
         "away": [
           {
