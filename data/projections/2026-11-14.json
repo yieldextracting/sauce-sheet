@@ -3,30 +3,30 @@
   "games": [
     {
       "gameId": "20261114-DEN-NOP",
-      "generatedAt": "2026-11-14T03:43:14Z",
-      "ratingsAsOf": "2026-11-14T03:43:14Z",
+      "generatedAt": "2026-11-14T03:53:17Z",
+      "ratingsAsOf": "2026-11-14T03:53:17Z",
       "modelVersion": "v2.0",
       "awayPts": 121.6,
       "homePts": 107.4,
-      "margin": -14.13,
+      "margin": -14.14,
       "spreadHome": 14.1,
       "total": 229.0,
       "pace": 101.1,
-      "homeWinProb": 0.1572,
-      "fairMlHome": 536,
-      "fairMlAway": -536,
+      "homeWinProb": 0.157,
+      "fairMlHome": 537,
+      "fairMlAway": -537,
       "contributions": [
         {
           "key": "offense",
-          "pts": -5.03
+          "pts": -5.01
         },
         {
           "key": "defense",
-          "pts": -2.82
+          "pts": -2.86
         },
         {
           "key": "pace",
-          "pts": 0.08
+          "pts": 0.07
         },
         {
           "key": "home",
@@ -143,30 +143,30 @@
     },
     {
       "gameId": "20261114-DAL-CLE",
-      "generatedAt": "2026-11-14T03:43:14Z",
-      "ratingsAsOf": "2026-11-14T03:43:14Z",
+      "generatedAt": "2026-11-14T03:53:17Z",
+      "ratingsAsOf": "2026-11-14T03:53:17Z",
       "modelVersion": "v2.0",
-      "awayPts": 114.1,
+      "awayPts": 114.8,
       "homePts": 113.7,
-      "margin": -0.39,
-      "spreadHome": 0.4,
-      "total": 227.9,
-      "pace": 103.5,
-      "homeWinProb": 0.4889,
-      "fairMlHome": 105,
-      "fairMlAway": -105,
+      "margin": -1.06,
+      "spreadHome": 1.1,
+      "total": 228.5,
+      "pace": 103.3,
+      "homeWinProb": 0.4699,
+      "fairMlHome": 113,
+      "fairMlAway": -113,
       "contributions": [
         {
           "key": "offense",
-          "pts": 4.9
+          "pts": 5.19
         },
         {
           "key": "defense",
-          "pts": -1.17
+          "pts": -2.12
         },
         {
           "key": "pace",
-          "pts": 0.04
+          "pts": 0.03
         },
         {
           "key": "home",
@@ -183,8 +183,8 @@
       ],
       "sample": {
         "awayGP": 12,
-        "homeGP": 12,
-        "priorWeight": 0.4545
+        "homeGP": 13,
+        "priorWeight": 0.4446
       },
       "flags": [
         "b2b_home",
@@ -306,30 +306,30 @@
     },
     {
       "gameId": "20261114-BKN-MEM",
-      "generatedAt": "2026-11-14T03:43:14Z",
-      "ratingsAsOf": "2026-11-14T03:43:14Z",
+      "generatedAt": "2026-11-14T03:53:17Z",
+      "ratingsAsOf": "2026-11-14T03:53:17Z",
       "modelVersion": "v2.0",
-      "awayPts": 109.6,
+      "awayPts": 109.5,
       "homePts": 112.8,
-      "margin": 3.22,
-      "spreadHome": -3.2,
-      "total": 222.3,
+      "margin": 3.28,
+      "spreadHome": -3.3,
+      "total": 222.4,
       "pace": 102.3,
-      "homeWinProb": 0.5906,
-      "fairMlHome": -144,
-      "fairMlAway": 144,
+      "homeWinProb": 0.5923,
+      "fairMlHome": -145,
+      "fairMlAway": 145,
       "contributions": [
         {
           "key": "offense",
-          "pts": 5.11
+          "pts": 5.14
         },
         {
           "key": "defense",
-          "pts": 1.69
+          "pts": 1.71
         },
         {
           "key": "pace",
-          "pts": 0.02
+          "pts": 0.03
         },
         {
           "key": "home",
@@ -446,30 +446,30 @@
     },
     {
       "gameId": "20261114-CHI-MIN",
-      "generatedAt": "2026-11-14T03:43:14Z",
-      "ratingsAsOf": "2026-11-14T03:43:14Z",
+      "generatedAt": "2026-11-14T03:53:17Z",
+      "ratingsAsOf": "2026-11-14T03:53:17Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.6,
-      "homePts": 124.6,
-      "margin": 18.0,
-      "spreadHome": -18.0,
-      "total": 231.2,
-      "pace": 106.9,
-      "homeWinProb": 0.9,
-      "fairMlHome": -900,
-      "fairMlAway": 900,
+      "awayPts": 106.3,
+      "homePts": 123.6,
+      "margin": 17.26,
+      "spreadHome": -17.3,
+      "total": 229.9,
+      "pace": 106.8,
+      "homeWinProb": 0.8905,
+      "fairMlHome": -813,
+      "fairMlAway": 813,
       "contributions": [
         {
           "key": "offense",
-          "pts": 4.6
+          "pts": 4.65
         },
         {
           "key": "defense",
-          "pts": 11.95
+          "pts": 11.21
         },
         {
           "key": "pace",
-          "pts": 1.04
+          "pts": 0.99
         },
         {
           "key": "home",
@@ -485,9 +485,9 @@
         }
       ],
       "sample": {
-        "awayGP": 10,
+        "awayGP": 11,
         "homeGP": 12,
-        "priorWeight": 0.4773
+        "priorWeight": 0.4654
       },
       "flags": [
         "b2b_away",
@@ -575,30 +575,30 @@
     },
     {
       "gameId": "20261114-DET-MIA",
-      "generatedAt": "2026-11-14T03:43:14Z",
-      "ratingsAsOf": "2026-11-14T03:43:14Z",
+      "generatedAt": "2026-11-14T03:53:17Z",
+      "ratingsAsOf": "2026-11-14T03:53:17Z",
       "modelVersion": "v2.0",
-      "awayPts": 113.9,
-      "homePts": 109.7,
-      "margin": -4.2,
-      "spreadHome": 4.2,
-      "total": 223.7,
-      "pace": 105.0,
-      "homeWinProb": 0.3824,
-      "fairMlHome": 162,
-      "fairMlAway": -162,
+      "awayPts": 114.0,
+      "homePts": 110.5,
+      "margin": -3.51,
+      "spreadHome": 3.5,
+      "total": 224.5,
+      "pace": 104.7,
+      "homeWinProb": 0.4013,
+      "fairMlHome": 149,
+      "fairMlAway": -149,
       "contributions": [
         {
           "key": "offense",
-          "pts": -1.38
+          "pts": -0.44
         },
         {
           "key": "defense",
-          "pts": -6.03
+          "pts": -6.39
         },
         {
           "key": "pace",
-          "pts": -0.23
+          "pts": -0.19
         },
         {
           "key": "home",
@@ -610,13 +610,13 @@
         },
         {
           "key": "injuries",
-          "pts": 3.57
+          "pts": 3.65
         }
       ],
       "sample": {
         "awayGP": 11,
-        "homeGP": 11,
-        "priorWeight": 0.4762
+        "homeGP": 12,
+        "priorWeight": 0.4654
       },
       "flags": [
         "b2b_home"
@@ -694,9 +694,9 @@
             "pPlay": 0.0,
             "reason": "Ankle Soreness",
             "matched": true,
-            "expMin": 25.4,
-            "value": 1.37,
-            "impactPts": 0.59
+            "expMin": 22.1,
+            "value": 1.2,
+            "impactPts": 0.51
           }
         ]
       }
