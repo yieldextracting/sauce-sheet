@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261121-MIL-PHI",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 105.2,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -108,7 +108,7 @@
     },
     {
       "gameId": "20261121-POR-NYK",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 104.7,
@@ -171,7 +171,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
           {
@@ -213,7 +213,7 @@
     },
     {
       "gameId": "20261121-LAC-DAL",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 107.4,
@@ -274,7 +274,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
           {
@@ -361,18 +361,18 @@
     },
     {
       "gameId": "20261121-MEM-MIN",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.6,
+      "awayPts": 102.8,
       "homePts": 113.8,
-      "margin": 6.15,
-      "spreadHome": -6.1,
-      "total": 221.4,
+      "margin": 10.97,
+      "spreadHome": -11.0,
+      "total": 216.6,
       "pace": 103.9,
-      "homeWinProb": 0.6692,
-      "fairMlHome": -202,
-      "fairMlAway": 202,
+      "homeWinProb": 0.7826,
+      "fairMlHome": -360,
+      "fairMlAway": 360,
       "contributions": [
         {
           "key": "offense",
@@ -396,7 +396,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.49
+          "pts": 0.33
         }
       ],
       "sample": {
@@ -424,9 +424,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Ty Jerome",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hip Soreness",
+            "matched": true,
+            "expMin": 28.8,
+            "value": 10.76,
+            "impactPts": 4.62
+          },
           {
             "player": "Scotty Pippen Jr.",
             "team": "MEM",
@@ -437,6 +448,17 @@
             "expMin": 18.5,
             "value": 2.0,
             "impactPts": 0.86
+          },
+          {
+            "player": "Quinten Post",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Concussion",
+            "matched": true,
+            "expMin": 13.4,
+            "value": 0.48,
+            "impactPts": 0.2
           },
           {
             "player": "Richie Saunders",
@@ -478,18 +500,18 @@
     },
     {
       "gameId": "20261121-NOP-SAS",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
-      "awayPts": 99.8,
+      "awayPts": 99.7,
       "homePts": 125.7,
-      "margin": 25.86,
-      "spreadHome": -25.9,
-      "total": 225.5,
+      "margin": 25.98,
+      "spreadHome": -26.0,
+      "total": 225.3,
       "pace": 102.8,
-      "homeWinProb": 0.9672,
-      "fairMlHome": -2952,
-      "fairMlAway": 2952,
+      "homeWinProb": 0.9679,
+      "fairMlHome": -3011,
+      "fairMlAway": 3011,
       "contributions": [
         {
           "key": "offense",
@@ -513,7 +535,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.96
+          "pts": 4.08
         }
       ],
       "sample": {
@@ -542,7 +564,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
           {
@@ -588,6 +610,17 @@
             "expMin": 14.2,
             "value": 0.83,
             "impactPts": 0.36
+          },
+          {
+            "player": "Bryce McGowens",
+            "team": "NOP",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Elbow Infection",
+            "matched": true,
+            "expMin": 10.8,
+            "value": 0.28,
+            "impactPts": 0.12
           }
         ],
         "home": [
@@ -618,7 +651,7 @@
     },
     {
       "gameId": "20261121-BOS-SAC",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 118.5,
@@ -682,7 +715,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [],
         "home": [

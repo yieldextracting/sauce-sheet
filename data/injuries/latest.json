@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-11-14T17:01:11Z",
+  "pulledAt": "2026-11-14T21:25:43Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -127,24 +127,24 @@
       "source": "espn"
     },
     {
-      "player": "Dailyn Swain",
-      "key": "dailynswain",
+      "player": "Tobe Awaka",
+      "key": "tobeawaka",
       "team": "CHI",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Back",
-      "espnId": "4848625",
+      "espnId": "5105555",
       "gameId": "20261114-CHI-MIN",
       "source": "espn"
     },
     {
-      "player": "Tobe Awaka",
-      "key": "tobeawaka",
+      "player": "Nic Claxton",
+      "key": "nicclaxton",
       "team": "CHI",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Back",
-      "espnId": "5105555",
+      "reason": "Hamstring",
+      "espnId": "4278067",
       "gameId": "20261114-CHI-MIN",
       "source": "espn"
     },
@@ -154,8 +154,19 @@
       "team": "CHI",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Hand",
+      "reason": "Finger Sprain",
       "espnId": "4397189",
+      "gameId": "20261114-CHI-MIN",
+      "source": "espn"
+    },
+    {
+      "player": "Norman Powell",
+      "key": "normanpowell",
+      "team": "CHI",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Back",
+      "espnId": "2595516",
       "gameId": "20261114-CHI-MIN",
       "source": "espn"
     },
@@ -171,13 +182,57 @@
       "source": "espn"
     },
     {
-      "player": "Evan Mobley",
-      "key": "evanmobley",
+      "player": "Peyton Watson",
+      "key": "peytonwatson",
       "team": "CLE",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Toe",
+      "reason": "Hamstring",
+      "espnId": "4576087",
+      "gameId": "20261114-DAL-CLE",
+      "source": "espn"
+    },
+    {
+      "player": "Evan Mobley",
+      "key": "evanmobley",
+      "team": "CLE",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Toe Sprain",
       "espnId": "4432158",
+      "gameId": "20261114-DAL-CLE",
+      "source": "espn"
+    },
+    {
+      "player": "Jarrett Allen",
+      "key": "jarrettallen",
+      "team": "CLE",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Knee",
+      "espnId": "4066328",
+      "gameId": "20261114-DAL-CLE",
+      "source": "espn"
+    },
+    {
+      "player": "Donovan Mitchell",
+      "key": "donovanmitchell",
+      "team": "CLE",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Knee Bruise",
+      "espnId": "3908809",
+      "gameId": "20261114-DAL-CLE",
+      "source": "espn"
+    },
+    {
+      "player": "James Harden",
+      "key": "jamesharden",
+      "team": "CLE",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Calf",
+      "espnId": "3992",
       "gameId": "20261114-DAL-CLE",
       "source": "espn"
     },
@@ -209,7 +264,7 @@
       "team": "DAL",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Ankle",
+      "reason": "Ankle Sprain",
       "espnId": "4432582",
       "gameId": "20261114-DAL-CLE",
       "source": "espn"
@@ -468,13 +523,13 @@
       "source": "espn"
     },
     {
-      "player": "Quentin Grimes",
-      "key": "quentingrimes",
+      "player": "Collin Sexton",
+      "key": "collinsexton",
       "team": "LAL",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Finger",
-      "espnId": "4397014",
+      "reason": "Head",
+      "espnId": "4277811",
       "gameId": "20261115-LAL-PHX",
       "source": "espn"
     },
@@ -490,24 +545,13 @@
       "source": "espn"
     },
     {
-      "player": "Luka Doncic",
-      "key": "lukadoncic",
+      "player": "Quentin Grimes",
+      "key": "quentingrimes",
       "team": "LAL",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Ankle",
-      "espnId": "3945274",
-      "gameId": "20261115-LAL-PHX",
-      "source": "espn"
-    },
-    {
-      "player": "Collin Sexton",
-      "key": "collinsexton",
-      "team": "LAL",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Head",
-      "espnId": "4277811",
+      "reason": "Finger",
+      "espnId": "4397014",
       "gameId": "20261115-LAL-PHX",
       "source": "espn"
     },
@@ -515,10 +559,21 @@
       "player": "Quinten Post",
       "key": "quintenpost",
       "team": "MEM",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Concussion",
       "espnId": "4593016",
+      "gameId": "20261114-BKN-MEM",
+      "source": "espn"
+    },
+    {
+      "player": "Jerami Grant",
+      "key": "jeramigrant",
+      "team": "MEM",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Head",
+      "espnId": "2991070",
       "gameId": "20261114-BKN-MEM",
       "source": "espn"
     },
@@ -530,6 +585,17 @@
       "pPlay": 0.5,
       "reason": "Ankle",
       "espnId": "4600663",
+      "gameId": "20261114-BKN-MEM",
+      "source": "espn"
+    },
+    {
+      "player": "Ty Jerome",
+      "key": "tyjerome",
+      "team": "MEM",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Hip Soreness",
+      "espnId": "4065733",
       "gameId": "20261114-BKN-MEM",
       "source": "espn"
     },
@@ -572,8 +638,19 @@
       "team": "MIA",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Ankle Soreness",
+      "reason": "Ankle Sprain",
       "espnId": "6475",
+      "gameId": "20261114-DET-MIA",
+      "source": "espn"
+    },
+    {
+      "player": "Giannis Antetokounmpo",
+      "key": "giannisantetokounmpo",
+      "team": "MIA",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Wrist Sprain",
+      "espnId": "3032977",
       "gameId": "20261114-DET-MIA",
       "source": "espn"
     },
@@ -600,28 +677,6 @@
       "source": "espn"
     },
     {
-      "player": "Bryce McGowens",
-      "key": "brycemcgowens",
-      "team": "NOP",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Elbow Infection",
-      "espnId": "4576086",
-      "gameId": "20261114-DEN-NOP",
-      "source": "espn"
-    },
-    {
-      "player": "Dejounte Murray",
-      "key": "dejountemurray",
-      "team": "NOP",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Ankle",
-      "espnId": "3907497",
-      "gameId": "20261114-DEN-NOP",
-      "source": "espn"
-    },
-    {
       "player": "Yves Missi",
       "key": "yvesmissi",
       "team": "NOP",
@@ -629,6 +684,28 @@
       "pPlay": 0.0,
       "reason": "Knee Bruise",
       "espnId": "5061589",
+      "gameId": "20261114-DEN-NOP",
+      "source": "espn"
+    },
+    {
+      "player": "Trendon Watford",
+      "key": "trendonwatford",
+      "team": "NOP",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Ankle Sprain",
+      "espnId": "4431675",
+      "gameId": "20261114-DEN-NOP",
+      "source": "espn"
+    },
+    {
+      "player": "Bryce McGowens",
+      "key": "brycemcgowens",
+      "team": "NOP",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Elbow Infection",
+      "espnId": "4576086",
       "gameId": "20261114-DEN-NOP",
       "source": "espn"
     },
@@ -644,13 +721,13 @@
       "source": "espn"
     },
     {
-      "player": "Trendon Watford",
-      "key": "trendonwatford",
+      "player": "Dejounte Murray",
+      "key": "dejountemurray",
       "team": "NOP",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Ankle Sprain",
-      "espnId": "4431675",
+      "reason": "Ankle",
+      "espnId": "3907497",
       "gameId": "20261114-DEN-NOP",
       "source": "espn"
     },
@@ -721,6 +798,17 @@
       "source": "espn"
     },
     {
+      "player": "Noah Penda",
+      "key": "noahpenda",
+      "team": "ORL",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Hamstring Strain",
+      "espnId": "5214637",
+      "gameId": null,
+      "source": "espn"
+    },
+    {
       "player": "Jonathan Isaac",
       "key": "jonathanisaac",
       "team": "ORL",
@@ -739,17 +827,6 @@
       "pPlay": 0.0,
       "reason": "Ankle Sprain",
       "espnId": "4432573",
-      "gameId": null,
-      "source": "espn"
-    },
-    {
-      "player": "Noah Penda",
-      "key": "noahpenda",
-      "team": "ORL",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Hamstring Strain",
-      "espnId": "5214637",
       "gameId": null,
       "source": "espn"
     },
@@ -930,6 +1007,17 @@
       "source": "espn"
     },
     {
+      "player": "Scottie Barnes",
+      "key": "scottiebarnes",
+      "team": "TOR",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Groin Strain",
+      "espnId": "4433134",
+      "gameId": "20261115-NYK-TOR",
+      "source": "espn"
+    },
+    {
       "player": "Kevin McCullar Jr.",
       "key": "kevinmccullarjr",
       "team": "TOR",
@@ -948,17 +1036,6 @@
       "pPlay": 0.5,
       "reason": "Illness",
       "espnId": "4431684",
-      "gameId": "20261115-NYK-TOR",
-      "source": "espn"
-    },
-    {
-      "player": "Scottie Barnes",
-      "key": "scottiebarnes",
-      "team": "TOR",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Groin Soreness",
-      "espnId": "4433134",
       "gameId": "20261115-NYK-TOR",
       "source": "espn"
     },
@@ -1037,6 +1114,17 @@
       "reason": "Knee Not Specified",
       "espnId": "4277961",
       "gameId": "20261115-SAS-UTA",
+      "source": "espn"
+    },
+    {
+      "player": "Tre Johnson",
+      "key": "trejohnson",
+      "team": "WAS",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Back",
+      "espnId": "5238230",
+      "gameId": "20261115-HOU-WAS",
       "source": "espn"
     },
     {

@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261120-CHA-ATL",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 104.2,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
           {
@@ -142,18 +142,18 @@
     },
     {
       "gameId": "20261120-IND-CLE",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 110.1,
-      "homePts": 119.5,
-      "margin": 9.38,
-      "spreadHome": -9.4,
-      "total": 229.7,
+      "homePts": 116.6,
+      "margin": 6.47,
+      "spreadHome": -6.5,
+      "total": 226.8,
       "pace": 102.9,
-      "homeWinProb": 0.7479,
-      "fairMlHome": -297,
-      "fairMlAway": 297,
+      "homeWinProb": 0.6775,
+      "fairMlHome": -210,
+      "fairMlAway": 210,
       "contributions": [
         {
           "key": "offense",
@@ -177,7 +177,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.3
+          "pts": -2.61
         }
       ],
       "sample": {
@@ -203,7 +203,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
           {
@@ -242,6 +242,17 @@
         ],
         "home": [
           {
+            "player": "Evan Mobley",
+            "team": "CLE",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Toe Sprain",
+            "matched": true,
+            "expMin": 31.5,
+            "value": 6.77,
+            "impactPts": 2.91
+          },
+          {
             "player": "Sam Merrill",
             "team": "CLE",
             "status": "out",
@@ -268,7 +279,7 @@
     },
     {
       "gameId": "20261120-ORL-BKN",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
@@ -331,7 +342,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
           {
@@ -346,17 +357,6 @@
             "impactPts": 3.4
           },
           {
-            "player": "Jonathan Isaac",
-            "team": "ORL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Not Specified",
-            "matched": true,
-            "expMin": 10.4,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
             "player": "Noah Penda",
             "team": "ORL",
             "status": "out",
@@ -365,6 +365,17 @@
             "matched": true,
             "expMin": 13.1,
             "value": 0.01,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Jonathan Isaac",
+            "team": "ORL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Not Specified",
+            "matched": true,
+            "expMin": 10.4,
+            "value": 0.0,
             "impactPts": 0.0
           },
           {
@@ -384,7 +395,7 @@
     },
     {
       "gameId": "20261120-TOR-DET",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 99.6,
@@ -449,7 +460,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
           {
@@ -468,7 +479,7 @@
             "team": "TOR",
             "status": "out",
             "pPlay": 0.0,
-            "reason": "Groin Soreness",
+            "reason": "Groin Strain",
             "matched": true,
             "expMin": 33.8,
             "value": 7.63,
@@ -514,18 +525,18 @@
     },
     {
       "gameId": "20261120-NOP-OKC",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
-      "awayPts": 99.7,
+      "awayPts": 99.5,
       "homePts": 115.8,
-      "margin": 16.13,
-      "spreadHome": -16.1,
-      "total": 215.4,
+      "margin": 16.25,
+      "spreadHome": -16.2,
+      "total": 215.3,
       "pace": 103.1,
-      "homeWinProb": 0.8746,
-      "fairMlHome": -698,
-      "fairMlAway": 698,
+      "homeWinProb": 0.8764,
+      "fairMlHome": -709,
+      "fairMlAway": 709,
       "contributions": [
         {
           "key": "offense",
@@ -549,7 +560,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.14
+          "pts": -0.02
         }
       ],
       "sample": {
@@ -575,7 +586,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
           {
@@ -621,6 +632,17 @@
             "expMin": 14.2,
             "value": 0.83,
             "impactPts": 0.36
+          },
+          {
+            "player": "Bryce McGowens",
+            "team": "NOP",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Elbow Infection",
+            "matched": true,
+            "expMin": 10.8,
+            "value": 0.28,
+            "impactPts": 0.12
           }
         ],
         "home": [
@@ -684,7 +706,7 @@
     },
     {
       "gameId": "20261120-WAS-CHI",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 116.1,
@@ -745,7 +767,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
           {
@@ -804,13 +826,24 @@
             "expMin": 21.6,
             "value": 2.44,
             "impactPts": 1.05
+          },
+          {
+            "player": "Tobe Awaka",
+            "team": "CHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back",
+            "matched": true,
+            "expMin": 3.2,
+            "value": 0.35,
+            "impactPts": 0.0
           }
         ]
       }
     },
     {
       "gameId": "20261120-PHX-UTA",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 112.5,
@@ -874,7 +907,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
           {
@@ -939,7 +972,7 @@
     },
     {
       "gameId": "20261120-HOU-DEN",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 111.6,
@@ -1003,7 +1036,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
           {
@@ -1046,7 +1079,7 @@
     },
     {
       "gameId": "20261120-SAC-LAL",
-      "generatedAt": "2026-11-14T17:01:11Z",
+      "generatedAt": "2026-11-14T21:25:43Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 106.9,
@@ -1109,7 +1142,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T17:01:11Z",
+        "reportPulledAt": "2026-11-14T21:25:43Z",
         "source": "espn",
         "away": [
           {
