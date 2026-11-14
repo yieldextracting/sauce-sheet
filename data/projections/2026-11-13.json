@@ -964,16 +964,16 @@
     },
     {
       "gameId": "20261113-POR-SAC",
-      "generatedAt": "2026-11-14T02:32:50Z",
-      "ratingsAsOf": "2026-11-14T02:32:50Z",
+      "generatedAt": "2026-11-14T02:42:54Z",
+      "ratingsAsOf": "2026-11-14T02:42:54Z",
       "modelVersion": "v2.0",
       "awayPts": 116.5,
       "homePts": 106.6,
       "margin": -9.9,
       "spreadHome": 9.9,
-      "total": 223.2,
+      "total": 223.1,
       "pace": 103.3,
-      "homeWinProb": 0.2404,
+      "homeWinProb": 0.2405,
       "fairMlHome": 316,
       "fairMlAway": -316,
       "contributions": [
@@ -983,11 +983,11 @@
         },
         {
           "key": "defense",
-          "pts": -7.13
+          "pts": -7.12
         },
         {
           "key": "pace",
-          "pts": -0.17
+          "pts": -0.16
         },
         {
           "key": "home",
@@ -1027,7 +1027,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T02:32:50Z",
+        "reportPulledAt": "2026-11-14T02:42:54Z",
         "source": "espn",
         "away": [
           {
@@ -1114,18 +1114,18 @@
     },
     {
       "gameId": "20261113-OKC-LAC",
-      "generatedAt": "2026-11-14T02:32:50Z",
-      "ratingsAsOf": "2026-11-14T02:32:50Z",
+      "generatedAt": "2026-11-14T02:42:54Z",
+      "ratingsAsOf": "2026-11-14T02:42:54Z",
       "modelVersion": "v2.0",
-      "awayPts": 105.4,
+      "awayPts": 104.3,
       "homePts": 101.7,
-      "margin": -3.68,
-      "spreadHome": 3.7,
-      "total": 207.0,
+      "margin": -2.6,
+      "spreadHome": 2.6,
+      "total": 205.9,
       "pace": 100.6,
-      "homeWinProb": 0.3966,
-      "fairMlHome": 152,
-      "fairMlAway": -152,
+      "homeWinProb": 0.4266,
+      "fairMlHome": 134,
+      "fairMlAway": -134,
       "contributions": [
         {
           "key": "offense",
@@ -1133,7 +1133,7 @@
         },
         {
           "key": "defense",
-          "pts": -8.46
+          "pts": -8.47
         },
         {
           "key": "pace",
@@ -1149,7 +1149,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.56
+          "pts": 3.64
         }
       ],
       "sample": {
@@ -1177,7 +1177,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T02:32:50Z",
+        "reportPulledAt": "2026-11-14T02:42:54Z",
         "source": "espn",
         "away": [
           {
@@ -1205,13 +1205,13 @@
           {
             "player": "Ajay Mitchell",
             "team": "OKC",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Ankle Sprain",
             "matched": true,
             "expMin": 27.3,
             "value": 5.03,
-            "impactPts": 1.08
+            "impactPts": 2.16
           },
           {
             "player": "Cason Wallace",
