@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261114-DEN-NOP",
-      "generatedAt": "2026-11-14T22:46:09Z",
+      "generatedAt": "2026-11-14T22:56:13Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 121.5,
@@ -67,7 +67,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:46:09Z",
+        "reportPulledAt": "2026-11-14T22:56:12Z",
         "source": "espn",
         "away": [
           {
@@ -132,18 +132,18 @@
     },
     {
       "gameId": "20261114-DAL-CLE",
-      "generatedAt": "2026-11-14T22:46:09Z",
+      "generatedAt": "2026-11-14T22:56:13Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 114.8,
-      "homePts": 108.6,
-      "margin": -6.19,
-      "spreadHome": 6.2,
-      "total": 223.5,
+      "homePts": 107.2,
+      "margin": -7.62,
+      "spreadHome": 7.6,
+      "total": 222.0,
       "pace": 103.3,
-      "homeWinProb": 0.3297,
-      "fairMlHome": 203,
-      "fairMlAway": -203,
+      "homeWinProb": 0.2937,
+      "fairMlHome": 241,
+      "fairMlAway": -241,
       "contributions": [
         {
           "key": "offense",
@@ -167,7 +167,7 @@
         },
         {
           "key": "injuries",
-          "pts": -7.94
+          "pts": -9.37
         }
       ],
       "sample": {
@@ -197,7 +197,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:46:09Z",
+        "reportPulledAt": "2026-11-14T22:56:12Z",
         "source": "espn",
         "away": [
           {
@@ -269,6 +269,17 @@
             "impactPts": 2.91
           },
           {
+            "player": "Jarrett Allen",
+            "team": "CLE",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 26.0,
+            "value": 6.63,
+            "impactPts": 2.85
+          },
+          {
             "player": "Donovan Mitchell",
             "team": "CLE",
             "status": "questionable",
@@ -278,17 +289,6 @@
             "expMin": 32.7,
             "value": 9.37,
             "impactPts": 2.01
-          },
-          {
-            "player": "Jarrett Allen",
-            "team": "CLE",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 26.0,
-            "value": 6.63,
-            "impactPts": 1.42
           },
           {
             "player": "James Harden",
@@ -339,7 +339,7 @@
     },
     {
       "gameId": "20261114-BKN-MEM",
-      "generatedAt": "2026-11-14T22:46:09Z",
+      "generatedAt": "2026-11-14T22:56:13Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 109.5,
@@ -403,7 +403,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:46:09Z",
+        "reportPulledAt": "2026-11-14T22:56:12Z",
         "source": "espn",
         "away": [
           {
@@ -501,7 +501,7 @@
     },
     {
       "gameId": "20261114-CHI-MIN",
-      "generatedAt": "2026-11-14T22:46:09Z",
+      "generatedAt": "2026-11-14T22:56:13Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 103.4,
@@ -565,7 +565,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:46:09Z",
+        "reportPulledAt": "2026-11-14T22:56:12Z",
         "source": "espn",
         "away": [
           {
@@ -652,7 +652,7 @@
     },
     {
       "gameId": "20261114-DET-MIA",
-      "generatedAt": "2026-11-14T22:46:09Z",
+      "generatedAt": "2026-11-14T22:56:13Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 114.0,
@@ -715,7 +715,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-14T22:46:09Z",
+        "reportPulledAt": "2026-11-14T22:56:12Z",
         "source": "espn",
         "away": [
           {
