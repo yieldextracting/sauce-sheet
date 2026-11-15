@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-11-15T21:13:42Z",
+  "pulledAt": "2026-11-15T21:34:51Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -90,7 +90,7 @@
       "pPlay": 0.0,
       "reason": "Hamstring Strain",
       "espnId": "5061575",
-      "gameId": "20261115-CHA-LAC",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -101,7 +101,18 @@
       "pPlay": 0.0,
       "reason": "Hamstring Strain",
       "espnId": "3032979",
-      "gameId": "20261115-CHA-LAC",
+      "gameId": null,
+      "source": "espn"
+    },
+    {
+      "player": "Tobe Awaka",
+      "key": "tobeawaka",
+      "team": "CHI",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Back",
+      "espnId": "5105555",
+      "gameId": "20261116-CHI-CLE",
       "source": "espn"
     },
     {
@@ -121,19 +132,8 @@
       "team": "CHI",
       "status": "questionable",
       "pPlay": 0.5,
-      "reason": "Hamstring",
+      "reason": null,
       "espnId": "4278067",
-      "gameId": "20261116-CHI-CLE",
-      "source": "espn"
-    },
-    {
-      "player": "Tobe Awaka",
-      "key": "tobeawaka",
-      "team": "CHI",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Back",
-      "espnId": "5105555",
       "gameId": "20261116-CHI-CLE",
       "source": "espn"
     },
@@ -226,22 +226,11 @@
       "source": "espn"
     },
     {
-      "player": "Santi Aldama",
-      "key": "santialdama",
-      "team": "DAL",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Ankle Sprain",
-      "espnId": "4593125",
-      "gameId": "20261115-DAL-BOS",
-      "source": "espn"
-    },
-    {
       "player": "Max Christie",
       "key": "maxchristie",
       "team": "DAL",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Ankle Sprain",
       "espnId": "4432582",
       "gameId": "20261115-DAL-BOS",
@@ -251,10 +240,21 @@
       "player": "Kyrie Irving",
       "key": "kyrieirving",
       "team": "DAL",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Knee",
       "espnId": "6442",
+      "gameId": "20261115-DAL-BOS",
+      "source": "espn"
+    },
+    {
+      "player": "Santi Aldama",
+      "key": "santialdama",
+      "team": "DAL",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Ankle Sprain",
+      "espnId": "4593125",
       "gameId": "20261115-DAL-BOS",
       "source": "espn"
     },
@@ -486,7 +486,7 @@
       "pPlay": 0.0,
       "reason": "Achilles Surgery",
       "espnId": "3913176",
-      "gameId": "20261115-CHA-LAC",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -497,7 +497,7 @@
       "pPlay": 0.0,
       "reason": "Foot Surgery",
       "espnId": "5108024",
-      "gameId": "20261115-CHA-LAC",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -508,7 +508,7 @@
       "pPlay": 0.0,
       "reason": "Knee Inflammation",
       "espnId": "6580",
-      "gameId": "20261115-CHA-LAC",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -519,7 +519,7 @@
       "pPlay": 0.0,
       "reason": "Shoulder Surgery",
       "espnId": "4396818",
-      "gameId": "20261115-CHA-LAC",
+      "gameId": null,
       "source": "espn"
     },
     {
