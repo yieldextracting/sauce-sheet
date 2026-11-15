@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-11-15T23:05:23Z",
+  "pulledAt": "2026-11-15T23:15:26Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -300,6 +300,17 @@
       "reason": "Hamstring Strain",
       "espnId": "4433621",
       "gameId": null,
+      "source": "espn"
+    },
+    {
+      "player": "Gui Santos",
+      "key": "guisantos",
+      "team": "GSW",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Ankle Inflammation",
+      "espnId": "4997536",
+      "gameId": "20261116-GSW-NOP",
       "source": "espn"
     },
     {
@@ -622,28 +633,6 @@
       "source": "espn"
     },
     {
-      "player": "Trendon Watford",
-      "key": "trendonwatford",
-      "team": "NOP",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Ankle Sprain",
-      "espnId": "4431675",
-      "gameId": "20261116-GSW-NOP",
-      "source": "espn"
-    },
-    {
-      "player": "Bryce McGowens",
-      "key": "brycemcgowens",
-      "team": "NOP",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Elbow Infection",
-      "espnId": "4576086",
-      "gameId": "20261116-GSW-NOP",
-      "source": "espn"
-    },
-    {
       "player": "Bennedict Mathurin",
       "key": "bennedictmathurin",
       "team": "NOP",
@@ -662,6 +651,28 @@
       "pPlay": 0.0,
       "reason": "Knee Tendinitis",
       "espnId": "4397688",
+      "gameId": "20261116-GSW-NOP",
+      "source": "espn"
+    },
+    {
+      "player": "Trendon Watford",
+      "key": "trendonwatford",
+      "team": "NOP",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Ankle Sprain",
+      "espnId": "4431675",
+      "gameId": "20261116-GSW-NOP",
+      "source": "espn"
+    },
+    {
+      "player": "Bryce McGowens",
+      "key": "brycemcgowens",
+      "team": "NOP",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Elbow Infection",
+      "espnId": "4576086",
       "gameId": "20261116-GSW-NOP",
       "source": "espn"
     },
@@ -856,8 +867,8 @@
       "player": "Chris Youngblood",
       "key": "chrisyoungblood",
       "team": "POR",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Foot Bruise",
       "espnId": "4706557",
       "gameId": "20261116-POR-MIN",
