@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261119-GSW-MEM",
-      "generatedAt": "2026-11-15T23:15:26Z",
+      "generatedAt": "2026-11-15T23:35:37Z",
       "ratingsAsOf": "2026-11-15T20:33:28Z",
       "modelVersion": "v2.0",
       "awayPts": 101.4,
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T23:15:26Z",
+        "reportPulledAt": "2026-11-15T23:35:37Z",
         "source": "espn",
         "away": [
           {
@@ -189,7 +189,7 @@
     },
     {
       "gameId": "20261119-LAC-SAS",
-      "generatedAt": "2026-11-15T23:15:26Z",
+      "generatedAt": "2026-11-15T23:35:37Z",
       "ratingsAsOf": "2026-11-15T20:33:28Z",
       "modelVersion": "v2.0",
       "awayPts": 101.5,
@@ -252,7 +252,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T23:15:26Z",
+        "reportPulledAt": "2026-11-15T23:35:37Z",
         "source": "espn",
         "away": [
           {
@@ -339,7 +339,7 @@
     },
     {
       "gameId": "20261119-NYK-MIN",
-      "generatedAt": "2026-11-15T23:15:26Z",
+      "generatedAt": "2026-11-15T23:35:37Z",
       "ratingsAsOf": "2026-11-15T20:33:28Z",
       "modelVersion": "v2.0",
       "awayPts": 106.1,
@@ -402,7 +402,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T23:15:26Z",
+        "reportPulledAt": "2026-11-15T23:35:37Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -444,18 +444,18 @@
     },
     {
       "gameId": "20261119-POR-MIL",
-      "generatedAt": "2026-11-15T23:15:26Z",
+      "generatedAt": "2026-11-15T23:35:37Z",
       "ratingsAsOf": "2026-11-15T20:33:28Z",
       "modelVersion": "v2.0",
       "awayPts": 116.7,
-      "homePts": 107.2,
-      "margin": -9.48,
-      "spreadHome": 9.5,
-      "total": 224.0,
+      "homePts": 106.3,
+      "margin": -10.42,
+      "spreadHome": 10.4,
+      "total": 223.0,
       "pace": 102.3,
-      "homeWinProb": 0.2498,
-      "fairMlHome": 300,
-      "fairMlAway": -300,
+      "homeWinProb": 0.229,
+      "fairMlHome": 337,
+      "fairMlAway": -337,
       "contributions": [
         {
           "key": "offense",
@@ -479,7 +479,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.54
+          "pts": 3.6
         }
       ],
       "sample": {
@@ -509,7 +509,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T23:15:26Z",
+        "reportPulledAt": "2026-11-15T23:35:37Z",
         "source": "espn",
         "away": [
           {
@@ -558,6 +558,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Ryan Rollins",
+            "team": "MIL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 24.9,
+            "value": 2.18,
+            "impactPts": 0.94
+          },
           {
             "player": "Ousmane Dieng",
             "team": "MIL",
