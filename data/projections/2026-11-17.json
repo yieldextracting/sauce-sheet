@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261117-NYK-TOR",
-      "generatedAt": "2026-11-15T00:06:35Z",
+      "generatedAt": "2026-11-15T00:26:45Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 109.0,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:06:35Z",
+        "reportPulledAt": "2026-11-15T00:26:45Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -106,7 +106,7 @@
     },
     {
       "gameId": "20261117-DET-SAS",
-      "generatedAt": "2026-11-15T00:06:35Z",
+      "generatedAt": "2026-11-15T00:26:45Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 103.2,
@@ -170,7 +170,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:06:35Z",
+        "reportPulledAt": "2026-11-15T00:26:45Z",
         "source": "espn",
         "away": [
           {
@@ -224,7 +224,7 @@
     },
     {
       "gameId": "20261117-POR-MIN",
-      "generatedAt": "2026-11-15T00:06:35Z",
+      "generatedAt": "2026-11-15T00:26:45Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 107.1,
@@ -289,7 +289,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:06:35Z",
+        "reportPulledAt": "2026-11-15T00:26:45Z",
         "source": "espn",
         "away": [
           {
@@ -354,18 +354,18 @@
     },
     {
       "gameId": "20261117-UTA-LAC",
-      "generatedAt": "2026-11-15T00:06:35Z",
+      "generatedAt": "2026-11-15T00:26:45Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
-      "awayPts": 100.7,
+      "awayPts": 99.5,
       "homePts": 114.2,
-      "margin": 13.48,
-      "spreadHome": -13.5,
-      "total": 215.0,
+      "margin": 14.69,
+      "spreadHome": -14.7,
+      "total": 213.7,
       "pace": 101.6,
-      "homeWinProb": 0.8315,
-      "fairMlHome": -493,
-      "fairMlAway": 493,
+      "homeWinProb": 0.8523,
+      "fairMlHome": -577,
+      "fairMlAway": 577,
       "contributions": [
         {
           "key": "offense",
@@ -389,7 +389,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.01
+          "pts": 4.22
         }
       ],
       "sample": {
@@ -415,7 +415,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:06:35Z",
+        "reportPulledAt": "2026-11-15T00:26:45Z",
         "source": "espn",
         "away": [
           {
@@ -450,6 +450,17 @@
             "expMin": 26.4,
             "value": 3.92,
             "impactPts": 1.68
+          },
+          {
+            "player": "Jaxson Hayes",
+            "team": "UTA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Strain",
+            "matched": true,
+            "expMin": 22.2,
+            "value": 2.82,
+            "impactPts": 1.21
           },
           {
             "player": "Trey Alexander",
@@ -513,7 +524,7 @@
     },
     {
       "gameId": "20261117-CHA-LAL",
-      "generatedAt": "2026-11-15T00:06:35Z",
+      "generatedAt": "2026-11-15T00:26:45Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 102.2,
@@ -574,7 +585,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:06:35Z",
+        "reportPulledAt": "2026-11-15T00:26:45Z",
         "source": "espn",
         "away": [
           {

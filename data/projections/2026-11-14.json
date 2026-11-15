@@ -143,7 +143,7 @@
     },
     {
       "gameId": "20261114-DAL-CLE",
-      "generatedAt": "2026-11-15T00:06:35Z",
+      "generatedAt": "2026-11-15T00:26:45Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 115.1,
@@ -208,7 +208,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:06:35Z",
+        "reportPulledAt": "2026-11-15T00:26:45Z",
         "source": "espn",
         "away": [
           {
@@ -339,18 +339,18 @@
     },
     {
       "gameId": "20261114-BKN-MEM",
-      "generatedAt": "2026-11-15T00:06:35Z",
+      "generatedAt": "2026-11-15T00:26:45Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.4,
+      "awayPts": 107.0,
       "homePts": 108.4,
-      "margin": -0.01,
-      "spreadHome": 0.0,
-      "total": 216.9,
+      "margin": 1.47,
+      "spreadHome": -1.5,
+      "total": 215.4,
       "pace": 102.4,
-      "homeWinProb": 0.4998,
-      "fairMlHome": 100,
-      "fairMlAway": -100,
+      "homeWinProb": 0.5418,
+      "fairMlHome": -118,
+      "fairMlAway": 118,
       "contributions": [
         {
           "key": "offense",
@@ -374,7 +374,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.61
+          "pts": -4.13
         }
       ],
       "sample": {
@@ -403,19 +403,19 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:06:35Z",
+        "reportPulledAt": "2026-11-15T00:26:45Z",
         "source": "espn",
         "away": [
           {
             "player": "Michael Porter Jr.",
             "team": "BKN",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Personal",
             "matched": true,
             "expMin": 32.5,
             "value": 6.93,
-            "impactPts": 1.49
+            "impactPts": 2.97
           }
         ],
         "home": [
@@ -490,7 +490,7 @@
     },
     {
       "gameId": "20261114-CHI-MIN",
-      "generatedAt": "2026-11-15T00:06:35Z",
+      "generatedAt": "2026-11-15T00:26:45Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 102.9,
@@ -554,7 +554,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:06:35Z",
+        "reportPulledAt": "2026-11-15T00:26:45Z",
         "source": "espn",
         "away": [
           {
@@ -630,7 +630,7 @@
     },
     {
       "gameId": "20261114-DET-MIA",
-      "generatedAt": "2026-11-15T00:06:35Z",
+      "generatedAt": "2026-11-15T00:26:45Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 114.0,
@@ -693,7 +693,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:06:35Z",
+        "reportPulledAt": "2026-11-15T00:26:45Z",
         "source": "espn",
         "away": [
           {
