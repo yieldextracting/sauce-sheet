@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261119-GSW-MEM",
-      "generatedAt": "2026-11-15T08:26:06Z",
+      "generatedAt": "2026-11-15T15:52:02Z",
       "ratingsAsOf": "2026-11-15T08:26:06Z",
       "modelVersion": "v2.0",
       "awayPts": 101.4,
-      "homePts": 106.0,
-      "margin": 4.51,
-      "spreadHome": -4.5,
-      "total": 207.4,
+      "homePts": 113.2,
+      "margin": 11.75,
+      "spreadHome": -11.8,
+      "total": 214.6,
       "pace": 102.4,
-      "homeWinProb": 0.626,
-      "fairMlHome": -167,
-      "fairMlAway": 167,
+      "homeWinProb": 0.7987,
+      "fairMlHome": -397,
+      "fairMlAway": 397,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 5.26
+          "pts": 12.5
         }
       ],
       "sample": {
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:46:51Z",
+        "reportPulledAt": "2026-11-15T15:52:02Z",
         "source": "espn",
         "away": [
           {
@@ -130,39 +130,6 @@
         ],
         "home": [
           {
-            "player": "Ty Jerome",
-            "team": "MEM",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hip Soreness",
-            "matched": true,
-            "expMin": 28.8,
-            "value": 10.76,
-            "impactPts": 4.62
-          },
-          {
-            "player": "Zach Edey",
-            "team": "MEM",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle",
-            "matched": true,
-            "expMin": 19.3,
-            "value": 3.37,
-            "impactPts": 1.45
-          },
-          {
-            "player": "Jerami Grant",
-            "team": "MEM",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Head",
-            "matched": true,
-            "expMin": 24.6,
-            "value": 2.73,
-            "impactPts": 1.17
-          },
-          {
             "player": "Scotty Pippen Jr.",
             "team": "MEM",
             "status": "out",
@@ -200,7 +167,7 @@
     },
     {
       "gameId": "20261119-LAC-SAS",
-      "generatedAt": "2026-11-15T08:26:06Z",
+      "generatedAt": "2026-11-15T15:52:02Z",
       "ratingsAsOf": "2026-11-15T08:26:06Z",
       "modelVersion": "v2.0",
       "awayPts": 101.5,
@@ -263,7 +230,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:46:51Z",
+        "reportPulledAt": "2026-11-15T15:52:02Z",
         "source": "espn",
         "away": [
           {
@@ -339,7 +306,7 @@
     },
     {
       "gameId": "20261119-NYK-MIN",
-      "generatedAt": "2026-11-15T08:26:06Z",
+      "generatedAt": "2026-11-15T15:52:02Z",
       "ratingsAsOf": "2026-11-15T08:26:06Z",
       "modelVersion": "v2.0",
       "awayPts": 106.1,
@@ -402,7 +369,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:46:51Z",
+        "reportPulledAt": "2026-11-15T15:52:02Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -433,7 +400,7 @@
     },
     {
       "gameId": "20261119-POR-MIL",
-      "generatedAt": "2026-11-15T08:26:06Z",
+      "generatedAt": "2026-11-15T15:52:02Z",
       "ratingsAsOf": "2026-11-15T08:26:06Z",
       "modelVersion": "v2.0",
       "awayPts": 116.8,
@@ -498,7 +465,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:46:51Z",
+        "reportPulledAt": "2026-11-15T15:52:02Z",
         "source": "espn",
         "away": [
           {

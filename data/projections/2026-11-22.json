@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261122-DET-ATL",
-      "generatedAt": "2026-11-15T08:26:06Z",
+      "generatedAt": "2026-11-15T15:52:02Z",
       "ratingsAsOf": "2026-11-15T08:26:06Z",
       "modelVersion": "v2.0",
       "awayPts": 110.4,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:46:51Z",
+        "reportPulledAt": "2026-11-15T15:52:02Z",
         "source": "espn",
         "away": [
           {
@@ -151,18 +151,18 @@
     },
     {
       "gameId": "20261122-OKC-MIA",
-      "generatedAt": "2026-11-15T08:26:06Z",
+      "generatedAt": "2026-11-15T15:52:02Z",
       "ratingsAsOf": "2026-11-15T08:26:06Z",
       "modelVersion": "v2.0",
       "awayPts": 111.1,
-      "homePts": 111.2,
-      "margin": 0.13,
-      "spreadHome": -0.1,
-      "total": 222.3,
+      "homePts": 112.0,
+      "margin": 0.93,
+      "spreadHome": -0.9,
+      "total": 223.1,
       "pace": 104.7,
-      "homeWinProb": 0.5038,
-      "fairMlHome": -102,
-      "fairMlAway": 102,
+      "homeWinProb": 0.5265,
+      "fairMlHome": -111,
+      "fairMlAway": 111,
       "contributions": [
         {
           "key": "offense",
@@ -186,7 +186,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.62
+          "pts": 5.42
         }
       ],
       "sample": {
@@ -214,7 +214,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:46:51Z",
+        "reportPulledAt": "2026-11-15T15:52:02Z",
         "source": "espn",
         "away": [
           {
@@ -273,24 +273,12 @@
             "impactPts": 0.0
           }
         ],
-        "home": [
-          {
-            "player": "Pelle Larsson",
-            "team": "MIA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 28.7,
-            "value": 1.87,
-            "impactPts": 0.8
-          }
-        ]
+        "home": []
       }
     },
     {
       "gameId": "20261122-DAL-UTA",
-      "generatedAt": "2026-11-15T08:26:06Z",
+      "generatedAt": "2026-11-15T15:52:02Z",
       "ratingsAsOf": "2026-11-15T08:26:06Z",
       "modelVersion": "v2.0",
       "awayPts": 113.5,
@@ -355,7 +343,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:46:51Z",
+        "reportPulledAt": "2026-11-15T15:52:02Z",
         "source": "espn",
         "away": [
           {
@@ -368,17 +356,6 @@
             "expMin": 16.4,
             "value": 1.07,
             "impactPts": 0.46
-          },
-          {
-            "player": "Max Christie",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 15.7,
-            "value": 0.0,
-            "impactPts": 0.0
           },
           {
             "player": "Tarik Biberovic",
@@ -464,18 +441,18 @@
     },
     {
       "gameId": "20261122-DEN-CHI",
-      "generatedAt": "2026-11-15T08:26:06Z",
+      "generatedAt": "2026-11-15T15:52:02Z",
       "ratingsAsOf": "2026-11-15T08:26:06Z",
       "modelVersion": "v2.0",
       "awayPts": 121.5,
-      "homePts": 112.6,
-      "margin": -8.96,
-      "spreadHome": 9.0,
-      "total": 234.1,
+      "homePts": 116.0,
+      "margin": -5.52,
+      "spreadHome": 5.5,
+      "total": 237.5,
       "pace": 103.9,
-      "homeWinProb": 0.2617,
-      "fairMlHome": 282,
-      "fairMlAway": -282,
+      "homeWinProb": 0.3471,
+      "fairMlHome": 188,
+      "fairMlAway": -188,
       "contributions": [
         {
           "key": "offense",
@@ -499,7 +476,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.19
+          "pts": -0.75
         }
       ],
       "sample": {
@@ -525,7 +502,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:46:51Z",
+        "reportPulledAt": "2026-11-15T15:52:02Z",
         "source": "espn",
         "away": [
           {
@@ -542,28 +519,6 @@
         ],
         "home": [
           {
-            "player": "Jalen Smith",
-            "team": "CHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Finger Sprain",
-            "matched": true,
-            "expMin": 24.6,
-            "value": 4.15,
-            "impactPts": 1.78
-          },
-          {
-            "player": "Nic Claxton",
-            "team": "CHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring",
-            "matched": true,
-            "expMin": 24.8,
-            "value": 3.86,
-            "impactPts": 1.66
-          },
-          {
             "player": "Caleb Wilson",
             "team": "CHI",
             "status": "out",
@@ -573,24 +528,13 @@
             "expMin": 21.6,
             "value": 2.44,
             "impactPts": 1.05
-          },
-          {
-            "player": "Tobe Awaka",
-            "team": "CHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Back",
-            "matched": true,
-            "expMin": 3.2,
-            "value": 0.35,
-            "impactPts": 0.0
           }
         ]
       }
     },
     {
       "gameId": "20261122-ORL-WAS",
-      "generatedAt": "2026-11-15T08:26:06Z",
+      "generatedAt": "2026-11-15T15:52:02Z",
       "ratingsAsOf": "2026-11-15T08:26:06Z",
       "modelVersion": "v2.0",
       "awayPts": 110.2,
@@ -651,7 +595,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:46:51Z",
+        "reportPulledAt": "2026-11-15T15:52:02Z",
         "source": "espn",
         "away": [
           {
@@ -749,7 +693,7 @@
     },
     {
       "gameId": "20261122-IND-NYK",
-      "generatedAt": "2026-11-15T08:26:06Z",
+      "generatedAt": "2026-11-15T15:52:02Z",
       "ratingsAsOf": "2026-11-15T08:26:06Z",
       "modelVersion": "v2.0",
       "awayPts": 102.8,
@@ -813,7 +757,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:46:51Z",
+        "reportPulledAt": "2026-11-15T15:52:02Z",
         "source": "espn",
         "away": [
           {
@@ -855,7 +799,7 @@
     },
     {
       "gameId": "20261122-BOS-GSW",
-      "generatedAt": "2026-11-15T08:26:06Z",
+      "generatedAt": "2026-11-15T15:52:02Z",
       "ratingsAsOf": "2026-11-15T08:26:06Z",
       "modelVersion": "v2.0",
       "awayPts": 109.0,
@@ -919,7 +863,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:46:51Z",
+        "reportPulledAt": "2026-11-15T15:52:02Z",
         "source": "espn",
         "away": [],
         "home": [
