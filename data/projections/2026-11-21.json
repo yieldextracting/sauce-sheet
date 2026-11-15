@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261121-MIL-PHI",
-      "generatedAt": "2026-11-15T00:36:48Z",
+      "generatedAt": "2026-11-15T00:46:52Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 105.2,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:36:48Z",
+        "reportPulledAt": "2026-11-15T00:46:51Z",
         "source": "espn",
         "away": [
           {
@@ -131,7 +131,7 @@
     },
     {
       "gameId": "20261121-POR-NYK",
-      "generatedAt": "2026-11-15T00:36:48Z",
+      "generatedAt": "2026-11-15T00:46:52Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 104.7,
@@ -194,7 +194,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:36:48Z",
+        "reportPulledAt": "2026-11-15T00:46:51Z",
         "source": "espn",
         "away": [
           {
@@ -236,7 +236,7 @@
     },
     {
       "gameId": "20261121-LAC-DAL",
-      "generatedAt": "2026-11-15T00:36:48Z",
+      "generatedAt": "2026-11-15T00:46:52Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 107.4,
@@ -297,7 +297,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:36:48Z",
+        "reportPulledAt": "2026-11-15T00:46:51Z",
         "source": "espn",
         "away": [
           {
@@ -395,18 +395,18 @@
     },
     {
       "gameId": "20261121-MEM-MIN",
-      "generatedAt": "2026-11-15T00:36:48Z",
+      "generatedAt": "2026-11-15T00:46:52Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
-      "awayPts": 102.8,
+      "awayPts": 100.0,
       "homePts": 113.8,
-      "margin": 10.97,
-      "spreadHome": -11.0,
-      "total": 216.6,
+      "margin": 13.8,
+      "spreadHome": -13.8,
+      "total": 213.7,
       "pace": 103.9,
-      "homeWinProb": 0.7826,
-      "fairMlHome": -360,
-      "fairMlAway": 360,
+      "homeWinProb": 0.837,
+      "fairMlHome": -514,
+      "fairMlAway": 514,
       "contributions": [
         {
           "key": "offense",
@@ -430,7 +430,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.33
+          "pts": 3.16
         }
       ],
       "sample": {
@@ -458,7 +458,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:36:48Z",
+        "reportPulledAt": "2026-11-15T00:46:51Z",
         "source": "espn",
         "away": [
           {
@@ -471,6 +471,28 @@
             "expMin": 28.8,
             "value": 10.76,
             "impactPts": 4.62
+          },
+          {
+            "player": "Zach Edey",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle",
+            "matched": true,
+            "expMin": 22.1,
+            "value": 3.87,
+            "impactPts": 1.66
+          },
+          {
+            "player": "Jerami Grant",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Head",
+            "matched": true,
+            "expMin": 24.6,
+            "value": 2.73,
+            "impactPts": 1.17
           },
           {
             "player": "Scotty Pippen Jr.",
@@ -534,7 +556,7 @@
     },
     {
       "gameId": "20261121-NOP-SAS",
-      "generatedAt": "2026-11-15T00:36:48Z",
+      "generatedAt": "2026-11-15T00:46:52Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 100.1,
@@ -598,7 +620,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:36:48Z",
+        "reportPulledAt": "2026-11-15T00:46:51Z",
         "source": "espn",
         "away": [
           {
@@ -685,7 +707,7 @@
     },
     {
       "gameId": "20261121-BOS-SAC",
-      "generatedAt": "2026-11-15T00:36:48Z",
+      "generatedAt": "2026-11-15T00:46:52Z",
       "ratingsAsOf": "2026-11-14T06:04:56Z",
       "modelVersion": "v2.0",
       "awayPts": 118.5,
@@ -749,7 +771,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-15T00:36:48Z",
+        "reportPulledAt": "2026-11-15T00:46:51Z",
         "source": "espn",
         "away": [],
         "home": [
