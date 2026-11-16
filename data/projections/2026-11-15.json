@@ -1121,18 +1121,18 @@
     },
     {
       "gameId": "20261115-OKC-SAC",
-      "generatedAt": "2026-11-16T01:06:04Z",
-      "ratingsAsOf": "2026-11-16T00:25:52Z",
+      "generatedAt": "2026-11-16T01:16:07Z",
+      "ratingsAsOf": "2026-11-16T01:16:07Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.8,
-      "homePts": 100.2,
-      "margin": -10.61,
-      "spreadHome": 10.6,
-      "total": 211.0,
+      "awayPts": 111.9,
+      "homePts": 98.2,
+      "margin": -13.63,
+      "spreadHome": 13.6,
+      "total": 210.1,
       "pace": 102.1,
-      "homeWinProb": 0.225,
-      "fairMlHome": 344,
-      "fairMlAway": -344,
+      "homeWinProb": 0.1659,
+      "fairMlHome": 503,
+      "fairMlAway": -503,
       "contributions": [
         {
           "key": "offense",
@@ -1156,7 +1156,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.01
+          "pts": 0.99
         }
       ],
       "sample": {
@@ -1182,7 +1182,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T01:06:04Z",
+        "reportPulledAt": "2026-11-16T01:16:07Z",
         "source": "espn",
         "away": [
           {
@@ -1206,17 +1206,6 @@
             "expMin": 29.5,
             "value": 5.15,
             "impactPts": 2.21
-          },
-          {
-            "player": "Ajay Mitchell",
-            "team": "OKC",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": null,
-            "matched": true,
-            "expMin": 27.3,
-            "value": 5.03,
-            "impactPts": 1.08
           },
           {
             "player": "Cason Wallace",
@@ -1253,6 +1242,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Zach LaVine",
+            "team": "SAC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 32.3,
+            "value": 4.52,
+            "impactPts": 1.94
+          },
           {
             "player": "Maxime Raynaud",
             "team": "SAC",
