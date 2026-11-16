@@ -3,14 +3,14 @@
   "games": [
     {
       "gameId": "20261116-CHI-CLE",
-      "generatedAt": "2026-11-16T02:06:22Z",
-      "ratingsAsOf": "2026-11-16T02:06:22Z",
+      "generatedAt": "2026-11-16T02:36:32Z",
+      "ratingsAsOf": "2026-11-16T02:36:32Z",
       "modelVersion": "v2.0",
       "awayPts": 114.8,
-      "homePts": 123.3,
+      "homePts": 123.2,
       "margin": 8.45,
       "spreadHome": -8.5,
-      "total": 238.1,
+      "total": 238.0,
       "pace": 106.0,
       "homeWinProb": 0.7264,
       "fairMlHome": -266,
@@ -18,7 +18,7 @@
       "contributions": [
         {
           "key": "offense",
-          "pts": 5.98
+          "pts": 5.99
         },
         {
           "key": "defense",
@@ -165,30 +165,30 @@
     },
     {
       "gameId": "20261116-MEM-WAS",
-      "generatedAt": "2026-11-16T02:06:22Z",
-      "ratingsAsOf": "2026-11-16T02:06:22Z",
+      "generatedAt": "2026-11-16T02:36:32Z",
+      "ratingsAsOf": "2026-11-16T02:36:32Z",
       "modelVersion": "v2.0",
-      "awayPts": 111.8,
-      "homePts": 108.9,
-      "margin": -2.9,
-      "spreadHome": 2.9,
-      "total": 220.8,
-      "pace": 103.1,
-      "homeWinProb": 0.4182,
-      "fairMlHome": 139,
-      "fairMlAway": -139,
+      "awayPts": 113.1,
+      "homePts": 109.5,
+      "margin": -3.55,
+      "spreadHome": 3.6,
+      "total": 222.6,
+      "pace": 103.2,
+      "homeWinProb": 0.4001,
+      "fairMlHome": 150,
+      "fairMlAway": -150,
       "contributions": [
         {
           "key": "offense",
-          "pts": -5.14
+          "pts": -4.68
         },
         {
           "key": "defense",
-          "pts": -3.42
+          "pts": -4.52
         },
         {
           "key": "pace",
-          "pts": -0.1
+          "pts": -0.11
         },
         {
           "key": "home",
@@ -205,8 +205,8 @@
       ],
       "sample": {
         "awayGP": 13,
-        "homeGP": 13,
-        "priorWeight": 0.4348
+        "homeGP": 14,
+        "priorWeight": 0.4258
       },
       "flags": [
         "3in4_away",
@@ -371,26 +371,26 @@
     },
     {
       "gameId": "20261116-ORL-BOS",
-      "generatedAt": "2026-11-16T02:06:22Z",
-      "ratingsAsOf": "2026-11-16T02:06:22Z",
+      "generatedAt": "2026-11-16T02:36:32Z",
+      "ratingsAsOf": "2026-11-16T02:36:32Z",
       "modelVersion": "v2.0",
-      "awayPts": 98.8,
+      "awayPts": 98.7,
       "homePts": 112.9,
-      "margin": 14.1,
+      "margin": 14.14,
       "spreadHome": -14.1,
       "total": 211.6,
       "pace": 97.9,
-      "homeWinProb": 0.8423,
-      "fairMlHome": -534,
-      "fairMlAway": 534,
+      "homeWinProb": 0.843,
+      "fairMlHome": -537,
+      "fairMlAway": 537,
       "contributions": [
         {
           "key": "offense",
-          "pts": 6.93
+          "pts": 6.96
         },
         {
           "key": "defense",
-          "pts": 4.42
+          "pts": 4.44
         },
         {
           "key": "pace",
@@ -488,30 +488,30 @@
     },
     {
       "gameId": "20261116-HOU-MIA",
-      "generatedAt": "2026-11-16T02:06:22Z",
-      "ratingsAsOf": "2026-11-16T02:06:22Z",
+      "generatedAt": "2026-11-16T02:36:32Z",
+      "ratingsAsOf": "2026-11-16T02:36:32Z",
       "modelVersion": "v2.0",
-      "awayPts": 116.2,
-      "homePts": 114.0,
-      "margin": -2.26,
-      "spreadHome": 2.3,
-      "total": 230.2,
-      "pace": 102.2,
-      "homeWinProb": 0.436,
-      "fairMlHome": 129,
-      "fairMlAway": -129,
+      "awayPts": 117.6,
+      "homePts": 114.6,
+      "margin": -3.04,
+      "spreadHome": 3.0,
+      "total": 232.2,
+      "pace": 102.3,
+      "homeWinProb": 0.4143,
+      "fairMlHome": 141,
+      "fairMlAway": -141,
       "contributions": [
         {
           "key": "offense",
-          "pts": -2.71
+          "pts": -3.78
         },
         {
           "key": "defense",
-          "pts": -4.06
+          "pts": -3.61
         },
         {
           "key": "pace",
-          "pts": -0.01
+          "pts": -0.02
         },
         {
           "key": "home",
@@ -519,17 +519,17 @@
         },
         {
           "key": "rest_travel",
-          "pts": 2.07
+          "pts": 2.08
         },
         {
           "key": "injuries",
-          "pts": 0.69
+          "pts": 0.55
         }
       ],
       "sample": {
-        "awayGP": 13,
+        "awayGP": 14,
         "homeGP": 13,
-        "priorWeight": 0.4348
+        "priorWeight": 0.4258
       },
       "flags": [
         "b2b_away",
@@ -563,9 +563,9 @@
             "pPlay": 0.0,
             "reason": "Knee",
             "matched": true,
-            "expMin": 23.2,
-            "value": 2.53,
-            "impactPts": 1.09
+            "expMin": 20.2,
+            "value": 2.21,
+            "impactPts": 0.95
           },
           {
             "player": "Clint Capela",
@@ -596,22 +596,22 @@
     },
     {
       "gameId": "20261116-PHI-BKN",
-      "generatedAt": "2026-11-16T02:06:22Z",
-      "ratingsAsOf": "2026-11-16T02:06:22Z",
+      "generatedAt": "2026-11-16T02:36:32Z",
+      "ratingsAsOf": "2026-11-16T02:36:32Z",
       "modelVersion": "v2.0",
       "awayPts": 110.8,
       "homePts": 108.8,
-      "margin": -1.98,
+      "margin": -1.97,
       "spreadHome": 2.0,
-      "total": 219.5,
-      "pace": 101.4,
-      "homeWinProb": 0.4439,
+      "total": 219.7,
+      "pace": 101.5,
+      "homeWinProb": 0.4441,
       "fairMlHome": 125,
       "fairMlAway": -125,
       "contributions": [
         {
           "key": "offense",
-          "pts": -3.78
+          "pts": -3.77
         },
         {
           "key": "defense",
@@ -713,26 +713,26 @@
     },
     {
       "gameId": "20261116-GSW-NOP",
-      "generatedAt": "2026-11-16T02:06:22Z",
-      "ratingsAsOf": "2026-11-16T02:06:22Z",
+      "generatedAt": "2026-11-16T02:36:32Z",
+      "ratingsAsOf": "2026-11-16T02:36:32Z",
       "modelVersion": "v2.0",
       "awayPts": 107.4,
       "homePts": 105.8,
-      "margin": -1.61,
+      "margin": -1.64,
       "spreadHome": 1.6,
       "total": 213.1,
       "pace": 102.8,
-      "homeWinProb": 0.4543,
+      "homeWinProb": 0.4535,
       "fairMlHome": 120,
       "fairMlAway": -120,
       "contributions": [
         {
           "key": "offense",
-          "pts": -3.82
+          "pts": -3.79
         },
         {
           "key": "defense",
-          "pts": -7.18
+          "pts": -7.24
         },
         {
           "key": "pace",
@@ -907,26 +907,26 @@
     },
     {
       "gameId": "20261116-POR-MIN",
-      "generatedAt": "2026-11-16T02:06:22Z",
-      "ratingsAsOf": "2026-11-16T02:06:22Z",
+      "generatedAt": "2026-11-16T02:36:32Z",
+      "ratingsAsOf": "2026-11-16T02:36:32Z",
       "modelVersion": "v2.0",
       "awayPts": 107.0,
       "homePts": 109.8,
-      "margin": 2.78,
+      "margin": 2.8,
       "spreadHome": -2.8,
       "total": 216.8,
       "pace": 103.7,
-      "homeWinProb": 0.5784,
-      "fairMlHome": -137,
-      "fairMlAway": 137,
+      "homeWinProb": 0.579,
+      "fairMlHome": -138,
+      "fairMlAway": 138,
       "contributions": [
         {
           "key": "offense",
-          "pts": -1.55
+          "pts": -1.57
         },
         {
           "key": "defense",
-          "pts": 3.28
+          "pts": 3.33
         },
         {
           "key": "pace",
@@ -1057,14 +1057,14 @@
     },
     {
       "gameId": "20261116-PHX-DEN",
-      "generatedAt": "2026-11-16T02:06:22Z",
-      "ratingsAsOf": "2026-11-16T02:06:22Z",
+      "generatedAt": "2026-11-16T02:36:32Z",
+      "ratingsAsOf": "2026-11-16T02:36:32Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.2,
+      "awayPts": 106.1,
       "homePts": 118.5,
       "margin": 12.32,
       "spreadHome": -12.3,
-      "total": 224.7,
+      "total": 224.6,
       "pace": 99.4,
       "homeWinProb": 0.8099,
       "fairMlHome": -426,
@@ -1076,7 +1076,7 @@
         },
         {
           "key": "defense",
-          "pts": -1.7
+          "pts": -1.69
         },
         {
           "key": "pace",
