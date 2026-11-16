@@ -1121,18 +1121,18 @@
     },
     {
       "gameId": "20261115-OKC-SAC",
-      "generatedAt": "2026-11-16T01:16:07Z",
+      "generatedAt": "2026-11-16T01:36:13Z",
       "ratingsAsOf": "2026-11-16T01:16:07Z",
       "modelVersion": "v2.0",
       "awayPts": 111.9,
-      "homePts": 98.2,
-      "margin": -13.63,
-      "spreadHome": 13.6,
-      "total": 210.1,
+      "homePts": 98.1,
+      "margin": -13.76,
+      "spreadHome": 13.8,
+      "total": 210.0,
       "pace": 102.1,
-      "homeWinProb": 0.1659,
-      "fairMlHome": 503,
-      "fairMlAway": -503,
+      "homeWinProb": 0.1636,
+      "fairMlHome": 511,
+      "fairMlAway": -511,
       "contributions": [
         {
           "key": "offense",
@@ -1156,7 +1156,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.99
+          "pts": 0.86
         }
       ],
       "sample": {
@@ -1182,7 +1182,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T01:16:07Z",
+        "reportPulledAt": "2026-11-16T01:36:13Z",
         "source": "espn",
         "away": [
           {
@@ -1278,13 +1278,13 @@
           {
             "player": "De'Andre Hunter",
             "team": "SAC",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Hip Soreness",
             "matched": true,
             "expMin": 32.6,
             "value": 0.6,
-            "impactPts": 0.13
+            "impactPts": 0.26
           },
           {
             "player": "Ben Simmons",
