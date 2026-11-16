@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261121-MIL-PHI",
-      "generatedAt": "2026-11-16T00:25:52Z",
+      "generatedAt": "2026-11-16T00:35:55Z",
       "ratingsAsOf": "2026-11-16T00:25:52Z",
       "modelVersion": "v2.0",
       "awayPts": 104.8,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T00:05:46Z",
+        "reportPulledAt": "2026-11-16T00:35:55Z",
         "source": "espn",
         "away": [
           {
@@ -131,7 +131,7 @@
     },
     {
       "gameId": "20261121-POR-NYK",
-      "generatedAt": "2026-11-16T00:25:52Z",
+      "generatedAt": "2026-11-16T00:35:55Z",
       "ratingsAsOf": "2026-11-16T00:25:52Z",
       "modelVersion": "v2.0",
       "awayPts": 104.6,
@@ -194,7 +194,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T00:05:46Z",
+        "reportPulledAt": "2026-11-16T00:35:55Z",
         "source": "espn",
         "away": [
           {
@@ -247,7 +247,7 @@
     },
     {
       "gameId": "20261121-LAC-DAL",
-      "generatedAt": "2026-11-16T00:25:52Z",
+      "generatedAt": "2026-11-16T00:35:55Z",
       "ratingsAsOf": "2026-11-16T00:25:52Z",
       "modelVersion": "v2.0",
       "awayPts": 108.0,
@@ -308,7 +308,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T00:05:46Z",
+        "reportPulledAt": "2026-11-16T00:35:55Z",
         "source": "espn",
         "away": [
           {
@@ -428,7 +428,7 @@
     },
     {
       "gameId": "20261121-MEM-MIN",
-      "generatedAt": "2026-11-16T00:25:52Z",
+      "generatedAt": "2026-11-16T00:35:55Z",
       "ratingsAsOf": "2026-11-16T00:25:52Z",
       "modelVersion": "v2.0",
       "awayPts": 103.3,
@@ -491,7 +491,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T00:05:46Z",
+        "reportPulledAt": "2026-11-16T00:35:55Z",
         "source": "espn",
         "away": [
           {
@@ -589,7 +589,7 @@
     },
     {
       "gameId": "20261121-NOP-SAS",
-      "generatedAt": "2026-11-16T00:25:52Z",
+      "generatedAt": "2026-11-16T00:35:55Z",
       "ratingsAsOf": "2026-11-16T00:25:52Z",
       "modelVersion": "v2.0",
       "awayPts": 99.8,
@@ -653,7 +653,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T00:05:46Z",
+        "reportPulledAt": "2026-11-16T00:35:55Z",
         "source": "espn",
         "away": [
           {
@@ -751,18 +751,18 @@
     },
     {
       "gameId": "20261121-BOS-SAC",
-      "generatedAt": "2026-11-16T00:25:52Z",
+      "generatedAt": "2026-11-16T00:35:55Z",
       "ratingsAsOf": "2026-11-16T00:25:52Z",
       "modelVersion": "v2.0",
       "awayPts": 118.5,
-      "homePts": 98.7,
-      "margin": -19.72,
-      "spreadHome": 19.7,
-      "total": 217.2,
+      "homePts": 97.7,
+      "margin": -20.74,
+      "spreadHome": 20.7,
+      "total": 216.2,
       "pace": 98.6,
-      "homeWinProb": 0.0802,
-      "fairMlHome": 1147,
-      "fairMlAway": -1147,
+      "homeWinProb": 0.0699,
+      "fairMlHome": 1331,
+      "fairMlAway": -1331,
       "contributions": [
         {
           "key": "offense",
@@ -786,7 +786,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.34
+          "pts": -2.36
         }
       ],
       "sample": {
@@ -815,7 +815,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T00:05:46Z",
+        "reportPulledAt": "2026-11-16T00:35:55Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -829,6 +829,17 @@
             "expMin": 26.6,
             "value": 3.12,
             "impactPts": 1.34
+          },
+          {
+            "player": "Precious Achiuwa",
+            "team": "SAC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Ankle Soreness",
+            "matched": true,
+            "expMin": 24.8,
+            "value": 2.37,
+            "impactPts": 1.02
           },
           {
             "player": "Ben Simmons",
