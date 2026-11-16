@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261122-DET-ATL",
-      "generatedAt": "2026-11-16T20:36:19Z",
+      "generatedAt": "2026-11-16T22:16:58Z",
       "ratingsAsOf": "2026-11-16T07:55:33Z",
       "modelVersion": "v2.0",
       "awayPts": 109.9,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T20:36:19Z",
+        "reportPulledAt": "2026-11-16T22:16:58Z",
         "source": "espn",
         "away": [
           {
@@ -129,7 +129,7 @@
     },
     {
       "gameId": "20261122-OKC-MIA",
-      "generatedAt": "2026-11-16T20:36:19Z",
+      "generatedAt": "2026-11-16T22:16:58Z",
       "ratingsAsOf": "2026-11-16T07:55:33Z",
       "modelVersion": "v2.0",
       "awayPts": 111.4,
@@ -192,7 +192,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T20:36:19Z",
+        "reportPulledAt": "2026-11-16T22:16:58Z",
         "source": "espn",
         "away": [
           {
@@ -256,7 +256,7 @@
     },
     {
       "gameId": "20261122-DAL-UTA",
-      "generatedAt": "2026-11-16T20:36:19Z",
+      "generatedAt": "2026-11-16T22:16:58Z",
       "ratingsAsOf": "2026-11-16T07:55:33Z",
       "modelVersion": "v2.0",
       "awayPts": 112.8,
@@ -321,7 +321,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T20:36:19Z",
+        "reportPulledAt": "2026-11-16T22:16:58Z",
         "source": "espn",
         "away": [
           {
@@ -408,7 +408,7 @@
     },
     {
       "gameId": "20261122-DEN-CHI",
-      "generatedAt": "2026-11-16T20:36:19Z",
+      "generatedAt": "2026-11-16T22:16:58Z",
       "ratingsAsOf": "2026-11-16T07:55:33Z",
       "modelVersion": "v2.0",
       "awayPts": 121.5,
@@ -469,7 +469,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T20:36:19Z",
+        "reportPulledAt": "2026-11-16T22:16:58Z",
         "source": "espn",
         "away": [
           {
@@ -512,7 +512,7 @@
     },
     {
       "gameId": "20261122-ORL-WAS",
-      "generatedAt": "2026-11-16T20:36:19Z",
+      "generatedAt": "2026-11-16T22:16:58Z",
       "ratingsAsOf": "2026-11-16T07:55:33Z",
       "modelVersion": "v2.0",
       "awayPts": 111.5,
@@ -573,7 +573,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T20:36:19Z",
+        "reportPulledAt": "2026-11-16T22:16:58Z",
         "source": "espn",
         "away": [
           {
@@ -671,7 +671,7 @@
     },
     {
       "gameId": "20261122-IND-NYK",
-      "generatedAt": "2026-11-16T20:36:19Z",
+      "generatedAt": "2026-11-16T22:16:58Z",
       "ratingsAsOf": "2026-11-16T07:55:33Z",
       "modelVersion": "v2.0",
       "awayPts": 102.9,
@@ -735,7 +735,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T20:36:19Z",
+        "reportPulledAt": "2026-11-16T22:16:58Z",
         "source": "espn",
         "away": [
           {
@@ -777,18 +777,18 @@
     },
     {
       "gameId": "20261122-BOS-GSW",
-      "generatedAt": "2026-11-16T20:36:19Z",
+      "generatedAt": "2026-11-16T22:16:58Z",
       "ratingsAsOf": "2026-11-16T07:55:33Z",
       "modelVersion": "v2.0",
-      "awayPts": 109.6,
+      "awayPts": 108.1,
       "homePts": 94.1,
-      "margin": -15.49,
-      "spreadHome": 15.5,
-      "total": 203.7,
+      "margin": -14.0,
+      "spreadHome": 14.0,
+      "total": 202.2,
       "pace": 97.8,
-      "homeWinProb": 0.135,
-      "fairMlHome": 641,
-      "fairMlAway": -641,
+      "homeWinProb": 0.1594,
+      "fairMlHome": 527,
+      "fairMlAway": -527,
       "contributions": [
         {
           "key": "offense",
@@ -812,7 +812,7 @@
         },
         {
           "key": "injuries",
-          "pts": -13.56
+          "pts": -12.07
         }
       ],
       "sample": {
@@ -841,9 +841,21 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T20:36:19Z",
+        "reportPulledAt": "2026-11-16T22:16:58Z",
         "source": "espn",
-        "away": [],
+        "away": [
+          {
+            "player": "Neemias Queta",
+            "team": "BOS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Rest",
+            "matched": true,
+            "expMin": 22.6,
+            "value": 3.48,
+            "impactPts": 1.49
+          }
+        ],
         "home": [
           {
             "player": "Stephen Curry",
