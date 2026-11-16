@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T01:16:07Z",
+  "generatedAt": "2026-11-16T01:26:10Z",
   "grades": [
     {
       "source": "model",
@@ -3629,6 +3629,44 @@
       "clvProb": null,
       "closeMinutesBeforeTip": 35,
       "finalScore": "110-102"
+    },
+    {
+      "source": "model",
+      "gameId": "20261116-GSW-NOP",
+      "etDate": "2026-11-16",
+      "pickId": "model",
+      "market": "spread",
+      "side": "NOP",
+      "line": 2.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 0.9,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
+    },
+    {
+      "source": "model",
+      "gameId": "20261116-POR-MIN",
+      "etDate": "2026-11-16",
+      "pickId": "model",
+      "market": "spread",
+      "side": "POR",
+      "line": 3.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 0.7,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
     }
   ],
   "summary": {
@@ -3636,7 +3674,7 @@
       "w": 86,
       "l": 101,
       "p": 0,
-      "pending": 4,
+      "pending": 6,
       "units": -22.817,
       "risked": 187.0,
       "roi": -0.122,
