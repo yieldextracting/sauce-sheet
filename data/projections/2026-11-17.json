@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261117-NYK-TOR",
-      "generatedAt": "2026-11-16T22:37:04Z",
+      "generatedAt": "2026-11-16T22:47:08Z",
       "ratingsAsOf": "2026-11-16T07:55:33Z",
       "modelVersion": "v2.0",
       "awayPts": 108.3,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T22:37:04Z",
+        "reportPulledAt": "2026-11-16T22:47:08Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -106,18 +106,18 @@
     },
     {
       "gameId": "20261117-DET-SAS",
-      "generatedAt": "2026-11-16T22:37:04Z",
+      "generatedAt": "2026-11-16T22:47:08Z",
       "ratingsAsOf": "2026-11-16T07:55:33Z",
       "modelVersion": "v2.0",
-      "awayPts": 102.3,
+      "awayPts": 101.7,
       "homePts": 112.3,
-      "margin": 10.02,
-      "spreadHome": -10.0,
-      "total": 214.6,
+      "margin": 10.58,
+      "spreadHome": -10.6,
+      "total": 214.1,
       "pace": 101.2,
-      "homeWinProb": 0.7623,
-      "fairMlHome": -321,
-      "fairMlAway": 321,
+      "homeWinProb": 0.7745,
+      "fairMlHome": -343,
+      "fairMlAway": 343,
       "contributions": [
         {
           "key": "offense",
@@ -141,7 +141,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.19
+          "pts": 4.75
         }
       ],
       "sample": {
@@ -170,7 +170,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T22:37:04Z",
+        "reportPulledAt": "2026-11-16T22:47:08Z",
         "source": "espn",
         "away": [
           {
@@ -185,6 +185,17 @@
             "impactPts": 4.12
           },
           {
+            "player": "Duncan Robinson",
+            "team": "DET",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Quadriceps Strain",
+            "matched": true,
+            "expMin": 29.8,
+            "value": 2.58,
+            "impactPts": 1.11
+          },
+          {
             "player": "Isaiah Joe",
             "team": "DET",
             "status": "out",
@@ -194,17 +205,6 @@
             "expMin": 18.4,
             "value": 1.96,
             "impactPts": 0.84
-          },
-          {
-            "player": "Duncan Robinson",
-            "team": "DET",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Thigh Soreness",
-            "matched": true,
-            "expMin": 29.8,
-            "value": 2.58,
-            "impactPts": 0.55
           }
         ],
         "home": [
@@ -235,7 +235,7 @@
     },
     {
       "gameId": "20261117-POR-MIN",
-      "generatedAt": "2026-11-16T22:37:04Z",
+      "generatedAt": "2026-11-16T22:47:08Z",
       "ratingsAsOf": "2026-11-16T07:55:33Z",
       "modelVersion": "v2.0",
       "awayPts": 107.5,
@@ -300,7 +300,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T22:37:04Z",
+        "reportPulledAt": "2026-11-16T22:47:08Z",
         "source": "espn",
         "away": [
           {
@@ -387,7 +387,7 @@
     },
     {
       "gameId": "20261117-UTA-LAC",
-      "generatedAt": "2026-11-16T22:37:04Z",
+      "generatedAt": "2026-11-16T22:47:08Z",
       "ratingsAsOf": "2026-11-16T07:55:33Z",
       "modelVersion": "v2.0",
       "awayPts": 100.0,
@@ -448,7 +448,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T22:37:04Z",
+        "reportPulledAt": "2026-11-16T22:47:08Z",
         "source": "espn",
         "away": [
           {
@@ -557,7 +557,7 @@
     },
     {
       "gameId": "20261117-CHA-LAL",
-      "generatedAt": "2026-11-16T22:37:04Z",
+      "generatedAt": "2026-11-16T22:47:08Z",
       "ratingsAsOf": "2026-11-16T07:55:33Z",
       "modelVersion": "v2.0",
       "awayPts": 102.5,
@@ -618,7 +618,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T22:37:04Z",
+        "reportPulledAt": "2026-11-16T22:47:08Z",
         "source": "espn",
         "away": [
           {
