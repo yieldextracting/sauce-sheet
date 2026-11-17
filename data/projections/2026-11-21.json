@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261121-MIL-PHI",
-      "generatedAt": "2026-11-17T21:49:32Z",
+      "generatedAt": "2026-11-17T22:09:40Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 106.2,
-      "homePts": 118.9,
-      "margin": 12.68,
-      "spreadHome": -12.7,
-      "total": 225.0,
+      "homePts": 115.4,
+      "margin": 9.22,
+      "spreadHome": -9.2,
+      "total": 221.6,
       "pace": 101.7,
-      "homeWinProb": 0.8167,
-      "fairMlHome": -446,
-      "fairMlAway": 446,
+      "homeWinProb": 0.7443,
+      "fairMlHome": -291,
+      "fairMlAway": 291,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.36
+          "pts": -3.82
         }
       ],
       "sample": {
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-17T21:49:32Z",
+        "reportPulledAt": "2026-11-17T22:09:40Z",
         "source": "espn",
         "away": [
           {
@@ -82,6 +82,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Jaylen Brown",
+            "team": "PHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring Not Specified",
+            "matched": true,
+            "expMin": 33.9,
+            "value": 8.07,
+            "impactPts": 3.46
+          },
           {
             "player": "Dominick Barlow",
             "team": "PHI",
@@ -120,7 +131,7 @@
     },
     {
       "gameId": "20261121-POR-NYK",
-      "generatedAt": "2026-11-17T21:49:32Z",
+      "generatedAt": "2026-11-17T22:09:40Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 103.6,
@@ -183,7 +194,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-17T21:49:32Z",
+        "reportPulledAt": "2026-11-17T22:09:40Z",
         "source": "espn",
         "away": [
           {
@@ -236,7 +247,7 @@
     },
     {
       "gameId": "20261121-LAC-DAL",
-      "generatedAt": "2026-11-17T21:49:32Z",
+      "generatedAt": "2026-11-17T22:09:40Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 108.7,
@@ -297,7 +308,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-17T21:49:32Z",
+        "reportPulledAt": "2026-11-17T22:09:40Z",
         "source": "espn",
         "away": [
           {
@@ -384,7 +395,7 @@
     },
     {
       "gameId": "20261121-MEM-MIN",
-      "generatedAt": "2026-11-17T21:49:32Z",
+      "generatedAt": "2026-11-17T22:09:40Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 108.3,
@@ -447,7 +458,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-17T21:49:32Z",
+        "reportPulledAt": "2026-11-17T22:09:40Z",
         "source": "espn",
         "away": [
           {
@@ -545,7 +556,7 @@
     },
     {
       "gameId": "20261121-NOP-SAS",
-      "generatedAt": "2026-11-17T21:49:32Z",
+      "generatedAt": "2026-11-17T22:09:40Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 100.0,
@@ -609,7 +620,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-17T21:49:32Z",
+        "reportPulledAt": "2026-11-17T22:09:40Z",
         "source": "espn",
         "away": [
           {
@@ -696,7 +707,7 @@
     },
     {
       "gameId": "20261121-BOS-SAC",
-      "generatedAt": "2026-11-17T21:49:32Z",
+      "generatedAt": "2026-11-17T22:09:40Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 119.0,
@@ -760,7 +771,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-17T21:49:32Z",
+        "reportPulledAt": "2026-11-17T22:09:40Z",
         "source": "espn",
         "away": [],
         "home": [
