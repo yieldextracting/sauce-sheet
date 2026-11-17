@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261122-DET-ATL",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [
           {
@@ -162,7 +162,7 @@
     },
     {
       "gameId": "20261122-OKC-MIA",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 111.1,
@@ -225,7 +225,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [
           {
@@ -295,35 +295,24 @@
             "expMin": 25.0,
             "value": 1.63,
             "impactPts": 0.7
-          },
-          {
-            "player": "Nikola Jovic",
-            "team": "MIA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 7.8,
-            "value": 0.0,
-            "impactPts": 0.0
           }
         ]
       }
     },
     {
       "gameId": "20261122-DAL-UTA",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 112.6,
-      "homePts": 108.0,
-      "margin": -4.62,
-      "spreadHome": 4.6,
-      "total": 220.7,
+      "homePts": 107.0,
+      "margin": -5.67,
+      "spreadHome": 5.7,
+      "total": 219.6,
       "pace": 103.6,
-      "homeWinProb": 0.3711,
-      "fairMlHome": 169,
-      "fairMlAway": -169,
+      "homeWinProb": 0.3432,
+      "fairMlHome": 191,
+      "fairMlAway": -191,
       "contributions": [
         {
           "key": "offense",
@@ -347,7 +336,7 @@
         },
         {
           "key": "injuries",
-          "pts": -6.22
+          "pts": -7.27
         }
       ],
       "sample": {
@@ -377,7 +366,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [
           {
@@ -447,13 +436,24 @@
             "expMin": 26.4,
             "value": 3.92,
             "impactPts": 1.68
+          },
+          {
+            "player": "Jaxson Hayes",
+            "team": "UTA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Strain",
+            "matched": true,
+            "expMin": 19.3,
+            "value": 2.46,
+            "impactPts": 1.05
           }
         ]
       }
     },
     {
       "gameId": "20261122-DEN-CHI",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 120.9,
@@ -514,7 +514,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [
           {
@@ -557,7 +557,7 @@
     },
     {
       "gameId": "20261122-ORL-WAS",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 112.7,
@@ -618,7 +618,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [
           {
@@ -716,7 +716,7 @@
     },
     {
       "gameId": "20261122-IND-NYK",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 102.7,
@@ -780,7 +780,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [
           {
@@ -822,18 +822,18 @@
     },
     {
       "gameId": "20261122-BOS-GSW",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.8,
+      "awayPts": 109.3,
       "homePts": 93.6,
-      "margin": -14.26,
-      "spreadHome": 14.3,
-      "total": 201.4,
+      "margin": -15.75,
+      "spreadHome": 15.7,
+      "total": 202.9,
       "pace": 97.7,
-      "homeWinProb": 0.155,
-      "fairMlHome": 545,
-      "fairMlAway": -545,
+      "homeWinProb": 0.131,
+      "fairMlHome": 663,
+      "fairMlAway": -663,
       "contributions": [
         {
           "key": "offense",
@@ -857,7 +857,7 @@
         },
         {
           "key": "injuries",
-          "pts": -12.07
+          "pts": -13.56
         }
       ],
       "sample": {
@@ -886,21 +886,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Neemias Queta",
-            "team": "BOS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Rest",
-            "matched": true,
-            "expMin": 22.6,
-            "value": 3.48,
-            "impactPts": 1.49
-          }
-        ],
+        "away": [],
         "home": [
           {
             "player": "Stephen Curry",

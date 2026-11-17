@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261124-DET-ORL",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 106.1,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [
           {
@@ -173,18 +173,18 @@
     },
     {
       "gameId": "20261124-BOS-WAS",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
-      "awayPts": 116.1,
+      "awayPts": 117.5,
       "homePts": 101.6,
-      "margin": -14.43,
-      "spreadHome": 14.4,
-      "total": 217.7,
+      "margin": -15.92,
+      "spreadHome": 15.9,
+      "total": 219.2,
       "pace": 98.7,
-      "homeWinProb": 0.1521,
-      "fairMlHome": 558,
-      "fairMlAway": -558,
+      "homeWinProb": 0.1285,
+      "fairMlHome": 678,
+      "fairMlAway": -678,
       "contributions": [
         {
           "key": "offense",
@@ -208,7 +208,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.02
+          "pts": -2.51
         }
       ],
       "sample": {
@@ -237,21 +237,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Neemias Queta",
-            "team": "BOS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Rest",
-            "matched": true,
-            "expMin": 22.6,
-            "value": 3.48,
-            "impactPts": 1.49
-          }
-        ],
+        "away": [],
         "home": [
           {
             "player": "Justin Champagnie",
@@ -302,7 +290,7 @@
     },
     {
       "gameId": "20261124-DAL-DEN",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 108.8,
@@ -366,7 +354,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [
           {

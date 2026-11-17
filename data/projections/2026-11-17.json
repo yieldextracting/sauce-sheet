@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261117-NYK-TOR",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 108.2,
-      "homePts": 101.7,
-      "margin": -6.45,
-      "spreadHome": 6.5,
-      "total": 209.9,
+      "homePts": 100.0,
+      "margin": -8.15,
+      "spreadHome": 8.2,
+      "total": 208.2,
       "pace": 98.7,
-      "homeWinProb": 0.323,
-      "fairMlHome": 210,
-      "fairMlAway": -210,
+      "homeWinProb": 0.2808,
+      "fairMlHome": 256,
+      "fairMlAway": -256,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.54
+          "pts": -6.24
         }
       ],
       "sample": {
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -78,6 +78,17 @@
             "expMin": 26.7,
             "value": 10.57,
             "impactPts": 4.54
+          },
+          {
+            "player": "Scottie Barnes",
+            "team": "TOR",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 34.1,
+            "value": 7.9,
+            "impactPts": 1.7
           },
           {
             "player": "Nate Bittle",
@@ -106,7 +117,7 @@
     },
     {
       "gameId": "20261117-DET-SAS",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 101.6,
@@ -170,7 +181,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [
           {
@@ -257,18 +268,18 @@
     },
     {
       "gameId": "20261117-POR-MIN",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.4,
-      "homePts": 108.5,
-      "margin": 2.15,
-      "spreadHome": -2.1,
-      "total": 214.9,
+      "awayPts": 104.4,
+      "homePts": 107.6,
+      "margin": 3.2,
+      "spreadHome": -3.2,
+      "total": 212.0,
       "pace": 103.7,
-      "homeWinProb": 0.5608,
-      "fairMlHome": -128,
-      "fairMlAway": 128,
+      "homeWinProb": 0.5901,
+      "fairMlHome": -144,
+      "fairMlAway": 144,
       "contributions": [
         {
           "key": "offense",
@@ -292,7 +303,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.81
+          "pts": 0.24
         }
       ],
       "sample": {
@@ -322,7 +333,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [
           {
@@ -335,6 +346,17 @@
             "expMin": 27.4,
             "value": 6.1,
             "impactPts": 2.62
+          },
+          {
+            "player": "Deni Avdija",
+            "team": "POR",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Foot",
+            "matched": true,
+            "expMin": 32.9,
+            "value": 9.38,
+            "impactPts": 2.01
           },
           {
             "player": "Shaedon Sharpe",
@@ -352,7 +374,7 @@
             "team": "POR",
             "status": "out",
             "pPlay": 0.0,
-            "reason": "Foot Bruise",
+            "reason": "Heel Bruise",
             "matched": true,
             "expMin": 10.7,
             "value": 0.0,
@@ -383,6 +405,17 @@
             "impactPts": 4.77
           },
           {
+            "player": "Jonathan Kuminga",
+            "team": "MIN",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Shoulder",
+            "matched": true,
+            "expMin": 29.3,
+            "value": 2.23,
+            "impactPts": 0.96
+          },
+          {
             "player": "Donte DiVincenzo",
             "team": "MIN",
             "status": "out",
@@ -392,6 +425,17 @@
             "expMin": 30.5,
             "value": 1.35,
             "impactPts": 0.58
+          },
+          {
+            "player": "Zyon Pullin",
+            "team": "MIN",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Quadriceps Bruise",
+            "matched": true,
+            "expMin": 0.8,
+            "value": 0.09,
+            "impactPts": 0.0
           },
           {
             "player": "Jaylen Clark",
@@ -409,18 +453,18 @@
     },
     {
       "gameId": "20261117-UTA-LAC",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
-      "awayPts": 100.4,
+      "awayPts": 99.8,
       "homePts": 114.0,
-      "margin": 13.65,
-      "spreadHome": -13.7,
-      "total": 214.4,
+      "margin": 14.17,
+      "spreadHome": -14.2,
+      "total": 213.9,
       "pace": 101.3,
-      "homeWinProb": 0.8345,
-      "fairMlHome": -504,
-      "fairMlAway": 504,
+      "homeWinProb": 0.8435,
+      "fairMlHome": -539,
+      "fairMlAway": 539,
       "contributions": [
         {
           "key": "offense",
@@ -444,7 +488,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.27
+          "pts": 3.79
         }
       ],
       "sample": {
@@ -470,7 +514,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [
           {
@@ -509,13 +553,13 @@
           {
             "player": "Jaxson Hayes",
             "team": "UTA",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Knee Strain",
             "matched": true,
             "expMin": 19.3,
             "value": 2.46,
-            "impactPts": 0.53
+            "impactPts": 1.05
           }
         ],
         "home": [
@@ -568,18 +612,18 @@
     },
     {
       "gameId": "20261117-CHA-LAL",
-      "generatedAt": "2026-11-17T10:39:28Z",
+      "generatedAt": "2026-11-17T19:48:39Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 102.4,
-      "homePts": 114.9,
-      "margin": 12.46,
-      "spreadHome": -12.5,
-      "total": 217.3,
+      "homePts": 110.0,
+      "margin": 7.61,
+      "spreadHome": -7.6,
+      "total": 212.5,
       "pace": 99.1,
-      "homeWinProb": 0.8125,
-      "fairMlHome": -433,
-      "fairMlAway": 433,
+      "homeWinProb": 0.7061,
+      "fairMlHome": -240,
+      "fairMlAway": 240,
       "contributions": [
         {
           "key": "offense",
@@ -603,7 +647,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.25
+          "pts": -4.6
         }
       ],
       "sample": {
@@ -629,7 +673,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-16T23:27:20Z",
+        "reportPulledAt": "2026-11-17T19:48:39Z",
         "source": "espn",
         "away": [
           {
@@ -659,13 +703,24 @@
           {
             "player": "Austin Reaves",
             "team": "LAL",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Heel Bruise",
             "matched": true,
             "expMin": 34.6,
             "value": 8.3,
-            "impactPts": 1.78
+            "impactPts": 3.56
+          },
+          {
+            "player": "Walker Kessler",
+            "team": "LAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Lower Leg Soreness",
+            "matched": true,
+            "expMin": 30.9,
+            "value": 7.16,
+            "impactPts": 3.07
           }
         ]
       }
