@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261121-MIL-PHI",
-      "generatedAt": "2026-11-17T20:59:06Z",
+      "generatedAt": "2026-11-17T21:09:10Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 106.2,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-17T20:59:06Z",
+        "reportPulledAt": "2026-11-17T21:09:09Z",
         "source": "espn",
         "away": [
           {
@@ -120,7 +120,7 @@
     },
     {
       "gameId": "20261121-POR-NYK",
-      "generatedAt": "2026-11-17T20:59:06Z",
+      "generatedAt": "2026-11-17T21:09:10Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 103.6,
@@ -183,7 +183,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-17T20:59:06Z",
+        "reportPulledAt": "2026-11-17T21:09:09Z",
         "source": "espn",
         "away": [
           {
@@ -236,7 +236,7 @@
     },
     {
       "gameId": "20261121-LAC-DAL",
-      "generatedAt": "2026-11-17T20:59:06Z",
+      "generatedAt": "2026-11-17T21:09:10Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 108.7,
@@ -297,7 +297,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-17T20:59:06Z",
+        "reportPulledAt": "2026-11-17T21:09:09Z",
         "source": "espn",
         "away": [
           {
@@ -384,7 +384,7 @@
     },
     {
       "gameId": "20261121-MEM-MIN",
-      "generatedAt": "2026-11-17T20:59:06Z",
+      "generatedAt": "2026-11-17T21:09:10Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 108.3,
@@ -447,7 +447,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-17T20:59:06Z",
+        "reportPulledAt": "2026-11-17T21:09:09Z",
         "source": "espn",
         "away": [
           {
@@ -545,18 +545,18 @@
     },
     {
       "gameId": "20261121-NOP-SAS",
-      "generatedAt": "2026-11-17T20:59:06Z",
+      "generatedAt": "2026-11-17T21:09:10Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
-      "awayPts": 100.4,
+      "awayPts": 100.0,
       "homePts": 124.0,
-      "margin": 23.64,
-      "spreadHome": -23.6,
-      "total": 224.5,
+      "margin": 24.07,
+      "spreadHome": -24.1,
+      "total": 224.0,
       "pace": 102.5,
-      "homeWinProb": 0.9539,
-      "fairMlHome": -2068,
-      "fairMlAway": 2068,
+      "homeWinProb": 0.9568,
+      "fairMlHome": -2213,
+      "fairMlAway": 2213,
       "contributions": [
         {
           "key": "offense",
@@ -580,7 +580,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.23
+          "pts": 3.66
         }
       ],
       "sample": {
@@ -609,7 +609,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-17T20:59:06Z",
+        "reportPulledAt": "2026-11-17T21:09:09Z",
         "source": "espn",
         "away": [
           {
@@ -633,6 +633,17 @@
             "expMin": 29.6,
             "value": 4.32,
             "impactPts": 1.85
+          },
+          {
+            "player": "Bennedict Mathurin",
+            "team": "NOP",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot Plantar Fasciitis",
+            "matched": true,
+            "expMin": 17.4,
+            "value": 1.0,
+            "impactPts": 0.43
           },
           {
             "player": "Trendon Watford",
@@ -685,7 +696,7 @@
     },
     {
       "gameId": "20261121-BOS-SAC",
-      "generatedAt": "2026-11-17T20:59:06Z",
+      "generatedAt": "2026-11-17T21:09:10Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 119.0,
@@ -749,7 +760,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-17T20:59:06Z",
+        "reportPulledAt": "2026-11-17T21:09:09Z",
         "source": "espn",
         "away": [],
         "home": [
