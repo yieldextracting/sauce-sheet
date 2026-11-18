@@ -106,7 +106,7 @@
     },
     {
       "gameId": "20261117-DET-SAS",
-      "generatedAt": "2026-11-18T00:30:39Z",
+      "generatedAt": "2026-11-18T00:40:43Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 101.6,
@@ -170,7 +170,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T00:30:39Z",
+        "reportPulledAt": "2026-11-18T00:40:43Z",
         "source": "espn",
         "away": [
           {
@@ -257,18 +257,18 @@
     },
     {
       "gameId": "20261117-POR-MIN",
-      "generatedAt": "2026-11-18T00:30:39Z",
+      "generatedAt": "2026-11-18T00:40:43Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
-      "awayPts": 104.4,
+      "awayPts": 102.4,
       "homePts": 107.6,
-      "margin": 3.2,
-      "spreadHome": -3.2,
-      "total": 212.0,
+      "margin": 5.22,
+      "spreadHome": -5.2,
+      "total": 210.0,
       "pace": 103.7,
-      "homeWinProb": 0.5901,
-      "fairMlHome": -144,
-      "fairMlAway": 144,
+      "homeWinProb": 0.6449,
+      "fairMlHome": -182,
+      "fairMlAway": 182,
       "contributions": [
         {
           "key": "offense",
@@ -292,7 +292,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.24
+          "pts": 2.26
         }
       ],
       "sample": {
@@ -322,9 +322,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T00:30:39Z",
+        "reportPulledAt": "2026-11-18T00:40:43Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Deni Avdija",
+            "team": "POR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Foot",
+            "matched": true,
+            "expMin": 32.9,
+            "value": 9.38,
+            "impactPts": 4.03
+          },
           {
             "player": "Ja Morant",
             "team": "POR",
@@ -335,17 +346,6 @@
             "expMin": 27.4,
             "value": 6.1,
             "impactPts": 2.62
-          },
-          {
-            "player": "Deni Avdija",
-            "team": "POR",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Foot",
-            "matched": true,
-            "expMin": 32.9,
-            "value": 9.38,
-            "impactPts": 2.01
           },
           {
             "player": "Shaedon Sharpe",
@@ -442,7 +442,7 @@
     },
     {
       "gameId": "20261117-UTA-LAC",
-      "generatedAt": "2026-11-18T00:30:39Z",
+      "generatedAt": "2026-11-18T00:40:43Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 99.8,
@@ -503,7 +503,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T00:30:39Z",
+        "reportPulledAt": "2026-11-18T00:40:43Z",
         "source": "espn",
         "away": [
           {
@@ -601,7 +601,7 @@
     },
     {
       "gameId": "20261117-CHA-LAL",
-      "generatedAt": "2026-11-18T00:30:39Z",
+      "generatedAt": "2026-11-18T00:40:43Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 102.4,
@@ -662,7 +662,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T00:30:39Z",
+        "reportPulledAt": "2026-11-18T00:40:43Z",
         "source": "espn",
         "away": [
           {
