@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261123-MEM-CHA",
-      "generatedAt": "2026-11-18T23:25:04Z",
+      "generatedAt": "2026-11-18T23:35:08Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 104.7,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T23:25:04Z",
+        "reportPulledAt": "2026-11-18T23:35:08Z",
         "source": "espn",
         "away": [
           {
@@ -153,7 +153,7 @@
     },
     {
       "gameId": "20261123-POR-PHI",
-      "generatedAt": "2026-11-18T23:25:04Z",
+      "generatedAt": "2026-11-18T23:35:08Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 108.8,
@@ -214,7 +214,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T23:25:04Z",
+        "reportPulledAt": "2026-11-18T23:35:08Z",
         "source": "espn",
         "away": [
           {
@@ -297,6 +297,17 @@
             "impactPts": 0.36
           },
           {
+            "player": "Dean Wade",
+            "team": "PHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring Soreness",
+            "matched": true,
+            "expMin": 26.2,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
             "player": "Adem Bona",
             "team": "PHI",
             "status": "out",
@@ -323,7 +334,7 @@
     },
     {
       "gameId": "20261123-BKN-MIN",
-      "generatedAt": "2026-11-18T23:25:04Z",
+      "generatedAt": "2026-11-18T23:35:08Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 102.6,
@@ -386,7 +397,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T23:25:04Z",
+        "reportPulledAt": "2026-11-18T23:35:08Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -428,7 +439,7 @@
     },
     {
       "gameId": "20261123-MIL-TOR",
-      "generatedAt": "2026-11-18T23:25:04Z",
+      "generatedAt": "2026-11-18T23:35:08Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 104.7,
@@ -489,7 +500,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T23:25:04Z",
+        "reportPulledAt": "2026-11-18T23:35:08Z",
         "source": "espn",
         "away": [
           {
@@ -565,7 +576,7 @@
     },
     {
       "gameId": "20261123-OKC-IND",
-      "generatedAt": "2026-11-18T23:25:04Z",
+      "generatedAt": "2026-11-18T23:35:08Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 109.6,
@@ -632,7 +643,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T23:25:04Z",
+        "reportPulledAt": "2026-11-18T23:35:08Z",
         "source": "espn",
         "away": [
           {
@@ -741,18 +752,18 @@
     },
     {
       "gameId": "20261123-CLE-CHI",
-      "generatedAt": "2026-11-18T23:25:04Z",
+      "generatedAt": "2026-11-18T23:35:08Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
-      "awayPts": 123.2,
+      "awayPts": 122.8,
       "homePts": 115.7,
-      "margin": -7.5,
-      "spreadHome": 7.5,
-      "total": 238.8,
+      "margin": -7.15,
+      "spreadHome": 7.1,
+      "total": 238.5,
       "pace": 106.4,
-      "homeWinProb": 0.2967,
-      "fairMlHome": 237,
-      "fairMlAway": -237,
+      "homeWinProb": 0.3054,
+      "fairMlHome": 227,
+      "fairMlAway": -227,
       "contributions": [
         {
           "key": "offense",
@@ -776,7 +787,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.75
+          "pts": 3.1
         }
       ],
       "sample": {
@@ -805,7 +816,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T23:25:04Z",
+        "reportPulledAt": "2026-11-18T23:35:08Z",
         "source": "espn",
         "away": [
           {
@@ -829,6 +840,17 @@
             "expMin": 25.7,
             "value": 1.59,
             "impactPts": 0.68
+          },
+          {
+            "player": "Peyton Watson",
+            "team": "CLE",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back Bruise",
+            "matched": true,
+            "expMin": 24.1,
+            "value": 0.82,
+            "impactPts": 0.35
           },
           {
             "player": "Nae'Qwan Tomlin",
@@ -870,7 +892,7 @@
     },
     {
       "gameId": "20261123-PHX-NOP",
-      "generatedAt": "2026-11-18T23:25:04Z",
+      "generatedAt": "2026-11-18T23:35:08Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 116.2,
@@ -934,7 +956,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T23:25:04Z",
+        "reportPulledAt": "2026-11-18T23:35:08Z",
         "source": "espn",
         "away": [
           {
@@ -1010,7 +1032,7 @@
     },
     {
       "gameId": "20261123-LAC-HOU",
-      "generatedAt": "2026-11-18T23:25:04Z",
+      "generatedAt": "2026-11-18T23:35:08Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 102.7,
@@ -1071,7 +1093,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T23:25:04Z",
+        "reportPulledAt": "2026-11-18T23:35:08Z",
         "source": "espn",
         "away": [
           {
@@ -1125,7 +1147,7 @@
     },
     {
       "gameId": "20261123-SAS-SAC",
-      "generatedAt": "2026-11-18T23:25:04Z",
+      "generatedAt": "2026-11-18T23:35:08Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 117.6,
@@ -1189,7 +1211,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T23:25:04Z",
+        "reportPulledAt": "2026-11-18T23:35:08Z",
         "source": "espn",
         "away": [
           {
@@ -1197,7 +1219,7 @@
             "team": "SAS",
             "status": "out",
             "pPlay": 0.0,
-            "reason": "Undisclosed",
+            "reason": "Hip Soreness",
             "matched": true,
             "expMin": 30.5,
             "value": 5.27,
@@ -1254,7 +1276,7 @@
     },
     {
       "gameId": "20261123-UTA-LAL",
-      "generatedAt": "2026-11-18T23:25:04Z",
+      "generatedAt": "2026-11-18T23:35:08Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 100.6,
@@ -1318,7 +1340,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T23:25:04Z",
+        "reportPulledAt": "2026-11-18T23:35:08Z",
         "source": "espn",
         "away": [
           {
