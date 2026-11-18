@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T04:04:24Z",
+  "generatedAt": "2026-11-18T05:54:45Z",
   "grades": [
     {
       "source": "model",
@@ -3849,14 +3849,14 @@
       "line": -6.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "loss",
+      "profitU": -1.0,
       "edge": 7.7,
       "closingLine": -5.5,
       "clvPts": -1.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 6,
-      "finalScore": null
+      "finalScore": "132-107"
     },
     {
       "source": "model",
@@ -4033,51 +4033,51 @@
   "summary": {
     "all": {
       "w": 90,
-      "l": 111,
+      "l": 112,
       "p": 0,
-      "pending": 11,
-      "units": -29.181,
-      "risked": 201.0,
-      "roi": -0.1452,
-      "clvPtsAvg": 0.119,
-      "beatClosePct": 0.3284,
-      "clvN": 201
+      "pending": 10,
+      "units": -30.181,
+      "risked": 202.0,
+      "roi": -0.1494,
+      "clvPtsAvg": 0.114,
+      "beatClosePct": 0.3267,
+      "clvN": 202
     },
     "edge1.5": {
       "w": 63,
-      "l": 72,
+      "l": 73,
       "p": 0,
-      "pending": 6,
-      "units": -14.727,
-      "risked": 135.0,
-      "roi": -0.1091,
-      "clvPtsAvg": 0.333,
-      "beatClosePct": 0.3852,
-      "clvN": 135
+      "pending": 5,
+      "units": -15.727,
+      "risked": 136.0,
+      "roi": -0.1156,
+      "clvPtsAvg": 0.324,
+      "beatClosePct": 0.3824,
+      "clvN": 136
     },
     "edge3": {
       "w": 41,
-      "l": 44,
+      "l": 45,
       "p": 0,
-      "pending": 3,
-      "units": -6.727,
-      "risked": 85.0,
-      "roi": -0.0791,
-      "clvPtsAvg": 0.624,
-      "beatClosePct": 0.4706,
-      "clvN": 85
+      "pending": 2,
+      "units": -7.727,
+      "risked": 86.0,
+      "roi": -0.0898,
+      "clvPtsAvg": 0.605,
+      "beatClosePct": 0.4651,
+      "clvN": 86
     },
     "edge5": {
       "w": 19,
-      "l": 14,
+      "l": 15,
       "p": 0,
-      "pending": 1,
-      "units": 3.273,
-      "risked": 33.0,
-      "roi": 0.0992,
-      "clvPtsAvg": 0.939,
-      "beatClosePct": 0.4848,
-      "clvN": 33
+      "pending": 0,
+      "units": 2.273,
+      "risked": 34.0,
+      "roi": 0.0669,
+      "clvPtsAvg": 0.882,
+      "beatClosePct": 0.4706,
+      "clvN": 34
     }
   }
 }
