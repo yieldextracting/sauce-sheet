@@ -3,16 +3,16 @@
   "games": [
     {
       "gameId": "20261119-GSW-MEM",
-      "generatedAt": "2026-11-18T03:34:14Z",
-      "ratingsAsOf": "2026-11-18T03:34:14Z",
+      "generatedAt": "2026-11-18T03:44:18Z",
+      "ratingsAsOf": "2026-11-18T03:44:18Z",
       "modelVersion": "v2.0",
       "awayPts": 100.7,
       "homePts": 107.9,
-      "margin": 7.19,
+      "margin": 7.2,
       "spreadHome": -7.2,
       "total": 208.6,
       "pace": 102.3,
-      "homeWinProb": 0.6957,
+      "homeWinProb": 0.6958,
       "fairMlHome": -229,
       "fairMlAway": 229,
       "contributions": [
@@ -189,8 +189,8 @@
     },
     {
       "gameId": "20261119-LAC-SAS",
-      "generatedAt": "2026-11-18T03:34:14Z",
-      "ratingsAsOf": "2026-11-18T03:34:14Z",
+      "generatedAt": "2026-11-18T03:44:18Z",
+      "ratingsAsOf": "2026-11-18T03:44:18Z",
       "modelVersion": "v2.0",
       "awayPts": 101.5,
       "homePts": 115.9,
@@ -204,11 +204,11 @@
       "contributions": [
         {
           "key": "offense",
-          "pts": 4.04
+          "pts": 4.06
         },
         {
           "key": "defense",
-          "pts": 6.08
+          "pts": 6.07
         },
         {
           "key": "pace",
@@ -328,26 +328,26 @@
     },
     {
       "gameId": "20261119-NYK-MIN",
-      "generatedAt": "2026-11-18T03:34:14Z",
-      "ratingsAsOf": "2026-11-18T03:34:14Z",
+      "generatedAt": "2026-11-18T03:44:18Z",
+      "ratingsAsOf": "2026-11-18T03:44:18Z",
       "modelVersion": "v2.0",
-      "awayPts": 105.6,
-      "homePts": 101.7,
-      "margin": -3.9,
-      "spreadHome": 3.9,
-      "total": 207.3,
-      "pace": 99.2,
-      "homeWinProb": 0.3906,
-      "fairMlHome": 156,
-      "fairMlAway": -156,
+      "awayPts": 105.4,
+      "homePts": 101.5,
+      "margin": -3.84,
+      "spreadHome": 3.8,
+      "total": 206.9,
+      "pace": 99.4,
+      "homeWinProb": 0.3923,
+      "fairMlHome": 155,
+      "fairMlAway": -155,
       "contributions": [
         {
           "key": "offense",
-          "pts": -0.76
+          "pts": -1.16
         },
         {
           "key": "defense",
-          "pts": 2.35
+          "pts": 2.67
         },
         {
           "key": "pace",
@@ -363,13 +363,13 @@
         },
         {
           "key": "injuries",
-          "pts": -6.31
+          "pts": -6.18
         }
       ],
       "sample": {
         "awayGP": 14,
-        "homeGP": 14,
-        "priorWeight": 0.4167
+        "homeGP": 15,
+        "priorWeight": 0.4083
       },
       "flags": [
         "3in4_home"
@@ -413,9 +413,9 @@
             "pPlay": 0.0,
             "reason": "Shoulder",
             "matched": true,
-            "expMin": 29.3,
-            "value": 2.23,
-            "impactPts": 0.96
+            "expMin": 25.5,
+            "value": 1.94,
+            "impactPts": 0.83
           },
           {
             "player": "Donte DiVincenzo",
@@ -455,30 +455,30 @@
     },
     {
       "gameId": "20261119-POR-MIL",
-      "generatedAt": "2026-11-18T03:34:14Z",
-      "ratingsAsOf": "2026-11-18T03:34:14Z",
+      "generatedAt": "2026-11-18T03:44:18Z",
+      "ratingsAsOf": "2026-11-18T03:44:18Z",
       "modelVersion": "v2.0",
-      "awayPts": 111.7,
-      "homePts": 106.5,
-      "margin": -5.16,
-      "spreadHome": 5.2,
+      "awayPts": 112.0,
+      "homePts": 106.2,
+      "margin": -5.79,
+      "spreadHome": 5.8,
       "total": 218.2,
-      "pace": 102.3,
-      "homeWinProb": 0.3566,
-      "fairMlHome": 180,
-      "fairMlAway": -180,
+      "pace": 102.4,
+      "homeWinProb": 0.3401,
+      "fairMlHome": 194,
+      "fairMlAway": -194,
       "contributions": [
         {
           "key": "offense",
-          "pts": -6.99
+          "pts": -6.64
         },
         {
           "key": "defense",
-          "pts": -7.28
+          "pts": -7.72
         },
         {
           "key": "pace",
-          "pts": -0.07
+          "pts": -0.08
         },
         {
           "key": "home",
@@ -490,13 +490,13 @@
         },
         {
           "key": "injuries",
-          "pts": 8.57
+          "pts": 8.04
         }
       ],
       "sample": {
-        "awayGP": 13,
+        "awayGP": 14,
         "homeGP": 14,
-        "priorWeight": 0.4258
+        "priorWeight": 0.4167
       },
       "flags": [
         "3in4_away",
@@ -530,9 +530,9 @@
             "pPlay": 0.0,
             "reason": "Foot",
             "matched": true,
-            "expMin": 32.9,
-            "value": 9.38,
-            "impactPts": 4.03
+            "expMin": 28.6,
+            "value": 8.16,
+            "impactPts": 3.5
           },
           {
             "player": "Ja Morant",
