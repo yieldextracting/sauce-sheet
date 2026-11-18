@@ -442,7 +442,7 @@
     },
     {
       "gameId": "20261117-UTA-LAC",
-      "generatedAt": "2026-11-18T01:00:50Z",
+      "generatedAt": "2026-11-18T02:33:54Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
       "awayPts": 99.8,
@@ -503,7 +503,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T01:00:50Z",
+        "reportPulledAt": "2026-11-18T02:33:54Z",
         "source": "espn",
         "away": [
           {
@@ -601,18 +601,18 @@
     },
     {
       "gameId": "20261117-CHA-LAL",
-      "generatedAt": "2026-11-18T01:00:50Z",
+      "generatedAt": "2026-11-18T02:33:54Z",
       "ratingsAsOf": "2026-11-17T10:39:28Z",
       "modelVersion": "v2.0",
-      "awayPts": 102.4,
+      "awayPts": 100.9,
       "homePts": 110.0,
-      "margin": 7.61,
-      "spreadHome": -7.6,
-      "total": 212.5,
+      "margin": 9.16,
+      "spreadHome": -9.2,
+      "total": 210.9,
       "pace": 99.1,
-      "homeWinProb": 0.7061,
-      "fairMlHome": -240,
-      "fairMlAway": 240,
+      "homeWinProb": 0.7429,
+      "fairMlHome": -289,
+      "fairMlAway": 289,
       "contributions": [
         {
           "key": "offense",
@@ -636,7 +636,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.6
+          "pts": -3.05
         }
       ],
       "sample": {
@@ -662,7 +662,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T01:00:50Z",
+        "reportPulledAt": "2026-11-18T02:33:54Z",
         "source": "espn",
         "away": [
           {
@@ -675,6 +675,17 @@
             "expMin": 28.2,
             "value": 4.4,
             "impactPts": 1.89
+          },
+          {
+            "player": "Grayson Allen",
+            "team": "CHA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Concussion",
+            "matched": true,
+            "expMin": 27.7,
+            "value": 3.62,
+            "impactPts": 1.55
           },
           {
             "player": "Dennis Schroder",
