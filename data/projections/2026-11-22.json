@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261122-DET-ATL",
-      "generatedAt": "2026-11-18T07:05:01Z",
+      "generatedAt": "2026-11-18T19:23:36Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 108.4,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:54:21Z",
+        "reportPulledAt": "2026-11-18T19:23:36Z",
         "source": "espn",
         "away": [
           {
@@ -195,18 +195,18 @@
     },
     {
       "gameId": "20261122-OKC-MIA",
-      "generatedAt": "2026-11-18T07:05:01Z",
+      "generatedAt": "2026-11-18T19:23:36Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 111.0,
-      "homePts": 112.8,
-      "margin": 1.78,
-      "spreadHome": -1.8,
-      "total": 223.8,
+      "homePts": 112.4,
+      "margin": 1.41,
+      "spreadHome": -1.4,
+      "total": 223.4,
       "pace": 104.5,
-      "homeWinProb": 0.5503,
-      "fairMlHome": -122,
-      "fairMlAway": 122,
+      "homeWinProb": 0.5399,
+      "fairMlHome": -117,
+      "fairMlAway": 117,
       "contributions": [
         {
           "key": "offense",
@@ -230,7 +230,7 @@
         },
         {
           "key": "injuries",
-          "pts": 5.42
+          "pts": 5.05
         }
       ],
       "sample": {
@@ -258,7 +258,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:54:21Z",
+        "reportPulledAt": "2026-11-18T19:23:36Z",
         "source": "espn",
         "away": [
           {
@@ -317,23 +317,35 @@
             "impactPts": 0.0
           }
         ],
-        "home": []
+        "home": [
+          {
+            "player": "Myron Gardner",
+            "team": "MIA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 10.4,
+            "value": 0.86,
+            "impactPts": 0.37
+          }
+        ]
       }
     },
     {
       "gameId": "20261122-DAL-UTA",
-      "generatedAt": "2026-11-18T07:05:01Z",
+      "generatedAt": "2026-11-18T19:23:36Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 112.4,
-      "homePts": 108.0,
-      "margin": -4.34,
-      "spreadHome": 4.3,
-      "total": 220.4,
+      "homePts": 109.1,
+      "margin": -3.29,
+      "spreadHome": 3.3,
+      "total": 221.4,
       "pace": 103.5,
-      "homeWinProb": 0.3787,
-      "fairMlHome": 164,
-      "fairMlAway": -164,
+      "homeWinProb": 0.4074,
+      "fairMlHome": 145,
+      "fairMlAway": -145,
       "contributions": [
         {
           "key": "offense",
@@ -357,7 +369,7 @@
         },
         {
           "key": "injuries",
-          "pts": -7.27
+          "pts": -6.22
         }
       ],
       "sample": {
@@ -387,7 +399,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:54:21Z",
+        "reportPulledAt": "2026-11-18T19:23:36Z",
         "source": "espn",
         "away": [
           {
@@ -457,24 +469,13 @@
             "expMin": 26.4,
             "value": 3.92,
             "impactPts": 1.68
-          },
-          {
-            "player": "Jaxson Hayes",
-            "team": "UTA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Strain",
-            "matched": true,
-            "expMin": 19.3,
-            "value": 2.46,
-            "impactPts": 1.05
           }
         ]
       }
     },
     {
       "gameId": "20261122-DEN-CHI",
-      "generatedAt": "2026-11-18T07:05:01Z",
+      "generatedAt": "2026-11-18T19:23:36Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 120.9,
@@ -535,7 +536,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:54:21Z",
+        "reportPulledAt": "2026-11-18T19:23:36Z",
         "source": "espn",
         "away": [
           {
@@ -578,7 +579,7 @@
     },
     {
       "gameId": "20261122-ORL-WAS",
-      "generatedAt": "2026-11-18T07:05:01Z",
+      "generatedAt": "2026-11-18T19:23:36Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 112.7,
@@ -639,7 +640,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:54:21Z",
+        "reportPulledAt": "2026-11-18T19:23:36Z",
         "source": "espn",
         "away": [
           {
@@ -737,7 +738,7 @@
     },
     {
       "gameId": "20261122-IND-NYK",
-      "generatedAt": "2026-11-18T07:05:01Z",
+      "generatedAt": "2026-11-18T19:23:36Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 102.6,
@@ -801,7 +802,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:54:21Z",
+        "reportPulledAt": "2026-11-18T19:23:36Z",
         "source": "espn",
         "away": [
           {
@@ -843,7 +844,7 @@
     },
     {
       "gameId": "20261122-BOS-GSW",
-      "generatedAt": "2026-11-18T07:05:01Z",
+      "generatedAt": "2026-11-18T19:23:36Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 109.5,
@@ -907,7 +908,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:54:21Z",
+        "reportPulledAt": "2026-11-18T19:23:36Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -949,7 +950,7 @@
             "team": "GSW",
             "status": "out",
             "pPlay": 0.0,
-            "reason": "Hamstring Not Specified",
+            "reason": "Hamstring Strain",
             "matched": true,
             "expMin": 15.5,
             "value": 2.82,

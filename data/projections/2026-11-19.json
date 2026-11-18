@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261119-GSW-MEM",
-      "generatedAt": "2026-11-18T07:05:01Z",
+      "generatedAt": "2026-11-18T19:23:36Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 100.6,
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:54:21Z",
+        "reportPulledAt": "2026-11-18T19:23:36Z",
         "source": "espn",
         "away": [
           {
@@ -110,7 +110,7 @@
             "team": "GSW",
             "status": "out",
             "pPlay": 0.0,
-            "reason": "Hamstring Not Specified",
+            "reason": "Hamstring Strain",
             "matched": true,
             "expMin": 15.5,
             "value": 2.82,
@@ -189,18 +189,18 @@
     },
     {
       "gameId": "20261119-LAC-SAS",
-      "generatedAt": "2026-11-18T07:05:01Z",
+      "generatedAt": "2026-11-18T19:23:36Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 100.9,
-      "homePts": 114.8,
-      "margin": 13.82,
-      "spreadHome": -13.8,
-      "total": 215.7,
+      "homePts": 115.9,
+      "margin": 14.95,
+      "spreadHome": -14.9,
+      "total": 216.8,
       "pace": 99.7,
-      "homeWinProb": 0.8374,
-      "fairMlHome": -515,
-      "fairMlAway": 515,
+      "homeWinProb": 0.8564,
+      "fairMlHome": -597,
+      "fairMlAway": 597,
       "contributions": [
         {
           "key": "offense",
@@ -224,7 +224,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.36
+          "pts": 1.49
         }
       ],
       "sample": {
@@ -252,7 +252,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:54:21Z",
+        "reportPulledAt": "2026-11-18T19:23:36Z",
         "source": "espn",
         "away": [
           {
@@ -302,17 +302,6 @@
         ],
         "home": [
           {
-            "player": "Dylan Harper",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Undisclosed",
-            "matched": true,
-            "expMin": 30.5,
-            "value": 5.27,
-            "impactPts": 2.26
-          },
-          {
             "player": "Tobias Harris",
             "team": "SAS",
             "status": "out",
@@ -322,6 +311,17 @@
             "expMin": 27.8,
             "value": 3.07,
             "impactPts": 1.32
+          },
+          {
+            "player": "Dylan Harper",
+            "team": "SAS",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Undisclosed",
+            "matched": true,
+            "expMin": 30.5,
+            "value": 5.27,
+            "impactPts": 1.13
           },
           {
             "player": "Jayden Quaintance",
@@ -339,18 +339,18 @@
     },
     {
       "gameId": "20261119-NYK-MIN",
-      "generatedAt": "2026-11-18T07:05:01Z",
+      "generatedAt": "2026-11-18T19:23:36Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 105.4,
-      "homePts": 101.5,
-      "margin": -3.84,
-      "spreadHome": 3.8,
-      "total": 206.9,
+      "homePts": 101.9,
+      "margin": -3.43,
+      "spreadHome": 3.4,
+      "total": 207.3,
       "pace": 99.4,
-      "homeWinProb": 0.3923,
-      "fairMlHome": 155,
-      "fairMlAway": -155,
+      "homeWinProb": 0.4036,
+      "fairMlHome": 148,
+      "fairMlAway": -148,
       "contributions": [
         {
           "key": "offense",
@@ -374,7 +374,7 @@
         },
         {
           "key": "injuries",
-          "pts": -6.18
+          "pts": -5.77
         }
       ],
       "sample": {
@@ -402,7 +402,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:54:21Z",
+        "reportPulledAt": "2026-11-18T19:23:36Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -418,17 +418,6 @@
             "impactPts": 4.77
           },
           {
-            "player": "Jonathan Kuminga",
-            "team": "MIN",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Shoulder",
-            "matched": true,
-            "expMin": 25.5,
-            "value": 1.94,
-            "impactPts": 0.83
-          },
-          {
             "player": "Donte DiVincenzo",
             "team": "MIN",
             "status": "out",
@@ -440,10 +429,21 @@
             "impactPts": 0.58
           },
           {
+            "player": "Jonathan Kuminga",
+            "team": "MIN",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Shoulder",
+            "matched": true,
+            "expMin": 25.5,
+            "value": 1.94,
+            "impactPts": 0.42
+          },
+          {
             "player": "Zyon Pullin",
             "team": "MIN",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Quadriceps Bruise",
             "matched": true,
             "expMin": 0.8,
@@ -466,18 +466,18 @@
     },
     {
       "gameId": "20261119-POR-MIL",
-      "generatedAt": "2026-11-18T07:05:01Z",
+      "generatedAt": "2026-11-18T19:23:36Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
-      "awayPts": 112.0,
-      "homePts": 106.2,
-      "margin": -5.82,
-      "spreadHome": 5.8,
-      "total": 218.3,
+      "awayPts": 113.8,
+      "homePts": 105.3,
+      "margin": -8.51,
+      "spreadHome": 8.5,
+      "total": 219.1,
       "pace": 102.4,
-      "homeWinProb": 0.3394,
-      "fairMlHome": 195,
-      "fairMlAway": -195,
+      "homeWinProb": 0.2723,
+      "fairMlHome": 267,
+      "fairMlAway": -267,
       "contributions": [
         {
           "key": "offense",
@@ -501,7 +501,7 @@
         },
         {
           "key": "injuries",
-          "pts": 8.04
+          "pts": 5.35
         }
       ],
       "sample": {
@@ -531,20 +531,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:54:21Z",
+        "reportPulledAt": "2026-11-18T19:23:36Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Deni Avdija",
-            "team": "POR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Foot",
-            "matched": true,
-            "expMin": 28.6,
-            "value": 8.16,
-            "impactPts": 3.5
-          },
           {
             "player": "Ja Morant",
             "team": "POR",
@@ -566,6 +555,17 @@
             "expMin": 29.4,
             "value": 4.47,
             "impactPts": 1.92
+          },
+          {
+            "player": "Deni Avdija",
+            "team": "POR",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Foot",
+            "matched": true,
+            "expMin": 28.6,
+            "value": 8.16,
+            "impactPts": 1.75
           },
           {
             "player": "Chris Youngblood",
@@ -591,6 +591,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Ryan Rollins",
+            "team": "MIL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 24.9,
+            "value": 2.18,
+            "impactPts": 0.94
+          },
           {
             "player": "Ousmane Dieng",
             "team": "MIL",

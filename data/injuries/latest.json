@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-11-18T03:54:21Z",
+  "pulledAt": "2026-11-18T19:23:36Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -75,11 +75,11 @@
       "player": "Grayson Allen",
       "key": "graysonallen",
       "team": "CHA",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Concussion",
       "espnId": "3135045",
-      "gameId": "20261117-CHA-LAL",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -90,7 +90,7 @@
       "pPlay": 0.0,
       "reason": "Hamstring Strain",
       "espnId": "5061575",
-      "gameId": "20261117-CHA-LAL",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -101,7 +101,7 @@
       "pPlay": 0.0,
       "reason": "Hamstring Strain",
       "espnId": "3032979",
-      "gameId": "20261117-CHA-LAL",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -138,6 +138,28 @@
       "source": "espn"
     },
     {
+      "player": "Peyton Watson",
+      "key": "peytonwatson",
+      "team": "CLE",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Back Bruise",
+      "espnId": "4576087",
+      "gameId": "20261118-MEM-CLE",
+      "source": "espn"
+    },
+    {
+      "player": "Jaylon Tyson",
+      "key": "jaylontyson",
+      "team": "CLE",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Ankle",
+      "espnId": "4683747",
+      "gameId": "20261118-MEM-CLE",
+      "source": "espn"
+    },
+    {
       "player": "Nae'Qwan Tomlin",
       "key": "naeqwantomlin",
       "team": "CLE",
@@ -149,17 +171,6 @@
       "source": "espn"
     },
     {
-      "player": "Jaylon Tyson",
-      "key": "jaylontyson",
-      "team": "CLE",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Ankle",
-      "espnId": "4683747",
-      "gameId": "20261118-MEM-CLE",
-      "source": "espn"
-    },
-    {
       "player": "Sam Merrill",
       "key": "sammerrill",
       "team": "CLE",
@@ -167,17 +178,6 @@
       "pPlay": 0.0,
       "reason": "Elbow",
       "espnId": "4066757",
-      "gameId": "20261118-MEM-CLE",
-      "source": "espn"
-    },
-    {
-      "player": "Peyton Watson",
-      "key": "peytonwatson",
-      "team": "CLE",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Back Bruise",
-      "espnId": "4576087",
       "gameId": "20261118-MEM-CLE",
       "source": "espn"
     },
@@ -281,6 +281,17 @@
       "source": "espn"
     },
     {
+      "player": "Cade Cunningham",
+      "key": "cadecunningham",
+      "team": "DET",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Knee Soreness",
+      "espnId": "4432166",
+      "gameId": "20261118-DET-NOP",
+      "source": "espn"
+    },
+    {
       "player": "Isaiah Joe",
       "key": "isaiahjoe",
       "team": "DET",
@@ -288,17 +299,6 @@
       "pPlay": 0.0,
       "reason": "Hip Bruise",
       "espnId": "4395702",
-      "gameId": "20261118-DET-NOP",
-      "source": "espn"
-    },
-    {
-      "player": "Duncan Robinson",
-      "key": "duncanrobinson",
-      "team": "DET",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Quadriceps Strain",
-      "espnId": "3157465",
       "gameId": "20261118-DET-NOP",
       "source": "espn"
     },
@@ -325,6 +325,17 @@
       "source": "espn"
     },
     {
+      "player": "Duncan Robinson",
+      "key": "duncanrobinson",
+      "team": "DET",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Quadriceps Strain",
+      "espnId": "3157465",
+      "gameId": "20261118-DET-NOP",
+      "source": "espn"
+    },
+    {
       "player": "Jalen Duren",
       "key": "jalenduren",
       "team": "DET",
@@ -333,6 +344,28 @@
       "reason": "Hamstring Strain",
       "espnId": "4433621",
       "gameId": "20261118-DET-NOP",
+      "source": "espn"
+    },
+    {
+      "player": "Brandon Williams",
+      "key": "brandonwilliams",
+      "team": "GSW",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Hamstring Strain",
+      "espnId": "4397040",
+      "gameId": "20261118-GSW-DAL",
+      "source": "espn"
+    },
+    {
+      "player": "Draymond Green",
+      "key": "draymondgreen",
+      "team": "GSW",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Elbow Inflammation",
+      "espnId": "6589",
+      "gameId": "20261118-GSW-DAL",
       "source": "espn"
     },
     {
@@ -354,17 +387,6 @@
       "pPlay": 0.0,
       "reason": "Abdomen",
       "espnId": "3975",
-      "gameId": "20261118-GSW-DAL",
-      "source": "espn"
-    },
-    {
-      "player": "Brandon Williams",
-      "key": "brandonwilliams",
-      "team": "GSW",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Hamstring Not Specified",
-      "espnId": "4397040",
       "gameId": "20261118-GSW-DAL",
       "source": "espn"
     },
@@ -420,17 +442,6 @@
       "pPlay": 0.5,
       "reason": "Knee Soreness",
       "espnId": "4684740",
-      "gameId": "20261118-HOU-IND",
-      "source": "espn"
-    },
-    {
-      "player": "Julian Phillips",
-      "key": "julianphillips",
-      "team": "HOU",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Wrist",
-      "espnId": "5105553",
       "gameId": "20261118-HOU-IND",
       "source": "espn"
     },
@@ -497,7 +508,7 @@
       "pPlay": 0.0,
       "reason": "Foot Surgery",
       "espnId": "5108024",
-      "gameId": null,
+      "gameId": "20261119-LAC-SAS",
       "source": "espn"
     },
     {
@@ -508,7 +519,7 @@
       "pPlay": 0.0,
       "reason": "Achilles Surgery",
       "espnId": "3913176",
-      "gameId": null,
+      "gameId": "20261119-LAC-SAS",
       "source": "espn"
     },
     {
@@ -519,7 +530,7 @@
       "pPlay": 0.0,
       "reason": "Knee Inflammation",
       "espnId": "6580",
-      "gameId": null,
+      "gameId": "20261119-LAC-SAS",
       "source": "espn"
     },
     {
@@ -530,29 +541,29 @@
       "pPlay": 0.0,
       "reason": "Shoulder Surgery",
       "espnId": "4396818",
-      "gameId": null,
-      "source": "espn"
-    },
-    {
-      "player": "Walker Kessler",
-      "key": "walkerkessler",
-      "team": "LAL",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Lower Leg Soreness",
-      "espnId": "4433136",
-      "gameId": "20261117-CHA-LAL",
+      "gameId": "20261119-LAC-SAS",
       "source": "espn"
     },
     {
       "player": "Austin Reaves",
       "key": "austinreaves",
       "team": "LAL",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Heel Bruise",
       "espnId": "4066457",
-      "gameId": "20261117-CHA-LAL",
+      "gameId": "20261118-UTA-LAL",
+      "source": "espn"
+    },
+    {
+      "player": "Walker Kessler",
+      "key": "walkerkessler",
+      "team": "LAL",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Lower Leg Soreness",
+      "espnId": "4433136",
+      "gameId": "20261118-UTA-LAL",
       "source": "espn"
     },
     {
@@ -614,32 +625,21 @@
       "player": "Myron Gardner",
       "key": "myrongardner",
       "team": "MIA",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Hamstring",
       "espnId": "4431772",
       "gameId": "20261118-MIL-MIA",
       "source": "espn"
     },
     {
-      "player": "Nikola Jovic",
-      "key": "nikolajovic",
-      "team": "MIA",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "player": "Ryan Rollins",
+      "key": "ryanrollins",
+      "team": "MIL",
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Illness",
-      "espnId": "4997528",
-      "gameId": "20261118-MIL-MIA",
-      "source": "espn"
-    },
-    {
-      "player": "Bam Adebayo",
-      "key": "bamadebayo",
-      "team": "MIA",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Hip",
-      "espnId": "4066261",
+      "espnId": "4591725",
       "gameId": "20261118-MIL-MIA",
       "source": "espn"
     },
@@ -658,22 +658,22 @@
       "player": "Zyon Pullin",
       "key": "zyonpullin",
       "team": "MIN",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Quadriceps Bruise",
       "espnId": "4592979",
-      "gameId": null,
+      "gameId": "20261119-NYK-MIN",
       "source": "espn"
     },
     {
       "player": "Jonathan Kuminga",
       "key": "jonathankuminga",
       "team": "MIN",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Shoulder",
       "espnId": "4433247",
-      "gameId": null,
+      "gameId": "20261119-NYK-MIN",
       "source": "espn"
     },
     {
@@ -684,7 +684,7 @@
       "pPlay": 0.0,
       "reason": "Hamstring Not Specified",
       "espnId": "4432247",
-      "gameId": null,
+      "gameId": "20261119-NYK-MIN",
       "source": "espn"
     },
     {
@@ -695,7 +695,7 @@
       "pPlay": 0.0,
       "reason": "Knee Surgery",
       "espnId": "4594268",
-      "gameId": null,
+      "gameId": "20261119-NYK-MIN",
       "source": "espn"
     },
     {
@@ -706,7 +706,7 @@
       "pPlay": 0.0,
       "reason": "Achilles Surgery",
       "espnId": "3934673",
-      "gameId": null,
+      "gameId": "20261119-NYK-MIN",
       "source": "espn"
     },
     {
@@ -864,6 +864,17 @@
       "source": "espn"
     },
     {
+      "player": "Dean Wade",
+      "key": "deanwade",
+      "team": "PHI",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Hamstring Soreness",
+      "espnId": "3912848",
+      "gameId": "20261118-PHI-ORL",
+      "source": "espn"
+    },
+    {
       "player": "Dominick Barlow",
       "key": "dominickbarlow",
       "team": "PHI",
@@ -922,11 +933,11 @@
       "player": "Deni Avdija",
       "key": "deniavdija",
       "team": "POR",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Foot",
       "espnId": "4683021",
-      "gameId": null,
+      "gameId": "20261119-POR-MIL",
       "source": "espn"
     },
     {
@@ -937,7 +948,7 @@
       "pPlay": 0.0,
       "reason": "Heel Bruise",
       "espnId": "4706557",
-      "gameId": null,
+      "gameId": "20261119-POR-MIL",
       "source": "espn"
     },
     {
@@ -948,7 +959,7 @@
       "pPlay": 0.0,
       "reason": "Ankle",
       "espnId": "4578893",
-      "gameId": null,
+      "gameId": "20261119-POR-MIL",
       "source": "espn"
     },
     {
@@ -959,7 +970,7 @@
       "pPlay": 0.0,
       "reason": "Hamstring Not Specified",
       "espnId": "4279888",
-      "gameId": null,
+      "gameId": "20261119-POR-MIL",
       "source": "espn"
     },
     {
@@ -970,7 +981,18 @@
       "pPlay": 0.0,
       "reason": "Knee Surgery",
       "espnId": "4914336",
-      "gameId": null,
+      "gameId": "20261119-POR-MIL",
+      "source": "espn"
+    },
+    {
+      "player": "Maxime Raynaud",
+      "key": "maximeraynaud",
+      "team": "SAC",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Knee Dislocated",
+      "espnId": "4898371",
+      "gameId": "20261118-PHX-SAC",
       "source": "espn"
     },
     {
@@ -996,17 +1018,6 @@
       "source": "espn"
     },
     {
-      "player": "Maxime Raynaud",
-      "key": "maximeraynaud",
-      "team": "SAC",
-      "status": "out",
-      "pPlay": 0.0,
-      "reason": "Knee Dislocated",
-      "espnId": "4898371",
-      "gameId": "20261118-PHX-SAC",
-      "source": "espn"
-    },
-    {
       "player": "Ben Simmons",
       "key": "bensimmons",
       "team": "SAC",
@@ -1021,11 +1032,11 @@
       "player": "Dylan Harper",
       "key": "dylanharper",
       "team": "SAS",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Undisclosed",
       "espnId": "5037871",
-      "gameId": null,
+      "gameId": "20261119-LAC-SAS",
       "source": "espn"
     },
     {
@@ -1036,7 +1047,7 @@
       "pPlay": 0.0,
       "reason": "Calf Strain",
       "espnId": "6440",
-      "gameId": null,
+      "gameId": "20261119-LAC-SAS",
       "source": "espn"
     },
     {
@@ -1047,7 +1058,29 @@
       "pPlay": 0.0,
       "reason": "Knee Surgery",
       "espnId": "5101845",
-      "gameId": null,
+      "gameId": "20261119-LAC-SAS",
+      "source": "espn"
+    },
+    {
+      "player": "RJ Barrett",
+      "key": "rjbarrett",
+      "team": "TOR",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Hamstring Soreness",
+      "espnId": "4395625",
+      "gameId": "20261118-WAS-TOR",
+      "source": "espn"
+    },
+    {
+      "player": "Scottie Barnes",
+      "key": "scottiebarnes",
+      "team": "TOR",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Groin",
+      "espnId": "4433134",
+      "gameId": "20261118-WAS-TOR",
       "source": "espn"
     },
     {
@@ -1087,8 +1120,8 @@
       "player": "Jaxson Hayes",
       "key": "jaxsonhayes",
       "team": "UTA",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Knee Strain",
       "espnId": "4397077",
       "gameId": "20261118-UTA-LAL",
