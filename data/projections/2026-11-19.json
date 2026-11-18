@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261119-GSW-MEM",
-      "generatedAt": "2026-11-18T03:44:18Z",
+      "generatedAt": "2026-11-18T03:54:21Z",
       "ratingsAsOf": "2026-11-18T03:44:18Z",
       "modelVersion": "v2.0",
       "awayPts": 100.7,
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:34:14Z",
+        "reportPulledAt": "2026-11-18T03:54:21Z",
         "source": "espn",
         "away": [
           {
@@ -189,18 +189,18 @@
     },
     {
       "gameId": "20261119-LAC-SAS",
-      "generatedAt": "2026-11-18T03:44:18Z",
+      "generatedAt": "2026-11-18T03:54:21Z",
       "ratingsAsOf": "2026-11-18T03:44:18Z",
       "modelVersion": "v2.0",
       "awayPts": 101.5,
-      "homePts": 115.9,
-      "margin": 14.39,
-      "spreadHome": -14.4,
-      "total": 217.4,
+      "homePts": 113.6,
+      "margin": 12.13,
+      "spreadHome": -12.1,
+      "total": 215.1,
       "pace": 99.8,
-      "homeWinProb": 0.8473,
-      "fairMlHome": -555,
-      "fairMlAway": 555,
+      "homeWinProb": 0.8062,
+      "fairMlHome": -416,
+      "fairMlAway": 416,
       "contributions": [
         {
           "key": "offense",
@@ -224,7 +224,7 @@
         },
         {
           "key": "injuries",
-          "pts": 2.62
+          "pts": 0.36
         }
       ],
       "sample": {
@@ -252,7 +252,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:34:14Z",
+        "reportPulledAt": "2026-11-18T03:54:21Z",
         "source": "espn",
         "away": [
           {
@@ -302,6 +302,17 @@
         ],
         "home": [
           {
+            "player": "Dylan Harper",
+            "team": "SAS",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Undisclosed",
+            "matched": true,
+            "expMin": 30.5,
+            "value": 5.27,
+            "impactPts": 2.26
+          },
+          {
             "player": "Tobias Harris",
             "team": "SAS",
             "status": "out",
@@ -328,7 +339,7 @@
     },
     {
       "gameId": "20261119-NYK-MIN",
-      "generatedAt": "2026-11-18T03:44:18Z",
+      "generatedAt": "2026-11-18T03:54:21Z",
       "ratingsAsOf": "2026-11-18T03:44:18Z",
       "modelVersion": "v2.0",
       "awayPts": 105.4,
@@ -391,7 +402,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:34:14Z",
+        "reportPulledAt": "2026-11-18T03:54:21Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -455,7 +466,7 @@
     },
     {
       "gameId": "20261119-POR-MIL",
-      "generatedAt": "2026-11-18T03:44:18Z",
+      "generatedAt": "2026-11-18T03:54:21Z",
       "ratingsAsOf": "2026-11-18T03:44:18Z",
       "modelVersion": "v2.0",
       "awayPts": 112.0,
@@ -520,7 +531,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-18T03:34:14Z",
+        "reportPulledAt": "2026-11-18T03:54:21Z",
         "source": "espn",
         "away": [
           {
