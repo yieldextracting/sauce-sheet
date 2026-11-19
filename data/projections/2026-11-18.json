@@ -859,7 +859,7 @@
     },
     {
       "gameId": "20261118-ATL-OKC",
-      "generatedAt": "2026-11-19T00:35:31Z",
+      "generatedAt": "2026-11-19T00:45:35Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 104.3,
@@ -922,7 +922,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T00:35:31Z",
+        "reportPulledAt": "2026-11-19T00:45:35Z",
         "source": "espn",
         "away": [
           {
@@ -1042,18 +1042,18 @@
     },
     {
       "gameId": "20261118-DET-NOP",
-      "generatedAt": "2026-11-19T00:35:31Z",
+      "generatedAt": "2026-11-19T00:45:35Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
-      "awayPts": 109.3,
+      "awayPts": 106.9,
       "homePts": 104.4,
-      "margin": -4.96,
-      "spreadHome": 5.0,
-      "total": 213.7,
+      "margin": -2.57,
+      "spreadHome": 2.6,
+      "total": 211.3,
       "pace": 102.8,
-      "homeWinProb": 0.362,
-      "fairMlHome": 176,
-      "fairMlAway": -176,
+      "homeWinProb": 0.4274,
+      "fairMlHome": 134,
+      "fairMlAway": -134,
       "contributions": [
         {
           "key": "offense",
@@ -1077,7 +1077,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.55
+          "pts": 5.94
         }
       ],
       "sample": {
@@ -1105,9 +1105,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T00:35:31Z",
+        "reportPulledAt": "2026-11-19T00:45:35Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Cade Cunningham",
+            "team": "DET",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Soreness",
+            "matched": true,
+            "expMin": 35.7,
+            "value": 11.12,
+            "impactPts": 4.78
+          },
           {
             "player": "Jalen Duren",
             "team": "DET",
@@ -1118,17 +1129,6 @@
             "expMin": 25.9,
             "value": 9.59,
             "impactPts": 4.12
-          },
-          {
-            "player": "Cade Cunningham",
-            "team": "DET",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Knee Soreness",
-            "matched": true,
-            "expMin": 35.7,
-            "value": 11.12,
-            "impactPts": 2.39
           },
           {
             "player": "Duncan Robinson",
@@ -1236,7 +1236,7 @@
     },
     {
       "gameId": "20261118-GSW-DAL",
-      "generatedAt": "2026-11-19T00:35:31Z",
+      "generatedAt": "2026-11-19T00:45:35Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 100.4,
@@ -1299,7 +1299,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T00:35:31Z",
+        "reportPulledAt": "2026-11-19T00:45:35Z",
         "source": "espn",
         "away": [
           {
@@ -1419,7 +1419,7 @@
     },
     {
       "gameId": "20261118-BOS-DEN",
-      "generatedAt": "2026-11-19T00:35:31Z",
+      "generatedAt": "2026-11-19T00:45:35Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 109.8,
@@ -1484,7 +1484,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T00:35:31Z",
+        "reportPulledAt": "2026-11-19T00:45:35Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -1504,7 +1504,7 @@
     },
     {
       "gameId": "20261118-PHX-SAC",
-      "generatedAt": "2026-11-19T00:35:31Z",
+      "generatedAt": "2026-11-19T00:45:35Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 114.8,
@@ -1567,7 +1567,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T00:35:31Z",
+        "reportPulledAt": "2026-11-19T00:45:35Z",
         "source": "espn",
         "away": [
           {
@@ -1610,7 +1610,7 @@
     },
     {
       "gameId": "20261118-UTA-LAL",
-      "generatedAt": "2026-11-19T00:35:31Z",
+      "generatedAt": "2026-11-19T00:45:35Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 101.6,
@@ -1676,7 +1676,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T00:35:31Z",
+        "reportPulledAt": "2026-11-19T00:45:35Z",
         "source": "espn",
         "away": [
           {
