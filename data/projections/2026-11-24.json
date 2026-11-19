@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261124-DET-ORL",
-      "generatedAt": "2026-11-19T00:45:35Z",
+      "generatedAt": "2026-11-19T01:28:47Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
-      "awayPts": 101.2,
+      "awayPts": 102.0,
       "homePts": 103.3,
-      "margin": 2.08,
-      "spreadHome": -2.1,
-      "total": 204.5,
+      "margin": 1.24,
+      "spreadHome": -1.2,
+      "total": 205.3,
       "pace": 101.3,
-      "homeWinProb": 0.559,
-      "fairMlHome": -127,
-      "fairMlAway": 127,
+      "homeWinProb": 0.5353,
+      "fairMlHome": -115,
+      "fairMlAway": 115,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 7.52
+          "pts": 6.68
         }
       ],
       "sample": {
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T00:45:35Z",
+        "reportPulledAt": "2026-11-19T01:28:46Z",
         "source": "espn",
         "away": [
           {
@@ -99,17 +99,6 @@
             "expMin": 29.8,
             "value": 2.58,
             "impactPts": 1.11
-          },
-          {
-            "player": "Isaiah Joe",
-            "team": "DET",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hip Bruise",
-            "matched": true,
-            "expMin": 18.4,
-            "value": 1.96,
-            "impactPts": 0.84
           },
           {
             "player": "Ronald Holland II",
@@ -184,7 +173,7 @@
     },
     {
       "gameId": "20261124-BOS-WAS",
-      "generatedAt": "2026-11-19T00:45:35Z",
+      "generatedAt": "2026-11-19T01:28:47Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 117.6,
@@ -248,7 +237,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T00:45:35Z",
+        "reportPulledAt": "2026-11-19T01:28:46Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -301,7 +290,7 @@
     },
     {
       "gameId": "20261124-DAL-DEN",
-      "generatedAt": "2026-11-19T00:45:35Z",
+      "generatedAt": "2026-11-19T01:28:47Z",
       "ratingsAsOf": "2026-11-18T07:05:01Z",
       "modelVersion": "v2.0",
       "awayPts": 108.9,
@@ -365,7 +354,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T00:45:35Z",
+        "reportPulledAt": "2026-11-19T01:28:46Z",
         "source": "espn",
         "away": [
           {
