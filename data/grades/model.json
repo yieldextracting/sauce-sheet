@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T02:29:08Z",
+  "generatedAt": "2026-11-19T02:39:12Z",
   "grades": [
     {
       "source": "model",
@@ -3890,10 +3890,10 @@
       "result": "pending",
       "profitU": 0.0,
       "edge": 1.7,
-      "closingLine": null,
-      "clvPts": null,
+      "closingLine": 2.5,
+      "clvPts": 0.0,
       "clvProb": null,
-      "closeMinutesBeforeTip": null,
+      "closeMinutesBeforeTip": 1,
       "finalScore": null
     },
     {
@@ -3982,14 +3982,14 @@
       "line": -5.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "loss",
+      "profitU": -1.0,
       "edge": 0.1,
       "closingLine": -4.5,
       "clvPts": -1.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 5,
-      "finalScore": null
+      "finalScore": "124-121"
     },
     {
       "source": "model",
@@ -4020,14 +4020,14 @@
       "line": 1.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "loss",
+      "profitU": -1.0,
       "edge": 2.3,
       "closingLine": -4.5,
       "clvPts": 6.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 5,
-      "finalScore": null
+      "finalScore": "121-116"
     },
     {
       "source": "model",
@@ -4090,27 +4090,27 @@
   "summary": {
     "all": {
       "w": 91,
-      "l": 113,
+      "l": 115,
       "p": 0,
-      "pending": 11,
-      "units": -30.272,
-      "risked": 204.0,
-      "roi": -0.1484,
-      "clvPtsAvg": 0.113,
-      "beatClosePct": 0.3284,
-      "clvN": 204
+      "pending": 9,
+      "units": -32.272,
+      "risked": 206.0,
+      "roi": -0.1567,
+      "clvPtsAvg": 0.136,
+      "beatClosePct": 0.3301,
+      "clvN": 206
     },
     "edge1.5": {
       "w": 64,
-      "l": 73,
+      "l": 74,
       "p": 0,
-      "pending": 6,
-      "units": -14.818,
-      "risked": 137.0,
-      "roi": -0.1082,
-      "clvPtsAvg": 0.328,
-      "beatClosePct": 0.3869,
-      "clvN": 137
+      "pending": 5,
+      "units": -15.818,
+      "risked": 138.0,
+      "roi": -0.1146,
+      "clvPtsAvg": 0.37,
+      "beatClosePct": 0.3913,
+      "clvN": 138
     },
     "edge3": {
       "w": 42,
