@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261121-MIL-PHI",
-      "generatedAt": "2026-11-20T09:09:23Z",
+      "generatedAt": "2026-11-20T18:00:24Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.3,
-      "homePts": 116.6,
-      "margin": 9.23,
-      "spreadHome": -9.2,
-      "total": 223.9,
+      "awayPts": 106.9,
+      "homePts": 114.6,
+      "margin": 7.7,
+      "spreadHome": -7.7,
+      "total": 221.4,
       "pace": 101.8,
-      "homeWinProb": 0.7446,
-      "fairMlHome": -292,
-      "fairMlAway": 292,
+      "homeWinProb": 0.7084,
+      "fairMlHome": -243,
+      "fairMlAway": 243,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.82
+          "pts": -5.35
         }
       ],
       "sample": {
@@ -66,9 +66,31 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T18:39:13Z",
+        "reportPulledAt": "2026-11-20T18:00:24Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Kyle Kuzma",
+            "team": "MIL",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Shoulder Bruise",
+            "matched": true,
+            "expMin": 27.0,
+            "value": 1.88,
+            "impactPts": 0.4
+          },
+          {
+            "player": "Myles Turner",
+            "team": "MIL",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Shoulder Bruise",
+            "matched": true,
+            "expMin": 26.1,
+            "value": 0.31,
+            "impactPts": 0.07
+          },
           {
             "player": "Ousmane Dieng",
             "team": "MIL",
@@ -92,6 +114,17 @@
             "expMin": 33.9,
             "value": 8.07,
             "impactPts": 3.46
+          },
+          {
+            "player": "Tyrese Maxey",
+            "team": "PHI",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Foot Soreness",
+            "matched": true,
+            "expMin": 31.2,
+            "value": 9.32,
+            "impactPts": 2.0
           },
           {
             "player": "Dominick Barlow",
@@ -131,18 +164,18 @@
     },
     {
       "gameId": "20261121-POR-NYK",
-      "generatedAt": "2026-11-20T09:09:23Z",
+      "generatedAt": "2026-11-20T18:00:24Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
-      "awayPts": 101.3,
+      "awayPts": 100.6,
       "homePts": 110.0,
-      "margin": 8.74,
-      "spreadHome": -8.7,
-      "total": 211.3,
+      "margin": 9.44,
+      "spreadHome": -9.4,
+      "total": 210.6,
       "pace": 99.4,
-      "homeWinProb": 0.7331,
-      "fairMlHome": -275,
-      "fairMlAway": 275,
+      "homeWinProb": 0.7493,
+      "fairMlHome": -299,
+      "fairMlAway": 299,
       "contributions": [
         {
           "key": "offense",
@@ -166,7 +199,7 @@
         },
         {
           "key": "injuries",
-          "pts": 6.19
+          "pts": 6.89
         }
       ],
       "sample": {
@@ -194,7 +227,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T18:39:13Z",
+        "reportPulledAt": "2026-11-20T18:00:24Z",
         "source": "espn",
         "away": [
           {
@@ -220,15 +253,26 @@
             "impactPts": 1.92
           },
           {
+            "player": "Deni Avdija",
+            "team": "POR",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Foot",
+            "matched": true,
+            "expMin": 24.9,
+            "value": 7.11,
+            "impactPts": 1.53
+          },
+          {
             "player": "Robert Williams III",
             "team": "POR",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Rest",
             "matched": true,
             "expMin": 16.3,
             "value": 3.83,
-            "impactPts": 1.65
+            "impactPts": 0.82
           },
           {
             "player": "Chris Youngblood",
@@ -258,7 +302,7 @@
     },
     {
       "gameId": "20261121-LAC-DAL",
-      "generatedAt": "2026-11-20T09:09:23Z",
+      "generatedAt": "2026-11-20T18:00:24Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
       "awayPts": 108.1,
@@ -319,7 +363,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T18:39:13Z",
+        "reportPulledAt": "2026-11-20T18:00:24Z",
         "source": "espn",
         "away": [
           {
@@ -369,6 +413,17 @@
             "impactPts": 0.46
           },
           {
+            "player": "Tobi Lawal",
+            "team": "DAL",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Groin",
+            "matched": true,
+            "expMin": 3.1,
+            "value": 0.3,
+            "impactPts": 0.0
+          },
+          {
             "player": "Sergio de Larrea",
             "team": "DAL",
             "status": "out",
@@ -395,18 +450,18 @@
     },
     {
       "gameId": "20261121-MEM-MIN",
-      "generatedAt": "2026-11-20T09:09:23Z",
+      "generatedAt": "2026-11-20T18:00:24Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
-      "awayPts": 104.0,
+      "awayPts": 102.7,
       "homePts": 111.8,
-      "margin": 7.84,
-      "spreadHome": -7.8,
-      "total": 215.8,
+      "margin": 9.1,
+      "spreadHome": -9.1,
+      "total": 214.6,
       "pace": 103.5,
-      "homeWinProb": 0.7116,
-      "fairMlHome": -247,
-      "fairMlAway": 247,
+      "homeWinProb": 0.7414,
+      "fairMlHome": -287,
+      "fairMlAway": 287,
       "contributions": [
         {
           "key": "offense",
@@ -430,7 +485,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.73
+          "pts": 1.99
         }
       ],
       "sample": {
@@ -458,7 +513,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T18:39:13Z",
+        "reportPulledAt": "2026-11-20T18:00:24Z",
         "source": "espn",
         "away": [
           {
@@ -484,6 +539,17 @@
             "impactPts": 0.86
           },
           {
+            "player": "Zach Edey",
+            "team": "MEM",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Ankle",
+            "matched": true,
+            "expMin": 19.7,
+            "value": 3.7,
+            "impactPts": 0.79
+          },
+          {
             "player": "GG Jackson",
             "team": "MEM",
             "status": "out",
@@ -493,6 +559,17 @@
             "expMin": 14.3,
             "value": 1.39,
             "impactPts": 0.6
+          },
+          {
+            "player": "Jerami Grant",
+            "team": "MEM",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Calf Not Specified",
+            "matched": true,
+            "expMin": 21.4,
+            "value": 2.2,
+            "impactPts": 0.47
           },
           {
             "player": "Richie Saunders",
@@ -545,7 +622,7 @@
     },
     {
       "gameId": "20261121-NOP-SAS",
-      "generatedAt": "2026-11-20T09:09:23Z",
+      "generatedAt": "2026-11-20T18:00:24Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
       "awayPts": 100.1,
@@ -609,7 +686,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T18:39:13Z",
+        "reportPulledAt": "2026-11-20T18:00:24Z",
         "source": "espn",
         "away": [
           {
@@ -707,7 +784,7 @@
     },
     {
       "gameId": "20261121-BOS-SAC",
-      "generatedAt": "2026-11-20T09:09:23Z",
+      "generatedAt": "2026-11-20T18:00:24Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
       "awayPts": 119.2,
@@ -771,7 +848,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-19T18:39:13Z",
+        "reportPulledAt": "2026-11-20T18:00:24Z",
         "source": "espn",
         "away": [],
         "home": [
