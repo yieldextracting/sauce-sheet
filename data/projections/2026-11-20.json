@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261120-CHA-ATL",
-      "generatedAt": "2026-11-20T23:22:27Z",
+      "generatedAt": "2026-11-20T23:58:15Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
       "awayPts": 101.3,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-20T23:22:26Z",
+        "reportPulledAt": "2026-11-20T23:58:15Z",
         "source": "espn",
         "away": [
           {
@@ -186,18 +186,18 @@
     },
     {
       "gameId": "20261120-IND-CLE",
-      "generatedAt": "2026-11-20T23:22:27Z",
+      "generatedAt": "2026-11-20T23:58:15Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
-      "awayPts": 109.5,
-      "homePts": 117.0,
-      "margin": 7.57,
+      "awayPts": 109.6,
+      "homePts": 117.2,
+      "margin": 7.59,
       "spreadHome": -7.6,
-      "total": 226.5,
+      "total": 226.9,
       "pace": 102.7,
-      "homeWinProb": 0.705,
-      "fairMlHome": -239,
-      "fairMlAway": 239,
+      "homeWinProb": 0.7055,
+      "fairMlHome": -240,
+      "fairMlAway": 240,
       "contributions": [
         {
           "key": "offense",
@@ -221,7 +221,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.88
+          "pts": -1.86
         }
       ],
       "sample": {
@@ -247,7 +247,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-20T23:22:26Z",
+        "reportPulledAt": "2026-11-20T23:58:15Z",
         "source": "espn",
         "away": [
           {
@@ -271,17 +271,6 @@
             "expMin": 16.0,
             "value": 4.23,
             "impactPts": 0.91
-          },
-          {
-            "player": "Braden Smith",
-            "team": "IND",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 8.7,
-            "value": 0.75,
-            "impactPts": 0.16
           },
           {
             "player": "Johnny Furphy",
@@ -339,24 +328,13 @@
             "expMin": 13.7,
             "value": 0.5,
             "impactPts": 0.21
-          },
-          {
-            "player": "Peyton Watson",
-            "team": "CLE",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Back Bruise",
-            "matched": true,
-            "expMin": 24.1,
-            "value": 0.82,
-            "impactPts": 0.18
           }
         ]
       }
     },
     {
       "gameId": "20261120-ORL-BKN",
-      "generatedAt": "2026-11-20T23:22:27Z",
+      "generatedAt": "2026-11-20T23:58:15Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
       "awayPts": 110.5,
@@ -419,7 +397,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-20T23:22:26Z",
+        "reportPulledAt": "2026-11-20T23:58:15Z",
         "source": "espn",
         "away": [
           {
@@ -484,7 +462,7 @@
     },
     {
       "gameId": "20261120-TOR-DET",
-      "generatedAt": "2026-11-20T23:22:27Z",
+      "generatedAt": "2026-11-20T23:58:15Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
       "awayPts": 98.3,
@@ -549,7 +527,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-20T23:22:26Z",
+        "reportPulledAt": "2026-11-20T23:58:15Z",
         "source": "espn",
         "away": [
           {
@@ -680,18 +658,18 @@
     },
     {
       "gameId": "20261120-NOP-OKC",
-      "generatedAt": "2026-11-20T23:22:27Z",
+      "generatedAt": "2026-11-20T23:58:15Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
-      "awayPts": 100.3,
-      "homePts": 114.6,
-      "margin": 14.31,
-      "spreadHome": -14.3,
-      "total": 214.9,
+      "awayPts": 102.5,
+      "homePts": 114.3,
+      "margin": 11.8,
+      "spreadHome": -11.8,
+      "total": 216.8,
       "pace": 102.9,
-      "homeWinProb": 0.8459,
-      "fairMlHome": -549,
-      "fairMlAway": 549,
+      "homeWinProb": 0.7996,
+      "fairMlHome": -399,
+      "fairMlAway": 399,
       "contributions": [
         {
           "key": "offense",
@@ -715,7 +693,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.64
+          "pts": -3.15
         }
       ],
       "sample": {
@@ -741,20 +719,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-20T23:22:26Z",
+        "reportPulledAt": "2026-11-20T23:58:15Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Trey Murphy III",
-            "team": "NOP",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Tendinitis",
-            "matched": true,
-            "expMin": 33.6,
-            "value": 5.17,
-            "impactPts": 2.22
-          },
           {
             "player": "Dejounte Murray",
             "team": "NOP",
@@ -826,13 +793,13 @@
           {
             "player": "Alex Caruso",
             "team": "OKC",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Hip Soreness",
             "matched": true,
             "expMin": 18.7,
             "value": 1.35,
-            "impactPts": 0.29
+            "impactPts": 0.58
           },
           {
             "player": "Cason Wallace",
@@ -872,7 +839,7 @@
     },
     {
       "gameId": "20261120-WAS-CHI",
-      "generatedAt": "2026-11-20T23:22:27Z",
+      "generatedAt": "2026-11-20T23:58:15Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
       "awayPts": 115.3,
@@ -933,7 +900,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-20T23:22:26Z",
+        "reportPulledAt": "2026-11-20T23:58:15Z",
         "source": "espn",
         "away": [
           {
@@ -1020,7 +987,7 @@
             "team": "CHI",
             "status": "questionable",
             "pPlay": 0.5,
-            "reason": "Wrist Soreness",
+            "reason": null,
             "matched": true,
             "expMin": 10.5,
             "value": 0.48,
@@ -1042,7 +1009,7 @@
     },
     {
       "gameId": "20261120-PHX-UTA",
-      "generatedAt": "2026-11-20T23:22:27Z",
+      "generatedAt": "2026-11-20T23:58:15Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
       "awayPts": 111.8,
@@ -1106,7 +1073,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-20T23:22:26Z",
+        "reportPulledAt": "2026-11-20T23:58:15Z",
         "source": "espn",
         "away": [
           {
@@ -1160,7 +1127,7 @@
     },
     {
       "gameId": "20261120-HOU-DEN",
-      "generatedAt": "2026-11-20T23:22:27Z",
+      "generatedAt": "2026-11-20T23:58:15Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
       "awayPts": 110.5,
@@ -1224,7 +1191,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-20T23:22:26Z",
+        "reportPulledAt": "2026-11-20T23:58:15Z",
         "source": "espn",
         "away": [
           {
@@ -1278,7 +1245,7 @@
     },
     {
       "gameId": "20261120-SAC-LAL",
-      "generatedAt": "2026-11-20T23:22:27Z",
+      "generatedAt": "2026-11-20T23:58:15Z",
       "ratingsAsOf": "2026-11-20T09:09:23Z",
       "modelVersion": "v2.0",
       "awayPts": 106.4,
@@ -1341,7 +1308,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-20T23:22:26Z",
+        "reportPulledAt": "2026-11-20T23:58:15Z",
         "source": "espn",
         "away": [
           {
