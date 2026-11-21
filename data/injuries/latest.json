@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-11-21T19:39:15Z",
+  "pulledAt": "2026-11-21T21:06:57Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -72,13 +72,13 @@
       "source": "espn"
     },
     {
-      "player": "Jayson Tatum",
-      "key": "jaysontatum",
+      "player": "Mitchell Robinson",
+      "key": "mitchellrobinson",
       "team": "BOS",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Rest",
-      "espnId": "4065648",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Illness",
+      "espnId": "4351852",
       "gameId": "20261121-BOS-SAC",
       "source": "espn"
     },
@@ -86,10 +86,21 @@
       "player": "Derrick White",
       "key": "derrickwhite",
       "team": "BOS",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Shoulder",
       "espnId": "3078576",
+      "gameId": "20261121-BOS-SAC",
+      "source": "espn"
+    },
+    {
+      "player": "Jayson Tatum",
+      "key": "jaysontatum",
+      "team": "BOS",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Rest",
+      "espnId": "4065648",
       "gameId": "20261121-BOS-SAC",
       "source": "espn"
     },
@@ -607,6 +618,17 @@
       "pPlay": 0.5,
       "reason": "Hamstring",
       "espnId": "4431772",
+      "gameId": "20261122-OKC-MIA",
+      "source": "espn"
+    },
+    {
+      "player": "Giannis Antetokounmpo",
+      "key": "giannisantetokounmpo",
+      "team": "MIA",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Groin",
+      "espnId": "3032977",
       "gameId": "20261122-OKC-MIA",
       "source": "espn"
     },
