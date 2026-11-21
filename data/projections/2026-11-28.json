@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261128-ORL-WAS",
-      "generatedAt": "2026-11-21T22:27:23Z",
+      "generatedAt": "2026-11-21T22:37:27Z",
       "ratingsAsOf": "2026-11-21T20:39:33Z",
       "modelVersion": "v2.0",
       "awayPts": 111.1,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T22:27:23Z",
+        "reportPulledAt": "2026-11-21T22:37:27Z",
         "source": "espn",
         "away": [
           {
@@ -162,7 +162,7 @@
     },
     {
       "gameId": "20261128-BKN-CHA",
-      "generatedAt": "2026-11-21T22:27:23Z",
+      "generatedAt": "2026-11-21T22:37:27Z",
       "ratingsAsOf": "2026-11-21T20:39:33Z",
       "modelVersion": "v2.0",
       "awayPts": 102.7,
@@ -226,7 +226,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T22:27:23Z",
+        "reportPulledAt": "2026-11-21T22:37:27Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -257,7 +257,7 @@
     },
     {
       "gameId": "20261128-IND-CHI",
-      "generatedAt": "2026-11-21T22:27:23Z",
+      "generatedAt": "2026-11-21T22:37:27Z",
       "ratingsAsOf": "2026-11-21T20:39:33Z",
       "modelVersion": "v2.0",
       "awayPts": 113.3,
@@ -320,7 +320,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T22:27:23Z",
+        "reportPulledAt": "2026-11-21T22:37:27Z",
         "source": "espn",
         "away": [
           {
@@ -396,18 +396,18 @@
     },
     {
       "gameId": "20261128-OKC-MIL",
-      "generatedAt": "2026-11-21T22:27:23Z",
+      "generatedAt": "2026-11-21T22:37:27Z",
       "ratingsAsOf": "2026-11-21T20:39:33Z",
       "modelVersion": "v2.0",
-      "awayPts": 113.8,
+      "awayPts": 113.2,
       "homePts": 103.1,
-      "margin": -10.66,
-      "spreadHome": 10.7,
-      "total": 217.0,
+      "margin": -10.08,
+      "spreadHome": 10.1,
+      "total": 216.4,
       "pace": 101.7,
-      "homeWinProb": 0.2239,
-      "fairMlHome": 347,
-      "fairMlAway": -347,
+      "homeWinProb": 0.2365,
+      "fairMlHome": 323,
+      "fairMlAway": -323,
       "contributions": [
         {
           "key": "offense",
@@ -431,7 +431,7 @@
         },
         {
           "key": "injuries",
-          "pts": 5.33
+          "pts": 5.91
         }
       ],
       "sample": {
@@ -460,7 +460,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T22:27:23Z",
+        "reportPulledAt": "2026-11-21T22:37:27Z",
         "source": "espn",
         "away": [
           {
@@ -486,6 +486,17 @@
             "impactPts": 2.21
           },
           {
+            "player": "Alex Caruso",
+            "team": "OKC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hip Soreness",
+            "matched": true,
+            "expMin": 18.7,
+            "value": 1.35,
+            "impactPts": 0.58
+          },
+          {
             "player": "Cason Wallace",
             "team": "OKC",
             "status": "out",
@@ -495,6 +506,17 @@
             "expMin": 22.9,
             "value": 0.42,
             "impactPts": 0.18
+          },
+          {
+            "player": "Jaylin Williams",
+            "team": "OKC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back Spasms",
+            "matched": true,
+            "expMin": 17.7,
+            "value": 0.0,
+            "impactPts": 0.0
           },
           {
             "player": "Thomas Sorber",
@@ -525,7 +547,7 @@
     },
     {
       "gameId": "20261128-PHI-HOU",
-      "generatedAt": "2026-11-21T22:27:23Z",
+      "generatedAt": "2026-11-21T22:37:27Z",
       "ratingsAsOf": "2026-11-21T20:39:33Z",
       "modelVersion": "v2.0",
       "awayPts": 105.1,
@@ -589,7 +611,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T22:27:23Z",
+        "reportPulledAt": "2026-11-21T22:37:27Z",
         "source": "espn",
         "away": [
           {
