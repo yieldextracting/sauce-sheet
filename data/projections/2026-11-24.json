@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261124-DET-ORL",
-      "generatedAt": "2026-11-21T15:17:49Z",
+      "generatedAt": "2026-11-21T15:27:53Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T15:17:49Z",
+        "reportPulledAt": "2026-11-21T15:27:53Z",
         "source": "espn",
         "away": [
           {
@@ -162,7 +162,7 @@
     },
     {
       "gameId": "20261124-BOS-WAS",
-      "generatedAt": "2026-11-21T15:17:49Z",
+      "generatedAt": "2026-11-21T15:27:53Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 115.4,
@@ -226,7 +226,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T15:17:49Z",
+        "reportPulledAt": "2026-11-21T15:27:53Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -279,7 +279,7 @@
     },
     {
       "gameId": "20261124-DAL-DEN",
-      "generatedAt": "2026-11-21T15:17:49Z",
+      "generatedAt": "2026-11-21T15:27:53Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 108.9,
@@ -343,7 +343,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T15:17:49Z",
+        "reportPulledAt": "2026-11-21T15:27:53Z",
         "source": "espn",
         "away": [
           {
@@ -356,6 +356,17 @@
             "expMin": 16.4,
             "value": 1.07,
             "impactPts": 0.46
+          },
+          {
+            "player": "Tobi Lawal",
+            "team": "DAL",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Groin",
+            "matched": true,
+            "expMin": 3.1,
+            "value": 0.3,
+            "impactPts": 0.0
           },
           {
             "player": "Sergio de Larrea",
