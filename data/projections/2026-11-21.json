@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261121-MIL-PHI",
-      "generatedAt": "2026-11-21T15:27:53Z",
+      "generatedAt": "2026-11-21T16:08:06Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 107.4,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T15:27:53Z",
+        "reportPulledAt": "2026-11-21T16:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -153,18 +153,18 @@
     },
     {
       "gameId": "20261121-POR-NYK",
-      "generatedAt": "2026-11-21T15:27:53Z",
+      "generatedAt": "2026-11-21T16:08:06Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 101.5,
-      "homePts": 109.4,
-      "margin": 7.86,
-      "spreadHome": -7.9,
-      "total": 210.9,
+      "homePts": 107.3,
+      "margin": 5.8,
+      "spreadHome": -5.8,
+      "total": 208.8,
       "pace": 99.5,
-      "homeWinProb": 0.7123,
-      "fairMlHome": -248,
-      "fairMlAway": 248,
+      "homeWinProb": 0.6603,
+      "fairMlHome": -194,
+      "fairMlAway": 194,
       "contributions": [
         {
           "key": "offense",
@@ -188,7 +188,7 @@
         },
         {
           "key": "injuries",
-          "pts": 5.34
+          "pts": 3.28
         }
       ],
       "sample": {
@@ -216,7 +216,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T15:27:53Z",
+        "reportPulledAt": "2026-11-21T16:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -277,6 +277,17 @@
         ],
         "home": [
           {
+            "player": "Karl-Anthony Towns",
+            "team": "NYK",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 33.4,
+            "value": 9.59,
+            "impactPts": 2.06
+          },
+          {
             "player": "OG Anunoby",
             "team": "NYK",
             "status": "questionable",
@@ -303,7 +314,7 @@
     },
     {
       "gameId": "20261121-LAC-DAL",
-      "generatedAt": "2026-11-21T15:27:53Z",
+      "generatedAt": "2026-11-21T16:08:06Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 108.1,
@@ -364,7 +375,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T15:27:53Z",
+        "reportPulledAt": "2026-11-21T16:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -473,7 +484,7 @@
     },
     {
       "gameId": "20261121-MEM-MIN",
-      "generatedAt": "2026-11-21T15:27:53Z",
+      "generatedAt": "2026-11-21T16:08:06Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 100.1,
@@ -536,7 +547,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T15:27:53Z",
+        "reportPulledAt": "2026-11-21T16:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -656,7 +667,7 @@
     },
     {
       "gameId": "20261121-NOP-SAS",
-      "generatedAt": "2026-11-21T15:27:53Z",
+      "generatedAt": "2026-11-21T16:08:06Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 102.9,
@@ -720,7 +731,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T15:27:53Z",
+        "reportPulledAt": "2026-11-21T16:08:06Z",
         "source": "espn",
         "away": [
           {
@@ -807,7 +818,7 @@
     },
     {
       "gameId": "20261121-BOS-SAC",
-      "generatedAt": "2026-11-21T15:27:53Z",
+      "generatedAt": "2026-11-21T16:08:06Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 115.9,
@@ -871,7 +882,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T15:27:53Z",
+        "reportPulledAt": "2026-11-21T16:08:06Z",
         "source": "espn",
         "away": [
           {
