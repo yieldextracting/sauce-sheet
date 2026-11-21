@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261122-DET-ATL",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 108.6,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [
           {
@@ -101,6 +101,17 @@
             "impactPts": 0.07
           },
           {
+            "player": "Ebuka Okorie",
+            "team": "DET",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Oblique Strain",
+            "matched": true,
+            "expMin": 1.8,
+            "value": 0.18,
+            "impactPts": 0.0
+          },
+          {
             "player": "Taurean Prince",
             "team": "DET",
             "status": "out",
@@ -112,14 +123,14 @@
             "impactPts": 0.0
           },
           {
-            "player": "Ebuka Okorie",
+            "player": "Ugonna Onyenso",
             "team": "DET",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Oblique Strain",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Foot",
             "matched": true,
-            "expMin": 1.8,
-            "value": 0.18,
+            "expMin": 0.0,
+            "value": 0.0,
             "impactPts": 0.0
           }
         ],
@@ -195,18 +206,18 @@
     },
     {
       "gameId": "20261122-OKC-MIA",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
-      "awayPts": 111.4,
-      "homePts": 114.1,
-      "margin": 2.64,
-      "spreadHome": -2.6,
-      "total": 225.5,
+      "awayPts": 111.7,
+      "homePts": 113.9,
+      "margin": 2.19,
+      "spreadHome": -2.2,
+      "total": 225.7,
       "pace": 104.8,
-      "homeWinProb": 0.5745,
-      "fairMlHome": -135,
-      "fairMlAway": 135,
+      "homeWinProb": 0.5619,
+      "fairMlHome": -128,
+      "fairMlAway": 128,
       "contributions": [
         {
           "key": "offense",
@@ -230,7 +241,7 @@
         },
         {
           "key": "injuries",
-          "pts": 5.91
+          "pts": 5.46
         }
       ],
       "sample": {
@@ -258,7 +269,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [
           {
@@ -286,13 +297,13 @@
           {
             "player": "Alex Caruso",
             "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Hip Soreness",
             "matched": true,
             "expMin": 18.7,
             "value": 1.35,
-            "impactPts": 0.58
+            "impactPts": 0.29
           },
           {
             "player": "Cason Wallace",
@@ -308,8 +319,8 @@
           {
             "player": "Nikola Topic",
             "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Hip Soreness",
             "matched": true,
             "expMin": 14.3,
@@ -328,12 +339,24 @@
             "impactPts": 0.0
           }
         ],
-        "home": []
+        "home": [
+          {
+            "player": "Myron Gardner",
+            "team": "MIA",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 9.1,
+            "value": 0.74,
+            "impactPts": 0.16
+          }
+        ]
       }
     },
     {
       "gameId": "20261122-DAL-UTA",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 111.2,
@@ -398,7 +421,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [
           {
@@ -474,18 +497,18 @@
     },
     {
       "gameId": "20261122-DEN-CHI",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 120.2,
-      "homePts": 114.1,
-      "margin": -6.09,
-      "spreadHome": 6.1,
-      "total": 234.4,
+      "homePts": 115.1,
+      "margin": -5.11,
+      "spreadHome": 5.1,
+      "total": 235.3,
       "pace": 104.2,
-      "homeWinProb": 0.3322,
-      "fairMlHome": 201,
-      "fairMlAway": -201,
+      "homeWinProb": 0.358,
+      "fairMlHome": 179,
+      "fairMlAway": -179,
       "contributions": [
         {
           "key": "offense",
@@ -509,7 +532,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.7
+          "pts": -1.72
         }
       ],
       "sample": {
@@ -535,7 +558,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [
           {
@@ -552,17 +575,6 @@
         ],
         "home": [
           {
-            "player": "Jalen Smith",
-            "team": "CHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 24.5,
-            "value": 4.53,
-            "impactPts": 1.95
-          },
-          {
             "player": "Caleb Wilson",
             "team": "CHI",
             "status": "out",
@@ -572,6 +584,17 @@
             "expMin": 21.6,
             "value": 2.44,
             "impactPts": 1.05
+          },
+          {
+            "player": "Jalen Smith",
+            "team": "CHI",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 24.5,
+            "value": 4.53,
+            "impactPts": 0.97
           },
           {
             "player": "Tobe Awaka",
@@ -589,7 +612,7 @@
     },
     {
       "gameId": "20261122-ORL-WAS",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 111.2,
@@ -650,7 +673,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [
           {
@@ -735,8 +758,8 @@
           {
             "player": "Felix Okpara",
             "team": "WAS",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Back Strain",
             "matched": true,
             "expMin": 0.7,
@@ -759,18 +782,18 @@
     },
     {
       "gameId": "20261122-IND-NYK",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
-      "awayPts": 102.4,
+      "awayPts": 101.5,
       "homePts": 112.9,
-      "margin": 10.55,
-      "spreadHome": -10.6,
-      "total": 215.3,
+      "margin": 11.39,
+      "spreadHome": -11.4,
+      "total": 214.4,
       "pace": 99.3,
-      "homeWinProb": 0.7738,
-      "fairMlHome": -342,
-      "fairMlAway": 342,
+      "homeWinProb": 0.7914,
+      "fairMlHome": -379,
+      "fairMlAway": 379,
       "contributions": [
         {
           "key": "offense",
@@ -794,7 +817,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.92
+          "pts": 1.76
         }
       ],
       "sample": {
@@ -823,7 +846,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [
           {
@@ -836,6 +859,17 @@
             "expMin": 14.1,
             "value": 2.39,
             "impactPts": 1.03
+          },
+          {
+            "player": "T.J. McConnell",
+            "team": "IND",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 15.3,
+            "value": 3.91,
+            "impactPts": 0.84
           },
           {
             "player": "Johnny Furphy",
@@ -877,7 +911,7 @@
     },
     {
       "gameId": "20261122-BOS-GSW",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 109.6,
@@ -941,7 +975,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -999,6 +1033,17 @@
             "expMin": 25.7,
             "value": 1.9,
             "impactPts": 0.82
+          },
+          {
+            "player": "Draymond Green",
+            "team": "GSW",
+            "status": "questionable",
+            "pPlay": 0.5,
+            "reason": "Rest",
+            "matched": true,
+            "expMin": 24.4,
+            "value": 0.0,
+            "impactPts": 0.0
           }
         ]
       }

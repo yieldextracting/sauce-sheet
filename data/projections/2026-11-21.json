@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261121-MIL-PHI",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 107.4,
@@ -66,7 +66,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [
           {
@@ -153,7 +153,7 @@
     },
     {
       "gameId": "20261121-POR-NYK",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 101.5,
@@ -216,7 +216,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [
           {
@@ -303,7 +303,7 @@
     },
     {
       "gameId": "20261121-LAC-DAL",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 108.1,
@@ -364,7 +364,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [
           {
@@ -473,18 +473,18 @@
     },
     {
       "gameId": "20261121-MEM-MIN",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
-      "awayPts": 100.6,
+      "awayPts": 100.1,
       "homePts": 111.8,
-      "margin": 11.18,
-      "spreadHome": -11.2,
-      "total": 212.4,
+      "margin": 11.66,
+      "spreadHome": -11.7,
+      "total": 211.9,
       "pace": 103.5,
-      "homeWinProb": 0.7871,
-      "fairMlHome": -370,
-      "fairMlAway": 370,
+      "homeWinProb": 0.7969,
+      "fairMlHome": -392,
+      "fairMlAway": 392,
       "contributions": [
         {
           "key": "offense",
@@ -508,7 +508,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.17
+          "pts": 4.65
         }
       ],
       "sample": {
@@ -536,7 +536,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [
           {
@@ -573,6 +573,17 @@
             "impactPts": 1.32
           },
           {
+            "player": "Jerami Grant",
+            "team": "MEM",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Calf Not Specified",
+            "matched": true,
+            "expMin": 21.4,
+            "value": 2.2,
+            "impactPts": 0.95
+          },
+          {
             "player": "Scotty Pippen Jr.",
             "team": "MEM",
             "status": "out",
@@ -593,17 +604,6 @@
             "expMin": 14.3,
             "value": 1.39,
             "impactPts": 0.6
-          },
-          {
-            "player": "Jerami Grant",
-            "team": "MEM",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Calf Not Specified",
-            "matched": true,
-            "expMin": 21.4,
-            "value": 2.2,
-            "impactPts": 0.47
           },
           {
             "player": "Richie Saunders",
@@ -656,7 +656,7 @@
     },
     {
       "gameId": "20261121-NOP-SAS",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 102.9,
@@ -720,7 +720,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [
           {
@@ -807,18 +807,18 @@
     },
     {
       "gameId": "20261121-BOS-SAC",
-      "generatedAt": "2026-11-21T06:58:27Z",
+      "generatedAt": "2026-11-21T15:17:49Z",
       "ratingsAsOf": "2026-11-21T06:58:27Z",
       "modelVersion": "v2.0",
       "awayPts": 115.9,
-      "homePts": 97.4,
-      "margin": -18.56,
-      "spreadHome": 18.6,
-      "total": 213.3,
+      "homePts": 97.8,
+      "margin": -18.13,
+      "spreadHome": 18.1,
+      "total": 213.7,
       "pace": 98.5,
-      "homeWinProb": 0.0932,
-      "fairMlHome": 974,
-      "fairMlAway": -974,
+      "homeWinProb": 0.0984,
+      "fairMlHome": 917,
+      "fairMlAway": -917,
       "contributions": [
         {
           "key": "offense",
@@ -842,7 +842,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.38
+          "pts": 0.81
         }
       ],
       "sample": {
@@ -871,7 +871,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-21T02:59:19Z",
+        "reportPulledAt": "2026-11-21T15:17:49Z",
         "source": "espn",
         "away": [
           {
@@ -912,13 +912,13 @@
           {
             "player": "Precious Achiuwa",
             "team": "SAC",
-            "status": "out",
-            "pPlay": 0.0,
+            "status": "questionable",
+            "pPlay": 0.5,
             "reason": "Lower Leg Bruise",
             "matched": true,
             "expMin": 22.7,
             "value": 2.01,
-            "impactPts": 0.86
+            "impactPts": 0.43
           },
           {
             "player": "Ben Simmons",
