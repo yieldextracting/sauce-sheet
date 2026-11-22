@@ -281,7 +281,7 @@
     },
     {
       "gameId": "20261121-LAC-DAL",
-      "generatedAt": "2026-11-22T00:38:07Z",
+      "generatedAt": "2026-11-22T00:48:11Z",
       "ratingsAsOf": "2026-11-21T20:39:33Z",
       "modelVersion": "v2.0",
       "awayPts": 108.1,
@@ -342,7 +342,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T00:38:07Z",
+        "reportPulledAt": "2026-11-22T00:48:11Z",
         "source": "espn",
         "away": [
           {
@@ -440,7 +440,7 @@
     },
     {
       "gameId": "20261121-MEM-MIN",
-      "generatedAt": "2026-11-22T00:38:07Z",
+      "generatedAt": "2026-11-22T00:48:11Z",
       "ratingsAsOf": "2026-11-21T20:39:33Z",
       "modelVersion": "v2.0",
       "awayPts": 104.7,
@@ -503,7 +503,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T00:38:07Z",
+        "reportPulledAt": "2026-11-22T00:48:11Z",
         "source": "espn",
         "away": [
           {
@@ -612,18 +612,18 @@
     },
     {
       "gameId": "20261121-NOP-SAS",
-      "generatedAt": "2026-11-22T00:38:07Z",
+      "generatedAt": "2026-11-22T00:48:11Z",
       "ratingsAsOf": "2026-11-21T20:39:33Z",
       "modelVersion": "v2.0",
-      "awayPts": 100.7,
+      "awayPts": 96.7,
       "homePts": 121.8,
-      "margin": 21.05,
-      "spreadHome": -21.1,
-      "total": 222.5,
+      "margin": 25.07,
+      "spreadHome": -25.1,
+      "total": 218.4,
       "pace": 102.4,
-      "homeWinProb": 0.9331,
-      "fairMlHome": -1395,
-      "fairMlAway": 1395,
+      "homeWinProb": 0.9629,
+      "fairMlHome": -2596,
+      "fairMlAway": 2596,
       "contributions": [
         {
           "key": "offense",
@@ -647,7 +647,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.44
+          "pts": 5.46
         }
       ],
       "sample": {
@@ -676,9 +676,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T00:38:07Z",
+        "reportPulledAt": "2026-11-22T00:48:11Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Zion Williamson",
+            "team": "NOP",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Thigh Bruise",
+            "matched": true,
+            "expMin": 32.0,
+            "value": 9.37,
+            "impactPts": 4.02
+          },
           {
             "player": "Trey Murphy III",
             "team": "NOP",
@@ -774,7 +785,7 @@
     },
     {
       "gameId": "20261121-BOS-SAC",
-      "generatedAt": "2026-11-22T00:38:07Z",
+      "generatedAt": "2026-11-22T00:48:11Z",
       "ratingsAsOf": "2026-11-21T20:39:33Z",
       "modelVersion": "v2.0",
       "awayPts": 112.4,
@@ -838,7 +849,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T00:38:07Z",
+        "reportPulledAt": "2026-11-22T00:48:11Z",
         "source": "espn",
         "away": [
           {
