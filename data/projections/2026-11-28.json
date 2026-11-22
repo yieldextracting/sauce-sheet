@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261128-ORL-WAS",
-      "generatedAt": "2026-11-22T20:27:35Z",
+      "generatedAt": "2026-11-22T20:37:39Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
       "awayPts": 111.1,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T20:27:34Z",
+        "reportPulledAt": "2026-11-22T20:37:38Z",
         "source": "espn",
         "away": [
           {
@@ -162,7 +162,7 @@
     },
     {
       "gameId": "20261128-BKN-CHA",
-      "generatedAt": "2026-11-22T20:27:35Z",
+      "generatedAt": "2026-11-22T20:37:39Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
       "awayPts": 102.8,
@@ -226,7 +226,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T20:27:34Z",
+        "reportPulledAt": "2026-11-22T20:37:38Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -257,18 +257,18 @@
     },
     {
       "gameId": "20261128-IND-CHI",
-      "generatedAt": "2026-11-22T20:27:35Z",
+      "generatedAt": "2026-11-22T20:37:39Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
       "awayPts": 113.5,
-      "homePts": 116.6,
-      "margin": 3.12,
-      "spreadHome": -3.1,
-      "total": 230.1,
+      "homePts": 115.0,
+      "margin": 1.56,
+      "spreadHome": -1.6,
+      "total": 228.5,
       "pace": 106.7,
-      "homeWinProb": 0.5879,
-      "fairMlHome": -143,
-      "fairMlAway": 143,
+      "homeWinProb": 0.5442,
+      "fairMlHome": -119,
+      "fairMlAway": 119,
       "contributions": [
         {
           "key": "offense",
@@ -292,7 +292,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.85
+          "pts": -2.41
         }
       ],
       "sample": {
@@ -320,7 +320,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T20:27:34Z",
+        "reportPulledAt": "2026-11-22T20:37:38Z",
         "source": "espn",
         "away": [
           {
@@ -381,6 +381,17 @@
             "impactPts": 2.51
           },
           {
+            "player": "Nic Claxton",
+            "team": "CHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 24.2,
+            "value": 3.62,
+            "impactPts": 1.56
+          },
+          {
             "player": "Caleb Wilson",
             "team": "CHI",
             "status": "out",
@@ -396,7 +407,7 @@
     },
     {
       "gameId": "20261128-OKC-MIL",
-      "generatedAt": "2026-11-22T20:27:35Z",
+      "generatedAt": "2026-11-22T20:37:39Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
       "awayPts": 113.4,
@@ -460,7 +471,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T20:27:34Z",
+        "reportPulledAt": "2026-11-22T20:37:38Z",
         "source": "espn",
         "away": [
           {
@@ -558,7 +569,7 @@
     },
     {
       "gameId": "20261128-PHI-HOU",
-      "generatedAt": "2026-11-22T20:27:35Z",
+      "generatedAt": "2026-11-22T20:37:39Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
@@ -622,7 +633,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T20:27:34Z",
+        "reportPulledAt": "2026-11-22T20:37:38Z",
         "source": "espn",
         "away": [
           {
