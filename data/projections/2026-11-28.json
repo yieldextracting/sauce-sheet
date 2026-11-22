@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261128-ORL-WAS",
-      "generatedAt": "2026-11-22T22:29:17Z",
+      "generatedAt": "2026-11-22T22:39:20Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
       "awayPts": 111.1,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T22:29:16Z",
+        "reportPulledAt": "2026-11-22T22:39:20Z",
         "source": "espn",
         "away": [
           {
@@ -162,7 +162,7 @@
     },
     {
       "gameId": "20261128-BKN-CHA",
-      "generatedAt": "2026-11-22T22:29:17Z",
+      "generatedAt": "2026-11-22T22:39:20Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
       "awayPts": 102.4,
@@ -226,7 +226,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T22:29:16Z",
+        "reportPulledAt": "2026-11-22T22:39:20Z",
         "source": "espn",
         "away": [
           {
@@ -291,7 +291,7 @@
     },
     {
       "gameId": "20261128-IND-CHI",
-      "generatedAt": "2026-11-22T22:29:17Z",
+      "generatedAt": "2026-11-22T22:39:20Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
       "awayPts": 113.5,
@@ -354,7 +354,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T22:29:16Z",
+        "reportPulledAt": "2026-11-22T22:39:20Z",
         "source": "espn",
         "away": [
           {
@@ -441,18 +441,18 @@
     },
     {
       "gameId": "20261128-OKC-MIL",
-      "generatedAt": "2026-11-22T22:29:17Z",
+      "generatedAt": "2026-11-22T22:39:20Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
-      "awayPts": 107.0,
+      "awayPts": 105.7,
       "homePts": 103.2,
-      "margin": -3.75,
-      "spreadHome": 3.8,
-      "total": 210.2,
+      "margin": -2.5,
+      "spreadHome": 2.5,
+      "total": 209.0,
       "pace": 101.8,
-      "homeWinProb": 0.3947,
-      "fairMlHome": 153,
-      "fairMlAway": -153,
+      "homeWinProb": 0.4293,
+      "fairMlHome": 133,
+      "fairMlAway": -133,
       "contributions": [
         {
           "key": "offense",
@@ -476,7 +476,7 @@
         },
         {
           "key": "injuries",
-          "pts": 12.34
+          "pts": 13.59
         }
       ],
       "sample": {
@@ -505,7 +505,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T22:29:16Z",
+        "reportPulledAt": "2026-11-22T22:39:20Z",
         "source": "espn",
         "away": [
           {
@@ -540,6 +540,17 @@
             "expMin": 29.5,
             "value": 5.15,
             "impactPts": 2.21
+          },
+          {
+            "player": "Aday Mara",
+            "team": "OKC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Lower Leg Bruise",
+            "matched": true,
+            "expMin": 22.1,
+            "value": 2.91,
+            "impactPts": 1.25
           },
           {
             "player": "Alex Caruso",
@@ -614,7 +625,7 @@
     },
     {
       "gameId": "20261128-PHI-HOU",
-      "generatedAt": "2026-11-22T22:29:17Z",
+      "generatedAt": "2026-11-22T22:39:20Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
@@ -678,7 +689,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T22:29:16Z",
+        "reportPulledAt": "2026-11-22T22:39:20Z",
         "source": "espn",
         "away": [
           {
