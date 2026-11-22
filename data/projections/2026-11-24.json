@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261124-DET-ORL",
-      "generatedAt": "2026-11-22T05:40:27Z",
+      "generatedAt": "2026-11-22T17:06:21Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
       "awayPts": 107.3,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T01:58:34Z",
+        "reportPulledAt": "2026-11-22T17:06:21Z",
         "source": "espn",
         "away": [
           {
@@ -173,18 +173,18 @@
     },
     {
       "gameId": "20261124-BOS-WAS",
-      "generatedAt": "2026-11-22T05:40:27Z",
+      "generatedAt": "2026-11-22T17:06:21Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.6,
+      "awayPts": 114.5,
       "homePts": 100.3,
-      "margin": -8.31,
-      "spreadHome": 8.3,
-      "total": 208.9,
+      "margin": -14.23,
+      "spreadHome": 14.2,
+      "total": 214.8,
       "pace": 98.7,
-      "homeWinProb": 0.2771,
-      "fairMlHome": 261,
-      "fairMlAway": -261,
+      "homeWinProb": 0.1555,
+      "fairMlHome": 543,
+      "fairMlAway": -543,
       "contributions": [
         {
           "key": "offense",
@@ -208,7 +208,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.41
+          "pts": -2.51
         }
       ],
       "sample": {
@@ -237,43 +237,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T01:58:34Z",
+        "reportPulledAt": "2026-11-22T17:06:21Z",
         "source": "espn",
-        "away": [
-          {
-            "player": "Jayson Tatum",
-            "team": "BOS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Rest",
-            "matched": true,
-            "expMin": 33.8,
-            "value": 9.13,
-            "impactPts": 3.92
-          },
-          {
-            "player": "Derrick White",
-            "team": "BOS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Shoulder",
-            "matched": true,
-            "expMin": 26.6,
-            "value": 2.5,
-            "impactPts": 1.07
-          },
-          {
-            "player": "Mitchell Robinson",
-            "team": "BOS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 17.1,
-            "value": 2.16,
-            "impactPts": 0.93
-          }
-        ],
+        "away": [],
         "home": [
           {
             "player": "Justin Champagnie",
@@ -324,18 +290,18 @@
     },
     {
       "gameId": "20261124-DAL-DEN",
-      "generatedAt": "2026-11-22T05:40:27Z",
+      "generatedAt": "2026-11-22T17:06:21Z",
       "ratingsAsOf": "2026-11-22T05:40:27Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.1,
+      "awayPts": 108.8,
       "homePts": 118.3,
-      "margin": 10.17,
-      "spreadHome": -10.2,
-      "total": 226.5,
+      "margin": 9.47,
+      "spreadHome": -9.5,
+      "total": 227.2,
       "pace": 101.1,
-      "homeWinProb": 0.7655,
-      "fairMlHome": -327,
-      "fairMlAway": 327,
+      "homeWinProb": 0.75,
+      "fairMlHome": -300,
+      "fairMlAway": 300,
       "contributions": [
         {
           "key": "offense",
@@ -359,7 +325,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.86
+          "pts": 0.16
         }
       ],
       "sample": {
@@ -388,20 +354,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-22T01:58:34Z",
+        "reportPulledAt": "2026-11-22T17:06:21Z",
         "source": "espn",
         "away": [
-          {
-            "player": "P.J. Washington",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 28.9,
-            "value": 1.64,
-            "impactPts": 0.7
-          },
           {
             "player": "Dereck Lively II",
             "team": "DAL",
@@ -412,17 +367,6 @@
             "expMin": 16.4,
             "value": 1.07,
             "impactPts": 0.46
-          },
-          {
-            "player": "Tobi Lawal",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Groin",
-            "matched": true,
-            "expMin": 3.1,
-            "value": 0.3,
-            "impactPts": 0.0
           },
           {
             "player": "Sergio de Larrea",
