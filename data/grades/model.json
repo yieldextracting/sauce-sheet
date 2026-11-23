@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T00:09:48Z",
+  "generatedAt": "2026-11-23T00:29:54Z",
   "grades": [
     {
       "source": "model",
@@ -4579,6 +4579,44 @@
       "clvProb": null,
       "closeMinutesBeforeTip": 30,
       "finalScore": null
+    },
+    {
+      "source": "model",
+      "gameId": "20261123-LAC-HOU",
+      "etDate": "2026-11-23",
+      "pickId": "model",
+      "market": "spread",
+      "side": "LAC",
+      "line": 13.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 0.6,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
+    },
+    {
+      "source": "model",
+      "gameId": "20261123-POR-PHI",
+      "etDate": "2026-11-23",
+      "pickId": "model",
+      "market": "spread",
+      "side": "POR",
+      "line": 2.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 2.5,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
     }
   ],
   "summary": {
@@ -4586,7 +4624,7 @@
       "w": 112,
       "l": 123,
       "p": 0,
-      "pending": 6,
+      "pending": 8,
       "units": -21.181,
       "risked": 235.0,
       "roi": -0.0901,
@@ -4598,7 +4636,7 @@
       "w": 79,
       "l": 79,
       "p": 0,
-      "pending": 5,
+      "pending": 6,
       "units": -7.181,
       "risked": 158.0,
       "roi": -0.0454,
