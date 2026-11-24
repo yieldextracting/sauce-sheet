@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261130-DEN-DET",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -122,18 +122,18 @@
     },
     {
       "gameId": "20261130-WAS-CHA",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 103.5,
-      "homePts": 105.0,
-      "margin": 1.47,
-      "spreadHome": -1.5,
-      "total": 208.5,
+      "homePts": 105.3,
+      "margin": 1.8,
+      "spreadHome": -1.8,
+      "total": 208.8,
       "pace": 98.6,
-      "homeWinProb": 0.5417,
-      "fairMlHome": -118,
-      "fairMlAway": 118,
+      "homeWinProb": 0.551,
+      "fairMlHome": -123,
+      "fairMlAway": 123,
       "contributions": [
         {
           "key": "offense",
@@ -157,7 +157,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.37
+          "pts": -1.04
         }
       ],
       "sample": {
@@ -183,7 +183,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
           {
@@ -255,17 +255,6 @@
             "impactPts": 1.55
           },
           {
-            "player": "Grant Williams",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring",
-            "matched": true,
-            "expMin": 19.1,
-            "value": 0.78,
-            "impactPts": 0.33
-          },
-          {
             "player": "Dennis Schroder",
             "team": "CHA",
             "status": "out",
@@ -281,7 +270,7 @@
     },
     {
       "gameId": "20261130-LAL-HOU",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 106.8,
@@ -345,7 +334,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
           {
@@ -365,18 +354,18 @@
     },
     {
       "gameId": "20261130-OKC-BKN",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.8,
+      "awayPts": 111.7,
       "homePts": 104.1,
-      "margin": -6.67,
-      "spreadHome": 6.7,
-      "total": 214.9,
+      "margin": -7.62,
+      "spreadHome": 7.6,
+      "total": 215.8,
       "pace": 101.0,
-      "homeWinProb": 0.3174,
-      "fairMlHome": 215,
-      "fairMlAway": -215,
+      "homeWinProb": 0.2936,
+      "fairMlHome": 241,
+      "fairMlAway": -241,
       "contributions": [
         {
           "key": "offense",
@@ -400,7 +389,7 @@
         },
         {
           "key": "injuries",
-          "pts": 6.35
+          "pts": 5.4
         }
       ],
       "sample": {
@@ -428,7 +417,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
           {
@@ -454,17 +443,6 @@
             "impactPts": 2.21
           },
           {
-            "player": "Aday Mara",
-            "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Lower Leg Bruise",
-            "matched": true,
-            "expMin": 16.8,
-            "value": 2.2,
-            "impactPts": 0.95
-          },
-          {
             "player": "Alex Caruso",
             "team": "OKC",
             "status": "out",
@@ -485,17 +463,6 @@
             "expMin": 22.9,
             "value": 0.42,
             "impactPts": 0.18
-          },
-          {
-            "player": "Jaylin Williams",
-            "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Back Spasms",
-            "matched": true,
-            "expMin": 15.4,
-            "value": 0.0,
-            "impactPts": 0.0
           },
           {
             "player": "Nikola Topic",
@@ -537,7 +504,7 @@
     },
     {
       "gameId": "20261130-BOS-DAL",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 108.4,
@@ -601,7 +568,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
           {
@@ -666,18 +633,18 @@
     },
     {
       "gameId": "20261130-SAS-MIL",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.9,
+      "awayPts": 116.0,
       "homePts": 106.5,
-      "margin": -0.38,
-      "spreadHome": 0.4,
-      "total": 213.4,
+      "margin": -9.43,
+      "spreadHome": 9.4,
+      "total": 222.5,
       "pace": 101.1,
-      "homeWinProb": 0.4893,
-      "fairMlHome": 104,
-      "fairMlAway": -104,
+      "homeWinProb": 0.251,
+      "fairMlHome": 298,
+      "fairMlAway": -298,
       "contributions": [
         {
           "key": "offense",
@@ -701,7 +668,7 @@
         },
         {
           "key": "injuries",
-          "pts": 12.63
+          "pts": 3.58
         }
       ],
       "sample": {
@@ -732,20 +699,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Victor Wembanyama",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Back",
-            "matched": true,
-            "expMin": 30.3,
-            "value": 16.89,
-            "impactPts": 7.25
-          },
           {
             "player": "Dylan Harper",
             "team": "SAS",
@@ -756,17 +712,6 @@
             "expMin": 30.5,
             "value": 5.27,
             "impactPts": 2.26
-          },
-          {
-            "player": "De'Aaron Fox",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Lower Leg Bruise",
-            "matched": true,
-            "expMin": 28.7,
-            "value": 4.19,
-            "impactPts": 1.8
           },
           {
             "player": "Tobias Harris",
@@ -796,7 +741,7 @@
     },
     {
       "gameId": "20261130-NOP-SAC",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 113.1,
@@ -861,7 +806,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
           {

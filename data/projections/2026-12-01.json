@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261201-IND-CLE",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.4,
+      "awayPts": 111.9,
       "homePts": 117.6,
-      "margin": 7.21,
-      "spreadHome": -7.2,
-      "total": 228.1,
+      "margin": 5.75,
+      "spreadHome": -5.7,
+      "total": 229.5,
       "pace": 103.1,
-      "homeWinProb": 0.6961,
-      "fairMlHome": -229,
-      "fairMlAway": 229,
+      "homeWinProb": 0.6588,
+      "fairMlHome": -193,
+      "fairMlAway": 193,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.63
+          "pts": -2.09
         }
       ],
       "sample": {
@@ -64,20 +64,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
-          {
-            "player": "T.J. McConnell",
-            "team": "IND",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring",
-            "matched": true,
-            "expMin": 13.4,
-            "value": 3.41,
-            "impactPts": 1.46
-          },
           {
             "player": "Tyrese Haliburton",
             "team": "IND",
@@ -88,28 +77,6 @@
             "expMin": 14.1,
             "value": 2.39,
             "impactPts": 1.03
-          },
-          {
-            "player": "Aaron Nesmith",
-            "team": "IND",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Foot",
-            "matched": true,
-            "expMin": 24.6,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Johnny Furphy",
-            "team": "IND",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Surgery",
-            "matched": true,
-            "expMin": 18.3,
-            "value": 0.0,
-            "impactPts": 0.0
           },
           {
             "player": "Ben Sheppard",
@@ -151,18 +118,18 @@
     },
     {
       "gameId": "20261201-MEM-PHI",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 112.8,
-      "homePts": 112.5,
-      "margin": -0.35,
-      "spreadHome": 0.4,
-      "total": 225.3,
+      "homePts": 116.4,
+      "margin": 3.58,
+      "spreadHome": -3.6,
+      "total": 229.2,
       "pace": 102.3,
-      "homeWinProb": 0.4899,
-      "fairMlHome": 104,
-      "fairMlAway": -104,
+      "homeWinProb": 0.6005,
+      "fairMlHome": -150,
+      "fairMlAway": 150,
       "contributions": [
         {
           "key": "offense",
@@ -186,7 +153,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.13
+          "pts": 4.06
         }
       ],
       "sample": {
@@ -214,7 +181,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
           {
@@ -275,17 +242,6 @@
         ],
         "home": [
           {
-            "player": "Joel Embiid",
-            "team": "PHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 31.8,
-            "value": 9.15,
-            "impactPts": 3.93
-          },
-          {
             "player": "Ariel Hukporti",
             "team": "PHI",
             "status": "out",
@@ -301,7 +257,7 @@
     },
     {
       "gameId": "20261201-ATL-MIA",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 116.9,
@@ -365,7 +321,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
           {
@@ -429,7 +385,7 @@
     },
     {
       "gameId": "20261201-NYK-CHI",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 116.5,
@@ -490,7 +446,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
           {
@@ -533,7 +489,7 @@
     },
     {
       "gameId": "20261201-TOR-HOU",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 101.5,
@@ -598,7 +554,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
           {
@@ -640,7 +596,7 @@
     },
     {
       "gameId": "20261201-LAC-PHX",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
@@ -701,7 +657,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
           {
@@ -744,18 +700,18 @@
     },
     {
       "gameId": "20261201-UTA-GSW",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
-      "awayPts": 97.5,
+      "awayPts": 98.6,
       "homePts": 102.3,
-      "margin": 4.79,
-      "spreadHome": -4.8,
-      "total": 199.7,
+      "margin": 3.66,
+      "spreadHome": -3.7,
+      "total": 200.9,
       "pace": 101.2,
-      "homeWinProb": 0.6336,
-      "fairMlHome": -173,
-      "fairMlAway": 173,
+      "homeWinProb": 0.6029,
+      "fairMlHome": -152,
+      "fairMlAway": 152,
       "contributions": [
         {
           "key": "offense",
@@ -779,7 +735,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.75
+          "pts": -6.88
         }
       ],
       "sample": {
@@ -805,7 +761,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
           {
@@ -840,17 +796,6 @@
             "expMin": 26.4,
             "value": 3.92,
             "impactPts": 1.68
-          },
-          {
-            "player": "Jaxson Hayes",
-            "team": "UTA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Not Specified",
-            "matched": true,
-            "expMin": 19.9,
-            "value": 2.62,
-            "impactPts": 1.13
           }
         ],
         "home": [
@@ -914,7 +859,7 @@
     },
     {
       "gameId": "20261201-MIN-POR",
-      "generatedAt": "2026-11-24T05:42:14Z",
+      "generatedAt": "2026-11-24T20:52:46Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 106.4,
@@ -975,7 +920,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T02:31:14Z",
+        "reportPulledAt": "2026-11-24T20:52:46Z",
         "source": "espn",
         "away": [
           {
