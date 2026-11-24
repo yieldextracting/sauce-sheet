@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-11-24T23:23:42Z",
+  "pulledAt": "2026-11-24T23:33:46Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -300,6 +300,17 @@
       "reason": "Knee",
       "espnId": "4432166",
       "gameId": "20261124-DET-ORL",
+      "source": "espn"
+    },
+    {
+      "player": "Yaxel Lendeborg",
+      "key": "yaxellendeborg",
+      "team": "GSW",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Illness",
+      "espnId": "5175737",
+      "gameId": "20261125-SAC-GSW",
       "source": "espn"
     },
     {
@@ -682,7 +693,7 @@
       "team": "OKC",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Hip Soreness",
+      "reason": null,
       "espnId": "2991350",
       "gameId": "20261125-MIN-OKC",
       "source": "espn"
