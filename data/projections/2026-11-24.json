@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261124-DET-ORL",
-      "generatedAt": "2026-11-24T23:33:46Z",
+      "generatedAt": "2026-11-24T23:43:50Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
-      "awayPts": 105.0,
+      "awayPts": 103.1,
       "homePts": 103.0,
-      "margin": -2.07,
-      "spreadHome": 2.1,
-      "total": 208.0,
+      "margin": -0.08,
+      "spreadHome": 0.1,
+      "total": 206.0,
       "pace": 100.1,
-      "homeWinProb": 0.4413,
-      "fairMlHome": 127,
-      "fairMlAway": -127,
+      "homeWinProb": 0.4976,
+      "fairMlHome": 101,
+      "fairMlAway": -101,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.82
+          "pts": 5.81
         }
       ],
       "sample": {
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T23:33:46Z",
+        "reportPulledAt": "2026-11-24T23:43:50Z",
         "source": "espn",
         "away": [
           {
@@ -81,13 +81,13 @@
           {
             "player": "Cade Cunningham",
             "team": "DET",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Knee",
             "matched": true,
             "expMin": 31.9,
             "value": 9.26,
-            "impactPts": 1.99
+            "impactPts": 3.98
           },
           {
             "player": "Duncan Robinson",
@@ -173,7 +173,7 @@
     },
     {
       "gameId": "20261124-BOS-WAS",
-      "generatedAt": "2026-11-24T23:33:46Z",
+      "generatedAt": "2026-11-24T23:43:50Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 112.0,
@@ -237,7 +237,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T23:33:46Z",
+        "reportPulledAt": "2026-11-24T23:43:50Z",
         "source": "espn",
         "away": [
           {
@@ -313,7 +313,7 @@
     },
     {
       "gameId": "20261124-DAL-DEN",
-      "generatedAt": "2026-11-24T23:33:46Z",
+      "generatedAt": "2026-11-24T23:43:50Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 109.2,
@@ -377,7 +377,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T23:33:46Z",
+        "reportPulledAt": "2026-11-24T23:43:50Z",
         "source": "espn",
         "away": [
           {

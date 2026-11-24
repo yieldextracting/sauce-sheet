@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261130-DEN-DET",
-      "generatedAt": "2026-11-24T23:33:46Z",
+      "generatedAt": "2026-11-24T23:43:50Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
-      "homePts": 110.1,
-      "margin": 1.52,
-      "spreadHome": -1.5,
-      "total": 218.6,
+      "homePts": 106.1,
+      "margin": -2.46,
+      "spreadHome": 2.5,
+      "total": 214.6,
       "pace": 99.4,
-      "homeWinProb": 0.5431,
-      "fairMlHome": -119,
-      "fairMlAway": 119,
+      "homeWinProb": 0.4305,
+      "fairMlHome": 132,
+      "fairMlAway": -132,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.23
+          "pts": -9.21
         }
       ],
       "sample": {
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T23:33:46Z",
+        "reportPulledAt": "2026-11-24T23:43:50Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -83,6 +83,17 @@
             "expMin": 25.9,
             "value": 9.59,
             "impactPts": 4.12
+          },
+          {
+            "player": "Cade Cunningham",
+            "team": "DET",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee",
+            "matched": true,
+            "expMin": 31.9,
+            "value": 9.26,
+            "impactPts": 3.98
           },
           {
             "player": "Duncan Robinson",
@@ -122,7 +133,7 @@
     },
     {
       "gameId": "20261130-WAS-CHA",
-      "generatedAt": "2026-11-24T23:33:46Z",
+      "generatedAt": "2026-11-24T23:43:50Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 103.5,
@@ -183,7 +194,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T23:33:46Z",
+        "reportPulledAt": "2026-11-24T23:43:50Z",
         "source": "espn",
         "away": [
           {
@@ -270,7 +281,7 @@
     },
     {
       "gameId": "20261130-LAL-HOU",
-      "generatedAt": "2026-11-24T23:33:46Z",
+      "generatedAt": "2026-11-24T23:43:50Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 106.8,
@@ -334,7 +345,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T23:33:46Z",
+        "reportPulledAt": "2026-11-24T23:43:50Z",
         "source": "espn",
         "away": [
           {
@@ -354,18 +365,18 @@
     },
     {
       "gameId": "20261130-OKC-BKN",
-      "generatedAt": "2026-11-24T23:33:46Z",
+      "generatedAt": "2026-11-24T23:43:50Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.8,
+      "awayPts": 111.2,
       "homePts": 104.1,
-      "margin": -6.67,
-      "spreadHome": 6.7,
-      "total": 214.9,
+      "margin": -7.11,
+      "spreadHome": 7.1,
+      "total": 215.3,
       "pace": 101.0,
-      "homeWinProb": 0.3174,
-      "fairMlHome": 215,
-      "fairMlAway": -215,
+      "homeWinProb": 0.3063,
+      "fairMlHome": 227,
+      "fairMlAway": -227,
       "contributions": [
         {
           "key": "offense",
@@ -389,7 +400,7 @@
         },
         {
           "key": "injuries",
-          "pts": 6.35
+          "pts": 5.91
         }
       ],
       "sample": {
@@ -417,7 +428,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T23:33:46Z",
+        "reportPulledAt": "2026-11-24T23:43:50Z",
         "source": "espn",
         "away": [
           {
@@ -454,17 +465,6 @@
             "impactPts": 0.95
           },
           {
-            "player": "Alex Caruso",
-            "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": null,
-            "matched": true,
-            "expMin": 14.2,
-            "value": 1.02,
-            "impactPts": 0.44
-          },
-          {
             "player": "Cason Wallace",
             "team": "OKC",
             "status": "out",
@@ -483,6 +483,17 @@
             "reason": "Hip Strain",
             "matched": true,
             "expMin": 14.3,
+            "value": 0.0,
+            "impactPts": 0.0
+          },
+          {
+            "player": "Jaylin Williams",
+            "team": "OKC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Back Spasms",
+            "matched": true,
+            "expMin": 15.4,
             "value": 0.0,
             "impactPts": 0.0
           },
@@ -515,7 +526,7 @@
     },
     {
       "gameId": "20261130-BOS-DAL",
-      "generatedAt": "2026-11-24T23:33:46Z",
+      "generatedAt": "2026-11-24T23:43:50Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 108.4,
@@ -579,7 +590,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T23:33:46Z",
+        "reportPulledAt": "2026-11-24T23:43:50Z",
         "source": "espn",
         "away": [
           {
@@ -644,7 +655,7 @@
     },
     {
       "gameId": "20261130-SAS-MIL",
-      "generatedAt": "2026-11-24T23:33:46Z",
+      "generatedAt": "2026-11-24T23:43:50Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 116.0,
@@ -710,7 +721,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T23:33:46Z",
+        "reportPulledAt": "2026-11-24T23:43:50Z",
         "source": "espn",
         "away": [
           {
@@ -752,7 +763,7 @@
     },
     {
       "gameId": "20261130-NOP-SAC",
-      "generatedAt": "2026-11-24T23:33:46Z",
+      "generatedAt": "2026-11-24T23:43:50Z",
       "ratingsAsOf": "2026-11-24T05:42:14Z",
       "modelVersion": "v2.0",
       "awayPts": 113.1,
@@ -817,7 +828,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-24T23:33:46Z",
+        "reportPulledAt": "2026-11-24T23:43:50Z",
         "source": "espn",
         "away": [
           {
