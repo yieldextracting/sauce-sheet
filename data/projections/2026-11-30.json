@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261130-DEN-DET",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 107.0,
-      "homePts": 106.6,
-      "margin": -0.45,
-      "spreadHome": 0.4,
-      "total": 213.6,
+      "homePts": 110.0,
+      "margin": 3.01,
+      "spreadHome": -3.0,
+      "total": 217.0,
       "pace": 99.2,
-      "homeWinProb": 0.4873,
-      "fairMlHome": 105,
-      "fairMlAway": -105,
+      "homeWinProb": 0.5849,
+      "fairMlHome": -141,
+      "fairMlAway": 141,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -8.69
+          "pts": -5.23
         }
       ],
       "sample": {
@@ -69,7 +69,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -83,17 +83,6 @@
             "expMin": 25.9,
             "value": 9.59,
             "impactPts": 4.12
-          },
-          {
-            "player": "Cade Cunningham",
-            "team": "DET",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 27.7,
-            "value": 8.06,
-            "impactPts": 3.46
           },
           {
             "player": "Duncan Robinson",
@@ -133,18 +122,18 @@
     },
     {
       "gameId": "20261130-WAS-CHA",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 104.0,
-      "homePts": 105.9,
-      "margin": 1.96,
-      "spreadHome": -2.0,
-      "total": 209.9,
+      "homePts": 105.1,
+      "margin": 1.14,
+      "spreadHome": -1.1,
+      "total": 209.1,
       "pace": 98.9,
-      "homeWinProb": 0.5556,
-      "fairMlHome": -125,
-      "fairMlAway": 125,
+      "homeWinProb": 0.5324,
+      "fairMlHome": -114,
+      "fairMlAway": 114,
       "contributions": [
         {
           "key": "offense",
@@ -168,7 +157,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.04
+          "pts": -1.86
         }
       ],
       "sample": {
@@ -194,7 +183,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -266,6 +255,17 @@
             "impactPts": 1.55
           },
           {
+            "player": "Ryan Kalkbrenner",
+            "team": "CHA",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hip Soreness",
+            "matched": true,
+            "expMin": 17.5,
+            "value": 1.91,
+            "impactPts": 0.82
+          },
+          {
             "player": "Dennis Schroder",
             "team": "CHA",
             "status": "out",
@@ -281,7 +281,7 @@
     },
     {
       "gameId": "20261130-LAL-HOU",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 106.8,
@@ -345,7 +345,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -365,7 +365,7 @@
     },
     {
       "gameId": "20261130-OKC-BKN",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 111.2,
@@ -428,7 +428,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -526,7 +526,7 @@
     },
     {
       "gameId": "20261130-BOS-DAL",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 108.5,
@@ -590,7 +590,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -655,7 +655,7 @@
     },
     {
       "gameId": "20261130-SAS-MIL",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 116.0,
@@ -721,7 +721,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -763,18 +763,18 @@
     },
     {
       "gameId": "20261130-NOP-SAC",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 113.1,
-      "homePts": 114.3,
-      "margin": 1.15,
-      "spreadHome": -1.2,
-      "total": 227.4,
+      "homePts": 112.6,
+      "margin": -0.57,
+      "spreadHome": 0.6,
+      "total": 225.7,
       "pace": 102.8,
-      "homeWinProb": 0.5327,
-      "fairMlHome": -114,
-      "fairMlAway": 114,
+      "homeWinProb": 0.4839,
+      "fairMlHome": 107,
+      "fairMlAway": -107,
       "contributions": [
         {
           "key": "offense",
@@ -798,7 +798,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.3
+          "pts": -0.42
         }
       ],
       "sample": {
@@ -828,7 +828,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -866,6 +866,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Zach LaVine",
+            "team": "SAC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Soreness",
+            "matched": true,
+            "expMin": 30.0,
+            "value": 4.01,
+            "impactPts": 1.72
+          },
           {
             "player": "Maxime Raynaud",
             "team": "SAC",

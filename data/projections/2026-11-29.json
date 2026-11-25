@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261129-MIA-CLE",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 121.1,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -95,7 +95,7 @@
     },
     {
       "gameId": "20261129-BOS-SAS",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 104.5,
@@ -158,7 +158,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -212,7 +212,7 @@
     },
     {
       "gameId": "20261129-LAL-MEM",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 113.2,
@@ -273,7 +273,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -349,7 +349,7 @@
     },
     {
       "gameId": "20261129-PHX-UTA",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 110.5,
@@ -412,7 +412,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -466,18 +466,18 @@
     },
     {
       "gameId": "20261129-ATL-NYK",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 103.6,
-      "homePts": 110.2,
-      "margin": 6.63,
-      "spreadHome": -6.6,
-      "total": 213.8,
+      "homePts": 110.0,
+      "margin": 6.4,
+      "spreadHome": -6.4,
+      "total": 213.6,
       "pace": 101.0,
-      "homeWinProb": 0.6817,
-      "fairMlHome": -214,
-      "fairMlAway": 214,
+      "homeWinProb": 0.6758,
+      "fairMlHome": -208,
+      "fairMlAway": 208,
       "contributions": [
         {
           "key": "offense",
@@ -501,7 +501,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.12
+          "pts": 0.89
         }
       ],
       "sample": {
@@ -527,7 +527,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -599,6 +599,17 @@
             "impactPts": 1.23
           },
           {
+            "player": "Miles McBride",
+            "team": "NYK",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Groin Soreness",
+            "matched": true,
+            "expMin": 14.8,
+            "value": 0.53,
+            "impactPts": 0.23
+          },
+          {
             "player": "Jordan Clarkson",
             "team": "NYK",
             "status": "out",
@@ -614,7 +625,7 @@
     },
     {
       "gameId": "20261129-DEN-TOR",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 111.3,
@@ -677,7 +688,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -719,7 +730,7 @@
     },
     {
       "gameId": "20261129-NOP-POR",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 106.7,
@@ -780,7 +791,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -867,18 +878,18 @@
     },
     {
       "gameId": "20261129-ORL-DET",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 98.6,
-      "homePts": 105.5,
-      "margin": 6.89,
-      "spreadHome": -6.9,
-      "total": 204.1,
+      "homePts": 108.9,
+      "margin": 10.35,
+      "spreadHome": -10.3,
+      "total": 207.5,
       "pace": 99.6,
-      "homeWinProb": 0.6881,
-      "fairMlHome": -221,
-      "fairMlAway": 221,
+      "homeWinProb": 0.7694,
+      "fairMlHome": -334,
+      "fairMlAway": 334,
       "contributions": [
         {
           "key": "offense",
@@ -902,7 +913,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.29
+          "pts": -1.83
         }
       ],
       "sample": {
@@ -930,7 +941,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -991,17 +1002,6 @@
             "impactPts": 4.12
           },
           {
-            "player": "Cade Cunningham",
-            "team": "DET",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 27.7,
-            "value": 8.06,
-            "impactPts": 3.46
-          },
-          {
             "player": "Duncan Robinson",
             "team": "DET",
             "status": "out",
@@ -1039,7 +1039,7 @@
     },
     {
       "gameId": "20261129-LAC-GSW",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 106.9,
@@ -1100,7 +1100,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -1187,18 +1187,18 @@
     },
     {
       "gameId": "20261129-MIN-SAC",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 113.1,
-      "homePts": 102.7,
-      "margin": -10.4,
-      "spreadHome": 10.4,
-      "total": 215.9,
+      "homePts": 101.0,
+      "margin": -12.12,
+      "spreadHome": 12.1,
+      "total": 214.1,
       "pace": 102.7,
-      "homeWinProb": 0.2296,
-      "fairMlHome": 336,
-      "fairMlAway": -336,
+      "homeWinProb": 0.1941,
+      "fairMlHome": 415,
+      "fairMlAway": -415,
       "contributions": [
         {
           "key": "offense",
@@ -1222,7 +1222,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.01
+          "pts": 2.29
         }
       ],
       "sample": {
@@ -1250,7 +1250,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -1288,6 +1288,17 @@
           }
         ],
         "home": [
+          {
+            "player": "Zach LaVine",
+            "team": "SAC",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Soreness",
+            "matched": true,
+            "expMin": 30.0,
+            "value": 4.01,
+            "impactPts": 1.72
+          },
           {
             "player": "Maxime Raynaud",
             "team": "SAC",

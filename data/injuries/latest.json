@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-11-25T14:20:45Z",
+  "pulledAt": "2026-11-25T23:18:18Z",
   "source": "espn",
   "reportStamp": null,
   "ok": true,
@@ -86,32 +86,10 @@
       "player": "Ryan Kalkbrenner",
       "key": "ryankalkbrenner",
       "team": "CHA",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Hip Soreness",
-      "espnId": "4576060",
-      "gameId": "20261125-CHI-CHA",
-      "source": "espn"
-    },
-    {
-      "player": "Dennis Schroder",
-      "key": "dennisschroder",
-      "team": "CHA",
       "status": "out",
       "pPlay": 0.0,
-      "reason": "Hamstring Strain",
-      "espnId": "3032979",
-      "gameId": "20261125-CHI-CHA",
-      "source": "espn"
-    },
-    {
-      "player": "Sion James",
-      "key": "sionjames",
-      "team": "CHA",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Undisclosed",
-      "espnId": "4602025",
+      "reason": "Hip Soreness",
+      "espnId": "4576060",
       "gameId": "20261125-CHI-CHA",
       "source": "espn"
     },
@@ -123,6 +101,17 @@
       "pPlay": 0.0,
       "reason": "Concussion",
       "espnId": "3135045",
+      "gameId": "20261125-CHI-CHA",
+      "source": "espn"
+    },
+    {
+      "player": "Dennis Schroder",
+      "key": "dennisschroder",
+      "team": "CHA",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Hamstring Strain",
+      "espnId": "3032979",
       "gameId": "20261125-CHI-CHA",
       "source": "espn"
     },
@@ -141,8 +130,8 @@
       "player": "Jalen Smith",
       "key": "jalensmith",
       "team": "CHI",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Illness",
       "espnId": "4397189",
       "gameId": "20261125-CHI-CHA",
@@ -240,8 +229,8 @@
       "player": "Cade Cunningham",
       "key": "cadecunningham",
       "team": "DET",
-      "status": "out",
-      "pPlay": 0.0,
+      "status": "questionable",
+      "pPlay": 0.5,
       "reason": "Knee",
       "espnId": "4432166",
       "gameId": null,
@@ -501,17 +490,6 @@
       "source": "espn"
     },
     {
-      "player": "Giannis Antetokounmpo",
-      "key": "giannisantetokounmpo",
-      "team": "MIA",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Groin",
-      "espnId": "3032977",
-      "gameId": "20261125-MIA-PHI",
-      "source": "espn"
-    },
-    {
       "player": "Donte DiVincenzo",
       "key": "dontedivincenzo",
       "team": "MIN",
@@ -542,6 +520,17 @@
       "reason": "Knee Surgery",
       "espnId": "4594268",
       "gameId": "20261125-MIN-OKC",
+      "source": "espn"
+    },
+    {
+      "player": "Julian Reese",
+      "key": "julianreese",
+      "team": "NOP",
+      "status": "questionable",
+      "pPlay": 0.5,
+      "reason": "Knee",
+      "espnId": "4683742",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -578,11 +567,22 @@
       "source": "espn"
     },
     {
-      "player": "Miles McBride",
-      "key": "milesmcbride",
+      "player": "Josh Hart",
+      "key": "joshhart",
       "team": "NYK",
       "status": "questionable",
       "pPlay": 0.5,
+      "reason": "Shoulder Sprain",
+      "espnId": "3062679",
+      "gameId": "20261125-CLE-NYK",
+      "source": "espn"
+    },
+    {
+      "player": "Miles McBride",
+      "key": "milesmcbride",
+      "team": "NYK",
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Groin Soreness",
       "espnId": "4431823",
       "gameId": "20261125-CLE-NYK",
@@ -600,17 +600,6 @@
       "source": "espn"
     },
     {
-      "player": "Josh Hart",
-      "key": "joshhart",
-      "team": "NYK",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Shoulder Sprain",
-      "espnId": "3062679",
-      "gameId": "20261125-CLE-NYK",
-      "source": "espn"
-    },
-    {
       "player": "OG Anunoby",
       "key": "oganunoby",
       "team": "NYK",
@@ -618,17 +607,6 @@
       "pPlay": 0.0,
       "reason": "Calf Soreness",
       "espnId": "3934719",
-      "gameId": "20261125-CLE-NYK",
-      "source": "espn"
-    },
-    {
-      "player": "Karl-Anthony Towns",
-      "key": "karlanthonytowns",
-      "team": "NYK",
-      "status": "questionable",
-      "pPlay": 0.5,
-      "reason": "Knee",
-      "espnId": "3136195",
       "gameId": "20261125-CLE-NYK",
       "source": "espn"
     },
@@ -757,11 +735,11 @@
       "player": "Joel Embiid",
       "key": "joelembiid",
       "team": "PHI",
-      "status": "questionable",
-      "pPlay": 0.5,
+      "status": "out",
+      "pPlay": 0.0,
       "reason": "Illness",
       "espnId": "3059318",
-      "gameId": "20261125-MIA-PHI",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -772,7 +750,7 @@
       "pPlay": 0.0,
       "reason": "Achilles Surgery",
       "espnId": "4871141",
-      "gameId": "20261125-MIA-PHI",
+      "gameId": null,
       "source": "espn"
     },
     {
@@ -828,6 +806,17 @@
       "reason": "Knee Surgery",
       "espnId": "4914336",
       "gameId": "20261125-SAS-POR",
+      "source": "espn"
+    },
+    {
+      "player": "Zach LaVine",
+      "key": "zachlavine",
+      "team": "SAC",
+      "status": "out",
+      "pPlay": 0.0,
+      "reason": "Knee Soreness",
+      "espnId": "3064440",
+      "gameId": "20261125-SAC-GSW",
       "source": "espn"
     },
     {

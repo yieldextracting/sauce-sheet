@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261201-IND-CLE",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 111.9,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -118,18 +118,18 @@
     },
     {
       "gameId": "20261201-MEM-PHI",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 112.8,
-      "homePts": 116.4,
-      "margin": 3.64,
-      "spreadHome": -3.6,
-      "total": 229.2,
+      "homePts": 112.5,
+      "margin": -0.29,
+      "spreadHome": 0.3,
+      "total": 225.3,
       "pace": 102.3,
-      "homeWinProb": 0.6023,
-      "fairMlHome": -151,
-      "fairMlAway": 151,
+      "homeWinProb": 0.4918,
+      "fairMlHome": 103,
+      "fairMlAway": -103,
       "contributions": [
         {
           "key": "offense",
@@ -153,7 +153,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.06
+          "pts": 0.13
         }
       ],
       "sample": {
@@ -181,7 +181,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -242,6 +242,17 @@
         ],
         "home": [
           {
+            "player": "Joel Embiid",
+            "team": "PHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 31.8,
+            "value": 9.15,
+            "impactPts": 3.93
+          },
+          {
             "player": "Ariel Hukporti",
             "team": "PHI",
             "status": "out",
@@ -257,7 +268,7 @@
     },
     {
       "gameId": "20261201-ATL-MIA",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 116.9,
@@ -321,7 +332,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -385,18 +396,18 @@
     },
     {
       "gameId": "20261201-NYK-CHI",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
-      "awayPts": 115.2,
-      "homePts": 104.9,
-      "margin": -10.33,
-      "spreadHome": 10.3,
-      "total": 220.1,
+      "awayPts": 115.0,
+      "homePts": 102.7,
+      "margin": -12.27,
+      "spreadHome": 12.3,
+      "total": 217.7,
       "pace": 101.9,
-      "homeWinProb": 0.2309,
-      "fairMlHome": 333,
-      "fairMlAway": -333,
+      "homeWinProb": 0.1911,
+      "fairMlHome": 423,
+      "fairMlAway": -423,
       "contributions": [
         {
           "key": "offense",
@@ -420,7 +431,7 @@
         },
         {
           "key": "injuries",
-          "pts": -2.22
+          "pts": -4.16
         }
       ],
       "sample": {
@@ -446,7 +457,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -459,6 +470,17 @@
             "expMin": 34.6,
             "value": 2.87,
             "impactPts": 1.23
+          },
+          {
+            "player": "Miles McBride",
+            "team": "NYK",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Groin Soreness",
+            "matched": true,
+            "expMin": 14.8,
+            "value": 0.53,
+            "impactPts": 0.23
           },
           {
             "player": "Jordan Clarkson",
@@ -485,6 +507,17 @@
             "impactPts": 2.51
           },
           {
+            "player": "Jalen Smith",
+            "team": "CHI",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Illness",
+            "matched": true,
+            "expMin": 25.6,
+            "value": 5.05,
+            "impactPts": 2.17
+          },
+          {
             "player": "Caleb Wilson",
             "team": "CHI",
             "status": "out",
@@ -500,7 +533,7 @@
     },
     {
       "gameId": "20261201-TOR-HOU",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 101.4,
@@ -565,7 +598,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -607,7 +640,7 @@
     },
     {
       "gameId": "20261201-LAC-PHX",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 108.6,
@@ -668,7 +701,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -711,7 +744,7 @@
     },
     {
       "gameId": "20261201-UTA-GSW",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 98.7,
@@ -772,7 +805,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
@@ -870,7 +903,7 @@
     },
     {
       "gameId": "20261201-MIN-POR",
-      "generatedAt": "2026-11-25T14:20:46Z",
+      "generatedAt": "2026-11-25T23:18:19Z",
       "ratingsAsOf": "2026-11-25T05:38:22Z",
       "modelVersion": "v2.0",
       "awayPts": 106.4,
@@ -931,7 +964,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-25T14:20:45Z",
+        "reportPulledAt": "2026-11-25T23:18:18Z",
         "source": "espn",
         "away": [
           {
