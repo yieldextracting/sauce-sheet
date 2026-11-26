@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T02:29:38Z",
+  "generatedAt": "2026-11-26T02:59:51Z",
   "grades": [
     {
       "source": "model",
@@ -4856,14 +4856,14 @@
       "line": -4.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "win",
+      "profitU": 0.9091,
       "edge": 3.6,
       "closingLine": -4.5,
       "clvPts": 0.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 1,
-      "finalScore": null
+      "finalScore": "102-121"
     },
     {
       "source": "model",
@@ -4982,40 +4982,40 @@
   ],
   "summary": {
     "all": {
-      "w": 124,
+      "w": 125,
       "l": 131,
       "p": 0,
-      "pending": 7,
-      "units": -18.272,
-      "risked": 255.0,
-      "roi": -0.0717,
+      "pending": 6,
+      "units": -17.362,
+      "risked": 256.0,
+      "roi": -0.0678,
       "clvPtsAvg": 0.125,
-      "beatClosePct": 0.3216,
-      "clvN": 255
+      "beatClosePct": 0.3203,
+      "clvN": 256
     },
     "edge1.5": {
-      "w": 88,
+      "w": 89,
       "l": 83,
       "p": 0,
-      "pending": 5,
-      "units": -2.999,
-      "risked": 171.0,
-      "roi": -0.0175,
-      "clvPtsAvg": 0.304,
-      "beatClosePct": 0.3684,
-      "clvN": 171
+      "pending": 4,
+      "units": -2.09,
+      "risked": 172.0,
+      "roi": -0.0122,
+      "clvPtsAvg": 0.302,
+      "beatClosePct": 0.3663,
+      "clvN": 172
     },
     "edge3": {
-      "w": 54,
+      "w": 55,
       "l": 48,
       "p": 0,
-      "pending": 4,
-      "units": 1.091,
-      "risked": 102.0,
-      "roi": 0.0107,
-      "clvPtsAvg": 0.549,
-      "beatClosePct": 0.451,
-      "clvN": 102
+      "pending": 3,
+      "units": 2.001,
+      "risked": 103.0,
+      "roi": 0.0194,
+      "clvPtsAvg": 0.544,
+      "beatClosePct": 0.4466,
+      "clvN": 103
     },
     "edge5": {
       "w": 23,
