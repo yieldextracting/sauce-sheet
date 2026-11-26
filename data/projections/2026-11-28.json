@@ -3,26 +3,26 @@
   "games": [
     {
       "gameId": "20261128-ORL-WAS",
-      "generatedAt": "2026-11-26T02:59:51Z",
-      "ratingsAsOf": "2026-11-26T02:59:51Z",
+      "generatedAt": "2026-11-26T03:19:59Z",
+      "ratingsAsOf": "2026-11-26T03:19:59Z",
       "modelVersion": "v2.0",
       "awayPts": 109.6,
       "homePts": 108.6,
-      "margin": -0.94,
-      "spreadHome": 0.9,
+      "margin": -0.95,
+      "spreadHome": 1.0,
       "total": 218.2,
       "pace": 100.9,
-      "homeWinProb": 0.4734,
+      "homeWinProb": 0.473,
       "fairMlHome": 111,
       "fairMlAway": -111,
       "contributions": [
         {
           "key": "offense",
-          "pts": -0.62
+          "pts": -0.63
         },
         {
           "key": "defense",
-          "pts": -3.03
+          "pts": -3.04
         },
         {
           "key": "pace",
@@ -162,18 +162,18 @@
     },
     {
       "gameId": "20261128-BKN-CHA",
-      "generatedAt": "2026-11-26T02:59:51Z",
-      "ratingsAsOf": "2026-11-26T02:59:51Z",
+      "generatedAt": "2026-11-26T03:19:59Z",
+      "ratingsAsOf": "2026-11-26T03:19:59Z",
       "modelVersion": "v2.0",
       "awayPts": 102.0,
       "homePts": 106.7,
-      "margin": 4.68,
+      "margin": 4.67,
       "spreadHome": -4.7,
       "total": 208.7,
       "pace": 97.7,
-      "homeWinProb": 0.6305,
-      "fairMlHome": -171,
-      "fairMlAway": 171,
+      "homeWinProb": 0.6303,
+      "fairMlHome": -170,
+      "fairMlAway": 170,
       "contributions": [
         {
           "key": "offense",
@@ -181,7 +181,7 @@
         },
         {
           "key": "defense",
-          "pts": 4.7
+          "pts": 4.69
         },
         {
           "key": "pace",
@@ -302,26 +302,26 @@
     },
     {
       "gameId": "20261128-IND-CHI",
-      "generatedAt": "2026-11-26T02:59:51Z",
-      "ratingsAsOf": "2026-11-26T02:59:51Z",
+      "generatedAt": "2026-11-26T03:19:59Z",
+      "ratingsAsOf": "2026-11-26T03:19:59Z",
       "modelVersion": "v2.0",
       "awayPts": 115.6,
       "homePts": 115.1,
-      "margin": -0.53,
+      "margin": -0.52,
       "spreadHome": 0.5,
       "total": 230.7,
       "pace": 106.2,
-      "homeWinProb": 0.4849,
+      "homeWinProb": 0.4854,
       "fairMlHome": 106,
       "fairMlAway": -106,
       "contributions": [
         {
           "key": "offense",
-          "pts": 2.09
+          "pts": 2.1
         },
         {
           "key": "defense",
-          "pts": -1.9
+          "pts": -1.89
         },
         {
           "key": "pace",
@@ -430,30 +430,30 @@
     },
     {
       "gameId": "20261128-OKC-MIL",
-      "generatedAt": "2026-11-26T02:59:51Z",
-      "ratingsAsOf": "2026-11-26T02:59:51Z",
+      "generatedAt": "2026-11-26T03:19:59Z",
+      "ratingsAsOf": "2026-11-26T03:19:59Z",
       "modelVersion": "v2.0",
-      "awayPts": 112.8,
-      "homePts": 104.6,
-      "margin": -8.25,
-      "spreadHome": 8.3,
-      "total": 217.4,
+      "awayPts": 112.9,
+      "homePts": 104.7,
+      "margin": -8.17,
+      "spreadHome": 8.2,
+      "total": 217.6,
       "pace": 101.6,
-      "homeWinProb": 0.2784,
-      "fairMlHome": 259,
-      "fairMlAway": -259,
+      "homeWinProb": 0.2805,
+      "fairMlHome": 257,
+      "fairMlAway": -257,
       "contributions": [
         {
           "key": "offense",
-          "pts": -3.37
+          "pts": -3.36
         },
         {
           "key": "defense",
-          "pts": -9.88
+          "pts": -9.69
         },
         {
           "key": "pace",
-          "pts": -0.05
+          "pts": -0.04
         },
         {
           "key": "home",
@@ -465,13 +465,13 @@
         },
         {
           "key": "injuries",
-          "pts": 6.28
+          "pts": 6.15
         }
       ],
       "sample": {
-        "awayGP": 18,
+        "awayGP": 19,
         "homeGP": 18,
-        "priorWeight": 0.3571
+        "priorWeight": 0.3509
       },
       "flags": [
         "b2b_home",
@@ -526,9 +526,9 @@
             "pPlay": 0.0,
             "reason": "Lower Leg Bruise",
             "matched": true,
-            "expMin": 16.8,
-            "value": 2.2,
-            "impactPts": 0.95
+            "expMin": 14.6,
+            "value": 1.92,
+            "impactPts": 0.82
           },
           {
             "player": "Cason Wallace",
@@ -580,8 +580,8 @@
     },
     {
       "gameId": "20261128-PHI-HOU",
-      "generatedAt": "2026-11-26T02:59:51Z",
-      "ratingsAsOf": "2026-11-26T02:59:51Z",
+      "generatedAt": "2026-11-26T03:19:59Z",
+      "ratingsAsOf": "2026-11-26T03:19:59Z",
       "modelVersion": "v2.0",
       "awayPts": 108.0,
       "homePts": 119.0,
@@ -589,13 +589,13 @@
       "spreadHome": -11.0,
       "total": 226.9,
       "pace": 99.3,
-      "homeWinProb": 0.7825,
+      "homeWinProb": 0.7824,
       "fairMlHome": -360,
       "fairMlAway": 360,
       "contributions": [
         {
           "key": "offense",
-          "pts": 4.29
+          "pts": 4.28
         },
         {
           "key": "defense",
@@ -603,7 +603,7 @@
         },
         {
           "key": "pace",
-          "pts": -0.23
+          "pts": -0.22
         },
         {
           "key": "home",
