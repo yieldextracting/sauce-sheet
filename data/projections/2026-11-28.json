@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261128-ORL-WAS",
-      "generatedAt": "2026-11-26T02:39:42Z",
+      "generatedAt": "2026-11-26T02:49:46Z",
       "ratingsAsOf": "2026-11-26T02:29:37Z",
       "modelVersion": "v2.0",
       "awayPts": 109.6,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T02:39:42Z",
+        "reportPulledAt": "2026-11-26T02:49:46Z",
         "source": "espn",
         "away": [
           {
@@ -162,18 +162,18 @@
     },
     {
       "gameId": "20261128-BKN-CHA",
-      "generatedAt": "2026-11-26T02:39:42Z",
+      "generatedAt": "2026-11-26T02:49:46Z",
       "ratingsAsOf": "2026-11-26T02:29:37Z",
       "modelVersion": "v2.0",
-      "awayPts": 103.1,
+      "awayPts": 102.0,
       "homePts": 106.7,
-      "margin": 3.61,
-      "spreadHome": -3.6,
-      "total": 209.8,
+      "margin": 4.7,
+      "spreadHome": -4.7,
+      "total": 208.7,
       "pace": 97.7,
-      "homeWinProb": 0.6013,
-      "fairMlHome": -151,
-      "fairMlAway": 151,
+      "homeWinProb": 0.631,
+      "fairMlHome": -171,
+      "fairMlAway": 171,
       "contributions": [
         {
           "key": "offense",
@@ -197,7 +197,7 @@
         },
         {
           "key": "injuries",
-          "pts": -4.0
+          "pts": -2.91
         }
       ],
       "sample": {
@@ -226,9 +226,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T02:39:42Z",
+        "reportPulledAt": "2026-11-26T02:49:46Z",
         "source": "espn",
         "away": [
+          {
+            "player": "Moritz Wagner",
+            "team": "BKN",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Knee Soreness",
+            "matched": true,
+            "expMin": 17.0,
+            "value": 2.53,
+            "impactPts": 1.09
+          },
           {
             "player": "Nolan Traore",
             "team": "BKN",
@@ -291,7 +302,7 @@
     },
     {
       "gameId": "20261128-IND-CHI",
-      "generatedAt": "2026-11-26T02:39:42Z",
+      "generatedAt": "2026-11-26T02:49:46Z",
       "ratingsAsOf": "2026-11-26T02:29:37Z",
       "modelVersion": "v2.0",
       "awayPts": 115.6,
@@ -354,7 +365,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T02:39:42Z",
+        "reportPulledAt": "2026-11-26T02:49:46Z",
         "source": "espn",
         "away": [
           {
@@ -419,7 +430,7 @@
     },
     {
       "gameId": "20261128-OKC-MIL",
-      "generatedAt": "2026-11-26T02:39:42Z",
+      "generatedAt": "2026-11-26T02:49:46Z",
       "ratingsAsOf": "2026-11-26T02:29:37Z",
       "modelVersion": "v2.0",
       "awayPts": 112.8,
@@ -483,7 +494,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T02:39:42Z",
+        "reportPulledAt": "2026-11-26T02:49:46Z",
         "source": "espn",
         "away": [
           {
@@ -569,7 +580,7 @@
     },
     {
       "gameId": "20261128-PHI-HOU",
-      "generatedAt": "2026-11-26T02:39:42Z",
+      "generatedAt": "2026-11-26T02:49:46Z",
       "ratingsAsOf": "2026-11-26T02:29:37Z",
       "modelVersion": "v2.0",
       "awayPts": 108.0,
@@ -633,7 +644,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T02:39:42Z",
+        "reportPulledAt": "2026-11-26T02:49:46Z",
         "source": "espn",
         "away": [
           {
