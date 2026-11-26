@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261128-ORL-WAS",
-      "generatedAt": "2026-11-26T01:09:04Z",
+      "generatedAt": "2026-11-26T01:19:09Z",
       "ratingsAsOf": "2026-11-26T00:38:52Z",
       "modelVersion": "v2.0",
       "awayPts": 109.6,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T01:09:04Z",
+        "reportPulledAt": "2026-11-26T01:19:09Z",
         "source": "espn",
         "away": [
           {
@@ -162,7 +162,7 @@
     },
     {
       "gameId": "20261128-BKN-CHA",
-      "generatedAt": "2026-11-26T01:09:04Z",
+      "generatedAt": "2026-11-26T01:19:09Z",
       "ratingsAsOf": "2026-11-26T00:38:52Z",
       "modelVersion": "v2.0",
       "awayPts": 103.2,
@@ -226,7 +226,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T01:09:04Z",
+        "reportPulledAt": "2026-11-26T01:19:09Z",
         "source": "espn",
         "away": [
           {
@@ -291,7 +291,7 @@
     },
     {
       "gameId": "20261128-IND-CHI",
-      "generatedAt": "2026-11-26T01:09:04Z",
+      "generatedAt": "2026-11-26T01:19:09Z",
       "ratingsAsOf": "2026-11-26T00:38:52Z",
       "modelVersion": "v2.0",
       "awayPts": 115.9,
@@ -354,7 +354,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T01:09:04Z",
+        "reportPulledAt": "2026-11-26T01:19:09Z",
         "source": "espn",
         "away": [
           {
@@ -419,7 +419,7 @@
     },
     {
       "gameId": "20261128-OKC-MIL",
-      "generatedAt": "2026-11-26T01:09:04Z",
+      "generatedAt": "2026-11-26T01:19:09Z",
       "ratingsAsOf": "2026-11-26T00:38:52Z",
       "modelVersion": "v2.0",
       "awayPts": 112.9,
@@ -483,7 +483,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T01:09:04Z",
+        "reportPulledAt": "2026-11-26T01:19:09Z",
         "source": "espn",
         "away": [
           {
@@ -569,18 +569,18 @@
     },
     {
       "gameId": "20261128-PHI-HOU",
-      "generatedAt": "2026-11-26T01:09:04Z",
+      "generatedAt": "2026-11-26T01:19:09Z",
       "ratingsAsOf": "2026-11-26T00:38:52Z",
       "modelVersion": "v2.0",
-      "awayPts": 100.9,
+      "awayPts": 108.0,
       "homePts": 119.0,
-      "margin": 18.01,
-      "spreadHome": -18.0,
-      "total": 219.9,
+      "margin": 10.97,
+      "spreadHome": -11.0,
+      "total": 226.9,
       "pace": 99.2,
-      "homeWinProb": 0.9002,
-      "fairMlHome": -902,
-      "fairMlAway": 902,
+      "homeWinProb": 0.7827,
+      "fairMlHome": -360,
+      "fairMlAway": 360,
       "contributions": [
         {
           "key": "offense",
@@ -604,7 +604,7 @@
         },
         {
           "key": "injuries",
-          "pts": 7.04
+          "pts": 0.0
         }
       ],
       "sample": {
@@ -633,31 +633,9 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T01:09:04Z",
+        "reportPulledAt": "2026-11-26T01:19:09Z",
         "source": "espn",
         "away": [
-          {
-            "player": "Joel Embiid",
-            "team": "PHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 31.8,
-            "value": 9.15,
-            "impactPts": 3.93
-          },
-          {
-            "player": "Jaylen Brown",
-            "team": "PHI",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring",
-            "matched": true,
-            "expMin": 31.2,
-            "value": 7.24,
-            "impactPts": 3.11
-          },
           {
             "player": "Ariel Hukporti",
             "team": "PHI",
