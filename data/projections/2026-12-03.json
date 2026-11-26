@@ -3,8 +3,8 @@
   "games": [
     {
       "gameId": "20261203-IND-ATL",
-      "generatedAt": "2026-11-26T05:26:43Z",
-      "ratingsAsOf": "2026-11-26T05:26:43Z",
+      "generatedAt": "2026-11-26T05:46:51Z",
+      "ratingsAsOf": "2026-11-26T05:46:51Z",
       "modelVersion": "v2.0",
       "awayPts": 110.0,
       "homePts": 116.8,
@@ -151,12 +151,12 @@
     },
     {
       "gameId": "20261203-WAS-MIA",
-      "generatedAt": "2026-11-26T05:26:43Z",
-      "ratingsAsOf": "2026-11-26T05:26:43Z",
+      "generatedAt": "2026-11-26T05:46:51Z",
+      "ratingsAsOf": "2026-11-26T05:46:51Z",
       "modelVersion": "v2.0",
       "awayPts": 111.7,
       "homePts": 124.1,
-      "margin": 12.4,
+      "margin": 12.39,
       "spreadHome": -12.4,
       "total": 235.8,
       "pace": 104.5,
@@ -265,16 +265,16 @@
     },
     {
       "gameId": "20261203-CLE-CHI",
-      "generatedAt": "2026-11-26T05:26:43Z",
-      "ratingsAsOf": "2026-11-26T05:26:43Z",
+      "generatedAt": "2026-11-26T05:46:51Z",
+      "ratingsAsOf": "2026-11-26T05:46:51Z",
       "modelVersion": "v2.0",
       "awayPts": 120.1,
       "homePts": 113.7,
-      "margin": -6.39,
+      "margin": -6.4,
       "spreadHome": 6.4,
       "total": 233.8,
       "pace": 105.2,
-      "homeWinProb": 0.3245,
+      "homeWinProb": 0.3243,
       "fairMlHome": 208,
       "fairMlAway": -208,
       "contributions": [
@@ -284,7 +284,7 @@
         },
         {
           "key": "defense",
-          "pts": -1.11
+          "pts": -1.12
         },
         {
           "key": "pace",
@@ -391,26 +391,26 @@
     },
     {
       "gameId": "20261203-TOR-SAS",
-      "generatedAt": "2026-11-26T05:26:43Z",
-      "ratingsAsOf": "2026-11-26T05:26:43Z",
+      "generatedAt": "2026-11-26T05:46:51Z",
+      "ratingsAsOf": "2026-11-26T05:46:51Z",
       "modelVersion": "v2.0",
-      "awayPts": 98.5,
-      "homePts": 110.3,
-      "margin": 11.81,
-      "spreadHome": -11.8,
-      "total": 208.7,
+      "awayPts": 98.6,
+      "homePts": 110.2,
+      "margin": 11.59,
+      "spreadHome": -11.6,
+      "total": 208.8,
       "pace": 100.1,
-      "homeWinProb": 0.7999,
-      "fairMlHome": -400,
-      "fairMlAway": 400,
+      "homeWinProb": 0.7954,
+      "fairMlHome": -389,
+      "fairMlAway": 389,
       "contributions": [
         {
           "key": "offense",
-          "pts": 4.21
+          "pts": 4.12
         },
         {
           "key": "defense",
-          "pts": 4.39
+          "pts": 4.25
         },
         {
           "key": "pace",
@@ -431,8 +431,8 @@
       ],
       "sample": {
         "awayGP": 17,
-        "homeGP": 18,
-        "priorWeight": 0.3638
+        "homeGP": 19,
+        "priorWeight": 0.3576
       },
       "flags": [
         "long_travel_home"
@@ -541,30 +541,30 @@
     },
     {
       "gameId": "20261203-UTA-POR",
-      "generatedAt": "2026-11-26T05:26:43Z",
-      "ratingsAsOf": "2026-11-26T05:26:43Z",
+      "generatedAt": "2026-11-26T05:46:51Z",
+      "ratingsAsOf": "2026-11-26T05:46:51Z",
       "modelVersion": "v2.0",
-      "awayPts": 98.6,
-      "homePts": 117.1,
-      "margin": 18.46,
-      "spreadHome": -18.5,
-      "total": 215.7,
+      "awayPts": 98.5,
+      "homePts": 117.5,
+      "margin": 18.96,
+      "spreadHome": -19.0,
+      "total": 216.0,
       "pace": 102.9,
-      "homeWinProb": 0.9057,
-      "fairMlHome": -960,
-      "fairMlAway": 960,
+      "homeWinProb": 0.9115,
+      "fairMlHome": -1030,
+      "fairMlAway": 1030,
       "contributions": [
         {
           "key": "offense",
-          "pts": 7.36
+          "pts": 7.51
         },
         {
           "key": "defense",
-          "pts": 6.27
+          "pts": 6.37
         },
         {
           "key": "pace",
-          "pts": 0.25
+          "pts": 0.26
         },
         {
           "key": "home",
@@ -576,13 +576,13 @@
         },
         {
           "key": "injuries",
-          "pts": 2.78
+          "pts": 3.03
         }
       ],
       "sample": {
         "awayGP": 19,
-        "homeGP": 17,
-        "priorWeight": 0.3576
+        "homeGP": 18,
+        "priorWeight": 0.3509
       },
       "flags": [],
       "spots": {
@@ -641,17 +641,6 @@
         ],
         "home": [
           {
-            "player": "Ja Morant",
-            "team": "POR",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring Not Specified",
-            "matched": true,
-            "expMin": 20.8,
-            "value": 4.62,
-            "impactPts": 1.98
-          },
-          {
             "player": "Shaedon Sharpe",
             "team": "POR",
             "status": "out",
@@ -661,6 +650,17 @@
             "expMin": 29.4,
             "value": 4.47,
             "impactPts": 1.92
+          },
+          {
+            "player": "Ja Morant",
+            "team": "POR",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring Not Specified",
+            "matched": true,
+            "expMin": 18.1,
+            "value": 4.02,
+            "impactPts": 1.73
           },
           {
             "player": "Chris Youngblood",
