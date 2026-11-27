@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261128-ORL-WAS",
-      "generatedAt": "2026-11-27T22:55:43Z",
+      "generatedAt": "2026-11-27T23:05:47Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 106.1,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-27T22:55:43Z",
+        "reportPulledAt": "2026-11-27T23:05:47Z",
         "source": "espn",
         "away": [
           {
@@ -195,7 +195,7 @@
     },
     {
       "gameId": "20261128-BKN-CHA",
-      "generatedAt": "2026-11-27T22:55:43Z",
+      "generatedAt": "2026-11-27T23:05:47Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 101.9,
@@ -259,7 +259,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-27T22:55:43Z",
+        "reportPulledAt": "2026-11-27T23:05:47Z",
         "source": "espn",
         "away": [
           {
@@ -335,18 +335,18 @@
     },
     {
       "gameId": "20261128-IND-CHI",
-      "generatedAt": "2026-11-27T22:55:43Z",
+      "generatedAt": "2026-11-27T23:05:47Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
-      "awayPts": 115.7,
+      "awayPts": 114.2,
       "homePts": 116.1,
-      "margin": 0.4,
-      "spreadHome": -0.4,
-      "total": 231.8,
+      "margin": 1.86,
+      "spreadHome": -1.9,
+      "total": 230.3,
       "pace": 106.2,
-      "homeWinProb": 0.5113,
-      "fairMlHome": -105,
-      "fairMlAway": 105,
+      "homeWinProb": 0.5526,
+      "fairMlHome": -124,
+      "fairMlAway": 124,
       "contributions": [
         {
           "key": "offense",
@@ -370,7 +370,7 @@
         },
         {
           "key": "injuries",
-          "pts": -3.75
+          "pts": -2.29
         }
       ],
       "sample": {
@@ -398,9 +398,20 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-27T22:55:43Z",
+        "reportPulledAt": "2026-11-27T23:05:47Z",
         "source": "espn",
         "away": [
+          {
+            "player": "T.J. McConnell",
+            "team": "IND",
+            "status": "out",
+            "pPlay": 0.0,
+            "reason": "Hamstring",
+            "matched": true,
+            "expMin": 13.4,
+            "value": 3.41,
+            "impactPts": 1.46
+          },
           {
             "player": "Tyrese Haliburton",
             "team": "IND",
@@ -474,7 +485,7 @@
     },
     {
       "gameId": "20261128-OKC-MIL",
-      "generatedAt": "2026-11-27T22:55:43Z",
+      "generatedAt": "2026-11-27T23:05:47Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 112.5,
@@ -538,7 +549,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-27T22:55:43Z",
+        "reportPulledAt": "2026-11-27T23:05:47Z",
         "source": "espn",
         "away": [
           {
@@ -636,7 +647,7 @@
     },
     {
       "gameId": "20261128-PHI-HOU",
-      "generatedAt": "2026-11-27T22:55:43Z",
+      "generatedAt": "2026-11-27T23:05:47Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 104.8,
@@ -700,7 +711,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-27T22:55:43Z",
+        "reportPulledAt": "2026-11-27T23:05:47Z",
         "source": "espn",
         "away": [
           {
