@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T18:54:21Z",
+  "generatedAt": "2026-11-27T19:04:25Z",
   "grades": [
     {
       "source": "model",
@@ -5095,6 +5095,25 @@
     },
     {
       "source": "model",
+      "gameId": "20261127-MEM-MIN",
+      "etDate": "2026-11-27",
+      "pickId": "model",
+      "market": "spread",
+      "side": "MIN",
+      "line": -3.5,
+      "price": -110,
+      "units": 1.0,
+      "result": "pending",
+      "profitU": 0.0,
+      "edge": 0.6,
+      "closingLine": null,
+      "clvPts": null,
+      "clvProb": null,
+      "closeMinutesBeforeTip": null,
+      "finalScore": null
+    },
+    {
+      "source": "model",
       "gameId": "20261127-MIA-NYK",
       "etDate": "2026-11-27",
       "pickId": "model",
@@ -5175,7 +5194,7 @@
       "w": 128,
       "l": 134,
       "p": 0,
-      "pending": 10,
+      "pending": 11,
       "units": -17.635,
       "risked": 262.0,
       "roi": -0.0673,
