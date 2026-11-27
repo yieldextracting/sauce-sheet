@@ -3,18 +3,18 @@
   "games": [
     {
       "gameId": "20261130-DEN-DET",
-      "generatedAt": "2026-11-26T05:46:51Z",
-      "ratingsAsOf": "2026-11-26T05:46:51Z",
+      "generatedAt": "2026-11-27T09:02:49Z",
+      "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 107.1,
-      "homePts": 110.1,
-      "margin": 3.0,
-      "spreadHome": -3.0,
-      "total": 217.2,
+      "homePts": 115.3,
+      "margin": 8.23,
+      "spreadHome": -8.2,
+      "total": 222.4,
       "pace": 99.3,
-      "homeWinProb": 0.5845,
-      "fairMlHome": -141,
-      "fairMlAway": 141,
+      "homeWinProb": 0.721,
+      "fairMlHome": -258,
+      "fairMlAway": 258,
       "contributions": [
         {
           "key": "offense",
@@ -38,7 +38,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.23
+          "pts": 0
         }
       ],
       "sample": {
@@ -69,71 +69,26 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T02:59:51Z",
-        "source": "espn",
+        "reportPulledAt": null,
+        "source": null,
         "away": [],
-        "home": [
-          {
-            "player": "Jalen Duren",
-            "team": "DET",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring Strain",
-            "matched": true,
-            "expMin": 25.9,
-            "value": 9.59,
-            "impactPts": 4.12
-          },
-          {
-            "player": "Duncan Robinson",
-            "team": "DET",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Quadriceps Strain",
-            "matched": true,
-            "expMin": 29.8,
-            "value": 2.58,
-            "impactPts": 1.11
-          },
-          {
-            "player": "Ebuka Okorie",
-            "team": "DET",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Oblique Strain",
-            "matched": true,
-            "expMin": 1.8,
-            "value": 0.18,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Taurean Prince",
-            "team": "DET",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Surgery",
-            "matched": true,
-            "expMin": 6.8,
-            "value": 0.0,
-            "impactPts": 0.0
-          }
-        ]
+        "home": []
       }
     },
     {
       "gameId": "20261130-WAS-CHA",
-      "generatedAt": "2026-11-26T05:46:51Z",
-      "ratingsAsOf": "2026-11-26T05:46:51Z",
+      "generatedAt": "2026-11-27T09:02:49Z",
+      "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
-      "awayPts": 103.9,
-      "homePts": 104.9,
-      "margin": 0.99,
-      "spreadHome": -1.0,
-      "total": 208.9,
+      "awayPts": 106.4,
+      "homePts": 109.3,
+      "margin": 2.85,
+      "spreadHome": -2.9,
+      "total": 215.7,
       "pace": 98.5,
-      "homeWinProb": 0.5282,
-      "fairMlHome": -112,
-      "fairMlAway": 112,
+      "homeWinProb": 0.5805,
+      "fairMlHome": -138,
+      "fairMlAway": 138,
       "contributions": [
         {
           "key": "offense",
@@ -157,7 +112,7 @@
         },
         {
           "key": "injuries",
-          "pts": -1.86
+          "pts": 0
         }
       ],
       "sample": {
@@ -183,116 +138,26 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T02:59:51Z",
-        "source": "espn",
-        "away": [
-          {
-            "player": "Justin Champagnie",
-            "team": "WAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Foot Not Specified",
-            "matched": true,
-            "expMin": 19.1,
-            "value": 2.92,
-            "impactPts": 1.25
-          },
-          {
-            "player": "Tristan Vukcevic",
-            "team": "WAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hip Pinched Nerve",
-            "matched": true,
-            "expMin": 13.7,
-            "value": 2.6,
-            "impactPts": 1.11
-          },
-          {
-            "player": "Jamir Watkins",
-            "team": "WAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Surgery",
-            "matched": true,
-            "expMin": 21.5,
-            "value": 0.35,
-            "impactPts": 0.15
-          },
-          {
-            "player": "Reece Beekman",
-            "team": "WAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Shoulder",
-            "matched": true,
-            "expMin": 0.1,
-            "value": 0.01,
-            "impactPts": 0.0
-          }
-        ],
-        "home": [
-          {
-            "player": "Kon Knueppel",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring Strain",
-            "matched": true,
-            "expMin": 28.2,
-            "value": 4.4,
-            "impactPts": 1.89
-          },
-          {
-            "player": "Grayson Allen",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Concussion",
-            "matched": true,
-            "expMin": 27.7,
-            "value": 3.62,
-            "impactPts": 1.55
-          },
-          {
-            "player": "Ryan Kalkbrenner",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hip Soreness",
-            "matched": true,
-            "expMin": 17.5,
-            "value": 1.91,
-            "impactPts": 0.82
-          },
-          {
-            "player": "Dennis Schroder",
-            "team": "CHA",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring Strain",
-            "matched": true,
-            "expMin": 20.9,
-            "value": 0.25,
-            "impactPts": 0.11
-          }
-        ]
+        "reportPulledAt": null,
+        "source": null,
+        "away": [],
+        "home": []
       }
     },
     {
       "gameId": "20261130-LAL-HOU",
-      "generatedAt": "2026-11-26T05:46:51Z",
-      "ratingsAsOf": "2026-11-26T05:46:51Z",
+      "generatedAt": "2026-11-27T09:02:49Z",
+      "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
-      "awayPts": 106.7,
+      "awayPts": 110.2,
       "homePts": 118.3,
-      "margin": 11.65,
-      "spreadHome": -11.7,
-      "total": 225.0,
+      "margin": 8.09,
+      "spreadHome": -8.1,
+      "total": 228.5,
       "pace": 99.2,
-      "homeWinProb": 0.7967,
-      "fairMlHome": -392,
-      "fairMlAway": 392,
+      "homeWinProb": 0.7178,
+      "fairMlHome": -254,
+      "fairMlAway": 254,
       "contributions": [
         {
           "key": "offense",
@@ -316,7 +181,7 @@
         },
         {
           "key": "injuries",
-          "pts": 3.56
+          "pts": 0
         }
       ],
       "sample": {
@@ -345,38 +210,26 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T02:59:51Z",
-        "source": "espn",
-        "away": [
-          {
-            "player": "Austin Reaves",
-            "team": "LAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Heel Bruise",
-            "matched": true,
-            "expMin": 34.6,
-            "value": 8.3,
-            "impactPts": 3.56
-          }
-        ],
+        "reportPulledAt": null,
+        "source": null,
+        "away": [],
         "home": []
       }
     },
     {
       "gameId": "20261130-OKC-BKN",
-      "generatedAt": "2026-11-26T05:46:51Z",
-      "ratingsAsOf": "2026-11-26T05:46:51Z",
+      "generatedAt": "2026-11-27T09:02:49Z",
+      "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.5,
-      "homePts": 103.0,
-      "margin": -7.52,
-      "spreadHome": 7.5,
-      "total": 213.6,
+      "awayPts": 116.7,
+      "homePts": 104.4,
+      "margin": -12.33,
+      "spreadHome": 12.3,
+      "total": 221.1,
       "pace": 100.9,
-      "homeWinProb": 0.2961,
-      "fairMlHome": 238,
-      "fairMlAway": -238,
+      "homeWinProb": 0.1899,
+      "fairMlHome": 427,
+      "fairMlAway": -427,
       "contributions": [
         {
           "key": "offense",
@@ -400,7 +253,7 @@
         },
         {
           "key": "injuries",
-          "pts": 4.81
+          "pts": 0
         }
       ],
       "sample": {
@@ -428,127 +281,26 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T02:59:51Z",
-        "source": "espn",
-        "away": [
-          {
-            "player": "Chet Holmgren",
-            "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 29.3,
-            "value": 6.84,
-            "impactPts": 2.94
-          },
-          {
-            "player": "Jalen Williams",
-            "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Leg Fracture",
-            "matched": true,
-            "expMin": 29.5,
-            "value": 5.15,
-            "impactPts": 2.21
-          },
-          {
-            "player": "Aday Mara",
-            "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Lower Leg Bruise",
-            "matched": true,
-            "expMin": 14.6,
-            "value": 1.92,
-            "impactPts": 0.82
-          },
-          {
-            "player": "Cason Wallace",
-            "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Shoulder Surgery",
-            "matched": true,
-            "expMin": 22.9,
-            "value": 0.42,
-            "impactPts": 0.18
-          },
-          {
-            "player": "Nikola Topic",
-            "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hip Strain",
-            "matched": true,
-            "expMin": 14.3,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Jaylin Williams",
-            "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Back Spasms",
-            "matched": true,
-            "expMin": 15.4,
-            "value": 0.0,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Thomas Sorber",
-            "team": "OKC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          }
-        ],
-        "home": [
-          {
-            "player": "Moritz Wagner",
-            "team": "BKN",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Soreness",
-            "matched": true,
-            "expMin": 15.3,
-            "value": 2.27,
-            "impactPts": 0.97
-          },
-          {
-            "player": "Nolan Traore",
-            "team": "BKN",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hamstring Strain",
-            "matched": true,
-            "expMin": 22.7,
-            "value": 0.85,
-            "impactPts": 0.37
-          }
-        ]
+        "reportPulledAt": null,
+        "source": null,
+        "away": [],
+        "home": []
       }
     },
     {
       "gameId": "20261130-BOS-DAL",
-      "generatedAt": "2026-11-26T05:46:51Z",
-      "ratingsAsOf": "2026-11-26T05:46:51Z",
+      "generatedAt": "2026-11-27T09:02:49Z",
+      "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
-      "awayPts": 108.5,
-      "homePts": 106.1,
-      "margin": -2.39,
-      "spreadHome": 2.4,
-      "total": 214.7,
+      "awayPts": 109.5,
+      "homePts": 106.6,
+      "margin": -2.86,
+      "spreadHome": 2.9,
+      "total": 216.1,
       "pace": 99.4,
-      "homeWinProb": 0.4325,
-      "fairMlHome": 131,
-      "fairMlAway": -131,
+      "homeWinProb": 0.4193,
+      "fairMlHome": 138,
+      "fairMlAway": -138,
       "contributions": [
         {
           "key": "offense",
@@ -572,7 +324,7 @@
         },
         {
           "key": "injuries",
-          "pts": 0.47
+          "pts": 0
         }
       ],
       "sample": {
@@ -601,83 +353,26 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T02:59:51Z",
-        "source": "espn",
-        "away": [
-          {
-            "player": "Mitchell Robinson",
-            "team": "BOS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Illness",
-            "matched": true,
-            "expMin": 17.1,
-            "value": 2.16,
-            "impactPts": 0.93
-          }
-        ],
-        "home": [
-          {
-            "player": "Dereck Lively II",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Foot Surgery",
-            "matched": true,
-            "expMin": 16.4,
-            "value": 1.07,
-            "impactPts": 0.46
-          },
-          {
-            "player": "Tobi Lawal",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Groin",
-            "matched": true,
-            "expMin": 3.1,
-            "value": 0.3,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Sergio de Larrea",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Strain",
-            "matched": true,
-            "expMin": 5.3,
-            "value": 0.47,
-            "impactPts": 0.0
-          },
-          {
-            "player": "Tarik Biberovic",
-            "team": "DAL",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Heel Inflammation",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          }
-        ]
+        "reportPulledAt": null,
+        "source": null,
+        "away": [],
+        "home": []
       }
     },
     {
       "gameId": "20261130-SAS-MIL",
-      "generatedAt": "2026-11-26T05:46:51Z",
-      "ratingsAsOf": "2026-11-26T05:46:51Z",
+      "generatedAt": "2026-11-27T09:02:49Z",
+      "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
-      "awayPts": 113.7,
+      "awayPts": 119.1,
       "homePts": 106.0,
-      "margin": -7.73,
-      "spreadHome": 7.7,
-      "total": 219.7,
+      "margin": -13.11,
+      "spreadHome": 13.1,
+      "total": 225.1,
       "pace": 101.0,
-      "homeWinProb": 0.291,
-      "fairMlHome": 244,
-      "fairMlAway": -244,
+      "homeWinProb": 0.1752,
+      "fairMlHome": 471,
+      "fairMlAway": -471,
       "contributions": [
         {
           "key": "offense",
@@ -701,7 +396,7 @@
         },
         {
           "key": "injuries",
-          "pts": 5.38
+          "pts": 0
         }
       ],
       "sample": {
@@ -732,71 +427,26 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T02:59:51Z",
-        "source": "espn",
-        "away": [
-          {
-            "player": "Dylan Harper",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Hip Soreness",
-            "matched": true,
-            "expMin": 30.5,
-            "value": 5.27,
-            "impactPts": 2.26
-          },
-          {
-            "player": "De'Aaron Fox",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Lower Leg Bruise",
-            "matched": true,
-            "expMin": 28.7,
-            "value": 4.19,
-            "impactPts": 1.8
-          },
-          {
-            "player": "Tobias Harris",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Calf Strain",
-            "matched": true,
-            "expMin": 27.8,
-            "value": 3.07,
-            "impactPts": 1.32
-          },
-          {
-            "player": "Jayden Quaintance",
-            "team": "SAS",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Surgery",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          }
-        ],
+        "reportPulledAt": null,
+        "source": null,
+        "away": [],
         "home": []
       }
     },
     {
       "gameId": "20261130-NOP-SAC",
-      "generatedAt": "2026-11-26T05:46:51Z",
-      "ratingsAsOf": "2026-11-26T05:46:51Z",
+      "generatedAt": "2026-11-27T09:02:49Z",
+      "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
-      "awayPts": 113.6,
-      "homePts": 112.7,
-      "margin": -0.87,
-      "spreadHome": 0.9,
-      "total": 226.3,
+      "awayPts": 116.2,
+      "homePts": 115.8,
+      "margin": -0.45,
+      "spreadHome": 0.4,
+      "total": 232.0,
       "pace": 102.8,
-      "homeWinProb": 0.4753,
-      "fairMlHome": 110,
-      "fairMlAway": -110,
+      "homeWinProb": 0.4872,
+      "fairMlHome": 105,
+      "fairMlAway": -105,
       "contributions": [
         {
           "key": "offense",
@@ -820,7 +470,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.42
+          "pts": 0
         }
       ],
       "sample": {
@@ -850,78 +500,10 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-26T02:59:51Z",
-        "source": "espn",
-        "away": [
-          {
-            "player": "Dejounte Murray",
-            "team": "NOP",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle",
-            "matched": true,
-            "expMin": 29.6,
-            "value": 4.32,
-            "impactPts": 1.85
-          },
-          {
-            "player": "Bennedict Mathurin",
-            "team": "NOP",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Foot Plantar Fasciitis",
-            "matched": true,
-            "expMin": 17.4,
-            "value": 1.0,
-            "impactPts": 0.43
-          },
-          {
-            "player": "Trendon Watford",
-            "team": "NOP",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 14.2,
-            "value": 0.83,
-            "impactPts": 0.36
-          }
-        ],
-        "home": [
-          {
-            "player": "Zach LaVine",
-            "team": "SAC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Soreness",
-            "matched": true,
-            "expMin": 30.0,
-            "value": 4.01,
-            "impactPts": 1.72
-          },
-          {
-            "player": "Maxime Raynaud",
-            "team": "SAC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Knee Dislocated",
-            "matched": true,
-            "expMin": 26.6,
-            "value": 3.12,
-            "impactPts": 1.34
-          },
-          {
-            "player": "Ben Simmons",
-            "team": "SAC",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Achilles Surgery",
-            "matched": true,
-            "expMin": 0.0,
-            "value": 0.0,
-            "impactPts": 0.0
-          }
-        ]
+        "reportPulledAt": null,
+        "source": null,
+        "away": [],
+        "home": []
       }
     }
   ]
