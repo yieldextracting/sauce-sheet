@@ -861,18 +861,18 @@
     },
     {
       "gameId": "20261127-DAL-PHX",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.1,
+      "awayPts": 109.0,
       "homePts": 111.2,
-      "margin": 1.07,
-      "spreadHome": -1.1,
-      "total": 221.2,
+      "margin": 2.12,
+      "spreadHome": -2.1,
+      "total": 220.2,
       "pace": 101.9,
-      "homeWinProb": 0.5304,
-      "fairMlHome": -113,
-      "fairMlAway": 113,
+      "homeWinProb": 0.56,
+      "fairMlHome": -127,
+      "fairMlAway": 127,
       "contributions": [
         {
           "key": "offense",
@@ -896,7 +896,7 @@
         },
         {
           "key": "injuries",
-          "pts": -0.81
+          "pts": 0.24
         }
       ],
       "sample": {
@@ -924,19 +924,19 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [
           {
             "player": "Kyrie Irving",
             "team": "DAL",
-            "status": "questionable",
-            "pPlay": 0.5,
+            "status": "out",
+            "pPlay": 0.0,
             "reason": "Knee Not Specified",
             "matched": true,
             "expMin": 27.6,
             "value": 4.86,
-            "impactPts": 1.04
+            "impactPts": 2.09
           },
           {
             "player": "Dereck Lively II",
@@ -1000,18 +1000,18 @@
     },
     {
       "gameId": "20261127-DEN-UTA",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 113.8,
-      "homePts": 106.3,
-      "margin": -7.54,
-      "spreadHome": 7.5,
-      "total": 220.1,
+      "homePts": 108.0,
+      "margin": -5.85,
+      "spreadHome": 5.9,
+      "total": 221.8,
       "pace": 100.8,
-      "homeWinProb": 0.2955,
-      "fairMlHome": 238,
-      "fairMlAway": -238,
+      "homeWinProb": 0.3384,
+      "fairMlHome": 196,
+      "fairMlAway": -196,
       "contributions": [
         {
           "key": "offense",
@@ -1035,7 +1035,7 @@
         },
         {
           "key": "injuries",
-          "pts": -7.79
+          "pts": -6.1
         }
       ],
       "sample": {
@@ -1063,7 +1063,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -1090,44 +1090,22 @@
             "impactPts": 1.72
           },
           {
-            "player": "Jusuf Nurkic",
+            "player": "Mo Bamba",
             "team": "UTA",
             "status": "out",
             "pPlay": 0.0,
-            "reason": "Foot Strain",
-            "matched": true,
-            "expMin": 26.4,
-            "value": 3.92,
-            "impactPts": 1.68
-          },
-          {
-            "player": "Jaxson Hayes",
-            "team": "UTA",
-            "status": "questionable",
-            "pPlay": 0.5,
-            "reason": "Knee Not Specified",
-            "matched": true,
-            "expMin": 19.9,
-            "value": 2.62,
-            "impactPts": 0.56
-          },
-          {
-            "player": "Mo Bamba",
-            "team": "UTA",
-            "status": "questionable",
-            "pPlay": 0.5,
             "reason": "Illness",
             "matched": true,
             "expMin": 20.0,
             "value": 2.57,
-            "impactPts": 0.55
+            "impactPts": 1.1
           }
         ]
       }
     },
     {
       "gameId": "20261127-GSW-POR",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 96.3,
@@ -1188,7 +1166,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [
           {
@@ -1297,7 +1275,7 @@
     },
     {
       "gameId": "20261127-LAL-SAS",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 110.4,
@@ -1361,7 +1339,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [],
         "home": [
@@ -1370,7 +1348,7 @@
             "team": "SAS",
             "status": "out",
             "pPlay": 0.0,
-            "reason": "Hip Strain",
+            "reason": null,
             "matched": true,
             "expMin": 30.5,
             "value": 5.27,
@@ -1392,7 +1370,7 @@
             "team": "SAS",
             "status": "questionable",
             "pPlay": 0.5,
-            "reason": "Lower Leg Bruise",
+            "reason": null,
             "matched": true,
             "expMin": 28.7,
             "value": 4.19,
@@ -1414,18 +1392,18 @@
     },
     {
       "gameId": "20261127-NOP-LAC",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
-      "awayPts": 110.5,
+      "awayPts": 110.9,
       "homePts": 115.8,
-      "margin": 5.33,
-      "spreadHome": -5.3,
-      "total": 226.4,
+      "margin": 4.97,
+      "spreadHome": -5.0,
+      "total": 226.7,
       "pace": 101.5,
-      "homeWinProb": 0.6478,
-      "fairMlHome": -184,
-      "fairMlAway": 184,
+      "homeWinProb": 0.6383,
+      "fairMlHome": -176,
+      "fairMlAway": 176,
       "contributions": [
         {
           "key": "offense",
@@ -1449,7 +1427,7 @@
         },
         {
           "key": "injuries",
-          "pts": 1.58
+          "pts": 1.22
         }
       ],
       "sample": {
@@ -1478,7 +1456,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [
           {
@@ -1502,17 +1480,6 @@
             "expMin": 17.4,
             "value": 1.0,
             "impactPts": 0.43
-          },
-          {
-            "player": "Trendon Watford",
-            "team": "NOP",
-            "status": "out",
-            "pPlay": 0.0,
-            "reason": "Ankle Sprain",
-            "matched": true,
-            "expMin": 14.2,
-            "value": 0.83,
-            "impactPts": 0.36
           },
           {
             "player": "Julian Reese",

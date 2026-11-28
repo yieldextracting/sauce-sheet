@@ -3,7 +3,7 @@
   "games": [
     {
       "gameId": "20261201-IND-CLE",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 110.8,
@@ -64,7 +64,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [
           {
@@ -129,7 +129,7 @@
     },
     {
       "gameId": "20261201-MEM-PHI",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 111.1,
@@ -192,7 +192,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [
           {
@@ -301,7 +301,7 @@
     },
     {
       "gameId": "20261201-ATL-MIA",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 116.6,
@@ -365,7 +365,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [
           {
@@ -429,7 +429,7 @@
     },
     {
       "gameId": "20261201-NYK-CHI",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 114.5,
@@ -490,7 +490,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [
           {
@@ -566,7 +566,7 @@
     },
     {
       "gameId": "20261201-TOR-HOU",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 101.4,
@@ -631,7 +631,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [
           {
@@ -673,7 +673,7 @@
     },
     {
       "gameId": "20261201-LAC-PHX",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 108.0,
@@ -734,7 +734,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [
           {
@@ -777,18 +777,18 @@
     },
     {
       "gameId": "20261201-UTA-GSW",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
-      "awayPts": 98.9,
+      "awayPts": 99.5,
       "homePts": 104.0,
-      "margin": 5.07,
-      "spreadHome": -5.1,
-      "total": 202.9,
+      "margin": 4.49,
+      "spreadHome": -4.5,
+      "total": 203.4,
       "pace": 101.2,
-      "homeWinProb": 0.6408,
-      "fairMlHome": -178,
-      "fairMlAway": 178,
+      "homeWinProb": 0.6253,
+      "fairMlHome": -167,
+      "fairMlAway": 167,
       "contributions": [
         {
           "key": "offense",
@@ -812,7 +812,7 @@
         },
         {
           "key": "injuries",
-          "pts": -5.67
+          "pts": -6.25
         }
       ],
       "sample": {
@@ -838,7 +838,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [
           {
@@ -864,15 +864,15 @@
             "impactPts": 1.72
           },
           {
-            "player": "Jusuf Nurkic",
+            "player": "Mo Bamba",
             "team": "UTA",
             "status": "out",
             "pPlay": 0.0,
-            "reason": "Foot Strain",
+            "reason": "Illness",
             "matched": true,
-            "expMin": 26.4,
-            "value": 3.92,
-            "impactPts": 1.68
+            "expMin": 20.0,
+            "value": 2.57,
+            "impactPts": 1.1
           }
         ],
         "home": [
@@ -925,7 +925,7 @@
     },
     {
       "gameId": "20261201-MIN-POR",
-      "generatedAt": "2026-11-28T00:16:12Z",
+      "generatedAt": "2026-11-28T01:56:24Z",
       "ratingsAsOf": "2026-11-27T09:02:49Z",
       "modelVersion": "v2.0",
       "awayPts": 104.3,
@@ -986,7 +986,7 @@
         }
       },
       "availability": {
-        "reportPulledAt": "2026-11-28T00:16:12Z",
+        "reportPulledAt": "2026-11-28T01:56:24Z",
         "source": "espn",
         "away": [
           {
