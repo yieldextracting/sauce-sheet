@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T04:57:17Z",
+  "generatedAt": "2026-11-28T05:07:23Z",
   "grades": [
     {
       "source": "model",
@@ -5065,14 +5065,14 @@
       "line": -7.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "win",
+      "profitU": 0.9091,
       "edge": 6.0,
       "closingLine": -8.5,
       "clvPts": 1.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 34,
-      "finalScore": null
+      "finalScore": "94-116"
     },
     {
       "source": "model",
@@ -5160,14 +5160,14 @@
       "line": -2.5,
       "price": -110,
       "units": 1.0,
-      "result": "pending",
-      "profitU": 0.0,
+      "result": "loss",
+      "profitU": -1.0,
       "edge": 2.8,
       "closingLine": -2.5,
       "clvPts": 0.0,
       "clvProb": null,
       "closeMinutesBeforeTip": 34,
-      "finalScore": null
+      "finalScore": "105-104"
     },
     {
       "source": "model",
@@ -5267,52 +5267,52 @@
   ],
   "summary": {
     "all": {
-      "w": 129,
-      "l": 141,
+      "w": 130,
+      "l": 142,
       "p": 0,
-      "pending": 7,
-      "units": -23.726,
-      "risked": 270.0,
-      "roi": -0.0879,
-      "clvPtsAvg": 0.096,
-      "beatClosePct": 0.3074,
-      "clvN": 270
+      "pending": 5,
+      "units": -23.817,
+      "risked": 272.0,
+      "roi": -0.0876,
+      "clvPtsAvg": 0.099,
+      "beatClosePct": 0.3088,
+      "clvN": 272
     },
     "edge1.5": {
-      "w": 92,
-      "l": 90,
-      "p": 0,
-      "pending": 4,
-      "units": -6.363,
-      "risked": 182.0,
-      "roi": -0.035,
-      "clvPtsAvg": 0.253,
-      "beatClosePct": 0.3462,
-      "clvN": 182
-    },
-    "edge3": {
-      "w": 57,
-      "l": 52,
-      "p": 0,
-      "pending": 3,
-      "units": -0.181,
-      "risked": 109.0,
-      "roi": -0.0017,
-      "clvPtsAvg": 0.486,
-      "beatClosePct": 0.422,
-      "clvN": 109
-    },
-    "edge5": {
-      "w": 24,
-      "l": 18,
+      "w": 93,
+      "l": 91,
       "p": 0,
       "pending": 2,
-      "units": 3.818,
-      "risked": 42.0,
-      "roi": 0.0909,
-      "clvPtsAvg": 0.667,
-      "beatClosePct": 0.4048,
-      "clvN": 42
+      "units": -6.454,
+      "risked": 184.0,
+      "roi": -0.0351,
+      "clvPtsAvg": 0.255,
+      "beatClosePct": 0.3478,
+      "clvN": 184
+    },
+    "edge3": {
+      "w": 58,
+      "l": 52,
+      "p": 0,
+      "pending": 2,
+      "units": 0.728,
+      "risked": 110.0,
+      "roi": 0.0066,
+      "clvPtsAvg": 0.491,
+      "beatClosePct": 0.4273,
+      "clvN": 110
+    },
+    "edge5": {
+      "w": 25,
+      "l": 18,
+      "p": 0,
+      "pending": 1,
+      "units": 4.728,
+      "risked": 43.0,
+      "roi": 0.1099,
+      "clvPtsAvg": 0.674,
+      "beatClosePct": 0.4186,
+      "clvN": 43
     }
   }
 }
